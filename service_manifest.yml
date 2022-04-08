@@ -1,0 +1,23 @@
+name: batchdeobfuscator
+version: $SERVICE_TAG
+description: >-
+  This service uses the open source tool batch_deobfuscator parse and interpret batch files
+
+accepts: code/batch
+rejects: empty|metadata/.*
+
+stage: CORE
+category: Static Analysis
+
+file_required: true
+timeout: 60
+disable_cache: false
+
+enabled: true
+is_external: false
+licence_count: 0
+
+docker_config:
+  image: ${REGISTRY}cccs/assemblyline-service-batchdeobfuscator:$SERVICE_TAG
+  cpu_cores: 1
+  ram_mb: 512

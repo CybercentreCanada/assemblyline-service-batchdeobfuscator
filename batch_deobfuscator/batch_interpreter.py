@@ -1,7 +1,7 @@
-import argparse
-import copy
 import os
 import re
+
+quoted_char = ["|", ">", "<", '"', "^"]
 
 
 class BatchDeobfuscator:
@@ -96,7 +96,7 @@ class BatchDeobfuscator:
     def get_value(self, variable):
 
         str_substitution = (
-            r"%\s*(?P<variable>[A-Za-z0-9#$'()*+,-.?@\[\]_`{}~ ]+)"
+            r"%(?P<variable>[\"^|A-Za-z0-9#$'()*+,-.?@\[\]_`{}~ ]+)"
             r"(:~\s*(?P<index>[+-]?\d+)\s*,\s*(?P<length>[+-]?\d+)\s*)?%"
         )
 
@@ -123,8 +123,100 @@ class BatchDeobfuscator:
 
         return value
 
+    def interpret_set(self, cmd):
+        state = "init"
+        option = None
+        var_name = ""
+        var_value = ""
+        quote = None
+        old_state = None
+        stop_parsing = len(cmd)
+
+        for idx, char in enumerate(cmd):
+            if idx >= stop_parsing:
+                break
+            if state == "init":
+                if char == " ":
+                    continue
+                elif char == "/":
+                    state = "option"
+                elif char == '"':
+                    quote = '"'
+                    stop_parsing = cmd.rfind('"')
+                    if idx == stop_parsing:
+                        stop_parsing = len(cmd)
+                    state = "var"
+                elif char == "^":
+                    old_state = state
+                    state = "escape"
+                else:
+                    state = "var"
+                    var_name += char
+            elif state == "option":
+                option = char
+                state = "init"
+            elif state == "var":
+                if char == "=":
+                    state = "value"
+                elif not quote and char == '"':
+                    quote = '"'
+                    var_name += char
+                elif char == "^":
+                    old_state = state
+                    state = "escape"
+                else:
+                    var_name += char
+            elif state == "value":
+                if char == "^":
+                    old_state = state
+                    state = "escape"
+                else:
+                    var_value += char
+            elif state == "escape":
+                if old_state == "init":
+                    if char == '"':
+                        quote = '^"'
+                        stop_parsing = cmd.rfind('"')
+                        if idx == stop_parsing:
+                            stop_parsing = len(cmd)
+                        state = "init"
+                        old_state = None
+                    else:
+                        state = "var"
+                        var_name += char
+                        old_state = None
+                elif old_state == "var":
+                    if quote == '"' and char in quoted_char:
+                        var_name += "^"
+                    if not quote and char == '"':
+                        quote = '^"'
+                    var_name += char
+                    state = old_state
+                    old_state = None
+                elif old_state == "value":
+                    if char != "^":
+                        var_value += char
+                    state = old_state
+                    old_state = None
+
+        if option == "a":
+            var_name = var_name.strip(" ")
+            for char in quoted_char:
+                var_name = var_name.replace(char, "")
+            var_value = f"({var_value.strip(' ')})"
+        elif option == "p":
+            var_value = "__input__"
+
+        var_name = var_name.lstrip(" ")
+        if not quote:
+            var_name = var_name.lstrip('^"').replace('^"', '"')
+
+        return (var_name, var_value)
+
     def interpret_command(self, normalized_comm):
-        normalized_comm = normalized_comm.strip()
+        # We need to keep the last space in case the command is "set EXP=43 " so that the value will be "43 "
+        # normalized_comm = normalized_comm.strip()
+
         # remove paranthesis
         index = 0
         last = len(normalized_comm) - 1
@@ -149,16 +241,15 @@ class BatchDeobfuscator:
 
         else:
             # interpreting set command
-            set_command = (
-                r"(\s*(call)?\s*set\s+\"?(?P<var>[A-Za-z0-9#$'()*+,-.?@\[\]_`{}~ ]+)=\s*(?P<val>[^\"\n]*)\"?)|"
-                r"(\s*(call)?\s*set\s+/p\s+\"?(?P<input>[A-Za-z0-9#$'()*+,-.?@\[\]_`{}~ ]+)=[^\"\n]*\"?)"
-            )
+            set_command = r"\s*(call)?\s*set\s+(?P<cmd>.*)"
             match = re.search(set_command, normalized_comm, re.IGNORECASE)
             if match is not None:
-                if match.group("input") is not None:
-                    self.variables[match.group("input")] = "__input__"
+                var_name, var_value = self.interpret_set(match.group("cmd"))
+                if var_value == "":
+                    if var_name.lower() in self.variables:
+                        del self.variables[var_name.lower()]
                 else:
-                    self.variables[match.group("var").lower()] = match.group("val")
+                    self.variables[var_name.lower()] = var_value
 
     # pushdown automata
     def normalize_command(self, command):
@@ -219,9 +310,10 @@ class BatchDeobfuscator:
                     normalized_com = normalized_com[:variable_start]
                     normalized_com += value
                     state = stack.pop()
-                elif char == "%":
+                elif char == "%":  # Two % in a row
                     normalized_com += char
                     variable_start = counter
+                    state = stack.pop()
                 elif char == '"':
                     if stack[-1] == "str_s":
                         normalized_com += char
@@ -230,8 +322,10 @@ class BatchDeobfuscator:
                     else:
                         normalized_com += char
                 elif char == "^":
-                    state = "escape"
-                    stack.append("var_s")
+                    # Do not escape in vars?
+                    # state = "escape"
+                    # stack.append("var_s")
+                    normalized_com += char
                 else:
                     normalized_com += char
             elif state == "var_s_2":
@@ -258,78 +352,11 @@ class BatchDeobfuscator:
                 else:
                     normalized_com += char
             elif state == "escape":
+                if char in quoted_char:
+                    normalized_com += "^"
                 normalized_com += char
                 state = stack.pop()
 
             counter += 1
-        return normalized_com
 
-
-def interpret_logical_line(deobfuscator, logical_line, tab=""):
-    commands = deobfuscator.get_commands(logical_line)
-    for command in commands:
-        normalized_comm = deobfuscator.normalize_command(command)
-        deobfuscator.interpret_command(normalized_comm)
-        print(tab + normalized_comm)
-        if len(deobfuscator.exec_cmd) > 0:
-            print(tab + "[CHILE CMD]")
-            for child_cmd in deobfuscator.exec_cmd:
-                child_deobfuscator = copy.deepcopy(deobfuscator)
-                child_deobfuscator.exec_cmd.clear()
-                interpret_logical_line(child_deobfuscator, child_cmd, tab=tab + "\t")
-            print(tab + "[END OF CHILE CMD]")
-
-
-def interpret_logical_line_str(deobfuscator, logical_line, tab=""):
-    str = ""
-    commands = deobfuscator.get_commands(logical_line)
-    for command in commands:
-        normalized_comm = deobfuscator.normalize_command(command)
-        deobfuscator.interpret_command(normalized_comm)
-        str = str + tab + normalized_comm
-        if len(deobfuscator.exec_cmd) > 0:
-            str = str + tab + "[CHILE CMD]"
-            for child_cmd in deobfuscator.exec_cmd:
-                child_deobfuscator = copy.deepcopy(deobfuscator)
-                child_deobfuscator.exec_cmd.clear()
-                interpret_logical_line(child_deobfuscator, child_cmd, tab=tab + "\t")
-            str = str + tab + "[END OF CHILE CMD]"
-    return str
-
-
-def handle_bat_file(deobfuscator, fpath):
-    strs = []
-    if os.path.isfile(fpath):
-        try:
-            for logical_line in deobfuscator.read_logical_line(fpath):
-                try:
-                    strs.append(interpret_logical_line_str(deobfuscator, logical_line))
-                except Exception as e:
-                    print(e)
-                    pass
-        except Exception as e:
-            print(e)
-            pass
-    if strs:
-        return strs
-        return "\r\n".join(strs)
-    else:
-        return ""
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-f", "--file", type=str, help="The path of obfuscated batch file")
-    args = parser.parse_known_args()
-
-    deobfuscator = BatchDeobfuscator()
-
-    if args[0].file is not None:
-
-        file_path = args[0].file
-
-        for logical_line in deobfuscator.read_logical_line(args[0].file):
-            interpret_logical_line(deobfuscator, logical_line)
-    else:
-        print("Please enter an obfuscated batch command:")
-        interpret_logical_line(deobfuscator, input())
+        return normalized_com.strip(" ")

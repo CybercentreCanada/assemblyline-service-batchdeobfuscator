@@ -22,6 +22,7 @@ class BatchDeobfuscator:
                 "computername": "MISCREANTTEARS",
                 "comspec": "C:\\WINDOWS\\system32\\cmd.exe",
                 "driverdata": "C:\\Windows\\System32\\Drivers\\DriverData",
+                "errorlevel": "0",  # Because nothing fails.
                 "fps_browser_app_profile_string": "Internet Explorer",
                 "fps_browser_user_profile_string": "Default",
                 "homedrive": "C:",
@@ -68,6 +69,39 @@ class BatchDeobfuscator:
                 else:
                     logical_line += line + "\n"
 
+    def split_if_statement(self, statement):
+        if_statement = r"(?P<conditional>(?P<if_statement>if)\s+(not\s+)?(?P<type>errorlevel\s+\d+\s+|exist\s+(\".*\"|[^\s]+)\s+|.+?==.+?\s+|(\/i\s+)?[^\s]+\s+(equ|neq|lss|leq|gtr|geq)\s+[^\s]+\s+|cmdextversion\s+\d\s+|defined\s+[^\s]+\s+)(?P<open_paren>\()?)(?P<true_statement>[^\)]*)(?P<close_paren>\))?(\s+else\s+(\()?\s*(?P<false_statement>[^\)]*)(\))?)?"
+        match = re.search(if_statement, statement, re.IGNORECASE)
+        if match is not None:
+            conditional = match.group("conditional")
+            if match.group("open_paren") is None:
+                conditional = f"{conditional}("
+            yield conditional
+            yield match.group("true_statement")
+            if match.group("false_statement") is None:
+                if match.group("open_paren") is None or match.group("close_paren") is not None:
+                    yield ")"
+            else:
+                # Got an ELSE statement
+                if match.group("if_statement") == "if":
+                    yield ") else ("
+                else:
+                    yield ") ELSE ("
+                yield match.group("false_statement")
+                yield ")"
+        else:
+            # Broken if statement, maybe a re-run
+            yield statement
+
+    def get_commands_special_statement(self, statement):
+        if statement.lower().startswith("if "):
+            for part in self.split_if_statement(statement):
+                if part.strip() != "":
+                    yield part
+        # Potential for adding the for statement at some point
+        else:
+            yield statement
+
     def get_commands(self, logical_line):
         state = "init"
         counter = 0
@@ -78,8 +112,14 @@ class BatchDeobfuscator:
                     state = "str_s"
                 elif char == "^":
                     state = "escape"
+                elif char == "&" and logical_line[counter - 1] == ">":
+                    # Usually an output redirection, we want to keep it on the same line
+                    pass
                 elif char == "&" or char == "|":
-                    yield logical_line[start_command:counter].strip()
+                    cmd = logical_line[start_command:counter].strip()
+                    if cmd != "":
+                        for part in self.get_commands_special_statement(cmd):
+                            yield part
                     start_command = counter + 1
             elif state == "str_s":
                 if char == '"':
@@ -91,7 +131,8 @@ class BatchDeobfuscator:
 
         last_com = logical_line[start_command:].strip()
         if last_com != "":
-            yield last_com
+            for part in self.get_commands_special_statement(last_com):
+                yield part
 
     def get_value(self, variable):
 
@@ -153,7 +194,7 @@ class BatchDeobfuscator:
                     state = "var"
                     var_name += char
             elif state == "option":
-                option = char
+                option = char.lower()
                 state = "init"
             elif state == "var":
                 if char == "=":
@@ -241,7 +282,7 @@ class BatchDeobfuscator:
 
         else:
             # interpreting set command
-            set_command = r"\s*(call)?\s*set\s+(?P<cmd>.*)"
+            set_command = r"\s*(call)?\s*set(?P<cmd>(\s|\/).*)"
             match = re.search(set_command, normalized_comm, re.IGNORECASE)
             if match is not None:
                 var_name, var_value = self.interpret_set(match.group("cmd"))

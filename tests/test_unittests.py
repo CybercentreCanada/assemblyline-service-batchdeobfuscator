@@ -166,6 +166,9 @@ class TestUnittests:
             #
             # option a
             ('set /a "EXP = 4 * 700 / 1000"', "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
+            ('set /A "EXP = 4 * 700 / 1000"', "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
+            ('SET /A "EXP = 4 * 700 / 1000"', "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
+            ('SET /a "EXP = 4 * 700 / 1000"', "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
             ("set /a EXP = 4 * 700 / 1000", "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
             ('set /a ^"EXP = 4 * 700 / 1000"', "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
             ('set /a ^"E^"XP = 4 * 700 / 1000^"', "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
@@ -173,6 +176,9 @@ class TestUnittests:
             ("set /a EX^^P = 4 * 700 / 1000", "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
             ("set /a EX^P = 4 * 700 / 1000", "echo *%EXP%*", "echo *(4 * 700 / 1000)*"),
             ("set /a EXP = 4 * OTHER", "echo *%EXP%*", "echo *(4 * OTHER)*"),
+            ("set/a EXP = 4 * 2", "echo *%EXP%*", "echo *(4 * 2)*"),
+            ("set/AEXP=43", "echo *%EXP%*", "echo *(43)*"),
+            ("set/AEXP=4 * 3", "echo *%EXP%*", "echo *(4 * 3)*"),
             # TODO: Really, how should we handle that?
             # 'set /a "EX|P = 4 * 700 / 1000'
             # "set /a EX|P = 4 * 700 / 1000"
@@ -182,6 +188,9 @@ class TestUnittests:
             ('set /p "EXP"="What is"', 'echo *%EXP"%*', "echo *__input__*"),
             ('set /p EXP="What is', "echo *%EXP%*", "echo *__input__*"),
             ("set /p EXP=What is", "echo *%EXP%*", "echo *__input__*"),
+            ("SET /p EXP=What is", "echo *%EXP%*", "echo *__input__*"),
+            ("SET /P EXP=What is", "echo *%EXP%*", "echo *__input__*"),
+            ("set /P EXP=What is", "echo *%EXP%*", "echo *__input__*"),
             ('set /p EXP "=What is', 'echo *%EXP "%*', "echo *__input__*"),
             ('set /p  EXP "=What is', 'echo *%EXP "%*', "echo *__input__*"),
             ('set /p "EXP =What is', "echo *%EXP %*", "echo *__input__*"),
@@ -242,26 +251,55 @@ class TestUnittests:
         """
 
     @staticmethod
-    @pytest.mark.skip()
-    def test_handle_if_statement_with_sets():
-        # The value of ADMIN becomes "1) else (set ADMIN=0)" so it gets complicated to read the "unobfuscated" result
-        # Taken from 6c46550db4dcb3f5171c69c5f1723362f99ec0f16f6d7ab61b6f8d169a6e6bc8
-        """
-        "net session >nul 2>&1"
-        "if %errorLevel% == 0 (set ADMIN=1) else (set ADMIN=0)"
-        "if %ADMIN% == 1 ("
-        "  where sc >NUL"
-        "  if not %errorlevel% == 0 ("
-        '    echo ERROR: This script requires "sc" utility to work correctly'
-        "    exit /b 1"
-        "  )"
-        ")"
-        """
+    @pytest.mark.parametrize(
+        "statement, commands",
+        [
+            ('IF "A"=="A" echo AAA', ['IF "A"=="A" (', "echo AAA", ")"]),
+            ('IF "A"=="A" (echo AAA)', ['IF "A"=="A" (', "echo AAA", ")"]),
+            ('IF "A"=="A" (echo AAA) ELSE echo BBB', ['IF "A"=="A" (', "echo AAA", ") ELSE (", "echo BBB", ")"]),
+            (
+                'echo ABC && IF "A"=="A" (echo AAA) ELSE echo BBB',
+                ["echo ABC", 'IF "A"=="A" (', "echo AAA", ") ELSE (", "echo BBB", ")"],
+            ),
+            (
+                'echo ABC && IF "A"=="A" (echo AAA) ELSE (echo BBB)',
+                ["echo ABC", 'IF "A"=="A" (', "echo AAA", ") ELSE (", "echo BBB", ")"],
+            ),
+            (
+                'IF EXIST "%USERPROFILE%\\jin" GOTO REMOVE_DIR1',
+                ['IF EXIST "%USERPROFILE%\\jin" (', "GOTO REMOVE_DIR1", ")"],
+            ),
+            (
+                "IF defined EXP (echo Defined) ELSE (echo Undef)",
+                ["IF defined EXP (", "echo Defined", ") ELSE (", "echo Undef", ")"],
+            ),
+            (
+                "if %EXP% gtr 8192 ( set PORT=18192 & goto PORT_OK )",
+                ["if %EXP% gtr 8192 (", " set PORT=18192", "goto PORT_OK )"],
+            ),
+            ("if %EXP% gtr 8192 (", ["if %EXP% gtr 8192 ("]),
+            (
+                "if %errorLevel% == 0 (set ADMIN=1) else (set ADMIN=0)",
+                ["if %errorLevel% == 0 (", "set ADMIN=1", ") else (", "set ADMIN=0", ")"],
+            ),
+            (
+                'if exist "%USERPROFILE%\\Start Menu\\Programs" (echo AAA)',
+                ['if exist "%USERPROFILE%\\Start Menu\\Programs" (', "echo AAA", ")"],
+            ),
+            (
+                'if exist "%USERPROFILE%\\Start Menu\\Programs" echo AAA',
+                ['if exist "%USERPROFILE%\\Start Menu\\Programs" (', "echo AAA", ")"],
+            ),
+            (
+                "if [%var%]==[value] echo AAA",
+                ["if [%var%]==[value] (", "echo AAA", ")"],
+            ),
+            (
+                'if "%var%"==[value] echo AAA',
+                ['if "%var%"==[value] (', "echo AAA", ")"],
+            ),
+        ],
+    )
+    def test_sample_8(statement, commands):
         deobfuscator = BatchDeobfuscator()
-        cmd1 = "if %errorLevel% == 0 (set ADMIN=1) else (set ADMIN=0)"
-        print("cmd1", cmd1)
-        cmd2 = deobfuscator.normalize_command(cmd1)
-        print("cmd2", cmd2)
-        deobfuscator.interpret_command(cmd2)
-        res = deobfuscator.normalize_command("echo *%ADMIN%*")
-        assert res == "echo *0*"
+        assert [x for x in deobfuscator.get_commands(statement)] == commands

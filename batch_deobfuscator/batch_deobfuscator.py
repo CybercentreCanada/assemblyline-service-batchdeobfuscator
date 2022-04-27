@@ -42,7 +42,10 @@ class batchdeobfuscator(ServiceBase):
                 with open(child_path, "wb") as child_f:
                     child_f.write(ps1_cmd)
                 request.add_extracted(
-                    child_path, os.path.basename(child_path), f"{os.path.basename(child_path)} sub command extracted"
+                    child_path,
+                    os.path.basename(child_path),
+                    f"{os.path.basename(child_path)} sub command extracted",
+                    safelist_interface=self.api_interface,
                 )
 
     def interpret_logical_line(self, deobfuscator, logical_line, f, request):
@@ -65,6 +68,7 @@ class batchdeobfuscator(ServiceBase):
                         child_path,
                         os.path.basename(child_path),
                         f"{os.path.basename(child_path)} sub command extracted",
+                        safelist_interface=self.api_interface,
                     )
 
     def execute(self, request: ServiceRequest):
@@ -77,4 +81,6 @@ class batchdeobfuscator(ServiceBase):
             for logical_line in deobfuscator.read_logical_line(request.file_path):
                 self.interpret_logical_line(deobfuscator, logical_line, f, request)
 
-        request.add_extracted(temp_path, file_name, "Root deobfuscated batch file")
+        request.add_extracted(
+            temp_path, file_name, "Root deobfuscated batch file", safelist_interface=self.api_interface
+        )

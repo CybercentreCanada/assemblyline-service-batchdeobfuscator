@@ -73,7 +73,7 @@ class TestService:
     def test_service(sample):
         overwrite_results = False  # Used temporarily to mass-correct tests
 
-        cls = batch_deobfuscator.batch_deobfuscator.batchdeobfuscator()
+        cls = batch_deobfuscator.batch_deobfuscator.Batchdeobfuscator()
         cls.start()
         cls.ontologies = defaultdict(list)
 

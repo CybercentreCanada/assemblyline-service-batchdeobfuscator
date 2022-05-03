@@ -52,7 +52,7 @@ def create_service_task(sample):
             "deep_scan": False,
             "service_name": "Not Important",
             "service_config": {},
-            "fileinfo": dict((k, v) for k, v in fileinfo(f"/tmp/{sample}").items() if k in fileinfo_keys),
+            "fileinfo": {k: v for k, v in fileinfo(f"/tmp/{sample}").items() if k in fileinfo_keys},
             "filename": sample,
             "min_classification": "TLP:WHITE",
             "max_files": 501,

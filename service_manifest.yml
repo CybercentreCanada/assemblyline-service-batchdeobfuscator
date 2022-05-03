@@ -1,4 +1,4 @@
-name: batchdeobfuscator
+name: Batchdeobfuscator
 version: $SERVICE_TAG
 description: >-
   This service uses the open source tool batch_deobfuscator parse and interpret batch files

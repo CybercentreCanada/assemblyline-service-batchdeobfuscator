@@ -11,9 +11,9 @@ from assemblyline_v4_service.common.result import Result
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 
 
-class batchdeobfuscator(ServiceBase):
+class Batchdeobfuscator(ServiceBase):
     def __init__(self, config=None):
-        super(batchdeobfuscator, self).__init__(config)
+        super().__init__(config)
 
     def start(self):
         self.log.info("Starting batchdeobfuscator")

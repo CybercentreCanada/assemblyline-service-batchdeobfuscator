@@ -2,7 +2,7 @@ ARG branch=latest
 FROM cccs/assemblyline-v4-service-base:$branch
 
 # Set service to be run
-ENV SERVICE_PATH batch_deobfuscator.batch_deobfuscator.batchdeobfuscator
+ENV SERVICE_PATH batch_deobfuscator.batch_deobfuscator.Batchdeobfuscator
 
 # Copy service code
 WORKDIR /opt/al_service

@@ -2,7 +2,11 @@ ARG branch=latest
 FROM cccs/assemblyline-v4-service-base:$branch
 
 # Set service to be run
-ENV SERVICE_PATH batch_deobfuscator.batch_deobfuscator.Batchdeobfuscator
+ENV SERVICE_PATH batchdeobfuscator.batchdeobfuscator.Batchdeobfuscator
+
+# Install python dependencies
+COPY requirements.txt requirements.txt
+RUN pip install --no-cache-dir --user --requirement requirements.txt && rm -rf ~/.cache/pip
 
 # Copy service code
 WORKDIR /opt/al_service

@@ -10,7 +10,7 @@ from assemblyline_v4_service.common.request import ServiceRequest
 from assemblyline_v4_service.common.task import Task
 from cart import unpack_file
 
-import batch_deobfuscator.batch_deobfuscator
+import batchdeobfuscator.batchdeobfuscator
 
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(TEST_DIR)
@@ -73,7 +73,7 @@ class TestService:
     def test_service(sample):
         overwrite_results = False  # Used temporarily to mass-correct tests
 
-        cls = batch_deobfuscator.batch_deobfuscator.Batchdeobfuscator()
+        cls = batchdeobfuscator.batchdeobfuscator.Batchdeobfuscator()
         cls.start()
         cls.ontologies = defaultdict(list)
 

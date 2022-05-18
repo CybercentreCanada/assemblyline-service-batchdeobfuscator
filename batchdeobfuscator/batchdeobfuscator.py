@@ -52,8 +52,7 @@ class Batchdeobfuscator(ServiceBase):
                 f.write(normalized_comm)
                 f.write("\n")
                 self.search_for_powershell(normalized_comm, request, extracted_files_hashes)
-                # TODO: Re-enable this after getting an example of what it should do.
-                if False and len(deobfuscator.exec_cmd) > 0:
+                if len(deobfuscator.exec_cmd) > 0:
                     for child_cmd in deobfuscator.exec_cmd:
                         child_deobfuscator = copy.deepcopy(deobfuscator)
                         child_deobfuscator.exec_cmd.clear()
@@ -73,6 +72,7 @@ class Batchdeobfuscator(ServiceBase):
                             f"{bat_filename} sub command extracted",
                             safelist_interface=self.api_interface,
                         )
+                    deobfuscator.exec_cmd.clear()
 
     def execute(self, request: ServiceRequest):
         request.result = Result()

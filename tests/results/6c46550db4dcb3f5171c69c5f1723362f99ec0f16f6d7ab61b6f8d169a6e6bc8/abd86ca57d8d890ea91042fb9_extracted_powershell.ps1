@@ -1,1 +1,0 @@
-"hostname | %%{$_ -replace '[a-zA-Z0-9]+', '_'}"

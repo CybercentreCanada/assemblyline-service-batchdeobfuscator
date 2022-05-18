@@ -1,1 +1,0 @@
-"Get-AppxPackage -Name "Microsoft.OneDriveSync" > "C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDrive\OneDriveSparsePackage.txt" 2>&1

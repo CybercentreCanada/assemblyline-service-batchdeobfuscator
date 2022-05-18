@@ -1,6 +1,8 @@
+import base64
 import copy
 import hashlib
 import os
+import shlex
 import shutil
 from tempfile import mkstemp
 
@@ -19,6 +21,45 @@ class Batchdeobfuscator(ServiceBase):
         self.log.info("Starting batchdeobfuscator")
 
     def search_for_powershell(self, normalized_comm, request, extracted_files_hashes):
+        if "powershell" in normalized_comm.lower():
+            try:
+                ori_cmd = shlex.split(normalized_comm)
+                cmd = shlex.split(normalized_comm.lower())
+            except ValueError:
+                return
+            pws_idx = None
+            if "powershell" in cmd:
+                pws_idx = cmd.index("powershell")
+            elif "powershell.exe" in cmd:
+                pws_idx = cmd.index("powershell.exe")
+            if pws_idx is None:
+                return
+            cmd = cmd[pws_idx:]
+
+            ps1_cmd = None
+            if "-enc" in cmd:
+                ps1_cmd = base64.b64decode(ori_cmd[pws_idx + cmd.index("-enc") + 1]).replace(b"\x00", b"")
+            elif "-command" in cmd:
+                ps1_cmd = ori_cmd[pws_idx + cmd.index("-command") + 1].encode()
+
+            if ps1_cmd:
+                sha256hash = hashlib.sha256(ps1_cmd).hexdigest()
+                if sha256hash in extracted_files_hashes:
+                    return
+                extracted_files_hashes.append(sha256hash)
+                powershell_filename = f"{sha256hash[0:25]}_extracted_powershell.ps1"
+                powershell_file_path = os.path.join(self.working_directory, powershell_filename)
+                with open(powershell_file_path, "wb") as f:
+                    f.write(ps1_cmd)
+                request.add_extracted(
+                    powershell_file_path,
+                    powershell_filename,
+                    "Discovered PowerShell code",
+                    safelist_interface=self.api_interface,
+                )
+
+    # TODO: Migrate to MultiDecoder when it won't keep quotes around the commands
+    def multidecoder_search_for_powershell(self, normalized_comm, request, extracted_files_hashes):
         matches = find_powershell_strings(normalized_comm.encode())
 
         if not matches:

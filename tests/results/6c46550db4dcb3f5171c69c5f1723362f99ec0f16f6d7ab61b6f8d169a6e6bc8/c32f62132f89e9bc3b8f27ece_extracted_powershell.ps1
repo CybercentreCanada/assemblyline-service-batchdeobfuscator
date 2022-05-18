@@ -1,1 +1,0 @@
-"$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"pass\": *\".*\",', '\"pass\": \"prx.na\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"

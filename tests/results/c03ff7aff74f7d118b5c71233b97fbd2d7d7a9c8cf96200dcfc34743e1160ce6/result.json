@@ -3,12 +3,8 @@
         "supplementary": [],
         "extracted": [
             {
-                "name": "1977b1a9aba0029d28e26c6d5_extracted_powershell.ps1",
-                "sha256": "1977b1a9aba0029d28e26c6d5f97b1c5a1bcac76d4688121965871c6e457c817"
-            },
-            {
-                "name": "24c5063d2c6c2dbee6a4f730e_extracted_powershell.ps1",
-                "sha256": "24c5063d2c6c2dbee6a4f730e3398883598a4f0344614a5cfed873baf87b19a0"
+                "name": "bbfa3403ded97f60d80df1def_extracted_powershell.ps1",
+                "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
             },
             {
                 "name": "deobfuscated_bat.bat",

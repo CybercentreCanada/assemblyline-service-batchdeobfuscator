@@ -1,1 +1,0 @@
-"& {get-process onedrive | add-member -Name Elevated -MemberType ScriptProperty -Value {if ($this.Name -in @('Idle','System')) {$null} else {-not $this.Path -and -not $this.Handle} } -PassThru | Format-Table Name,Elevated}" > "C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDrive\OneDriveElevated.txt" 2>&1

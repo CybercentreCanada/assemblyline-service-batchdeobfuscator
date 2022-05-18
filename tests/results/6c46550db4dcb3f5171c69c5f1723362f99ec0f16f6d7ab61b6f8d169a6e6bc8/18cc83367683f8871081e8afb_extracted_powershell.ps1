@@ -1,0 +1,1 @@
+$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '"donate-level": *\d*,', '"donate-level": 0,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'

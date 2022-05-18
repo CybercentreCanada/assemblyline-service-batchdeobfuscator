@@ -1,0 +1,71 @@
+{
+    "response": {
+        "supplementary": [],
+        "extracted": [
+            {
+                "name": "deobfuscated_bat.bat",
+                "sha256": "0a84ac058370d311dd6f8986446454e5ce2d40a6e0a7c73fa21bd0c462bd2ee4"
+            },
+            {
+                "name": "1c7b28d56ff7dc4e1607cab9f_extracted_powershell.ps1",
+                "sha256": "1c7b28d56ff7dc4e1607cab9f085bcb9e60d5f90abc6c75b280fbd7d77fd379a"
+            },
+            {
+                "name": "32d48f818a9cf40c4232043ff_extracted_powershell.ps1",
+                "sha256": "32d48f818a9cf40c4232043ffec55e75b7b862f4f56137f86d46645083b286b1"
+            },
+            {
+                "name": "40eb26d092b9b5629d21554f8_extracted_powershell.ps1",
+                "sha256": "40eb26d092b9b5629d21554f8db4f523626e03f9cc1ae4690c943a370a26be76"
+            },
+            {
+                "name": "51da90aacb4a61fca3c57fdcb_extracted_powershell.ps1",
+                "sha256": "51da90aacb4a61fca3c57fdcbcc182cd19e538239111a01ee8e6aea6b1a875ef"
+            },
+            {
+                "name": "87e8a0d96d6786f49e58dac23_extracted_powershell.ps1",
+                "sha256": "87e8a0d96d6786f49e58dac230a0a46ea764d7af74a1efc4d4af69f97d85eeb8"
+            },
+            {
+                "name": "940b02131dadc8cc46264b782_extracted_powershell.ps1",
+                "sha256": "940b02131dadc8cc46264b7820c1fa3016be90bd785d9c8e9e6f315c51555519"
+            },
+            {
+                "name": "a7373e4d6086d6fee18caaca1_extracted_powershell.ps1",
+                "sha256": "a7373e4d6086d6fee18caaca1eb9f2527a95ea3c9d6d8b1402ecbcaada5f8a72"
+            },
+            {
+                "name": "a7af25a41d89192d1e3cca588_extracted_powershell.ps1",
+                "sha256": "a7af25a41d89192d1e3cca5886e834414b8633a5431b63af1eb6459a4f30707d"
+            },
+            {
+                "name": "abd86ca57d8d890ea91042fb9_extracted_powershell.ps1",
+                "sha256": "abd86ca57d8d890ea91042fb94fa8994533550191f227a3e97bd0dbc68b9b804"
+            },
+            {
+                "name": "c32f62132f89e9bc3b8f27ece_extracted_powershell.ps1",
+                "sha256": "c32f62132f89e9bc3b8f27ece0f6669be2c8d7f97f877c5349dcd365768b7c2e"
+            },
+            {
+                "name": "c705913815525e39572ea17b4_extracted_powershell.ps1",
+                "sha256": "c705913815525e39572ea17b4deed38d645fa068e5d96e8556d6e38d8a5d9518"
+            },
+            {
+                "name": "cfbef62264401606c0fa8b1fa_extracted_powershell.ps1",
+                "sha256": "cfbef62264401606c0fa8b1fae3df457a05543748e7c46a225a46a305c97c9cd"
+            },
+            {
+                "name": "f0b59c5a6147a2a13c689b974_extracted_powershell.ps1",
+                "sha256": "f0b59c5a6147a2a13c689b974b8c4bbdab7a6c38e059db06a90751ef3b2b0d2a"
+            },
+            {
+                "name": "f941b8d16ac2b47f21122cd2e_extracted_powershell.ps1",
+                "sha256": "f941b8d16ac2b47f21122cd2e321accd38c4cd543f2c97494fdd84968b847501"
+            }
+        ]
+    },
+    "result": {
+        "heuristics": [],
+        "tags": {}
+    }
+}

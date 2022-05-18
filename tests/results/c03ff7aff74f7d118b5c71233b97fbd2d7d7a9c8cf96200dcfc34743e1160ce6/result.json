@@ -1,0 +1,23 @@
+{
+    "response": {
+        "supplementary": [],
+        "extracted": [
+            {
+                "name": "1977b1a9aba0029d28e26c6d5_extracted_powershell.ps1",
+                "sha256": "1977b1a9aba0029d28e26c6d5f97b1c5a1bcac76d4688121965871c6e457c817"
+            },
+            {
+                "name": "24c5063d2c6c2dbee6a4f730e_extracted_powershell.ps1",
+                "sha256": "24c5063d2c6c2dbee6a4f730e3398883598a4f0344614a5cfed873baf87b19a0"
+            },
+            {
+                "name": "deobfuscated_bat.bat",
+                "sha256": "e03c5ba6faf2441cb58d6ed5ee2c80f90cd2f568ef921dfaa7c853ec963a12a0"
+            }
+        ]
+    },
+    "result": {
+        "heuristics": [],
+        "tags": {}
+    }
+}

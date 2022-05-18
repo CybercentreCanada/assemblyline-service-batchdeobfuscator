@@ -1,9 +1,11 @@
 import errno
+import glob
+import json
 import os
-from collections import defaultdict
 from pathlib import Path
 
 import pytest
+from assemblyline.common.dict_utils import flatten
 from assemblyline.common.identify import fileinfo
 from assemblyline.odm.messages.task import Task as ServiceTask
 from assemblyline_v4_service.common.request import ServiceRequest
@@ -61,6 +63,49 @@ def create_service_task(sample):
     )
 
 
+def generalize_result(result):
+    # At first we were comparing the full result and removing the random/unpredictable information.
+    # Now we are only keeping the strict minimum to compare with.
+    # supplementary/extracted sha256 + heuristics heur_id + tags
+    trimed_result = {}
+    if "response" in result:
+        trimed_result["response"] = {}
+        if "supplementary" in result["response"]:
+            trimed_result["response"]["supplementary"] = sorted(
+                [x["sha256"] for x in result["response"]["supplementary"]]
+            )
+        if "extracted" in result["response"]:
+            trimed_result["response"]["extracted"] = sorted(
+                [{"name": x["name"], "sha256": x["sha256"]} for x in result["response"]["extracted"]],
+                key=lambda x: x["sha256"],
+            )
+
+    if "result" in result:
+        trimed_result["result"] = {}
+        if "sections" in result["result"]:
+            trimed_result["result"] = {"heuristics": [], "tags": {}}
+            for section in result["result"]["sections"]:
+                if "heuristic" in section:
+                    if section["heuristic"] is not None:
+                        if "heur_id" in section["heuristic"]:
+                            trimed_result["result"]["heuristics"].append(section["heuristic"]["heur_id"])
+                if "tags" in section:
+                    if section["tags"]:
+                        for k, v in flatten(section["tags"]).items():
+                            if k in trimed_result["result"]["tags"]:
+                                trimed_result["result"]["tags"][k].extend(v)
+                            else:
+                                trimed_result["result"]["tags"][k] = v
+
+            # Sort the heur_id and tags lists so they always appear in the same order even if
+            # the result sections where moved around.
+            trimed_result["result"]["heuristics"] = sorted(trimed_result["result"]["heuristics"])
+            for k, v in trimed_result["result"]["tags"].items():
+                trimed_result["result"]["tags"][k] = sorted(v)
+
+    return trimed_result
+
+
 class TestService:
     @classmethod
     def setup_class(cls):
@@ -69,31 +114,59 @@ class TestService:
 
     @staticmethod
     @pytest.mark.parametrize("sample", list_results(SELF_LOCATION), indirect=True)
-    # @pytest.mark.skip()
+    @pytest.mark.skip()
     def test_service(sample):
         overwrite_results = False  # Used temporarily to mass-correct tests
 
         cls = batchdeobfuscator.batchdeobfuscator.Batchdeobfuscator()
         cls.start()
-        cls.ontologies = defaultdict(list)
 
         task = Task(create_service_task(sample=sample))
         service_request = ServiceRequest(task)
 
         cls.execute(service_request)
 
-        correct_path = os.path.join(SELF_LOCATION, "tests", "results", sample, "deobfuscated_bat.bat")
-        if os.path.exists(correct_path):
-            with open(correct_path, "r") as f:
-                correct_result = f.read()
+        result_dir_files = [
+            os.path.basename(x) for x in glob.glob(os.path.join(SELF_LOCATION, "tests", "results", sample, "*"))
+        ]
 
-            test_path = os.path.join(cls.working_directory, "deobfuscated_bat.bat")
-            with open(test_path, "r") as f:
+        # Get the result of execute() from the test method
+        test_result = task.get_service_result()
+        result_dir_files.remove("result.json")
+        # Get the assumed "correct" result of the sample
+        correct_path = os.path.join(SELF_LOCATION, "tests", "results", sample, "result.json")
+        with open(correct_path, "r") as f:
+            correct_result = json.load(f)
+
+        test_result = generalize_result(test_result)
+
+        if overwrite_results:
+            if test_result != correct_result:
+                with open(correct_path, "w") as f:
+                    json.dump(test_result, f)
+        else:
+            assert test_result == correct_result
+
+        for extracted_file in test_result["response"]["extracted"]:
+            if not overwrite_results or extracted_file["name"] in result_dir_files:
+                result_dir_files.remove(extracted_file["name"])
+
+            correct_path = os.path.join(SELF_LOCATION, "tests", "results", sample, extracted_file["name"])
+            if overwrite_results and not os.path.exists(correct_path):
+                correct_result = "File Not Found"
+            else:
+                with open(correct_path, "rb") as f:
+                    correct_result = f.read()
+
+            test_path = os.path.join(cls.working_directory, extracted_file["name"])
+            with open(test_path, "rb") as f:
                 test_result = f.read()
 
             if overwrite_results:
                 if test_result != correct_result:
-                    with open(correct_path, "w") as f:
+                    with open(correct_path, "wb") as f:
                         f.write(test_result)
             else:
                 assert test_result == correct_result
+
+        assert not result_dir_files

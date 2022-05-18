@@ -1,0 +1,1 @@
+"$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"max-cpu-usage\": *\d*,', '\"max-cpu-usage\": 100,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"

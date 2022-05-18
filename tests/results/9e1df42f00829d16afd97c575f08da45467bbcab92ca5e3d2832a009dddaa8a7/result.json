@@ -1,0 +1,15 @@
+{
+    "response": {
+        "supplementary": [],
+        "extracted": [
+            {
+                "name": "deobfuscated_bat.bat",
+                "sha256": "67ec09670df33d7095c502bccc408a1e1052ee00d68dc94ff4984de407798166"
+            }
+        ]
+    },
+    "result": {
+        "heuristics": [],
+        "tags": {}
+    }
+}

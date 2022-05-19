@@ -2,6 +2,7 @@ import base64
 import copy
 import hashlib
 import os
+import re
 import shlex
 import shutil
 from tempfile import mkstemp
@@ -11,6 +12,9 @@ from assemblyline_v4_service.common.request import ServiceRequest
 from assemblyline_v4_service.common.result import Result
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 from multidecoder.analyzers.shell import find_powershell_strings, get_powershell_command
+
+ENC_RE = rb"(?i)(?:-|/)e(?:c|n(?:c(?:o(?:d(?:e(?:d(?:c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?)?)?)?)?)?)?)?"
+PWR_CMD_RE = rb"(?i)(?:-|/)c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?"
 
 
 class Batchdeobfuscator(ServiceBase):
@@ -37,10 +41,13 @@ class Batchdeobfuscator(ServiceBase):
             cmd = cmd[pws_idx:]
 
             ps1_cmd = None
-            if "-enc" in cmd:
-                ps1_cmd = base64.b64decode(ori_cmd[pws_idx + cmd.index("-enc") + 1]).replace(b"\x00", b"")
-            elif "-command" in cmd:
-                ps1_cmd = ori_cmd[pws_idx + cmd.index("-command") + 1].encode()
+            for idx, part in enumerate(cmd):
+                if re.search(ENC_RE, part.encode()):
+                    ps1_cmd = base64.b64decode(ori_cmd[pws_idx + idx + 1]).replace(b"\x00", b"")
+                    break
+                elif re.search(PWR_CMD_RE, part.encode()):
+                    ps1_cmd = ori_cmd[pws_idx + idx + 1].encode()
+                    break
 
             if ps1_cmd:
                 sha256hash = hashlib.sha256(ps1_cmd).hexdigest()

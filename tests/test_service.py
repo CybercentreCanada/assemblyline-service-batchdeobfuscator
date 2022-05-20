@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 
 import pytest
+from assemblyline.common import forge
 from assemblyline.common.dict_utils import flatten
-from assemblyline.common.identify import fileinfo
 from assemblyline.odm.messages.task import Task as ServiceTask
 from assemblyline_v4_service.common.request import ServiceRequest
 from assemblyline_v4_service.common.task import Task
@@ -18,6 +18,7 @@ TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(TEST_DIR)
 SELF_LOCATION = os.environ.get("FULL_SELF_LOCATION", ROOT_DIR)
 SAMPLES_LOCATION = os.environ.get("FULL_SAMPLES_LOCATION", None)
+identify = forge.get_identify(use_cache=False)
 
 
 def find_sample(locations, sample):
@@ -54,7 +55,7 @@ def create_service_task(sample):
             "deep_scan": False,
             "service_name": "Not Important",
             "service_config": {},
-            "fileinfo": {k: v for k, v in fileinfo(f"/tmp/{sample}").items() if k in fileinfo_keys},
+            "fileinfo": {k: v for k, v in identify.fileinfo(f"/tmp/{sample}").items() if k in fileinfo_keys},
             "filename": sample,
             "min_classification": "TLP:WHITE",
             "max_files": 501,

@@ -3,55 +3,55 @@
         "supplementary": [],
         "extracted": [
             {
-                "name": "deobfuscated_bat.bat",
+                "name": "0a84ac0583_deobfuscated.bat",
                 "sha256": "0a84ac058370d311dd6f8986446454e5ce2d40a6e0a7c73fa21bd0c462bd2ee4"
             },
             {
-                "name": "18cc83367683f8871081e8afb_extracted_powershell.ps1",
+                "name": "18cc833676.ps1",
                 "sha256": "18cc83367683f8871081e8afb997efe57cb43cf61c6df205c0373569e5cc8224"
             },
             {
-                "name": "2ad446486d77ce8eefef14fa6_extracted_powershell.ps1",
+                "name": "2ad446486d.ps1",
                 "sha256": "2ad446486d77ce8eefef14fa62250bc278874af68960d466f0dbcfc46c74a271"
             },
             {
-                "name": "495c94c7d9ce703315f6c1e0e_extracted_powershell.ps1",
+                "name": "495c94c7d9.ps1",
                 "sha256": "495c94c7d9ce703315f6c1e0e32eb46c9e6c5dcfca090ffd3e0f958834e25e51"
             },
             {
-                "name": "546dab2ece471733c042fde3f_extracted_powershell.ps1",
+                "name": "546dab2ece.ps1",
                 "sha256": "546dab2ece471733c042fde3f54ec35cf43c114c9cccbcb8d1947950c9d2b387"
             },
             {
-                "name": "6c1eb30d2bc561408e5763c48_extracted_powershell.ps1",
+                "name": "6c1eb30d2b.ps1",
                 "sha256": "6c1eb30d2bc561408e5763c48c8cf857c49dcc7adf7e6081a8d3a0e2a593452c"
             },
             {
-                "name": "9d2523aa1e08117f46f108bdb_extracted_powershell.ps1",
+                "name": "9d2523aa1e.ps1",
                 "sha256": "9d2523aa1e08117f46f108bdbe55d2d500d9f58e8bf1bcfd9873828629b39518"
             },
             {
-                "name": "a7a88155c20d51e32b792310b_extracted_powershell.ps1",
+                "name": "a7a88155c2.ps1",
                 "sha256": "a7a88155c20d51e32b792310b0527d8e71f52474714a48fb0f1b3c43369197ce"
             },
             {
-                "name": "b5ebae6cbea2a76a8110478d5_extracted_powershell.ps1",
+                "name": "b5ebae6cbe.ps1",
                 "sha256": "b5ebae6cbea2a76a8110478d5271ac92b9b6259c72a1914ae28f7feaa954fefe"
             },
             {
-                "name": "c7de9ceaee3d2643b49fb8e36_extracted_powershell.ps1",
+                "name": "c7de9ceaee.ps1",
                 "sha256": "c7de9ceaee3d2643b49fb8e36a74d6bda6072a53d210d5caae18139f03f23493"
             },
             {
-                "name": "cb97ab75f0f51cb63814e3524_extracted_powershell.ps1",
+                "name": "cb97ab75f0.ps1",
                 "sha256": "cb97ab75f0f51cb63814e3524968c723086b144d675def38e907789a686e5e21"
             },
             {
-                "name": "d252fc18a1194b5e4a4973bd3_extracted_powershell.ps1",
+                "name": "d252fc18a1.ps1",
                 "sha256": "d252fc18a1194b5e4a4973bd38daa6f1b66e76b5ecd4646b1b587214f2e815f4"
             },
             {
-                "name": "d75b7c56778286114b880bffc_extracted_powershell.ps1",
+                "name": "d75b7c5677.ps1",
                 "sha256": "d75b7c56778286114b880bffc79f75a9f71bce0b7a5d2d66ff88359f7c324d0e"
             }
         ]

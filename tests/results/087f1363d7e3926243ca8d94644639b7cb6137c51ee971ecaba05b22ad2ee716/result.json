@@ -3,11 +3,11 @@
         "supplementary": [],
         "extracted": [
             {
-                "name": "7a820568396ce34cc0e161e86_extracted_batch.bat",
+                "name": "7a82056839.bat",
                 "sha256": "7a820568396ce34cc0e161e8600d8f10a5883ae9d45f68430aa1b31a97b87989"
             },
             {
-                "name": "deobfuscated_bat.bat",
+                "name": "bce2efb1b8_deobfuscated.bat",
                 "sha256": "bce2efb1b8eec24eac6a9e40920e7169b4151f78a311faeeab1d29721a583f49"
             }
         ]

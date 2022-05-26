@@ -47,7 +47,7 @@ class Batchdeobfuscator(ServiceBase):
                 if sha256hash in extracted_files_hashes:
                     return
                 extracted_files_hashes.append(sha256hash)
-                powershell_filename = f"{sha256hash[0:25]}_extracted_powershell.ps1"
+                powershell_filename = f"{sha256hash[0:10]}.ps1"
                 powershell_file_path = os.path.join(self.working_directory, powershell_filename)
                 with open(powershell_file_path, "wb") as f:
                     f.write(ps1_cmd)
@@ -71,7 +71,7 @@ class Batchdeobfuscator(ServiceBase):
             if sha256hash in extracted_files_hashes:
                 continue
             extracted_files_hashes.append(sha256hash)
-            powershell_filename = f"{sha256hash[0:25]}_extracted_powershell.ps1"
+            powershell_filename = f"{sha256hash[0:10]}.ps1"
             powershell_file_path = os.path.join(self.working_directory, powershell_filename)
             with open(powershell_file_path, "wb") as f:
                 f.write(powershell_command)
@@ -104,7 +104,7 @@ class Batchdeobfuscator(ServiceBase):
                             )
                         with open(child_path, "rb") as f:
                             sha256hash = hashlib.sha256(f.read()).hexdigest()
-                        bat_filename = f"{sha256hash[0:25]}_extracted_batch.bat"
+                        bat_filename = f"{sha256hash[0:10]}.bat"
                         shutil.move(child_path, os.path.join(self.working_directory, bat_filename))
 
                         request.add_extracted(
@@ -126,6 +126,14 @@ class Batchdeobfuscator(ServiceBase):
             for logical_line in deobfuscator.read_logical_line(request.file_path):
                 self.interpret_logical_line(deobfuscator, logical_line, f, request, extracted_files_hashes)
 
+        with open(temp_path, "rb") as f:
+            sha256hash = hashlib.sha256(f.read()).hexdigest()
+        bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+        shutil.move(temp_path, os.path.join(self.working_directory, bat_filename))
+
         request.add_extracted(
-            temp_path, file_name, "Root deobfuscated batch file", safelist_interface=self.api_interface
+            os.path.join(self.working_directory, bat_filename),
+            bat_filename,
+            "Root deobfuscated batch file",
+            safelist_interface=self.api_interface,
         )

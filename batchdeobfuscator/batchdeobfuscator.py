@@ -135,12 +135,13 @@ class Batchdeobfuscator(ServiceBase):
 
         with open(temp_path, "rb") as f:
             sha256hash = hashlib.sha256(f.read()).hexdigest()
-        bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
-        shutil.move(temp_path, os.path.join(self.working_directory, bat_filename))
+        if sha256hash != request.sha256:
+            bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+            shutil.move(temp_path, os.path.join(self.working_directory, bat_filename))
 
-        request.add_extracted(
-            os.path.join(self.working_directory, bat_filename),
-            bat_filename,
-            "Root deobfuscated batch file",
-            safelist_interface=self.api_interface,
-        )
+            request.add_extracted(
+                os.path.join(self.working_directory, bat_filename),
+                bat_filename,
+                "Root deobfuscated batch file",
+                safelist_interface=self.api_interface,
+            )

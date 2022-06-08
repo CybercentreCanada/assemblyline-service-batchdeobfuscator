@@ -5,16 +5,45 @@ import os
 import re
 import shlex
 import shutil
+from collections import defaultdict
 from tempfile import mkstemp
 
 from assemblyline_v4_service.common.base import ServiceBase
 from assemblyline_v4_service.common.request import ServiceRequest
-from assemblyline_v4_service.common.result import Result
+from assemblyline_v4_service.common.result import (
+    Heuristic,
+    Result,
+    ResultTableSection,
+    TableRow,
+)
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 from multidecoder.analyzers.shell import find_powershell_strings, get_powershell_command
 
 ENC_RE = rb"(?i)(?:-|/)e(?:c|n(?:c(?:o(?:d(?:e(?:d(?:c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?)?)?)?)?)?)?)?"
 PWR_CMD_RE = rb"(?i)(?:-|/)c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?"
+
+# Gathered from https://gist.github.com/api0cradle/8cdc53e2a80de079709d28a2d96458c2
+RARE_LOLBAS = [
+    "forfiles",
+    "bash",
+    "scriptrunner",
+    "syncappvpublishingserver",
+    "hh.exe",
+    "msbuild",
+    "regsvcs",
+    "regasm",
+    "installutil",
+    "ieexec",
+    "msxsl",
+    "odbcconf",
+    "sqldumper",
+    "pcalua",
+    "appvlp",
+    "runscripthelper",
+    "infdefaultinstall",
+    "diskshadow",
+    "msdt",
+]
 
 
 class Batchdeobfuscator(ServiceBase):
@@ -89,16 +118,20 @@ class Batchdeobfuscator(ServiceBase):
                 safelist_interface=self.api_interface,
             )
 
-    def interpret_logical_line(self, deobfuscator, logical_line, f, request, extracted_files_hashes):
+    def interpret_logical_line(self, deobfuscator, logical_line, f, request, extracted_files_hashes, traits):
         commands = deobfuscator.get_commands(logical_line)
         for command in commands:
             normalized_comm = deobfuscator.normalize_command(command)
             if len(list(deobfuscator.get_commands(normalized_comm))) > 1:
-                self.interpret_logical_line(deobfuscator, normalized_comm, f, request, extracted_files_hashes)
+                traits["heur1"].append({"Command": command[:100], "Normalized": normalized_comm[:100]})
+                self.interpret_logical_line(deobfuscator, normalized_comm, f, request, extracted_files_hashes, traits)
             else:
                 deobfuscator.interpret_command(normalized_comm)
                 f.write(normalized_comm)
                 f.write("\n")
+                for lolbas in RARE_LOLBAS:
+                    if lolbas in normalized_comm:
+                        traits["heur2"].append({"LOLBAS": lolbas, "Command": normalized_comm[:100]})
                 self.search_for_powershell(normalized_comm, request, extracted_files_hashes)
                 if len(deobfuscator.exec_cmd) > 0:
                     for child_cmd in deobfuscator.exec_cmd:
@@ -107,7 +140,7 @@ class Batchdeobfuscator(ServiceBase):
                         child_fd, child_path = mkstemp(suffix=".bat", prefix="child_", dir=self.working_directory)
                         with open(child_path, "w") as child_f:
                             self.interpret_logical_line(
-                                child_deobfuscator, child_cmd, child_f, request, extracted_files_hashes
+                                child_deobfuscator, child_cmd, child_f, request, extracted_files_hashes, traits
                             )
                         with open(child_path, "rb") as f:
                             sha256hash = hashlib.sha256(f.read()).hexdigest()
@@ -127,11 +160,47 @@ class Batchdeobfuscator(ServiceBase):
         deobfuscator = BatchDeobfuscator()
         extracted_files_hashes = []
 
+        traits = defaultdict(lambda: list())
+
         file_name = "deobfuscated_bat.bat"
         temp_path = os.path.join(self.working_directory, file_name)
         with open(temp_path, "w") as f:
             for logical_line in deobfuscator.read_logical_line(request.file_path):
-                self.interpret_logical_line(deobfuscator, logical_line, f, request, extracted_files_hashes)
+                self.interpret_logical_line(deobfuscator, logical_line, f, request, extracted_files_hashes, traits)
+
+        if "heur1" in traits:
+            heur = Heuristic(1)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for item in traits["heur1"]:
+                heur_section.add_row(TableRow(item))
+            request.result.add_section(heur_section)
+
+        if "heur2" in traits:
+            heur = Heuristic(2)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for item in traits["heur2"]:
+                heur_section.add_row(TableRow(item))
+            request.result.add_section(heur_section)
+
+        if "start_with_var" in deobfuscator.traits:
+            heur = Heuristic(3)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, normalized_com in deobfuscator.traits["start_with_var"]:
+                heur_section.add_row(TableRow({"Command": command[:100], "Normalized": normalized_com[:100]}))
+            request.result.add_section(heur_section)
+
+        if "var_used" in deobfuscator.traits:
+            heur = Heuristic(4)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            heur4 = False
+            for command, normalized_com, var_used in deobfuscator.traits["var_used"]:
+                if var_used > 10:
+                    heur_section.add_row(
+                        TableRow({"Count": var_used, "Command": command[:100], "Normalized": normalized_com[:100]})
+                    )
+                    heur4 = True
+            if heur4:
+                request.result.add_section(heur_section)
 
         with open(temp_path, "rb") as f:
             sha256hash = hashlib.sha256(f.read()).hexdigest()

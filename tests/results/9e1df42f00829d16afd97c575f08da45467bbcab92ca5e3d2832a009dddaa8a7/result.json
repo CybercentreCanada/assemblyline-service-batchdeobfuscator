@@ -9,7 +9,10 @@
         ]
     },
     "result": {
-        "heuristics": [],
+        "heuristics": [
+            3,
+            4
+        ],
         "tags": {}
     }
 }

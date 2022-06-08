@@ -13,7 +13,11 @@
         ]
     },
     "result": {
-        "heuristics": [],
+        "heuristics": [
+            1,
+            3,
+            4
+        ],
         "tags": {}
     }
 }

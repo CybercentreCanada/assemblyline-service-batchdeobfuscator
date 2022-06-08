@@ -70,7 +70,7 @@ goto :CopyLogs
 if exist "C:\Program Files\Microsoft OneDrive" (
 goto :CopyLogs
 )
-REM None of the data folders exist  exit.
+REM None of the data folders exist, exit.
 echo Error: No application data exists for OneDrive client.
 echo.
 goto :Return
@@ -332,7 +332,7 @@ powershell -Command "& {get-process onedrive | add-member -Name Elevated -Member
 REM Check if Sparse Package exists for Win 11 OS only.
 REM 'ver' will output "Microsoft Windows [Version 10.0.19043.1110]"
 REM Split output by spaces or periods. Take the 6th spot which is the build version (19043) and check if it's greater than the min build for Win 11
-REM If so  print the package output into OneDriveSparsePackage.txt
+REM If so, print the package output into OneDriveSparsePackage.txt
 for /f "tokens=6 delims=. " %%i in ('ver') do set OSVERSION=%%i
 if "%%i" gtr "21600" (
 echo Checking Sparse Package information
@@ -396,7 +396,7 @@ call :SendMail
 goto :Return
 REM ---- END OF MAIN SCRIPT ---- Sub-Routines follow ----
 REM -----------
-REM * CAB IT *
+REM * CAB IT! *
 REM -----------
 :CABIT
 set DIRECTIVEFILE=C:\Users\puncher\AppData\Local\Temp\Schema.ddf
@@ -432,11 +432,11 @@ call :CAB_DIR "%i"
 )
 goto :Return
 REM Calls reg.exe query on the given regkey and appends output to the given file.
-REM If regkey didn't exist  logs that it was not found.
-REM Parameter 1: regkey subpath (anything after HKLM\Software  HKCU\Software  or HKLM\Software\WOW6432Node etc.)
+REM If regkey didn't exist, logs that it was not found.
+REM Parameter 1: regkey subpath (anything after HKLM\Software, HKCU\Software, or HKLM\Software\WOW6432Node etc.)
 REM Parameter 2: params for reg query (e.g. /s)
 REM Parameter 3: output file to append to
-REM Paramter 4 - n: regkey prefixes to query. E.g. HKLM\Software  HKCU\Software  HKLM\Software\WOW6432Node etc.
+REM Paramter 4 - n: regkey prefixes to query. E.g. HKLM\Software, HKCU\Software, HKLM\Software\WOW6432Node etc.
 :LogRegkey
 set argCount=0
 for %%x in (*) do (

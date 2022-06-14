@@ -3,10 +3,6 @@
         "supplementary": [],
         "extracted": [
             {
-                "name": "0a84ac0583_deobfuscated.bat",
-                "sha256": "0a84ac058370d311dd6f8986446454e5ce2d40a6e0a7c73fa21bd0c462bd2ee4"
-            },
-            {
                 "name": "18cc833676.ps1",
                 "sha256": "18cc83367683f8871081e8afb997efe57cb43cf61c6df205c0373569e5cc8224"
             },
@@ -53,11 +49,17 @@
             {
                 "name": "d75b7c5677.ps1",
                 "sha256": "d75b7c56778286114b880bffc79f75a9f71bce0b7a5d2d66ff88359f7c324d0e"
+            },
+            {
+                "name": "eccae998dc_deobfuscated.bat",
+                "sha256": "eccae998dc25ecbf0f5570e163aef6128d3044a9e51e18163ecb3bd6ca7aa7ac"
             }
         ]
     },
     "result": {
-        "heuristics": [],
+        "heuristics": [
+            1
+        ],
         "tags": {}
     }
 }

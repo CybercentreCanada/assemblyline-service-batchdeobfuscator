@@ -17,6 +17,9 @@ enabled: true
 is_external: false
 licence_count: 0
 
+config:
+  heur6_min_number_line: 4
+
 heuristics:
   - description: >-
       Commands are ungrouped and normalized first. If a normalized command yield multiple groups, it may be a very strong sign of obfuscation.
@@ -45,6 +48,22 @@ heuristics:
     heur_id: 4
     name: Multiple variable were used on the same line
     score: 200
+
+  - description: >-
+      File download is not cause for suspicion, but combined with other factors like one-liner, it can be valuable to bring it up for further analysis.
+    filetype: "code/batch"
+    heur_id: 5
+    name: External file download in batch script
+    score: 1
+    signature_score_map:
+      complex_one_liner: 400
+
+  - description: >-
+      Batch file is a complex one-liner. Usually because it's extracted out of another file, but since it expanded to multiple lines, it is worth noting it.
+    filetype: "code/batch"
+    heur_id: 6
+    name: Complexe One-Liner
+    score: 10
 
 docker_config:
   image: ${REGISTRY}cccs/assemblyline-service-batchdeobfuscator:$SERVICE_TAG

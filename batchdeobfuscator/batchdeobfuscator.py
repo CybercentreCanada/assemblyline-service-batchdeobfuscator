@@ -7,12 +7,15 @@ import shlex
 import shutil
 from collections import defaultdict
 from tempfile import mkstemp
+from urllib.parse import urlparse
 
+from assemblyline.common.net import is_valid_domain, is_valid_ip
 from assemblyline_v4_service.common.base import ServiceBase
 from assemblyline_v4_service.common.request import ServiceRequest
 from assemblyline_v4_service.common.result import (
     Heuristic,
     Result,
+    ResultKeyValueSection,
     ResultTableSection,
     TableRow,
 )
@@ -43,6 +46,7 @@ RARE_LOLBAS = [
     "infdefaultinstall",
     "diskshadow",
     "msdt",
+    "regsvr32",
 ]
 
 
@@ -168,6 +172,45 @@ class Batchdeobfuscator(ServiceBase):
             for logical_line in deobfuscator.read_logical_line(request.file_path):
                 self.interpret_logical_line(deobfuscator, logical_line, f, request, extracted_files_hashes, traits)
 
+        # Figure out if we're dealing with a Complex One-Liner
+        oneliner = False
+        with open(request.file_path, "r", encoding="utf-8", errors="ignore") as f:
+            firstline = False
+            for line in f:
+                if line.strip():
+                    if not firstline:
+                        oneliner = True
+                        firstline = True
+                    else:
+                        oneliner = False
+                        break
+
+        complex_one_liner = 0
+        with open(temp_path, "rb") as f:
+            deobfuscated_data = f.read()
+            if oneliner:
+                complex_one_liner = deobfuscated_data.count(b"\n")
+            sha256hash = hashlib.sha256(deobfuscated_data).hexdigest()
+        if sha256hash != request.sha256:
+            bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+            shutil.move(temp_path, os.path.join(self.working_directory, bat_filename))
+
+            request.add_extracted(
+                os.path.join(self.working_directory, bat_filename),
+                bat_filename,
+                "Root deobfuscated batch file",
+                safelist_interface=self.api_interface,
+            )
+
+        if complex_one_liner >= self.config.get("heur6_min_number_line", 4):
+            heur = Heuristic(6)
+            heur_section = ResultKeyValueSection(heur.name, heuristic=heur)
+            heur_section.set_item("Number of line after deobfuscation", complex_one_liner)
+            request.result.add_section(heur_section)
+            complex_one_liner = True
+        else:
+            complex_one_liner = False
+
         if "heur1" in traits:
             heur = Heuristic(1)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
@@ -202,15 +245,27 @@ class Batchdeobfuscator(ServiceBase):
             if heur4:
                 request.result.add_section(heur_section)
 
-        with open(temp_path, "rb") as f:
-            sha256hash = hashlib.sha256(f.read()).hexdigest()
-        if sha256hash != request.sha256:
-            bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
-            shutil.move(temp_path, os.path.join(self.working_directory, bat_filename))
+        if "download" in deobfuscator.traits:
+            heur = Heuristic(5)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            if complex_one_liner:
+                heur_section.heuristic.add_signature_id("complex_one_liner")
+            for command, download_trait in deobfuscator.traits["download"]:
+                heur_section.add_row(
+                    TableRow(
+                        {"URL": download_trait["src"], "Destination": download_trait["dst"], "Command": command[:100]}
+                    )
+                )
+                heur_section.add_tag("network.static.uri", download_trait["src"])
 
-            request.add_extracted(
-                os.path.join(self.working_directory, bat_filename),
-                bat_filename,
-                "Root deobfuscated batch file",
-                safelist_interface=self.api_interface,
-            )
+                if "://" in download_trait["src"][:7]:
+                    netloc = urlparse(download_trait["src"]).netloc
+                else:
+                    netloc = urlparse(f"http://{download_trait['src']}").netloc
+
+                if netloc:
+                    if is_valid_domain(netloc):
+                        heur_section.add_tag("network.static.domain", netloc)
+                    if is_valid_ip(netloc):
+                        heur_section.add_tag("network.static.ip", netloc)
+            request.result.add_section(heur_section)

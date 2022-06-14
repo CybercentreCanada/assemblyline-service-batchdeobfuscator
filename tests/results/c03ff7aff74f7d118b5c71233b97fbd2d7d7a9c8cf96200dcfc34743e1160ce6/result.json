@@ -3,12 +3,12 @@
         "supplementary": [],
         "extracted": [
             {
-                "name": "bbfa3403de.ps1",
-                "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
+                "name": "3077a8712e_deobfuscated.bat",
+                "sha256": "3077a8712e11154e26f1ef2875ace0077fb364a664b282c01bda69c18f4fefac"
             },
             {
-                "name": "f8840c67a1_deobfuscated.bat",
-                "sha256": "f8840c67a16494e92ac283a83af0d4687e7ac2a3818b4af6a7fc011637a794d7"
+                "name": "bbfa3403de.ps1",
+                "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
             }
         ]
     },

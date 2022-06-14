@@ -15,10 +15,14 @@ if "%~1"=="" (
 goto :ParseDone
 )
 if /i "%~1"=="/OutputDir" (
-for %%i in () do set OUTPUTDIR=%%~i
+for %%i in () do (
+set OUTPUTDIR=%%~i
+)
 shift
 ) else if /i "%~1"=="/OutputFile" (
-for %%i in () do set CABOUTPUT=%%~i
+for %%i in () do (
+set CABOUTPUT=%%~i
+)
 shift
 ) else if /i "%~1"=="/NoDump" (
 set DODUMP=0
@@ -333,7 +337,9 @@ REM Check if Sparse Package exists for Win 11 OS only.
 REM 'ver' will output "Microsoft Windows [Version 10.0.19043.1110]"
 REM Split output by spaces or periods. Take the 6th spot which is the build version (19043) and check if it's greater than the min build for Win 11
 REM If so, print the package output into OneDriveSparsePackage.txt
-for /f "tokens=6 delims=. " %%i in ('ver') do set OSVERSION=%%i
+for /f "tokens=6 delims=. " %%i in ('ver') do (
+set OSVERSION=%%i
+)
 if "%%i" gtr "21600" (
 echo Checking Sparse Package information
 powershell -Command "Get-AppxPackage -Name "Microsoft.OneDriveSync" > "C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDrive\OneDriveSparsePackage.txt" 2>&1
@@ -356,7 +362,9 @@ echo Exporting OneDrive Standalone Update Task information...
 schtasks.exe /query /TN "OneDrive Standalone Update Task" /XML > C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDriveStandaloneUpdateTask.xml 2>&1
 schtasks.exe /query /TN "OneDrive Standalone Update Task v2" /XML > C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDriveStandaloneUpdateTaskV2.xml 2>&1
 schtasks.exe /query /TN "OneDrive Per-Machine Standalone Update Task" /XML > C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDrivePerMachineStandaloneUpdateTask.xml 2>&1
-for /f "skip=6 tokens=2" %%i IN ('whoami /user') do set SID=%%i
+for /f "skip=6 tokens=2" %%i IN ('whoami /user') do (
+set SID=%%i
+)
 schtasks.exe /query /TN "OneDrive Standalone Update Task-%%i" /XML > C:\Users\puncher\AppData\Local\Temp\LogCollection\OneDriveStandaloneUpdateTaskSID.xml 2>&1
 echo.
 echo.
@@ -401,7 +409,7 @@ REM -----------
 :CABIT
 set DIRECTIVEFILE=C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 set TARGET=
-set TEMPFILE=C:\Users\puncher\AppData\Local\Temp\TEMP-.tmp
+set TEMPFILE=C:\Users\puncher\AppData\Local\Temp\TEMP-4.tmp
 if not exist  (
 echo  does not exist.
 goto :Return
@@ -410,15 +418,15 @@ pushd
 echo. > C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 echo .set CabinetNameTemplate=%%~i >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 echo .set DiskDirectoryTemplate= >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
-echo .set InfFileName=C:\Users\puncher\AppData\Local\Temp\TEMP-.tmp >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
-echo .set RptFileName=C:\Users\puncher\AppData\Local\Temp\TEMP-.tmp >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
+echo .set InfFileName=C:\Users\puncher\AppData\Local\Temp\TEMP-4.tmp >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
+echo .set RptFileName=C:\Users\puncher\AppData\Local\Temp\TEMP-4.tmp >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 echo .set MaxDiskSize=0 >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 echo .set CompressionType=LZX >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
-del /f C:\Users\puncher\AppData\Local\Temp\TEMP-.tmp 2>NUL
+del /f C:\Users\puncher\AppData\Local\Temp\TEMP-4.tmp 2>NUL
 call :CAB_DIR .
 makecab.exe /f C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 del /f C:\Users\puncher\AppData\Local\Temp\Schema.ddf 2>NUL
-del /f C:\Users\puncher\AppData\Local\Temp\TEMP-.tmp 2>NUL
+del /f C:\Users\puncher\AppData\Local\Temp\TEMP-4.tmp 2>NUL
 popd
 goto :Return
 REM CAB Helper

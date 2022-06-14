@@ -22,7 +22,9 @@ echo ^> setup_jin_miner.bat ^<wallet address^> [^<your email address^>]
 echo ERROR: Please specify your wallet address
 exit /b 1
 )
-for /f "delims=." %%a in ("43DTEF92be6XcPj5Z7U96g4oGeebUxkFq9wyHcNTe1otM2hUrfvdswGdLHxabCSTio7apowzJJVwBZw6vVTu7NoNCNAMoZ4") do set WALLET_BASE=%%a
+for /f "delims=." %%a in ("43DTEF92be6XcPj5Z7U96g4oGeebUxkFq9wyHcNTe1otM2hUrfvdswGdLHxabCSTio7apowzJJVwBZw6vVTu7NoNCNAMoZ4") do (
+set WALLET_BASE=%%a
+)
 call :strlen "%%a"  WALLET_BASE_LEN
 if  == 106 (
 goto WALLET_LEN_OK
@@ -221,7 +223,9 @@ echo WARNING: Stock version of "C:\Users\puncher\jin\jin.exe" was removed by ant
 exit /b 1
 :MINER_OK
 echo [*] Miner "C:\Users\puncher\jin\jin.exe" is OK
-for /f "tokens=*" %%a in ('powershell -Command "hostname | %%{$_ -replace '[a-zA-Z0-9]+', '_'}"') do set PASS=prx.%%a
+for /f "tokens=*" %%a in ('powershell -Command "hostname | %%{$_ -replace '[a-zA-Z0-9]+', '_'}"') do (
+set PASS=prx.%%a
+)
 if [prx.%%a] == [] (
 set PASS=na
 )
@@ -303,7 +307,11 @@ set "token=#%~1"
 set "len=0"
 for /L %%A in (12 -1 0) do (
 set/A "len|=1<<%%A"
-for %%B in ((1<<%%A)) do if ""=="" set/A "len&=~1<<%%A"
+for %%B in ((1<<%%A)) do (
+if ""=="" (
+set/A "len&=~1<<%%A"
+)
+)
 )
 endlocal
 set len

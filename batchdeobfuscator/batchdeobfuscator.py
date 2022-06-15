@@ -246,17 +246,16 @@ class Batchdeobfuscator(ServiceBase):
                 request.result.add_section(heur_section)
 
         if "download" in deobfuscator.traits:
-            heur = Heuristic(5)
-            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            download_section = ResultTableSection("External file download in batch script")
             if complex_one_liner:
-                heur_section.heuristic.add_signature_id("complex_one_liner")
+                download_section.set_heuristic(5)
             for command, download_trait in deobfuscator.traits["download"]:
-                heur_section.add_row(
+                download_section.add_row(
                     TableRow(
                         {"URL": download_trait["src"], "Destination": download_trait["dst"], "Command": command[:100]}
                     )
                 )
-                heur_section.add_tag("network.static.uri", download_trait["src"])
+                download_section.add_tag("network.static.uri", download_trait["src"])
 
                 if "://" in download_trait["src"][:7]:
                     netloc = urlparse(download_trait["src"]).netloc
@@ -265,7 +264,7 @@ class Batchdeobfuscator(ServiceBase):
 
                 if netloc:
                     if is_valid_domain(netloc):
-                        heur_section.add_tag("network.static.domain", netloc)
+                        download_section.add_tag("network.static.domain", netloc)
                     if is_valid_ip(netloc):
-                        heur_section.add_tag("network.static.ip", netloc)
-            request.result.add_section(heur_section)
+                        download_section.add_tag("network.static.ip", netloc)
+            request.result.add_section(download_section)

@@ -54,9 +54,7 @@ heuristics:
     filetype: "code/batch"
     heur_id: 5
     name: External file download in batch script
-    score: 1
-    signature_score_map:
-      complex_one_liner: 400
+    score: 400
 
   - description: >-
       Batch file is a complex one-liner. Usually because it's extracted out of another file, but since it expanded to multiple lines, it is worth noting it.

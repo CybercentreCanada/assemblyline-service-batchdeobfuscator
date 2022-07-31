@@ -1,0 +1,26 @@
+{
+    "response": {
+        "supplementary": [],
+        "extracted": [
+            {
+                "name": "a4d72eaf9a_deobfuscated.bat",
+                "sha256": "a4d72eaf9a7e68cc216d05f504667cba099dd21690c9971d113e0f9eac32f361"
+            }
+        ]
+    },
+    "result": {
+        "heuristics": [
+            2,
+            5,
+            6
+        ],
+        "tags": {
+            "network.static.uri": [
+                "1.1.1.1/4.dat"
+            ],
+            "network.static.ip": [
+                "1.1.1.1"
+            ]
+        }
+    }
+}

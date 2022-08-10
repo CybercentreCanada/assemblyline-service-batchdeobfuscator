@@ -1,0 +1,19 @@
+{
+    "response": {
+        "supplementary": [],
+        "extracted": [
+            {
+                "name": "41270bb283.ps1",
+                "sha256": "41270bb2830c770e662f5c9c59402cfcd8add26eef5a26a492add7dc561e96ca"
+            },
+            {
+                "name": "a9b277e2bc_deobfuscated.bat",
+                "sha256": "a9b277e2bc97ec1bcc5db5126a9398f891309c3e42554230a236679cb81507ee"
+            }
+        ]
+    },
+    "result": {
+        "heuristics": [],
+        "tags": {}
+    }
+}

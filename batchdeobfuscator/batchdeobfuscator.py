@@ -22,8 +22,8 @@ from assemblyline_v4_service.common.result import (
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 from multidecoder.analyzers.shell import find_powershell_strings, get_powershell_command
 
-ENC_RE = rb"(?i)(?:-|/)e(?:c|n(?:c(?:o(?:d(?:e(?:d(?:c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?)?)?)?)?)?)?)?"
-PWR_CMD_RE = rb"(?i)(?:-|/)c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?"
+ENC_RE = rb"(?i)(?:-|/)e(?:c|n(?:c(?:o(?:d(?:e(?:d(?:c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?)?)?)?)?)?)?)?$"
+PWR_CMD_RE = rb"(?i)(?:-|/)c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?$"
 
 # Gathered from https://gist.github.com/api0cradle/8cdc53e2a80de079709d28a2d96458c2
 RARE_LOLBAS = [
@@ -75,10 +75,10 @@ class Batchdeobfuscator(ServiceBase):
 
             ps1_cmd = None
             for idx, part in enumerate(cmd):
-                if re.search(ENC_RE, part.encode()):
+                if re.match(ENC_RE, part.encode()):
                     ps1_cmd = base64.b64decode(ori_cmd[pws_idx + idx + 1]).replace(b"\x00", b"")
                     break
-                elif re.search(PWR_CMD_RE, part.encode()):
+                elif re.match(PWR_CMD_RE, part.encode()):
                     ps1_cmd = ori_cmd[pws_idx + idx + 1].encode()
                     break
 

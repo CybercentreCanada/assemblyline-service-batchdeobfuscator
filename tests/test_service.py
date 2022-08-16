@@ -115,7 +115,7 @@ class TestService:
 
     @staticmethod
     @pytest.mark.parametrize("sample", list_results(SELF_LOCATION), indirect=True)
-    @pytest.mark.skip()
+    # @pytest.mark.skip()
     def test_service(sample):
         overwrite_results = False  # Used temporarily to mass-correct tests
 

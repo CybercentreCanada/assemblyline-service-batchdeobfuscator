@@ -85,14 +85,16 @@ class Batchdeobfuscator(ServiceBase):
             heur = Heuristic(1)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for item in deobfuscator.traits["command-grouping"]:
-                heur_section.add_row(TableRow(item))
+                heur_section.add_row(
+                    TableRow({"Command": item["Command"][:100], "Normalized": item["Normalized"][:100]})
+                )
             request.result.add_section(heur_section)
 
         if "LOLBAS" in deobfuscator.traits:
             heur = Heuristic(2)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for item in deobfuscator.traits["LOLBAS"]:
-                heur_section.add_row(TableRow(item))
+                heur_section.add_row(TableRow({"LOLBAS": item["LOLBAS"], "Command": item["Command"][:100]}))
             request.result.add_section(heur_section)
 
         if "start_with_var" in deobfuscator.traits:

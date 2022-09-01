@@ -7,14 +7,14 @@ for /f "delims=: tokens=2" %%A in ('chcp') do (
 set "@chcp@=chcp %%A>nul"
 )
 chcp 708>nul
-set ^"@args@=*"
-set "@lo@= !#$&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]_`abcdefghijklmnopqrstuvwxyz{|}~
+set ^"@args@="
+set "@lo@= #$&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]_`abcdefghijklmnopqrstuvwxyz{|}~""
 set "@hi@="
 (setlocal enableDelayedExpansion
 for /l %%N in (0 1 93) do (
 set "="
 )
-cmd /c ^%~f0" *"
+cmd /c ^script.bat" "
 chcp %%A>nul
 exit /b
 :

@@ -5,7 +5,7 @@ if ERRORLEVEL 1 (
 rem This tools must run with administrator permissions
 rem It will popup the UAC dialog, please click [Yes] to continue.
 echo Set UAC = CreateObject("Shell.Application") > "C:\Users\puncher\AppData\Local\Temp\getadmin.vbs"
-echo UAC.ShellExecute "%~s0"  "%*"  ""  "runas"  1 >> "C:\Users\puncher\AppData\Local\Temp\getadmin.vbs"
+echo UAC.ShellExecute "script.bat"  ""  ""  "runas"  1 >> "C:\Users\puncher\AppData\Local\Temp\getadmin.vbs"
 "C:\Users\puncher\AppData\Local\Temp\getadmin.vbs"
 exit /b 2
 )

@@ -5,35 +5,35 @@ set DODUMP=0
 set SENDMAIL=0
 set RETURNCODE=0
 set DecoderKey=
-set ScriptName=~0
+set ScriptName=script.bat
 REM Set the CAB file name to include the date and time with
 REM underscores substituted for the invalid characters.
 set DATETIMESUFFIX=_
 set CABOUTPUT=OneDriveLogs__.cab
 :ParseCommand
-if "%~1"=="" (
+if ""=="" (
 goto :ParseDone
 )
-if /i "%~1"=="/OutputDir" (
+if /i ""=="/OutputDir" (
 for %%i in () do (
 set OUTPUTDIR=%%~i
 )
 shift
-) else if /i "%~1"=="/OutputFile" (
+) else if /i ""=="/OutputFile" (
 for %%i in () do (
 set CABOUTPUT=%%~i
 )
 shift
-) else if /i "%~1"=="/NoDump" (
+) else if /i ""=="/NoDump" (
 set DODUMP=0
-) else if /i "%~1"=="/SendMail" (
+) else if /i ""=="/SendMail" (
 set SENDMAIL=1
-) else if /i "%~1"=="/IncludeDecoderKey" (
+) else if /i ""=="/IncludeDecoderKey" (
 set DecoderKey=Y
-) else if /i "%~1"=="/NoDecoderKey" (
+) else if /i ""=="/NoDecoderKey" (
 set DecoderKey=N
 ) else (
-echo Usage: ~0 [Options]
+echo Usage: script.bat [Options]
 echo.
 echo     This script collects all the client logs and CABs them up for simple
 echo     upload.  By default  it will drop the CAB file on your Desktop.
@@ -433,10 +433,10 @@ REM CAB Helper
 :CAB_DIR
 echo .set DestinationDir= >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 for /f "tokens=*" %%i in ('dir /b /a:-d ') do (
-echo "%i" >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
+echo "\%%i" >> C:\Users\puncher\AppData\Local\Temp\Schema.ddf
 )
 for /f "tokens=*" %%i in ('dir /b /a:d ') do (
-call :CAB_DIR "%i"
+call :CAB_DIR "\%%i"
 )
 goto :Return
 REM Calls reg.exe query on the given regkey and appends output to the given file.
@@ -447,14 +447,14 @@ REM Parameter 3: output file to append to
 REM Paramter 4 - n: regkey prefixes to query. E.g. HKLM\Software, HKCU\Software, HKLM\Software\WOW6432Node etc.
 :LogRegkey
 set argCount=0
-for %%x in (*) do (
+for %%x in () do (
 set /a argCount+=1
 if 0 GTR 3 (
-reg.exe query "%%x%~1" > nul 2>&1
+reg.exe query "%%x" > nul 2>&1
 if 0 EQU 0 (
-reg.exe query "%%x%~1" ~3" 2>&1
+reg.exe query "%%x"  >> "" 2>&1
 ) ELSE (
-echo "%%x%~1" NOT FOUND >> "%~3"
+echo "%%x" NOT FOUND >> ""
 )
 )
 )

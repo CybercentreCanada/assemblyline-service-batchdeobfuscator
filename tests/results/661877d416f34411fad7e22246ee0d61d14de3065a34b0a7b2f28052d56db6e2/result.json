@@ -1,7 +1,7 @@
 {
   "extra": {
     "drop_file": false,
-    "score": 500,
+    "score": 510,
     "sections": [
       {
         "auto_collapse": false,
@@ -56,6 +56,24 @@
         "tags": {},
         "title_text": "Multiple variable were used on the same line",
         "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Source\": \"C:\\\\WINDOWS\\\\system32\\\\cmd.exe\", \"Destination\": \"\\\\%%i\", \"Command [trun.]\": \"copy C:\\\\WINDOWS\\\\system32\\\\cmd.exe \\\\%%i\"}, {\"Source\": \"C:\\\\WINDOWS\\\\system32\\\\cmd.exe\", \"Destination\": \"\\\\svchost.exe\", \"Command [trun.]\": \"copy C:\\\\WINDOWS\\\\system32\\\\cmd.exe \\\\svchost.exe\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 7,
+          "score": 10,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Windows Utility Manipulation",
+        "zeroize_on_tag_safe": false
       }
     ]
   },
@@ -83,6 +101,11 @@
       {
         "attack_ids": [],
         "heur_id": 4,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 7,
         "signatures": []
       }
     ],

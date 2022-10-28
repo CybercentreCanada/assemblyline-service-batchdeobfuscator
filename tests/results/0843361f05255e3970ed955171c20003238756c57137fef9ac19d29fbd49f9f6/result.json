@@ -1,27 +1,33 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "02c0202d24.ps1",
-                "sha256": "02c0202d24b7b491e446e7fa22bc1cda0f2a17876a17d23aa9c0a27c7390159b"
-            },
-            {
-                "name": "1a2cb160b5.ps1",
-                "sha256": "1a2cb160b50273b308978d7bd9f44518794ac0db56de45258c1b2856ba3f2a05"
-            },
-            {
-                "name": "5feceb66ff.ps1",
-                "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
-            },
-            {
-                "name": "cbc653cac9_deobfuscated.bat",
-                "sha256": "cbc653cac97232d5e9ee0302c6fec84c0f1d5f3b48676a5ec2c274f2ac1a32e4"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": []
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "02c0202d24.ps1",
+        "sha256": "02c0202d24b7b491e446e7fa22bc1cda0f2a17876a17d23aa9c0a27c7390159b"
+      },
+      {
+        "name": "1a2cb160b5.ps1",
+        "sha256": "1a2cb160b50273b308978d7bd9f44518794ac0db56de45258c1b2856ba3f2a05"
+      },
+      {
+        "name": "5feceb66ff.ps1",
+        "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      },
+      {
+        "name": "cbc653cac9_deobfuscated.bat",
+        "sha256": "cbc653cac97232d5e9ee0302c6fec84c0f1d5f3b48676a5ec2c274f2ac1a32e4"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

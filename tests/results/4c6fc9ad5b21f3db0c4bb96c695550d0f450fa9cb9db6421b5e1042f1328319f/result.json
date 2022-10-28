@@ -1,15 +1,21 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "483706412d_deobfuscated.bat",
-                "sha256": "483706412d7e9beeb352781474b429adc5fae0cc425ffa52a97d0539c3632377"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": []
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "483706412d_deobfuscated.bat",
+        "sha256": "483706412d7e9beeb352781474b429adc5fae0cc425ffa52a97d0539c3632377"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

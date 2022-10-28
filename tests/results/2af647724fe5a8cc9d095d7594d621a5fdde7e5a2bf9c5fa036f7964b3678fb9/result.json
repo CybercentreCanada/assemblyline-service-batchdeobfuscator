@@ -1,15 +1,21 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "5d4bd1b97f.ps1",
-                "sha256": "5d4bd1b97f27aae5c6e4fb6ef74a52006d7225a2bbf05c781098e6fa83fa6d2f"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": []
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "5d4bd1b97f.ps1",
+        "sha256": "5d4bd1b97f27aae5c6e4fb6ef74a52006d7225a2bbf05c781098e6fa83fa6d2f"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

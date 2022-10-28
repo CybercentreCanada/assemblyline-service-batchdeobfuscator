@@ -63,6 +63,13 @@ heuristics:
     name: Complexe One-Liner
     score: 10
 
+  - description: >-
+      Some items in the common Windows directories are being manipulated. This is often associated with execution of such items with the goal of hiding it.
+    filetype: "code/batch"
+    heur_id: 7
+    name: Windows Utility Manipulation
+    score: 10
+
 docker_config:
   image: ${REGISTRY}cccs/assemblyline-service-batchdeobfuscator:$SERVICE_TAG
   cpu_cores: 1

@@ -21,7 +21,7 @@ class Batchdeobfuscator(ServiceBase):
         super().__init__(config)
 
     def start(self):
-        self.log.info("Starting batchdeobfuscator")
+        self.log.debug("Starting batchdeobfuscator")
 
     # TODO: Migrate to MultiDecoder when it won't keep quotes around the commands
     def multidecoder_search_for_powershell(self, normalized_comm, working_directory, extracted_files):
@@ -86,7 +86,7 @@ class Batchdeobfuscator(ServiceBase):
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for item in deobfuscator.traits["command-grouping"]:
                 heur_section.add_row(
-                    TableRow({"Command": item["Command"][:100], "Normalized": item["Normalized"][:100]})
+                    TableRow({"Command [trun.]": item["Command"][:100], "Normalized [trun.]": item["Normalized"][:100]})
                 )
             request.result.add_section(heur_section)
 
@@ -94,14 +94,16 @@ class Batchdeobfuscator(ServiceBase):
             heur = Heuristic(2)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for item in deobfuscator.traits["LOLBAS"]:
-                heur_section.add_row(TableRow({"LOLBAS": item["LOLBAS"], "Command": item["Command"][:100]}))
+                heur_section.add_row(TableRow({"LOLBAS": item["LOLBAS"], "Command [trun.]": item["Command"][:100]}))
             request.result.add_section(heur_section)
 
         if "start_with_var" in deobfuscator.traits:
             heur = Heuristic(3)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for command, normalized_com in deobfuscator.traits["start_with_var"]:
-                heur_section.add_row(TableRow({"Command": command[:100], "Normalized": normalized_com[:100]}))
+                heur_section.add_row(
+                    TableRow({"Command [trun.]": command[:100], "Normalized [trun.]": normalized_com[:100]})
+                )
             request.result.add_section(heur_section)
 
         if "var_used" in deobfuscator.traits:
@@ -111,7 +113,13 @@ class Batchdeobfuscator(ServiceBase):
             for command, normalized_com, var_used in deobfuscator.traits["var_used"]:
                 if var_used > 10:
                     heur_section.add_row(
-                        TableRow({"Count": var_used, "Command": command[:100], "Normalized": normalized_com[:100]})
+                        TableRow(
+                            {
+                                "Count": var_used,
+                                "Command [trun.]": command[:100],
+                                "Normalized [trun.]": normalized_com[:100],
+                            }
+                        )
                     )
                     heur4 = True
             if heur4:
@@ -124,7 +132,11 @@ class Batchdeobfuscator(ServiceBase):
             for command, download_trait in deobfuscator.traits["download"]:
                 download_section.add_row(
                     TableRow(
-                        {"URL": download_trait["src"], "Destination": download_trait["dst"], "Command": command[:100]}
+                        {
+                            "URL": download_trait["src"],
+                            "Destination": download_trait["dst"],
+                            "Command [trun.]": command[:100],
+                        }
                     )
                 )
                 download_section.add_tag("network.static.uri", download_trait["src"])
@@ -140,3 +152,18 @@ class Batchdeobfuscator(ServiceBase):
                     if is_valid_ip(netloc):
                         download_section.add_tag("network.static.ip", netloc)
             request.result.add_section(download_section)
+
+        if "windows-util-manipulation" in deobfuscator.traits:
+            heur = Heuristic(7)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, copy_trait in deobfuscator.traits["windows-util-manipulation"]:
+                heur_section.add_row(
+                    TableRow(
+                        {
+                            "Source": copy_trait["src"],
+                            "Destination": copy_trait["dst"],
+                            "Command [trun.]": command[:100],
+                        }
+                    )
+                )
+            request.result.add_section(heur_section)

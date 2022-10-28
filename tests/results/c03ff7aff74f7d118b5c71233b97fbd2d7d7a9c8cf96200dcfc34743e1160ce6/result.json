@@ -1,19 +1,25 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "bbfa3403de.ps1",
-                "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
-            },
-            {
-                "name": "c41d51d33d_deobfuscated.bat",
-                "sha256": "c41d51d33ddc134badd48cb9402c573428ce7e27504053ff1f2cdaf54f0479a9"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": []
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "bbfa3403de.ps1",
+        "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
+      },
+      {
+        "name": "c41d51d33d_deobfuscated.bat",
+        "sha256": "c41d51d33ddc134badd48cb9402c573428ce7e27504053ff1f2cdaf54f0479a9"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

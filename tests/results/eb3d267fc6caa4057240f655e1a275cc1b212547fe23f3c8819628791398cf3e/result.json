@@ -1,22 +1,73 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "a61687e537_deobfuscated.bat",
-                "sha256": "a61687e537d78b008c66efbeb45c423bdcd9eef9408607969f0de92c97cd9aaa"
-            },
-            {
-                "name": "e2f1fc6d7d.bat",
-                "sha256": "e2f1fc6d7d72c3bfeb2394600f90e447949843e895128005e5f0da0f0938da7c"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [
-            3,
-            4
-        ],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 450,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "[{\"Command [trun.]\": \"%@chcp@%\", \"Normalized [trun.]\": \"chcp %%A>nul\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 3,
+          "score": 250,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Execution of variable content",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Count\": 18, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 14, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%\"}, {\"Count\": 14, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%\"}, {\"Count\": 54, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 108, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 4,
+          "score": 200,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Multiple variable were used on the same line",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "a61687e537_deobfuscated.bat",
+        "sha256": "a61687e537d78b008c66efbeb45c423bdcd9eef9408607969f0de92c97cd9aaa"
+      },
+      {
+        "name": "e2f1fc6d7d.bat",
+        "sha256": "e2f1fc6d7d72c3bfeb2394600f90e447949843e895128005e5f0da0f0938da7c"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 3,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 4,
+        "signatures": []
+      }
+    ],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

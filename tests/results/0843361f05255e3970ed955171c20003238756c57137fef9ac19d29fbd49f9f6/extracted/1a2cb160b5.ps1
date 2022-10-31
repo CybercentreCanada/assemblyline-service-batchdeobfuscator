@@ -1,1 +1,0 @@
-&{start-process powershell -ArgumentList '-noprofile -file "~dp0DiagReport.ps1"' -verb RunAs}

@@ -7,6 +7,10 @@
   "files": {
     "extracted": [
       {
+        "name": "58e0eefe34.ps1",
+        "sha256": "58e0eefe348ff238521b3ae6570776e98098f3dde864fabe71e93f5a406c5b68"
+      },
+      {
         "name": "bbfa3403de.ps1",
         "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
       },

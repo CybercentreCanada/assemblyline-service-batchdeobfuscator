@@ -1,1 +1,0 @@
-$out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '"url": *".*",', '"url": "159.65.200.90:80",'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'

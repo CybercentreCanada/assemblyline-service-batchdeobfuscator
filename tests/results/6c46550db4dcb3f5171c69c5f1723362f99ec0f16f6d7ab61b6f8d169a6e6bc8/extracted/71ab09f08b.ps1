@@ -1,0 +1,1 @@
+$out = cat 'C:\Users\puncher\jin\config_background.json' | %%{$_ -replace '\"background\": *false,', '\"background\": true,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config_background.json'

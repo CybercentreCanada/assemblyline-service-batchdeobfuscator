@@ -62,6 +62,10 @@
   "files": {
     "extracted": [
       {
+        "name": "76ded9edd5.ps1",
+        "sha256": "76ded9edd5dd41559e9b6edc866ef9245498ade0546d4c645b71c5565dce609a"
+      },
+      {
         "name": "d27b063763_deobfuscated.bat",
         "sha256": "d27b063763e8754025ad290ac04290d79fb42da0e1dc5c5668ecbbe5bbbea286"
       }

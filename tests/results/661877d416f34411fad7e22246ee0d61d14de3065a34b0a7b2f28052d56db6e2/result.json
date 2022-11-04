@@ -74,6 +74,24 @@
         "tags": {},
         "title_text": "Windows Utility Manipulation",
         "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 1000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 1000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 2000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 2000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 2000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 2000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 2000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 2000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 1000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 10000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 10000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 10000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 10000\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 500\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 500\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 500\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 500\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 500\"}, {\"Filename\": \"\\\\svchost.exe\", \"Command [trun.]\": \"\\\\svchost.exe 100000\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 9,
+          "score": 0,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Execution of manipulated content",
+        "zeroize_on_tag_safe": false
       }
     ]
   },
@@ -106,6 +124,11 @@
       {
         "attack_ids": [],
         "heur_id": 7,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 9,
         "signatures": []
       }
     ],

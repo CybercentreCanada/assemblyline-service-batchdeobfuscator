@@ -56,6 +56,24 @@
         "tags": {},
         "title_text": "Multiple variable were used on the same line",
         "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Filename\": \"\\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf\", \"Command [trun.]\": \"\\\\\\u06b4\\u02fb\\u00bc\\u03f8\\u02f5.pdf\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 9,
+          "score": 0,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Execution of manipulated content",
+        "zeroize_on_tag_safe": false
       }
     ]
   },
@@ -87,6 +105,11 @@
       {
         "attack_ids": [],
         "heur_id": 4,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 9,
         "signatures": []
       }
     ],

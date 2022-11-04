@@ -70,6 +70,20 @@ heuristics:
     name: Windows Utility Manipulation
     score: 10
 
+  - description: >-
+      The set /p utility can be used to create a file by redirecting its prompt toward a file. It is a suspicious way to generate a file as it is not a common behaviour.
+    filetype: "code/batch"
+    heur_id: 8
+    name: File creation using set /p
+    score: 10
+
+  - description: >-
+      A file that was created from this script was called directly to be executed. May not be a sign of maliciousness but it is worth looking into.
+    filetype: "code/batch"
+    heur_id: 9
+    name: Execution of manipulated content
+    score: 0
+
 docker_config:
   image: ${REGISTRY}cccs/assemblyline-service-batchdeobfuscator:$SERVICE_TAG
   cpu_cores: 1

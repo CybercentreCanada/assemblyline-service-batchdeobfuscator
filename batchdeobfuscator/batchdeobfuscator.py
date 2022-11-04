@@ -1,5 +1,6 @@
 import hashlib
 import os
+import tempfile
 from urllib.parse import urlparse
 
 from assemblyline.common.net import is_valid_domain, is_valid_ip
@@ -13,7 +14,6 @@ from assemblyline_v4_service.common.result import (
     TableRow,
 )
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
-from multidecoder.analyzers.shell import find_powershell_strings, get_powershell_command
 
 
 class Batchdeobfuscator(ServiceBase):
@@ -23,30 +23,25 @@ class Batchdeobfuscator(ServiceBase):
     def start(self):
         self.log.debug("Starting batchdeobfuscator")
 
-    # TODO: Migrate to MultiDecoder when it won't keep quotes around the commands
-    def multidecoder_search_for_powershell(self, normalized_comm, working_directory, extracted_files):
-        matches = find_powershell_strings(normalized_comm.encode())
-
-        if not matches:
-            return
-
-        for match in matches:
-            powershell_command = get_powershell_command(match.value)
-            sha256hash = hashlib.sha256(powershell_command).hexdigest()
-            for _, extracted_file_hash in extracted_files.get("powershell", []):
-                if sha256hash == extracted_file_hash:
-                    continue
-            powershell_filename = f"{sha256hash[0:10]}.ps1"
-            extracted_files["powershell"].append((powershell_filename, sha256hash))
-            powershell_file_path = os.path.join(working_directory, powershell_filename)
-            with open(powershell_file_path, "wb") as f:
-                f.write(powershell_command)
-
     def execute(self, request: ServiceRequest):
         request.result = Result()
         deobfuscator = BatchDeobfuscator(complex_one_liner_threshold=self.config.get("heur6_min_number_line", 4))
 
-        bat_filename, extracted_files = deobfuscator.analyze(request.file_path, self.working_directory)
+        with open(request.file_path, "rb") as fh:
+            if fh.read(36) == b"REM Batch extracted by Characterize\n":
+                with tempfile.NamedTemporaryFile(dir=self.working_directory) as tf:
+                    tf.write(request.file_contents.lstrip(b"REM Batch extracted by Characterize\n"))
+                    tf.flush()
+                    bat_filename, extracted_files = deobfuscator.analyze(tf.name, self.working_directory)
+
+                with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
+                    new_bat_content = b"REM Batch extracted by Characterize\n" + fread.read()
+                    sha256hash = hashlib.sha256(new_bat_content).hexdigest()
+                    bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+                    with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:
+                        fwrite.write(new_bat_content)
+            else:
+                bat_filename, extracted_files = deobfuscator.analyze(request.file_path, self.working_directory)
 
         with open(os.path.join(self.working_directory, bat_filename), "rb") as f:
             sha256hash = hashlib.sha256(f.read()).hexdigest()
@@ -162,6 +157,34 @@ class Batchdeobfuscator(ServiceBase):
                         {
                             "Source": copy_trait["src"],
                             "Destination": copy_trait["dst"],
+                            "Command [trun.]": command[:100],
+                        }
+                    )
+                )
+            request.result.add_section(heur_section)
+
+        if "setp-file-redirection" in deobfuscator.traits:
+            heur = Heuristic(8)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, file_redirect in deobfuscator.traits["setp-file-redirection"]:
+                heur_section.add_row(
+                    TableRow(
+                        {
+                            "Filename": file_redirect,
+                            "Command [trun.]": command[:100],
+                        }
+                    )
+                )
+            request.result.add_section(heur_section)
+
+        if "manipulated-content-execution" in deobfuscator.traits:
+            heur = Heuristic(9)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, executed_file in deobfuscator.traits["manipulated-content-execution"]:
+                heur_section.add_row(
+                    TableRow(
+                        {
+                            "Filename": executed_file,
                             "Command [trun.]": command[:100],
                         }
                     )

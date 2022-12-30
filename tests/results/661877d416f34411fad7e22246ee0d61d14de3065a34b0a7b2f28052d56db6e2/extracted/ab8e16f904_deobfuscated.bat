@@ -824,7 +824,7 @@ goto DiskChk
 if ""=="-USB" (
 Exit
 )
-FOR /F "tokens=1,2,3 skip=2 delims=[]" %%i in (~nx0) do (
+FOR /F "tokens=1,2,3 skip=2 delims=[]" %%i in (script.bat) do (
 set code=%%i
 )
 set name=%%j

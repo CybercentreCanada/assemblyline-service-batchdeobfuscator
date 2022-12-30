@@ -1,0 +1,50 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 250,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "[{\"Command [trun.]\": \"%WinDir%\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command \\\"\", \"Normalized [trun.]\": \"C:\\\\WINDOWS\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 3,
+          "score": 250,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Execution of variable content",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "1df5fda51f.ps1",
+        "sha256": "1df5fda51fbcd7a3c6506d2ac3ec0d88528374b1c5eab036c7ae2a0f96d5aa83"
+      },
+      {
+        "name": "8319df4ed0_deobfuscated.bat",
+        "sha256": "8319df4ed0a9e5866fc57f9275ceb27b62abe4836debc9a7c5a8253653bf70a0"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 3,
+        "signatures": []
+      }
+    ],
+    "tags": {},
+    "temp_submission_data": {}
+  }
+}

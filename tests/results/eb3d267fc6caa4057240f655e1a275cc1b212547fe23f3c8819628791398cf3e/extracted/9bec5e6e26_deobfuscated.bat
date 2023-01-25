@@ -14,7 +14,7 @@ set "@hi@="
 for /l %%N in (0 1 93) do (
 set "="
 )
-cmd /c ^script.bat" "
+cmd /c ^C:\Users\al\Downloads\script.bat" "
 chcp %%A>nul
 exit /b
 :

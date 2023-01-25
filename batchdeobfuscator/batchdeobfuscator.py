@@ -35,14 +35,14 @@ class Batchdeobfuscator(ServiceBase):
         deobfuscator = BatchDeobfuscator(complex_one_liner_threshold=self.config.get("heur6_min_number_line", 4))
 
         with open(request.file_path, "rb") as fh:
-            if fh.read(36) == b"REM Batch extracted by Characterize\n":
+            if fh.read(36) == b"REM Batch extracted by Assemblyline\n":
                 with tempfile.NamedTemporaryFile(dir=self.working_directory) as tf:
-                    tf.write(request.file_contents.lstrip(b"REM Batch extracted by Characterize\n"))
+                    tf.write(request.file_contents.lstrip(b"REM Batch extracted by Assemblyline\n"))
                     tf.flush()
                     bat_filename, extracted_files = deobfuscator.analyze(tf.name, self.working_directory)
 
                 with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
-                    new_bat_content = b"REM Batch extracted by Characterize\n" + fread.read()
+                    new_bat_content = b"REM Batch extracted by Assemblyline\n" + fread.read()
                     sha256hash = hashlib.sha256(new_bat_content).hexdigest()
                     bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
                     with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:

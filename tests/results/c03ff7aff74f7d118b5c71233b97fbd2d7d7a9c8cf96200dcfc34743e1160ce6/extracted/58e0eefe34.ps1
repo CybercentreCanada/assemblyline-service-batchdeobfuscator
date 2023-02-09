@@ -1,0 +1,1 @@
+Get-AppxPackage -Name "Microsoft.OneDriveSync

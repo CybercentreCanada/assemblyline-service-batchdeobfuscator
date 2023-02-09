@@ -17,6 +17,73 @@ enabled: true
 is_external: false
 licence_count: 0
 
+config:
+  heur6_min_number_line: 4
+
+heuristics:
+  - description: >-
+      Commands are ungrouped and normalized first. If a normalized command yield multiple groups, it may be a very strong sign of obfuscation.
+    filetype: "code/batch"
+    heur_id: 1
+    name: Additional command grouping after command normalization
+    score: 50
+
+  - description: >-
+      Those binary could be used to run script or executables. They are not often used so their usage is of interest.
+    filetype: "code/batch"
+    heur_id: 2
+    name: Possible rare LOLBAS found
+    score: 50
+
+  - description: >-
+      The executed command is generated from the content of a variable. This is a sign of obfuscation.
+    filetype: "code/batch"
+    heur_id: 3
+    name: Execution of variable content
+    score: 250
+
+  - description: >-
+      Variable usage is not surprising in a script, but the use of many of them in a single line is suspicious.
+    filetype: "code/batch"
+    heur_id: 4
+    name: Multiple variable were used on the same line
+    score: 200
+
+  - description: >-
+      File download is not cause for suspicion, but combined with other factors like one-liner, it can be valuable to bring it up for further analysis.
+    filetype: "code/batch"
+    heur_id: 5
+    name: External file download in batch script
+    score: 400
+
+  - description: >-
+      Batch file is a complex one-liner. Usually because it's extracted out of another file, but since it expanded to multiple lines, it is worth noting it.
+    filetype: "code/batch"
+    heur_id: 6
+    name: Complexe One-Liner
+    score: 10
+
+  - description: >-
+      Some items in the common Windows directories are being manipulated. This is often associated with execution of such items with the goal of hiding it.
+    filetype: "code/batch"
+    heur_id: 7
+    name: Windows Utility Manipulation
+    score: 10
+
+  - description: >-
+      The set /p utility can be used to create a file by redirecting its prompt toward a file. It is a suspicious way to generate a file as it is not a common behaviour.
+    filetype: "code/batch"
+    heur_id: 8
+    name: File creation using set /p
+    score: 10
+
+  - description: >-
+      A file that was created from this script was called directly to be executed. May not be a sign of maliciousness but it is worth looking into.
+    filetype: "code/batch"
+    heur_id: 9
+    name: Execution of manipulated content
+    score: 0
+
 docker_config:
   image: ${REGISTRY}cccs/assemblyline-service-batchdeobfuscator:$SERVICE_TAG
   cpu_cores: 1

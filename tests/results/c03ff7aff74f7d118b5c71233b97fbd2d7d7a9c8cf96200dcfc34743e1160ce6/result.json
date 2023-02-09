@@ -1,19 +1,29 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "bbfa3403ded97f60d80df1def_extracted_powershell.ps1",
-                "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
-            },
-            {
-                "name": "deobfuscated_bat.bat",
-                "sha256": "e03c5ba6faf2441cb58d6ed5ee2c80f90cd2f568ef921dfaa7c853ec963a12a0"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": []
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "58e0eefe34.ps1",
+        "sha256": "58e0eefe348ff238521b3ae6570776e98098f3dde864fabe71e93f5a406c5b68"
+      },
+      {
+        "name": "bbfa3403de.ps1",
+        "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
+      },
+      {
+        "name": "c41d51d33d_deobfuscated.bat",
+        "sha256": "c41d51d33ddc134badd48cb9402c573428ce7e27504053ff1f2cdaf54f0479a9"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

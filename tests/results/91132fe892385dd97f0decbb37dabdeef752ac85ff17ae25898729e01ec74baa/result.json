@@ -1,19 +1,25 @@
 {
-    "response": {
-        "supplementary": [],
-        "extracted": [
-            {
-                "name": "363b975e50a403a8bd7efac9d_extracted_powershell.ps1",
-                "sha256": "363b975e50a403a8bd7efac9d76bb31164366bf355d61ec73decd01e96e4919b"
-            },
-            {
-                "name": "deobfuscated_bat.bat",
-                "sha256": "3c2dfd14db0045ea5c505523e3d52de805e38ef1b31eb4f25dcd02cf28fc4915"
-            }
-        ]
-    },
-    "result": {
-        "heuristics": [],
-        "tags": {}
-    }
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": []
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "363b975e50.ps1",
+        "sha256": "363b975e50a403a8bd7efac9d76bb31164366bf355d61ec73decd01e96e4919b"
+      },
+      {
+        "name": "3c2dfd14db_deobfuscated.bat",
+        "sha256": "3c2dfd14db0045ea5c505523e3d52de805e38ef1b31eb4f25dcd02cf28fc4915"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {},
+    "temp_submission_data": {}
+  }
 }

@@ -8,19 +8,19 @@
     "extracted": [
       {
         "name": "6997d60bba.ps1",
-        "sha256": "6997d60bba2d5ffa0249719a0d31c6cfe0b880b694c33aaba7602da647f8491a"
+        "sha256": "103fb95c630139b4a1021a142c43f13fe3b69997603229e57b1bf08d2b699ae7"
+      },
+      {
+        "name": "cc948ca4bc.ps1",
+        "sha256": "61039962b6527864d5851ac045ba0939c9901aff4878b8e26e9ec9c89443f8d9"
       },
       {
         "name": "82ac15d2b4_deobfuscated.bat",
         "sha256": "82ac15d2b40f1bc839e0681942430a2780289dfa9dd75846795ff80d14b91a3c"
       },
       {
-        "name": "cc948ca4bc.ps1",
-        "sha256": "cc948ca4bc74c464e6f84b290a4359d1c3cd64149d212f5e673383afb7f893e1"
-      },
-      {
         "name": "f3e9dcff73.ps1",
-        "sha256": "f3e9dcff7370cd46f7166f3abd96b06a224430b875c9b5b262f26add51f1fbb8"
+        "sha256": "b5a2da3547e98b87baad3cda95f7e3c7cd1573d67aa167f768ba13fc3162366c"
       }
     ],
     "supplementary": []

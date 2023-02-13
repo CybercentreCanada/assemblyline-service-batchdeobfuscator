@@ -7,12 +7,12 @@
   "files": {
     "extracted": [
       {
-        "name": "363b975e50.ps1",
-        "sha256": "363b975e50a403a8bd7efac9d76bb31164366bf355d61ec73decd01e96e4919b"
-      },
-      {
         "name": "3c2dfd14db_deobfuscated.bat",
         "sha256": "3c2dfd14db0045ea5c505523e3d52de805e38ef1b31eb4f25dcd02cf28fc4915"
+      },
+      {
+        "name": "363b975e50.ps1",
+        "sha256": "6fe3492c15b5d1ee5806d54eafd524c9141f2e7c8d3d086a3683e489325e632a"
       }
     ],
     "supplementary": []

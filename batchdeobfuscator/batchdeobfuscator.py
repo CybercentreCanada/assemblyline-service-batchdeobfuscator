@@ -17,6 +17,10 @@ from assemblyline_v4_service.common.result import (
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 
 
+CUSTOM_PS1_ID = b"#!/usr/bin/env pwsh\n"
+CUSTOM_BATCH_ID = b"REM Batch extracted by Assemblyline\n"
+
+
 def truncate_command(key, value, max_len=100):
     if len(value) > max_len:
         return (f"{key} [trun.]", value[:100])
@@ -35,14 +39,14 @@ class Batchdeobfuscator(ServiceBase):
         deobfuscator = BatchDeobfuscator(complex_one_liner_threshold=self.config.get("heur6_min_number_line", 4))
 
         with open(request.file_path, "rb") as fh:
-            if fh.read(36) == b"REM Batch extracted by Assemblyline\n":
+            if fh.read(36) == CUSTOM_BATCH_ID:
                 with tempfile.NamedTemporaryFile(dir=self.working_directory) as tf:
-                    tf.write(request.file_contents.lstrip(b"REM Batch extracted by Assemblyline\n"))
+                    tf.write(request.file_contents.lstrip(CUSTOM_BATCH_ID))
                     tf.flush()
                     bat_filename, extracted_files = deobfuscator.analyze(tf.name, self.working_directory)
 
                 with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
-                    new_bat_content = b"REM Batch extracted by Assemblyline\n" + fread.read()
+                    new_bat_content = CUSTOM_BATCH_ID + fread.read()
                     sha256hash = hashlib.sha256(new_bat_content).hexdigest()
                     bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
                     with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:
@@ -70,8 +74,20 @@ class Batchdeobfuscator(ServiceBase):
             )
 
         for extracted_file_name, _ in extracted_files.get("powershell", []):
+            self.log.debug(f"Adding extracted file {extracted_file_name}")
+            file_path = os.path.join(self.working_directory, extracted_file_name)
+
+            with open(file_path, "rb") as f:
+                file_contents = f.read()
+
+            # Ensure file is identified as powershell by adding the custom header
+            if CUSTOM_PS1_ID not in file_contents:
+                file_contents = CUSTOM_PS1_ID + file_contents
+                with open(file_path, "wb") as f:
+                    f.write(file_contents)
+
             request.add_extracted(
-                os.path.join(self.working_directory, extracted_file_name),
+                file_path,
                 extracted_file_name,
                 "Discovered PowerShell code",
                 safelist_interface=self.api_interface,

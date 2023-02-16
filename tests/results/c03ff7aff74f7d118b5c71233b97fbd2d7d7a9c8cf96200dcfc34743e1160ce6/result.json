@@ -7,12 +7,12 @@
   "files": {
     "extracted": [
       {
-        "name": "58e0eefe34.ps1",
-        "sha256": "58e0eefe348ff238521b3ae6570776e98098f3dde864fabe71e93f5a406c5b68"
+        "name": "bbfa3403de.ps1",
+        "sha256": "13aa004d79f173e570b1bd694e227812f4577d1eaa7ace6878103c9af6ed9c32"
       },
       {
-        "name": "bbfa3403de.ps1",
-        "sha256": "bbfa3403ded97f60d80df1def8d925be0b055d1628a2353886595f6f5db70ee5"
+        "name": "58e0eefe34.ps1",
+        "sha256": "b84fad551f05730569a3bf07e66846cf7b5b689fb0c58a8f301ead5873eb06b1"
       },
       {
         "name": "c41d51d33d_deobfuscated.bat",

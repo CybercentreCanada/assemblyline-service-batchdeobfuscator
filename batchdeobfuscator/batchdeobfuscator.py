@@ -70,7 +70,7 @@ class Batchdeobfuscator(ServiceBase):
                     if newlines == 0:
                         new_bat_content = new_bat_content[:-2]
                     else:
-                        new_bat_content = new_bat_content + b"".join([b"\r\n"] * (newlines - 1))
+                        new_bat_content = new_bat_content + b"\r\n" * (newlines - 1)
 
                     sha256hash = hashlib.sha256(new_bat_content).hexdigest()
                     bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"

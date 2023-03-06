@@ -9,10 +9,6 @@
       {
         "name": "6fdb5e966f.ps1",
         "sha256": "1d66b2c5a4ed0ad256e4667aea49e24ea7d3a9153a9c530fb8dfb547facc4463"
-      },
-      {
-        "name": "a9b277e2bc_deobfuscated.bat",
-        "sha256": "a9b277e2bc97ec1bcc5db5126a9398f891309c3e42554230a236679cb81507ee"
       }
     ],
     "supplementary": []

@@ -1,1 +1,2 @@
+#!/usr/bin/env pwsh
 $out = cat 'C:\Users\puncher\jin\config.json' | %%{$_ -replace '\"donate-level\": *\d*,', '\"donate-level\": 1,'} | Out-String; $out | Out-File -Encoding ASCII 'C:\Users\puncher\jin\config.json'

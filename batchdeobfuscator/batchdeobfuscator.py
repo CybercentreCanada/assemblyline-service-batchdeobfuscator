@@ -13,9 +13,7 @@ from assemblyline_v4_service.common.result import (
     ResultTableSection,
     TableRow,
 )
-
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
-
 
 CUSTOM_PS1_ID = b"#!/usr/bin/env pwsh\n"
 CUSTOM_BATCH_ID = b"REM Batch extracted by Assemblyline\n"
@@ -54,6 +52,31 @@ class Batchdeobfuscator(ServiceBase):
             else:
                 bat_filename, extracted_files = deobfuscator.analyze(request.file_path, self.working_directory)
 
+            content = fh.read()
+            if content != b"":
+                # The content would be empty if the file is smaller than 36 bytes. We can ignore fixing those files.
+                newlines = 0
+                while content[-1] == 10:
+                    if content[-2] == 13:
+                        content = content[:-2]
+                    else:
+                        content = content[:-1]
+                    newlines += 1
+
+                if newlines != 1:
+                    with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
+                        new_bat_content = fread.read()
+
+                    if newlines == 0:
+                        new_bat_content = new_bat_content[:-2]
+                    else:
+                        new_bat_content = new_bat_content + b"\r\n" * (newlines - 1)
+
+                    sha256hash = hashlib.sha256(new_bat_content).hexdigest()
+                    bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+                    with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:
+                        fwrite.write(new_bat_content)
+
         with open(os.path.join(self.working_directory, bat_filename), "rb") as f:
             sha256hash = hashlib.sha256(f.read()).hexdigest()
 
@@ -66,15 +89,27 @@ class Batchdeobfuscator(ServiceBase):
             )
 
         for extracted_file_name, _ in extracted_files.get("batch", []):
+            self.log.debug(f"Adding extracted batch file {extracted_file_name}")
+            file_path = os.path.join(self.working_directory, extracted_file_name)
+
+            with open(file_path, "rb") as f:
+                file_contents = f.read()
+
+            # Ensure file is identified as batch by adding the custom header
+            if CUSTOM_BATCH_ID not in file_contents:
+                file_contents = CUSTOM_BATCH_ID + file_contents
+                with open(file_path, "wb") as f:
+                    f.write(file_contents)
+
             request.add_extracted(
-                os.path.join(self.working_directory, extracted_file_name),
+                file_path,
                 extracted_file_name,
                 f"{extracted_file_name} sub command extracted",
                 safelist_interface=self.api_interface,
             )
 
         for extracted_file_name, _ in extracted_files.get("powershell", []):
-            self.log.debug(f"Adding extracted file {extracted_file_name}")
+            self.log.debug(f"Adding extracted powershell file {extracted_file_name}")
             file_path = os.path.join(self.working_directory, extracted_file_name)
 
             with open(file_path, "rb") as f:

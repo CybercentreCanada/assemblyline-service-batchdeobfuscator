@@ -26,12 +26,12 @@
   "files": {
     "extracted": [
       {
-        "name": "1df5fda51f.ps1",
-        "sha256": "4a4c419489c0952bc32673b803346be11d31536f6a4f1b2f765430f2f02fc20d"
+        "name": "11586313a1_deobfuscated.bat",
+        "sha256": "11586313a1353ab40c08edf664836c0328ed87458405b3b67866a576ed0db803"
       },
       {
-        "name": "8319df4ed0_deobfuscated.bat",
-        "sha256": "8319df4ed0a9e5866fc57f9275ceb27b62abe4836debc9a7c5a8253653bf70a0"
+        "name": "1df5fda51f.ps1",
+        "sha256": "4a4c419489c0952bc32673b803346be11d31536f6a4f1b2f765430f2f02fc20d"
       }
     ],
     "supplementary": []

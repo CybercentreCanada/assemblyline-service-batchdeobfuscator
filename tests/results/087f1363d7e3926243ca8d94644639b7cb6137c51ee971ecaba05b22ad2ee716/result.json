@@ -80,12 +80,12 @@
   "files": {
     "extracted": [
       {
-        "name": "7a82056839.bat",
-        "sha256": "7a820568396ce34cc0e161e8600d8f10a5883ae9d45f68430aa1b31a97b87989"
+        "name": "8e29548e85.bat",
+        "sha256": "13a2e58acea560dc975eefa35426b13dc91dec46c9b3cbe528fd603210d753ed"
       },
       {
-        "name": "bce2efb1b8_deobfuscated.bat",
-        "sha256": "bce2efb1b8eec24eac6a9e40920e7169b4151f78a311faeeab1d29721a583f49"
+        "name": "253cfadc2a_deobfuscated.bat",
+        "sha256": "253cfadc2a577f9eefbdf2079b6d790dff58a98e4c83c1e6e4d4653db521f427"
       }
     ],
     "supplementary": []

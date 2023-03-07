@@ -42,6 +42,10 @@
         "sha256": "62a20bab94fcdcf950bf48bee078b15d3e058fcce4398c7b2661ea94fcbad6e1"
       },
       {
+        "name": "6cdc614645_deobfuscated.bat",
+        "sha256": "6cdc614645532742d6bdad29bc154781e350a2b5c6e3f949894e8228c78020dc"
+      },
+      {
         "name": "f9025f2ca8.ps1",
         "sha256": "716bfa87ae17802e9f65c8c56d31a8268a7faa25596b778b357753f9c9668d05"
       },
@@ -52,10 +56,6 @@
       {
         "name": "8f4df89c96.ps1",
         "sha256": "9efe8debabb1bdcacc227ecafbc2fd20250b21de21bb7abb3fb1d87457c5af70"
-      },
-      {
-        "name": "a5a6affe68_deobfuscated.bat",
-        "sha256": "a5a6affe6868e32eb24b179c271cb3f4d1e36686d6868a4e7b2730b241acd2b0"
       },
       {
         "name": "1048ad3089.ps1",

@@ -5,7 +5,12 @@
     "sections": []
   },
   "files": {
-    "extracted": [],
+    "extracted": [
+      {
+        "name": "77919a63a6_deobfuscated.bat",
+        "sha256": "77919a63a63f50a3003cc7595234df7bb412325e9250ad6133ca404e3d8852c6"
+      }
+    ],
     "supplementary": []
   },
   "results": {

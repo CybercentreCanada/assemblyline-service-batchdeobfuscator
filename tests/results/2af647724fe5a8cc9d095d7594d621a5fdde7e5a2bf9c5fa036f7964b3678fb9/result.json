@@ -9,6 +9,10 @@
       {
         "name": "5d4bd1b97f.ps1",
         "sha256": "163ba3e453f63a76500ca5b3e70151b82ed277745fed584e949fb8fdbc27dd5d"
+      },
+      {
+        "name": "ba37f4ab4e_deobfuscated.bat",
+        "sha256": "ba37f4ab4e4743838a8124873c3a2e3fae25e1839d6f2bf5b99f977ef0a006d1"
       }
     ],
     "supplementary": []

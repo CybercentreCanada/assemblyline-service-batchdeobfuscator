@@ -11,12 +11,12 @@
         "sha256": "13aa004d79f173e570b1bd694e227812f4577d1eaa7ace6878103c9af6ed9c32"
       },
       {
-        "name": "58e0eefe34.ps1",
-        "sha256": "b84fad551f05730569a3bf07e66846cf7b5b689fb0c58a8f301ead5873eb06b1"
+        "name": "7797f5abfa_deobfuscated.bat",
+        "sha256": "7797f5abfa4f5454a3868dc91b9764e95a4a58f25ab76002c481bb881a6c4205"
       },
       {
-        "name": "c41d51d33d_deobfuscated.bat",
-        "sha256": "c41d51d33ddc134badd48cb9402c573428ce7e27504053ff1f2cdaf54f0479a9"
+        "name": "58e0eefe34.ps1",
+        "sha256": "b84fad551f05730569a3bf07e66846cf7b5b689fb0c58a8f301ead5873eb06b1"
       }
     ],
     "supplementary": []

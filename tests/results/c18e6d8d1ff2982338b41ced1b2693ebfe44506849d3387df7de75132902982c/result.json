@@ -2,7 +2,19 @@
   "extra": {
     "drop_file": false,
     "score": 0,
-    "sections": []
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "[[\"TABLE\", [{\"Command [trun.]\": \"mshta \\\"vbscript:CreateObject(\\\"Shell.Application\\\").ShellExecute(\\\"C:\\\\Users\\\\al\\\\Downloads\\\\script.bat\\\", ,\"}]]]",
+        "body_format": "MULTI",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": null,
+        "tags": {},
+        "title_text": "Mshta command found",
+        "zeroize_on_tag_safe": false
+      }
+    ]
   },
   "files": {
     "extracted": [

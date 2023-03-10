@@ -85,7 +85,7 @@ heuristics:
     score: 0
 
   - description: >-
-      Rundll32 is used to load dynamic link libraries, and can often by abused by malware author to load other payloads to further the compromise.
+      Rundll32 is used to load dynamic link libraries, and can often be abused by malware author to load other payloads to further the compromise.
     filetype: "code/batch"
     heur_id: 10
     name: Rundll32 execution

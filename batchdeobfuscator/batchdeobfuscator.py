@@ -40,7 +40,7 @@ class Batchdeobfuscator(ServiceBase):
         deobfuscator = BatchDeobfuscator(complex_one_liner_threshold=self.config.get("heur6_min_number_line", 4))
 
         with open(request.file_path, "rb") as fh:
-            if fh.read(36) == CUSTOM_BATCH_ID:
+            if fh.read(len(CUSTOM_BATCH_ID)) == CUSTOM_BATCH_ID:
                 with tempfile.NamedTemporaryFile(dir=self.working_directory) as tf:
                     tf.write(request.file_contents[len(CUSTOM_BATCH_ID) :])
                     tf.flush()

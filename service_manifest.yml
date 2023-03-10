@@ -84,6 +84,15 @@ heuristics:
     name: Execution of manipulated content
     score: 0
 
+  - description: >-
+      Rundll32 is used to load dynamic link libraries, and can often be abused by malware author to load other payloads to further the compromise.
+    filetype: "code/batch"
+    heur_id: 10
+    name: Rundll32 execution
+    score: 0
+    signature_score_map:
+      internet_download: 500
+
 docker_config:
   image: ${REGISTRY}cccs/assemblyline-service-batchdeobfuscator:$SERVICE_TAG
   cpu_cores: 1

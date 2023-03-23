@@ -213,7 +213,7 @@ class Batchdeobfuscator(ServiceBase):
                 heur_section.add_row(TableRow({"Filename": file_redirect, cmd_title: cmd_value}))
                 file_content = deobfuscator.modified_filesystem.get(file_redirect.lower())
                 if file_content and file_content.get("type", "") == "content":
-                    extracted_filename = os.path.join(self.working_directory, file_redirect)
+                    extracted_filename = os.path.join(self.working_directory, file_redirect.lstrip("/"))
                     with open(extracted_filename, "w") as f:
                         f.write(file_content["content"])
                     request.add_extracted(extracted_filename, file_redirect, "Set /p redirection file creation")

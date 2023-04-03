@@ -7,7 +7,7 @@
         "auto_collapse": false,
         "body": "[{\"Command\": \"if \\\"!token:~%%B,1!\\\"==\\\"\\\" set/A \\\"len&=~1<<%%A\\\"\", \"Normalized\": \"if \\\"\\\"==\\\"\\\" set/A \\\"len&=~1<<%%A\\\"\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],

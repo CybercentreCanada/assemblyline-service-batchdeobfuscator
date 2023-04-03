@@ -7,7 +7,7 @@
         "auto_collapse": false,
         "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"IF EXIST \\\"C:\\\\WINDOWS\\\\CouponsBar.dll\\\" regsvr32 /u /s \\\"C:\\\\WINDOWS\\\\CouponsBar.dll\\\" (\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],

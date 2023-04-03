@@ -7,7 +7,7 @@
         "auto_collapse": false,
         "body": "[{\"Command\": \"%\\u00f2:~33,1%%\\u00f2:~50,1%%\\u00f2:~51,1%%\\u00f2:~63,1%%\\u00f2:~15,1%%\\u00f2:~5,1%%\\u00f2:~15,1%%\\u00f2:~61,1%%\\u00f2:~61,1%\", \"Normalized\": \"@echo off\"}, {\"Command [trun.]\": \"%\\u00f2:~44,1%%\\u00f2:~50,1%%\\u00f2:~34,1%%\\u00f2:~5,1%%\\u00f2:~26,1%%\\u00f2:~17,1%%\\u00f2:~10,1%%\\u00f2:~34,1%%\\u00f2:~54,1%%\\u00f2:~16,1%%\\u00f2:~50,1%%\\u00f2\", \"Normalized\": \"rem Example of how to set command prompt window title\"}, {\"Command [trun.]\": \"%\\u00f2:~44,1%%\\u00f2:~50,1%%\\u00f2:~34,1%%\\u00f2:~5,1%%\\u00f2:~13,1%%\\u00f2:~15,1%%\\u00f2:~56,1%%\\u00f2:~61,1%%\\u00f2:~58,1%%\\u00f2:~12,1%%\\u00f2:~49,1%%\\u00f2\", \"Normalized\": \"rem Configure the environment for software tool\"}, {\"Command [trun.]\": \"%\\u00f2:~59,1%%\\u00f2:~50,1%%\\u00f2:~9,1%%\\u00f2:~5,1%%\\u00f2:~26,1%%\\u00f2:~47,1%%\\u00f2:~32,1%_%\\u00f2:~32,1%%\\u00f2:~60,1%%\\u00f2:~22,1%%\\u00f2:~6,1%=%\\u00f2\", \"Normalized\": \"set ENV_VAR1=some value\"}, {\"Command [trun.]\": \"%\\u00f2:~59,1%%\\u00f2:~50,1%%\\u00f2:~9,1%%\\u00f2:~5,1%%\\u00f2:~26,1%%\\u00f2:~47,1%%\\u00f2:~32,1%_%\\u00f2:~32,1%%\\u00f2:~60,1%%\\u00f2:~22,1%%\\u00f2:~4,1%=%\\u00f2\", \"Normalized\": \"set ENV_VAR2=some value\"}, {\"Command [trun.]\": \"%\\u00f2:~44,1%%\\u00f2:~50,1%%\\u00f2:~34,1%%\\u00f2:~5,1%%\\u00f2:~19,1%%\\u00f2:~50,1%%\\u00f2:~9,1%%\\u00f2:~5,1%%\\u00f2:~9,1%%\\u00f2:~63,1%%\\u00f2:~50,1%%omPa\", \"Normalized\": \"rem Set the title to indicate that the command prompt window is configured for ABC software.\"}, {\"Command [trun.]\": \"%\\u00f2:~9,1%%\\u00f2:~58,1%%\\u00favKs%%\\u00f2:~9,1%%\\u00f2:~16,1%%\\u00f2:~50,1%%bVYJ%%\\u00f2:~5,1%%\\u00f2:~13,1%%\\u00f2:~15,1%%\\u00f2:~34,1%%\\u00f2:~34,1%%\", \"Normalized\": \"title Command shell window for ABC software\"}, {\"Command\": \"%\\u00f2:~50,1%%\\u00f2:~17,1%%\\u00f2:~58,1%%\\u00f2:~9,1%%\\u00f2:~5,1%/%\\u00f2:~1,1%%\\u00f2:~5,1%%\\u00f2:~38,1%\", \"Normalized\": \"exit /b 0\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],
@@ -25,7 +25,7 @@
         "auto_collapse": false,
         "body": "[{\"Count\": 55, \"Command [trun.]\": \"%\\u00f2:~44,1%%\\u00f2:~50,1%%\\u00f2:~34,1%%\\u00f2:~5,1%%\\u00f2:~26,1%%\\u00f2:~17,1%%\\u00f2:~10,1%%\\u00f2:~34,1%%\\u00f2:~54,1%%\\u00f2:~16,1%%\\u00f2:~50,1%%\\u00f2\", \"Normalized\": \"rem Example of how to set command prompt window title\"}, {\"Count\": 48, \"Command [trun.]\": \"%\\u00f2:~44,1%%\\u00f2:~50,1%%\\u00f2:~34,1%%\\u00f2:~5,1%%\\u00f2:~13,1%%\\u00f2:~15,1%%\\u00f2:~56,1%%\\u00f2:~61,1%%\\u00f2:~58,1%%\\u00f2:~12,1%%\\u00f2:~49,1%%\\u00f2\", \"Normalized\": \"rem Configure the environment for software tool\"}, {\"Count\": 21, \"Command [trun.]\": \"%\\u00f2:~59,1%%\\u00f2:~50,1%%\\u00f2:~9,1%%\\u00f2:~5,1%%\\u00f2:~26,1%%\\u00f2:~47,1%%\\u00f2:~32,1%_%\\u00f2:~32,1%%\\u00f2:~60,1%%\\u00f2:~22,1%%\\u00f2:~6,1%=%\\u00f2\", \"Normalized\": \"set ENV_VAR1=some value\"}, {\"Count\": 21, \"Command [trun.]\": \"%\\u00f2:~59,1%%\\u00f2:~50,1%%\\u00f2:~9,1%%\\u00f2:~5,1%%\\u00f2:~26,1%%\\u00f2:~47,1%%\\u00f2:~32,1%_%\\u00f2:~32,1%%\\u00f2:~60,1%%\\u00f2:~22,1%%\\u00f2:~4,1%=%\\u00f2\", \"Normalized\": \"set ENV_VAR2=some value\"}, {\"Count\": 93, \"Command [trun.]\": \"%\\u00f2:~44,1%%\\u00f2:~50,1%%\\u00f2:~34,1%%\\u00f2:~5,1%%\\u00f2:~19,1%%\\u00f2:~50,1%%\\u00f2:~9,1%%\\u00f2:~5,1%%\\u00f2:~9,1%%\\u00f2:~63,1%%\\u00f2:~50,1%%omPa\", \"Normalized\": \"rem Set the title to indicate that the command prompt window is configured for ABC software.\"}, {\"Count\": 46, \"Command [trun.]\": \"%\\u00f2:~9,1%%\\u00f2:~58,1%%\\u00favKs%%\\u00f2:~9,1%%\\u00f2:~16,1%%\\u00f2:~50,1%%bVYJ%%\\u00f2:~5,1%%\\u00f2:~13,1%%\\u00f2:~15,1%%\\u00f2:~34,1%%\\u00f2:~34,1%%\", \"Normalized\": \"title Command shell window for ABC software\"}]",
         "body_format": "TABLE",
-        "classification": "TLP:W",
+        "classification": "TLP:C",
         "depth": 0,
         "heuristic": {
           "attack_ids": [],
@@ -44,8 +44,8 @@
   "files": {
     "extracted": [
       {
-        "name": "83b82ce9d8_deobfuscated.bat",
-        "sha256": "83b82ce9d83e80c8c411026c123e881e44412df116634bab77c410b04c44a835"
+        "name": "a644c41dd8_deobfuscated.bat",
+        "sha256": "a644c41dd835207993c32b676424f703d112ca369732934c1b2db2eacbfa4c9d"
       }
     ],
     "supplementary": []

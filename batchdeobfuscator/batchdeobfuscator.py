@@ -59,21 +59,27 @@ class Batchdeobfuscator(ServiceBase):
             if content != b"":
                 # The content would be empty if the file is smaller than 36 bytes. We can ignore fixing those files.
                 newlines = 0
+                use_linux_newlines = False
                 while content[-1] == 10:  # b'\n'
                     if content[-2] == 13:  # b'\r'
                         content = content[:-2]
                     else:
                         content = content[:-1]
+                        use_linux_newlines = True
                     newlines += 1
 
-                if newlines != 1:
+                if newlines != 1 or use_linux_newlines:
                     with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
                         new_bat_content = fread.read()
 
+                    if use_linux_newlines:
+                        # No need to bother with the ID-line, it is always using a linux newline
+                        new_bat_content = new_bat_content.replace(b"\r\n", b"\n")
+
                     if newlines == 0:
                         new_bat_content = new_bat_content[:-2]
-                    else:
-                        new_bat_content = new_bat_content + b"\r\n" * (newlines - 1)
+                    elif newlines >= 2:
+                        new_bat_content = new_bat_content + (b"\n" if use_linux_newlines else b"\r\n") * (newlines - 1)
 
                     sha256hash = hashlib.sha256(new_bat_content).hexdigest()
                     bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
@@ -213,7 +219,7 @@ class Batchdeobfuscator(ServiceBase):
                 heur_section.add_row(TableRow({"Filename": file_redirect, cmd_title: cmd_value}))
                 file_content = deobfuscator.modified_filesystem.get(file_redirect.lower())
                 if file_content and file_content.get("type", "") == "content":
-                    extracted_filename = os.path.join(self.working_directory, file_redirect)
+                    extracted_filename = os.path.join(self.working_directory, file_redirect.lstrip("/"))
                     with open(extracted_filename, "w") as f:
                         f.write(file_content["content"])
                     request.add_extracted(extracted_filename, file_redirect, "Set /p redirection file creation")

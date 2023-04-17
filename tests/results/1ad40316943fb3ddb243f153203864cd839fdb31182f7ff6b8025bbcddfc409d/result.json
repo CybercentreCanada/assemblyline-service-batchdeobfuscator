@@ -89,7 +89,7 @@
       },
       {
         "auto_collapse": false,
-        "body": "[[\"TABLE\", [{\"Command [trun.]\": \"mshta vbscript:Execute(\\\"msgbox You may need to download and install Firefox Browser if not installed\"}, {\"Command\": \"mshta vbscript:Execute(\\\"msgbox Firefox and addon links have been generated in this folder:close\\\")\"}]]]",
+        "body": "[[\"TABLE\", [{\"Command [trun.]\": \"mshta vbscript:Execute(\\\"msgbox \\\"\\\"You may need to download and install Firefox Browser if not install\"}, {\"Command [trun.]\": \"mshta vbscript:Execute(\\\"msgbox \\\"\\\"Firefox and addon links have been generated in this folder\\\"\\\":close\\\"\"}]]]",
         "body_format": "MULTI",
         "classification": "TLP:C",
         "depth": 0,
@@ -107,8 +107,8 @@
         "sha256": "35f7c387cbeb502344ba11a4cbc29bcda94a505abaac9bbc220c905eefdf6eea"
       },
       {
-        "name": "7cde2846a6_deobfuscated.bat",
-        "sha256": "7cde2846a6b7151856bac8573874c57822217d7e9a85b79be7571c05b9ad80d8"
+        "name": "5308472d48_deobfuscated.bat",
+        "sha256": "5308472d48488c93ed13b8d26a9c21238c263125eabcbae10620e45bdc72a67f"
       }
     ],
     "supplementary": []

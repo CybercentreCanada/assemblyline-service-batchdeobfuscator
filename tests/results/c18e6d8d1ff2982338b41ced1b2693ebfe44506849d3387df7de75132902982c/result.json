@@ -5,7 +5,7 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[[\"TABLE\", [{\"Command [trun.]\": \"mshta \\\"vbscript:CreateObject(\\\"Shell.Application\\\").ShellExecute(\\\"C:\\\\Users\\\\al\\\\Downloads\\\\script.bat\\\", ,\"}]]]",
+        "body": "[[\"TABLE\", [{\"Command [trun.]\": \"mshta \\\"vbscript:CreateObject(\\\"Shell.Application\\\").ShellExecute(\\\"C:\\\\Users\\\\al\\\\Downloads\\\\script.bat\\\", \\\"\"}]]]",
         "body_format": "MULTI",
         "classification": "TLP:C",
         "depth": 0,
@@ -19,12 +19,12 @@
   "files": {
     "extracted": [
       {
-        "name": "decb59b6fa.ps1",
-        "sha256": "4592f85149cd15c9e6b9529d0037c3f15569edf912068d863cbd5c298854cda5"
+        "name": "11e29a46ae_deobfuscated.bat",
+        "sha256": "11e29a46aef1682344c31b3eb71c7e54796798ac6ef79dc7df3b340fb83f1ca3"
       },
       {
-        "name": "ce42a76168_deobfuscated.bat",
-        "sha256": "ce42a7616805d2334d7412f2307bc97644e2d02f7787456f859c91af5df78425"
+        "name": "decb59b6fa.ps1",
+        "sha256": "4592f85149cd15c9e6b9529d0037c3f15569edf912068d863cbd5c298854cda5"
       }
     ],
     "supplementary": []

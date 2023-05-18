@@ -3,6 +3,7 @@ import os
 import tempfile
 from urllib.parse import urlparse
 
+from assemblyline.common.identify import CUSTOM_BATCH_ID, CUSTOM_PS1_ID
 from assemblyline.common.net import is_valid_domain, is_valid_ip
 from assemblyline_v4_service.common.base import ServiceBase
 from assemblyline_v4_service.common.request import ServiceRequest
@@ -17,9 +18,6 @@ from assemblyline_v4_service.common.result import (
     TextSectionBody,
 )
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
-
-CUSTOM_PS1_ID = b"#!/usr/bin/env pwsh\n"
-CUSTOM_BATCH_ID = b"REM Batch extracted by Assemblyline\n"
 
 
 def truncate_command(key, value, max_len=100):

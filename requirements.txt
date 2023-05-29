@@ -1,2 +1,3 @@
 https://github.com/gdesmar/batch_deobfuscator/archive/master.zip
 multidecoder==0.0.10
+assemblyline-service-utilities

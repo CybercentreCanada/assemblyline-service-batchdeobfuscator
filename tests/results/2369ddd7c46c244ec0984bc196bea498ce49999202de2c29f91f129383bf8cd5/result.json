@@ -6,6 +6,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"Command [trun.]\": \"%WinDir%\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command \\\"\", \"Normalized [trun.]\": \"C:\\\\WINDOWS\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command\"}]",
+        "body_config": {
+          "column_order": [
+            "Command [trun.]",
+            "Normalized [trun.]"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,

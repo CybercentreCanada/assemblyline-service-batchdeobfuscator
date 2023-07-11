@@ -6,6 +6,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"Command\": \"%@chcp@%\", \"Normalized\": \"chcp %%A>nul\"}]",
+        "body_config": {
+          "column_order": [
+            "Command",
+            "Normalized"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
@@ -24,6 +30,13 @@
       {
         "auto_collapse": false,
         "body": "[{\"Count\": 18, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 14, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%\"}, {\"Count\": 14, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%\"}, {\"Count\": 54, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 60, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}, {\"Count\": 108, \"Command [trun.]\": \"%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfuscation_Name%%Edit_here%%%%Obfu\", \"Normalized [trun.]\": \"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\"}]",
+        "body_config": {
+          "column_order": [
+            "Count",
+            "Command [trun.]",
+            "Normalized [trun.]"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,

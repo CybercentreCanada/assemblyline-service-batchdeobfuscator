@@ -6,6 +6,12 @@
       {
         "auto_collapse": false,
         "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"IF EXIST \\\"C:\\\\WINDOWS\\\\CouponsBar.dll\\\" regsvr32 /u /s \\\"C:\\\\WINDOWS\\\\CouponsBar.dll\\\" (\"}]",
+        "body_config": {
+          "column_order": [
+            "LOLBAS",
+            "Command"
+          ]
+        },
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,

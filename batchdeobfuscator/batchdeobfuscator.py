@@ -53,36 +53,36 @@ class Batchdeobfuscator(ServiceBase):
             else:
                 bat_filename, extracted_files = deobfuscator.analyze(request.file_path, self.working_directory)
 
-            content = fh.read()
-            if content != b"":
-                # The content would be empty if the file is smaller than 36 bytes. We can ignore fixing those files.
-                newlines = 0
-                use_linux_newlines = False
-                while content[-1] == 10:  # b'\n'
-                    if content[-2] == 13:  # b'\r'
-                        content = content[:-2]
-                    else:
-                        content = content[:-1]
-                        use_linux_newlines = True
-                    newlines += 1
+        content = request.file_contents
+        if len(content) >= 2:
+            # The content would be empty if the file is smaller than 36 bytes. We can ignore fixing those files.
+            newlines = 0
+            use_linux_newlines = False
+            while content[-1] == 10:  # b'\n'
+                if content[-2] == 13:  # b'\r'
+                    content = content[:-2]
+                else:
+                    content = content[:-1]
+                    use_linux_newlines = True
+                newlines += 1
 
-                if newlines != 1 or use_linux_newlines:
-                    with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
-                        new_bat_content = fread.read()
+            if newlines != 1 or use_linux_newlines:
+                with open(os.path.join(self.working_directory, bat_filename), "rb") as fread:
+                    new_bat_content = fread.read()
 
-                    if use_linux_newlines:
-                        # No need to bother with the ID-line, it is always using a linux newline
-                        new_bat_content = new_bat_content.replace(b"\r\n", b"\n")
+                if use_linux_newlines:
+                    # No need to bother with the ID-line, it is always using a linux newline
+                    new_bat_content = new_bat_content.replace(b"\r\n", b"\n")
 
-                    if newlines == 0:
-                        new_bat_content = new_bat_content[:-2]
-                    elif newlines >= 2:
-                        new_bat_content = new_bat_content + (b"\n" if use_linux_newlines else b"\r\n") * (newlines - 1)
+                if newlines == 0:
+                    new_bat_content = new_bat_content[:-2]
+                elif newlines >= 2:
+                    new_bat_content = new_bat_content + (b"\n" if use_linux_newlines else b"\r\n") * (newlines - 1)
 
-                    sha256hash = hashlib.sha256(new_bat_content).hexdigest()
-                    bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
-                    with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:
-                        fwrite.write(new_bat_content)
+                sha256hash = hashlib.sha256(new_bat_content).hexdigest()
+                bat_filename = f"{sha256hash[0:10]}_deobfuscated.bat"
+                with open(os.path.join(self.working_directory, bat_filename), "wb") as fwrite:
+                    fwrite.write(new_bat_content)
 
         with open(os.path.join(self.working_directory, bat_filename), "rb") as f:
             sha256hash = hashlib.sha256(f.read()).hexdigest()

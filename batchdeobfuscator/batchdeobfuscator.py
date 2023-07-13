@@ -179,10 +179,14 @@ class Batchdeobfuscator(ServiceBase):
                 request.result.add_section(heur_section)
 
         if "download" in deobfuscator.traits:
-            download_section = ResultTableSection("External file download in batch script", parent=request.result)
+            heur = Heuristic(5)
+            download_section = ResultTableSection(
+                "External file download in batch script", heuristic=heur, parent=request.result
+            )
             if "complex-one-liner" in deobfuscator.traits:
-                download_section.set_heuristic(5)
+                download_section.heuristic.add_signature_id("complex_one_liner")
             for command, download_trait in deobfuscator.traits["download"]:
+                download_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
                 download_section.add_row(
                     TableRow({"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value})

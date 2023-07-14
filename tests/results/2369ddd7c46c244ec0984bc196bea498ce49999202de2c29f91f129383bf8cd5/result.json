@@ -5,11 +5,11 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"Command [trun.]\": \"%WinDir%\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command \\\"\", \"Normalized [trun.]\": \"C:\\\\WINDOWS\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command\"}]",
+        "body": "[{\"Command [trunc]\": \"%WinDir%\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command \\\"\", \"Normalized [trunc]\": \"C:\\\\WINDOWS\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command\"}]",
         "body_config": {
           "column_order": [
-            "Command [trun.]",
-            "Normalized [trun.]"
+            "Command [trunc]",
+            "Normalized [trunc]"
           ]
         },
         "body_format": "TABLE",

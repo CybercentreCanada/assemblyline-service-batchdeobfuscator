@@ -135,11 +135,6 @@ class Batchdeobfuscator(ServiceBase):
                 safelist_interface=self.api_interface,
             )
 
-        if "complex-one-liner" in deobfuscator.traits:
-            heur = Heuristic(6)
-            heur_section = ResultKeyValueSection(heur.name, heuristic=heur, parent=request.result)
-            heur_section.set_item("Number of line after deobfuscation", deobfuscator.traits["complex-one-liner"])
-
         if "command-grouping" in deobfuscator.traits:
             heur = Heuristic(1)
             heur_section = ResultTableSection(heur.name, heuristic=heur, parent=request.result)
@@ -203,6 +198,11 @@ class Batchdeobfuscator(ServiceBase):
                         download_section.add_tag("network.static.domain", netloc)
                     if is_valid_ip(netloc):
                         download_section.add_tag("network.static.ip", netloc)
+
+        if "complex-one-liner" in deobfuscator.traits:
+            heur = Heuristic(6)
+            heur_section = ResultKeyValueSection(heur.name, heuristic=heur, parent=request.result)
+            heur_section.set_item("Number of line after deobfuscation", deobfuscator.traits["complex-one-liner"])
 
         if "windows-util-manipulation" in deobfuscator.traits:
             heur = Heuristic(7)

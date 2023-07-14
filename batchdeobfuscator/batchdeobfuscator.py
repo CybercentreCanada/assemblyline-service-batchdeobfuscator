@@ -22,7 +22,7 @@ from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 
 def truncate_command(key, value, max_len=100):
     if len(value) > max_len:
-        return (f"{key} [trun.]", value[:100])
+        return (f"{key} [trunc]", value[:100])
     return (key, value)
 
 

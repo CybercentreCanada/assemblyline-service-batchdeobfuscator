@@ -5,7 +5,7 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[[\"TABLE\", [{\"Command [trun.]\": \"mshta \\\"vbscript:CreateObject(\\\"Shell.Application\\\").ShellExecute(\\\"C:\\\\Users\\\\al\\\\Downloads\\\\script.bat\\\", \\\"\"}], {}]]",
+        "body": "[[\"TABLE\", [{\"Command [trunc]\": \"mshta \\\"vbscript:CreateObject(\\\"Shell.Application\\\").ShellExecute(\\\"C:\\\\Users\\\\al\\\\Downloads\\\\script.bat\\\", \\\"\"}], {}]]",
         "body_config": {},
         "body_format": "MULTI",
         "classification": "TLP:C",

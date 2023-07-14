@@ -208,6 +208,7 @@ class Batchdeobfuscator(ServiceBase):
             heur = Heuristic(7)
             heur_section = ResultTableSection(heur.name, heuristic=heur, parent=request.result)
             for command, copy_trait in deobfuscator.traits["windows-util-manipulation"]:
+                heur_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
                 heur_section.add_row(
                     TableRow({"Source": copy_trait["src"], "Destination": copy_trait["dst"], cmd_title: cmd_value})
@@ -239,6 +240,7 @@ class Batchdeobfuscator(ServiceBase):
             table_body = TableSectionBody()
             heur_section.add_section_part(table_body)
             for command, rundll_struct in deobfuscator.traits["rundll32-execution"]:
+                heur_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
                 table_body.add_row(TableRow({cmd_title: cmd_value}))
                 if "url" in rundll_struct:
@@ -253,5 +255,6 @@ class Batchdeobfuscator(ServiceBase):
             table_body = TableSectionBody()
             section.add_section_part(table_body)
             for command in deobfuscator.traits["mshta"]:
+                heur_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
                 table_body.add_row(TableRow({cmd_title: cmd_value}))

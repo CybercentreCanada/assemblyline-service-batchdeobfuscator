@@ -73,7 +73,15 @@
           "score_map": {},
           "signatures": {}
         },
-        "tags": {},
+        "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "copy C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /y \"script.bat.exe\""
+              ]
+            }
+          }
+        },
         "title_text": "Windows Utility Manipulation",
         "zeroize_on_tag_safe": false
       },
@@ -139,7 +147,15 @@
         "signatures": []
       }
     ],
-    "tags": {},
+    "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": 7,
+          "signatures": [],
+          "value": "copy C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /y \"script.bat.exe\""
+        }
+      ]
+    },
     "temp_submission_data": {}
   }
 }

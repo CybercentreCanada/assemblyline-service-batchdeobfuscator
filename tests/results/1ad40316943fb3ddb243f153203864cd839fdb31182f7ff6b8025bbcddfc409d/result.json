@@ -1,7 +1,7 @@
 {
   "extra": {
     "drop_file": false,
-    "score": 950,
+    "score": 1200,
     "sections": [
       {
         "auto_collapse": false,
@@ -84,14 +84,67 @@
           },
           "network": {
             "static": {
+              "domain": [
+                "file.lucasvl.nl"
+              ],
               "uri": [
                 "https://file.lucasvl.nl/f/T2VHb19/netflix.png",
                 "https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab"
+              ],
+              "uri_path": [
+                "/f/T2VHb19/netflix.png",
+                "/f/7Hr9o4w/cookies.cab"
               ]
             }
           }
         },
         "title_text": "External file download in batch script",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": true,
+        "body": null,
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 1,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 5,
+          "score": 250,
+          "score_map": {
+            "downloaded_file_to_different_extension": 0,
+            "downloaded_file_to_different_name": 0,
+            "downloads_file_to_temp": 250
+          },
+          "signatures": {
+            "downloaded_file_to_different_extension": 1,
+            "downloaded_file_to_different_name": 1,
+            "downloads_file_to_temp": 1
+          }
+        },
+        "tags": {
+          "file": {
+            "path": [
+              "C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache"
+            ]
+          },
+          "network": {
+            "static": {
+              "domain": [
+                "file.lucasvl.nl"
+              ],
+              "uri": [
+                "https://file.lucasvl.nl/f/T2VHb19/netflix.png"
+              ],
+              "uri_path": [
+                "/f/T2VHb19/netflix.png"
+              ]
+            }
+          }
+        },
+        "title_text": "https://file.lucasvl.nl/f/T2VHb19/netflix.png",
         "zeroize_on_tag_safe": false
       },
       {
@@ -178,6 +231,15 @@
       },
       {
         "attack_ids": [],
+        "heur_id": 5,
+        "signatures": [
+          "downloads_file_to_temp",
+          "downloaded_file_to_different_name",
+          "downloaded_file_to_different_extension"
+        ]
+      },
+      {
+        "attack_ids": [],
         "heur_id": 10,
         "signatures": [
           "internet_download"
@@ -218,6 +280,33 @@
           "value": "rundll32 C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache netflix"
         }
       ],
+      "file.path": [
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_temp",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache"
+        }
+      ],
+      "network.static.domain": [
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "file.lucasvl.nl"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_temp",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "file.lucasvl.nl"
+        }
+      ],
       "network.static.uri": [
         {
           "heur_id": 5,
@@ -230,11 +319,41 @@
           "value": "https://file.lucasvl.nl/f/T2VHb19/netflix.png"
         },
         {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_temp",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "https://file.lucasvl.nl/f/T2VHb19/netflix.png"
+        },
+        {
           "heur_id": 10,
           "signatures": [
             "internet_download"
           ],
           "value": "https://file.lucasvl.nl/f/T2VHb19/netflix.png"
+        }
+      ],
+      "network.static.uri_path": [
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "/f/7Hr9o4w/cookies.cab"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [],
+          "value": "/f/T2VHb19/netflix.png"
+        },
+        {
+          "heur_id": 5,
+          "signatures": [
+            "downloads_file_to_temp",
+            "downloaded_file_to_different_name",
+            "downloaded_file_to_different_extension"
+          ],
+          "value": "/f/T2VHb19/netflix.png"
         }
       ]
     },

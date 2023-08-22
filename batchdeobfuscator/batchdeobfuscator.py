@@ -1,10 +1,11 @@
 import hashlib
 import os
 import tempfile
+from re import search as re_search
 from urllib.parse import urlparse
 
 from assemblyline.common.identify import CUSTOM_BATCH_ID, CUSTOM_PS1_ID
-from assemblyline.common.net import is_valid_domain, is_valid_ip
+from assemblyline_service_utilities.common.tag_helper import add_tag
 from assemblyline_v4_service.common.base import ServiceBase
 from assemblyline_v4_service.common.request import ServiceRequest
 from assemblyline_v4_service.common.result import (
@@ -12,12 +13,16 @@ from assemblyline_v4_service.common.result import (
     Result,
     ResultKeyValueSection,
     ResultMultiSection,
+    ResultSection,
     ResultTableSection,
     TableRow,
     TableSectionBody,
     TextSectionBody,
 )
+
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
+
+FILE_NAME_REGEX = r"[^\\]*\.(\w+)$"
 
 
 def truncate_command(key, value, max_len=100):
@@ -175,29 +180,75 @@ class Batchdeobfuscator(ServiceBase):
 
         if "download" in deobfuscator.traits:
             heur = Heuristic(5)
-            download_section = ResultTableSection(
-                "External file download in batch script", heuristic=heur, parent=request.result
-            )
+            download_section = ResultTableSection("External file download in batch script", heuristic=heur)
+
             if "complex-one-liner" in deobfuscator.traits:
                 download_section.heuristic.add_signature_id("complex_one_liner")
             for command, download_trait in deobfuscator.traits["download"]:
                 download_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
-                download_section.add_row(
-                    TableRow({"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value})
-                )
-                download_section.add_tag("network.static.uri", download_trait["src"])
 
-                if "://" in download_trait["src"][:7]:
-                    netloc = urlparse(download_trait["src"]).netloc
+                if download_trait["src"].startswith("$"):
+                    # This is a batch variable
+                    continue
+                elif "://" not in download_trait["src"][:8]:
+                    # The default protocol for most external fetching tools is HTTP
+                    src_uri = f"http://{download_trait['src']}"
                 else:
-                    netloc = urlparse(f"http://{download_trait['src']}").netloc
+                    src_uri = download_trait["src"]
 
-                if netloc:
-                    if is_valid_domain(netloc):
-                        download_section.add_tag("network.static.domain", netloc)
-                    if is_valid_ip(netloc):
-                        download_section.add_tag("network.static.ip", netloc)
+                if add_tag(download_section, "network.static.uri", src_uri):
+                    download_section.add_row(
+                        TableRow(
+                            {"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value}
+                        )
+                    )
+
+                    uri_section = ResultSection(src_uri, heuristic=Heuristic(5), auto_collapse=True)
+
+                    # Now let's do some comparisons between remote file requested and file downloaded
+                    if download_trait["src"] and download_trait["dst"]:
+                        # Now let's check to see where it is being downloaded to.
+                        if download_trait["dst"].lower().startswith("c:\\users\\puncher\\appdata\\local\\temp\\"):
+                            # Downloading a file to %temp%? That's trending towards suspicious
+                            _ = add_tag(uri_section, "network.static.uri", src_uri)
+                            uri_section.add_tag("file.path", download_trait["dst"])
+                            uri_section.heuristic.add_signature_id("downloads_file_to_temp", 250)
+                        elif download_trait["dst"].lower().startswith("c:\\programdata\\"):
+                            # Downloading a file to %programdata%? That's trending towards suspicious
+                            _ = add_tag(uri_section, "network.static.uri", src_uri)
+                            uri_section.add_tag("file.path", download_trait["dst"])
+                            uri_section.heuristic.add_signature_id("downloads_file_to_programdata", 250)
+
+                        parsed_url = urlparse(download_trait["src"])
+                        possible_file_to_download = parsed_url.path.rsplit("/", 1)[-1]
+                        file_to_download = re_search(FILE_NAME_REGEX, possible_file_to_download)
+                        if file_to_download:
+                            # Great, we have a file name that is going to be downloaded.
+                            possible_downloaded_file_name = download_trait["dst"].rsplit("\\\\", 1)[-1]
+                            downloaded_file_name = re_search(FILE_NAME_REGEX, possible_downloaded_file_name)
+                            if downloaded_file_name:
+                                # Downloading a file to a different file name? That's something noteworthy
+                                if file_to_download.string.lower() != downloaded_file_name.string.lower():
+                                    _ = add_tag(uri_section, "network.static.uri", src_uri)
+                                    uri_section.add_tag("file.path", download_trait["dst"])
+                                    uri_section.heuristic.add_signature_id("downloaded_file_to_different_name", 0)
+
+                                # Downloading a file to a different file extension?
+                                # That's also trending towards suspicious
+                                if (
+                                    file_to_download.string.split(".")[-1].lower()
+                                    != downloaded_file_name.string.split(".")[-1].lower()
+                                ):
+                                    _ = add_tag(uri_section, "network.static.uri", src_uri)
+                                    uri_section.add_tag("file.path", download_trait["dst"])
+                                    uri_section.heuristic.add_signature_id("downloaded_file_to_different_extension", 0)
+
+                    if uri_section.heuristic.signatures:
+                        download_section.add_subsection(uri_section)
+
+            if download_section.body:
+                request.result.add_section(download_section)
 
         if "complex-one-liner" in deobfuscator.traits:
             heur = Heuristic(6)

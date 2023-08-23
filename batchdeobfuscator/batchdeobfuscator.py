@@ -2,9 +2,11 @@ import hashlib
 import os
 import tempfile
 from re import search as re_search
+from typing import Optional
 from urllib.parse import urlparse
 
 from assemblyline.common.identify import CUSTOM_BATCH_ID, CUSTOM_PS1_ID
+from assemblyline.odm.base import DOMAIN_REGEX, IP_REGEX
 from assemblyline_service_utilities.common.tag_helper import add_tag
 from assemblyline_v4_service.common.base import ServiceBase
 from assemblyline_v4_service.common.request import ServiceRequest
@@ -188,16 +190,19 @@ class Batchdeobfuscator(ServiceBase):
                 download_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
 
+                src_uri: Optional[str] = None
+
                 if download_trait["src"].startswith("$"):
                     # This is a batch variable
                     continue
                 elif "://" not in download_trait["src"][:8]:
-                    # The default protocol for most external fetching tools is HTTP
-                    src_uri = f"http://{download_trait['src']}"
+                    if re_search(IP_REGEX, download_trait["src"]) or re_search(DOMAIN_REGEX, download_trait["src"]):
+                        # The default protocol for most external fetching tools is HTTP
+                        src_uri = f"http://{download_trait['src']}"
                 else:
                     src_uri = download_trait["src"]
 
-                if add_tag(download_section, "network.static.uri", src_uri):
+                if src_uri and add_tag(download_section, "network.static.uri", src_uri):
                     download_section.add_row(
                         TableRow(
                             {"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value}

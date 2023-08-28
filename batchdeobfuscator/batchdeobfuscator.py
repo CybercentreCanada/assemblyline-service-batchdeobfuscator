@@ -230,7 +230,7 @@ class Batchdeobfuscator(ServiceBase):
                         file_to_download = re_search(FILE_NAME_REGEX, possible_file_to_download)
                         if file_to_download:
                             # Great, we have a file name that is going to be downloaded.
-                            possible_downloaded_file_name = download_trait["dst"].rsplit("\\\\", 1)[-1]
+                            possible_downloaded_file_name = download_trait["dst"].rsplit("\\", 1)[-1]
                             downloaded_file_name = re_search(FILE_NAME_REGEX, possible_downloaded_file_name)
                             if downloaded_file_name:
                                 # Downloading a file to a different file name? That's something noteworthy

@@ -13,7 +13,7 @@ SAMPLES_FOLDER = os.path.join(os.path.dirname(__file__), "samples")
 
 # Initialize test helper
 service_class = load_module_by_path(
-    "batchdeobfuscator.batchdeobfuscator.Batchdeobfuscator", os.path.join(os.path.dirname(__file__), "..")
+    "batchdeobfuscator.Batchdeobfuscator", os.path.join(os.path.dirname(__file__), "..")
 )
 th = TestHelper(service_class, RESULTS_FOLDER, SAMPLES_FOLDER)
 

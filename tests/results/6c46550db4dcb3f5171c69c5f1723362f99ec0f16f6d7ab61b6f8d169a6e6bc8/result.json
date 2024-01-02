@@ -5,7 +5,12 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"Command\": \"if \\\"!token:~%%B,1!\\\"==\\\"\\\" set/A \\\"len&=~1<<%%A\\\"\", \"Normalized\": \"if \\\"\\\"==\\\"\\\" set/A \\\"len&=~1<<%%A\\\"\"}]",
+        "body": [
+          {
+            "Command": "if \"!token:~%%B,1!\"==\"\" set/A \"len&=~1<<%%A\"",
+            "Normalized": "if \"\"==\"\" set/A \"len&=~1<<%%A\""
+          }
+        ],
         "body_config": {
           "column_order": [
             "Command",
@@ -23,6 +28,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Additional command grouping after command normalization",
         "zeroize_on_tag_safe": false

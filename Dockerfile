@@ -2,7 +2,7 @@ ARG branch=latest
 FROM cccs/assemblyline-v4-service-base:$branch
 
 # Set service to be run
-ENV SERVICE_PATH batchdeobfuscator.batchdeobfuscator.Batchdeobfuscator
+ENV SERVICE_PATH batchdeobfuscator.Batchdeobfuscator
 
 # Install python dependencies
 COPY requirements.txt requirements.txt

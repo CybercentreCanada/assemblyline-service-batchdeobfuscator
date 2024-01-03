@@ -96,6 +96,11 @@
         },
         "promote_to": null,
         "tags": {
+          "info": {
+            "password": [
+              "dE}9tBDaFK'Yuv"
+            ]
+          },
           "network": {
             "static": {
               "uri": [
@@ -141,6 +146,15 @@
       }
     ],
     "tags": {
+      "info.password": [
+        {
+          "heur_id": 6,
+          "signatures": [
+            "net-use"
+          ],
+          "value": "dE}9tBDaFK'Yuv"
+        }
+      ],
       "network.static.uri": [
         {
           "heur_id": 6,

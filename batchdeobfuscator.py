@@ -321,6 +321,9 @@ class Batchdeobfuscator(ServiceBase):
                 section.set_heuristic(heur)
 
             for command, net_use_struct in deobfuscator.traits["net-use"]:
-                section.add_tag("network.static.uri", net_use_struct["server"])
+                if "server" in net_use_struct:
+                    section.add_tag("network.static.uri", net_use_struct["server"])
+                if "password" in net_use_struct:
+                    section.add_tag("info.password", net_use_struct["password"])
                 cmd_title, cmd_value = truncate_command("Command", command)
                 section.add_row(TableRow({**net_use_struct, cmd_title: cmd_value}))

@@ -5,7 +5,76 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2\", \"Normalized\": \"taskkill /F /IM IDMan.exe\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2\", \"Normalized\": \"taskkill /F /IM IDMGrHlp.exe\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\Wow6432Node\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\Wow6432Node\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v CheckUpdtVM /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v scansk /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v tvfrdt /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v ptrk_scdt /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f\"}, {\"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~33,1%%aayhu8u8p8dv0ftj4i:~18,1%%aayhu8u8p8dv0ftj4i:~2\", \"Normalized\": \"exit\"}]",
+        "body": [
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2",
+            "Normalized": "taskkill /F /IM IDMan.exe"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2",
+            "Normalized": "taskkill /F /IM IDMGrHlp.exe"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\Classes\\Wow6432Node\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKLM\\Software\\Classes\\Wow6432Node\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v CheckUpdtVM /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v scansk /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v tvfrdt /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v ptrk_scdt /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~33,1%%aayhu8u8p8dv0ftj4i:~18,1%%aayhu8u8p8dv0ftj4i:~2",
+            "Normalized": "exit"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Command [trunc]",
@@ -23,13 +92,140 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Execution of variable content",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Count\": 19, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2\", \"Normalized\": \"taskkill /F /IM IDMan.exe\"}, {\"Count\": 22, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2\", \"Normalized\": \"taskkill /F /IM IDMGrHlp.exe\"}, {\"Count\": 93, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized [trunc]\": \"@echo HKEY_CURRENT_USER\\\\Software\\\\Classes\\\\Wow6432Node\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [7\"}, {\"Count\": 16, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"@regini permdel.txt\"}, {\"Count\": 82, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized [trunc]\": \"@echo HKEY_CURRENT_USER\\\\Software\\\\Classes\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [7] >permdel.t\"}, {\"Count\": 16, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"@regini permdel.txt\"}, {\"Count\": 94, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized [trunc]\": \"@echo HKEY_LOCAL_MACHINE\\\\Software\\\\Classes\\\\Wow6432Node\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [\"}, {\"Count\": 16, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"@regini permdel.txt\"}, {\"Count\": 83, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized [trunc]\": \"@echo HKEY_LOCAL_MACHINE\\\\Software\\\\Classes\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [7] >permdel.\"}, {\"Count\": 16, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"@regini permdel.txt\"}, {\"Count\": 13, \"Command [trunc]\": \"@%aayhu8u8p8dv0ftj4i:~13,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~21,1% %aayhu8u8p8dv0ftj4i:\", \"Normalized\": \"@del permdel.txt\"}, {\"Count\": 77, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\Wow6432Node\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Count\": 77, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\Wow6432Node\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f\"}, {\"Count\": 49, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v CheckUpdtVM /f\"}, {\"Count\": 44, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v scansk /f\"}, {\"Count\": 44, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v tvfrdt /f\"}, {\"Count\": 46, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\DownloadManager /v ptrk_scdt /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f\"}, {\"Count\": 66, \"Command [trunc]\": \"%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~\", \"Normalized\": \"reg delete HKLM\\\\Software\\\\Classes\\\\CLSID\\\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f\"}]",
+        "body": [
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2",
+            "Count": 19,
+            "Normalized": "taskkill /F /IM IDMan.exe"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~29,1%%aayhu8u8p8dv0ftj4i:~10,1%%aayhu8u8p8dv0ftj4i:~28,1%%aayhu8u8p8dv0ftj4i:~2",
+            "Count": 22,
+            "Normalized": "taskkill /F /IM IDMGrHlp.exe"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 93,
+            "Normalized [trunc]": "@echo HKEY_CURRENT_USER\\Software\\Classes\\Wow6432Node\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [7"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 16,
+            "Normalized": "@regini permdel.txt"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 82,
+            "Normalized [trunc]": "@echo HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [7] >permdel.t"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 16,
+            "Normalized": "@regini permdel.txt"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 94,
+            "Normalized [trunc]": "@echo HKEY_LOCAL_MACHINE\\Software\\Classes\\Wow6432Node\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} ["
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 16,
+            "Normalized": "@regini permdel.txt"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~12,1%%aayhu8u8p8dv0ftj4i:~17,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 83,
+            "Normalized [trunc]": "@echo HKEY_LOCAL_MACHINE\\Software\\Classes\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} [7] >permdel."
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1%%aayhu8u8p8dv0ftj4i:~",
+            "Count": 16,
+            "Normalized": "@regini permdel.txt"
+          },
+          {
+            "Command [trunc]": "@%aayhu8u8p8dv0ftj4i:~13,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~21,1% %aayhu8u8p8dv0ftj4i:",
+            "Count": 13,
+            "Normalized": "@del permdel.txt"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 77,
+            "Normalized": "reg delete HKCU\\Software\\Classes\\Wow6432Node\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 77,
+            "Normalized": "reg delete HKLM\\Software\\Classes\\Wow6432Node\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{7B8E9164-324D-4A2E-A46D-0165FB2000EC} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 49,
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v CheckUpdtVM /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 44,
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v scansk /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 44,
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v tvfrdt /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 46,
+            "Normalized": "reg delete HKCU\\Software\\DownloadManager /v ptrk_scdt /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKCU\\Software\\Classes\\CLSID\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{07999AC3-058B-40BF-984F-69EB1E554CA7} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{6DDF00DB-1234-46EC-8356-27E7B2051192} /f"
+          },
+          {
+            "Command [trunc]": "%aayhu8u8p8dv0ftj4i:~27,1%%aayhu8u8p8dv0ftj4i:~14,1%%aayhu8u8p8dv0ftj4i:~16,1% %aayhu8u8p8dv0ftj4i:~",
+            "Count": 66,
+            "Normalized": "reg delete HKLM\\Software\\Classes\\CLSID\\{D5B91409-A8CA-4973-9A0B-59F713D25671} /f"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Count",
@@ -48,6 +244,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Multiple variable were used on the same line",
         "zeroize_on_tag_safe": false

@@ -5,7 +5,12 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"Command [trunc]\": \"%WinDir%\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command \\\"\", \"Normalized [trunc]\": \"C:\\\\WINDOWS\\\\syswow64\\\\windowspowershell\\\\v1.0\\\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command\"}]",
+        "body": [
+          {
+            "Command [trunc]": "%WinDir%\\syswow64\\windowspowershell\\v1.0\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command \"",
+            "Normalized [trunc]": "C:\\WINDOWS\\syswow64\\windowspowershell\\v1.0\\powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Command [trunc]",
@@ -23,6 +28,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Execution of variable content",
         "zeroize_on_tag_safe": false

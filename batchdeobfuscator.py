@@ -22,7 +22,6 @@ from assemblyline_v4_service.common.result import (
     TableSectionBody,
     TextSectionBody,
 )
-
 from batch_deobfuscator.batch_interpreter import BatchDeobfuscator
 
 FILE_NAME_REGEX = r"[^\\]*\.(\w+)$"
@@ -153,6 +152,8 @@ class Batchdeobfuscator(ServiceBase):
 
         if "LOLBAS" in deobfuscator.traits:
             heur = Heuristic(2)
+            if "complex-one-liner" in deobfuscator.traits:
+                heur.add_signature_id("complex_one_liner", score=400)
             heur_section = ResultTableSection(heur.name, heuristic=heur, parent=request.result)
             for item in deobfuscator.traits["LOLBAS"]:
                 cmd_title, cmd_value = truncate_command("Command", item["Command"])
@@ -191,6 +192,10 @@ class Batchdeobfuscator(ServiceBase):
                 download_section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
 
+                download_section.add_row(
+                    TableRow({"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value})
+                )
+
                 src_uri: Optional[str] = None
 
                 if download_trait["src"].startswith("$"):
@@ -204,12 +209,6 @@ class Batchdeobfuscator(ServiceBase):
                     src_uri = download_trait["src"]
 
                 if src_uri and add_tag(download_section, "network.static.uri", src_uri):
-                    download_section.add_row(
-                        TableRow(
-                            {"URL": download_trait["src"], "Destination": download_trait["dst"], cmd_title: cmd_value}
-                        )
-                    )
-
                     uri_section = ResultSection(src_uri, heuristic=Heuristic(5), auto_collapse=True)
 
                     # Now let's do some comparisons between remote file requested and file downloaded
@@ -308,10 +307,23 @@ class Batchdeobfuscator(ServiceBase):
                     heur_section.add_section_part(url_body)
 
         if "mshta" in deobfuscator.traits:
-            section = ResultMultiSection("Mshta command found", parent=request.result)
-            table_body = TableSectionBody()
-            section.add_section_part(table_body)
+            section = ResultTableSection("Mshta command found", parent=request.result)
             for command in deobfuscator.traits["mshta"]:
-                heur_section.add_tag("dynamic.process.command_line", command)
+                section.add_tag("dynamic.process.command_line", command)
                 cmd_title, cmd_value = truncate_command("Command", command)
-                table_body.add_row(TableRow({cmd_title: cmd_value}))
+                section.add_row(TableRow({cmd_title: cmd_value}))
+
+        if "net-use" in deobfuscator.traits:
+            section = ResultTableSection("Net Use found", parent=request.result)
+            if "complex-one-liner" in deobfuscator.traits:
+                heur = Heuristic(6)
+                heur.add_signature_id("net-use", score=100)
+                section.set_heuristic(heur)
+
+            for command, net_use_struct in deobfuscator.traits["net-use"]:
+                if "server" in net_use_struct:
+                    section.add_tag("network.static.uri", net_use_struct["server"])
+                if "password" in net_use_struct:
+                    section.add_tag("info.password", net_use_struct["password"])
+                cmd_title, cmd_value = truncate_command("Command", command)
+                section.add_row(TableRow({**net_use_struct, cmd_title: cmd_value}))

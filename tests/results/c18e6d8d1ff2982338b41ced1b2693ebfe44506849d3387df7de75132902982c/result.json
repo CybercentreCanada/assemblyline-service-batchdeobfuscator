@@ -5,13 +5,30 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[[\"TABLE\", [{\"Command [trunc]\": \"mshta \\\"vbscript:CreateObject(\\\"Shell.Application\\\").ShellExecute(\\\"C:\\\\Users\\\\al\\\\Downloads\\\\script.bat\\\", \\\"\"}], {}]]",
-        "body_config": {},
-        "body_format": "MULTI",
+        "body": [
+          {
+            "Command [trunc]": "mshta \"vbscript:CreateObject(\"Shell.Application\").ShellExecute(\"C:\\Users\\al\\Downloads\\script.bat\", \""
+          }
+        ],
+        "body_config": {
+          "column_order": [
+            "Command [trunc]"
+          ]
+        },
+        "body_format": "TABLE",
         "classification": "TLP:C",
         "depth": 0,
         "heuristic": null,
-        "tags": {},
+        "promote_to": null,
+        "tags": {
+          "dynamic": {
+            "process": {
+              "command_line": [
+                "mshta \"vbscript:CreateObject(\"Shell.Application\").ShellExecute(\"C:\\Users\\al\\Downloads\\script.bat\", \"\", \"\", \"runas\", 1) & Close()\""
+              ]
+            }
+          }
+        },
         "title_text": "Mshta command found",
         "zeroize_on_tag_safe": false
       }
@@ -32,7 +49,15 @@
   },
   "results": {
     "heuristics": [],
-    "tags": {},
+    "tags": {
+      "dynamic.process.command_line": [
+        {
+          "heur_id": null,
+          "signatures": [],
+          "value": "mshta \"vbscript:CreateObject(\"Shell.Application\").ShellExecute(\"C:\\Users\\al\\Downloads\\script.bat\", \"\", \"\", \"runas\", 1) & Close()\""
+        }
+      ]
+    },
     "temp_submission_data": {}
   }
 }

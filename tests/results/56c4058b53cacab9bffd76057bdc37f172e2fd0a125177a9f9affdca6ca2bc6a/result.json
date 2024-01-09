@@ -5,7 +5,12 @@
     "sections": [
       {
         "auto_collapse": false,
-        "body": "[{\"LOLBAS\": \"regsvr32\", \"Command\": \"IF EXIST \\\"C:\\\\WINDOWS\\\\CouponsBar.dll\\\" regsvr32 /u /s \\\"C:\\\\WINDOWS\\\\CouponsBar.dll\\\" (\"}]",
+        "body": [
+          {
+            "Command": "IF EXIST \"C:\\WINDOWS\\CouponsBar.dll\" regsvr32 /u /s \"C:\\WINDOWS\\CouponsBar.dll\" (",
+            "LOLBAS": "regsvr32"
+          }
+        ],
         "body_config": {
           "column_order": [
             "LOLBAS",
@@ -23,6 +28,7 @@
           "score_map": {},
           "signatures": {}
         },
+        "promote_to": null,
         "tags": {},
         "title_text": "Possible rare LOLBAS found",
         "zeroize_on_tag_safe": false

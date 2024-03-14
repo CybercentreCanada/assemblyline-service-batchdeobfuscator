@@ -331,3 +331,5 @@ class Batchdeobfuscator(ServiceBase):
                     section.add_tag("info.password", net_use_struct["password"])
                 cmd_title, cmd_value = truncate_command("Command", command)
                 section.add_row(TableRow({**net_use_struct, cmd_title: cmd_value}))
+
+            section.set_column_order(["devicename", "server", "password", "user", "options", "Command"])

@@ -76,6 +76,7 @@
             "server",
             "password",
             "user",
+            "options",
             "Command"
           ]
         },

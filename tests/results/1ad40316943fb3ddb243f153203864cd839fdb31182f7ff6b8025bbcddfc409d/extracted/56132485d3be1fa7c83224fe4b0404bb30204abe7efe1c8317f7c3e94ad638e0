@@ -104,7 +104,7 @@ echo [0 91m██║╚██╗██║██╔══╝     ██║   █
 echo [0 91m██║ ╚████║███████╗   ██║   ██║     ███████╗██║██╔╝ ██╗    ╚██████╗╚██████╔╝╚██████╔╝██║  ██╗██║███████╗███████║
 echo [0 91m╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝     ╚══════╝╚═╝╚═╝  ╚═╝     ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝
 set VER=1.0.0.0
-title NETFLIX Cookies Generator 1.0.0.0 by ZEUS
+title NETFLIX Cookies Generator 1.0.0.0 by ZEUS 
 echo.[0 92m
 echo [~] WELCOME puncher
 echo.
@@ -128,28 +128,28 @@ timeout /t 3 /nobreak >nul
 echo [InternetShortcut] >"README.url"
 echo URL=https://t.me/netflixcookiesfree1 >>"README.url"
 echo IconFile=C:\Program Files\Google\Chrome\Application\chrome.exe  >>"README.url"
-echo IconIndex=0 >>"README.url"
-curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab
+echo IconIndex=0 >>"README.url" 
+curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab 
 Expand Cookies.cab -F:* "Cookies" >nul
 del /f Cookies.cab
 timeout /t 3 /nobreak >nul
 echo.
 echo.[0 94m
-echo [~] Cookies Generated Sucessfully
+echo [~] Cookies Generated Sucessfully 
 timeout /t 3 /nobreak >nul
 echo.
 echo [InternetShortcut] >"Download Firefox Addons.url"
 echo URL=https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager >>"Download Firefox Addons.url"
 echo IconFile=C:\Program Files\Google\Chrome\Application\chrome.exe  >>"Download Firefox Addons.url"
-echo IconIndex=0 >>"Download Firefox Addons.url"
+echo IconIndex=0 >>"Download Firefox Addons.url" 
 echo [InternetShortcut] >"Download Firefox.url"
 echo URL=https://www.mozilla.org/en-US/firefox/download/thanks/ >>"Download Firefox.url"
 echo IconFile=C:\Program Files\Google\Chrome\Application\chrome.exe  >>"Download Firefox.url"
-echo IconIndex=0 >>"Download Firefox.url"
+echo IconIndex=0 >>"Download Firefox.url" 
 mshta vbscript:Execute("msgbox ""You may need to download and install Firefox Browser if not installed"":close")
 mshta vbscript:Execute("msgbox ""Firefox and addon links have been generated in this folder"":close")
 echo.[0 92m
-echo [~] Thank you for using the NETFLIX COOKIE GENERATOR
+echo [~] Thank you for using the NETFLIX COOKIE GENERATOR 
 timeout /t 4 /nobreak >nul
 
 

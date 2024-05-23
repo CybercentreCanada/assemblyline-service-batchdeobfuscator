@@ -258,18 +258,18 @@ TITLE Software N Systems Toolkit v1.2.6
 cls
 echo                        Software N Systems Toolkit v1.2.6
 echo -------------------------------------------------------------------------------
-echo This program is designed to terminate malware / bloatware processes running
+echo This program is designed to terminate malware / bloatware processes running 
 echo in the background on the target computer while providing tools to permanently
 echo remove any/all infections that may be present.
 echo
 echo We are not responsible for any damage caused by this script. By agreeing to
-echo this disclaimer and running this script  you (the user) take full
-echo responsibility for anything that may happen while this program is removing
-echo running processes from this system.
+echo this disclaimer and running this script  you (the user) take full 
+echo responsibility for anything that may happen while this program is removing 
+echo running processes from this system. 
 echo.
 echo.
 echo              =================================================
-echo                              Please make sure to
+echo                              Please make sure to 
 echo               !
 echo                               before continuing.
 echo              =================================================
@@ -277,7 +277,7 @@ echo.
 echo.
 echo.
 SET KFLAG=2
-SET /P ANSWER=Type "AGREE" to continue:
+SET /P ANSWER=Type "AGREE" to continue: 
 IF __input__==AGREE (
 GOTO HOME
 ) ELSE (
@@ -781,7 +781,7 @@ echo.
 echo.
 echo.
 echo ---
-echo Exporting results from SFC to text.
+echo Exporting results from SFC to text. 
 findstr /c:"[SR]" C:\WINDOWS\Logs\CBS\CBS.log >"C:\Users\puncher\Desktop\sfcdetails.txt"
 echo Location: C:\Users\puncher\Desktop\sfcdetails.txt
 echo.
@@ -817,7 +817,7 @@ echo.
 echo 9. Back...
 echo ---
 echo.
-SET /P ANSWER=Selection:
+SET /P ANSWER=Selection: 
 IF __input__==1 (
 GOTO DLFIREFOX
 )
@@ -935,7 +935,7 @@ echo.
 echo 9. Home...
 echo ---
 echo.
-SET /P ANSWER=Selection:
+SET /P ANSWER=Selection: 
 IF __input__==1 (
 GOTO DLTV
 )
@@ -2441,10 +2441,10 @@ ECHO ---------------------------------------------------------------------------
 )
 IF 2==1 (
 ECHO     This means that you can continue to manually remove the infection (if any
-)
+) 
 )
 IF 2==1 (
-ECHO     manually or using tools that are provided under the Downloads/Rootkit
+ECHO     manually or using tools that are provided under the Downloads/Rootkit 
 )
 IF 2==1 (
 ECHO     sections in the main menu.

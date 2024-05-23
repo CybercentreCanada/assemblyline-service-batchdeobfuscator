@@ -109,7 +109,7 @@ echo this ability  you may need to perform additional manual steps to provide
 echo support with information they need to troubleshoot your issue.
 echo.
 echo May support unscramble your logs?
-set /p DecoderKey=Enter YES or NO:
+set /p DecoderKey=Enter YES or NO: 
 echo.
 )
 if /I "_" == "Y" (
@@ -383,7 +383,7 @@ if not exist "%%~j\" (
 echo Error %OUTPUTDIR% does not exist.
 move /y "C:\Users\puncher\AppData\Local\Temp\LogCollection\%%~i" C:\Users\puncher\Desktop\. 2>&1>NUL
 set RETURNCODE=1
-goto :Return
+goto :Return    
 )
 move /y "C:\Users\puncher\AppData\Local\Temp\LogCollection\%%~i" "%%~j\." 2>&1>NUL
 if ERRORLEVEL 1 (

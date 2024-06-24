@@ -1,0 +1,2 @@
+#!/usr/bin/env pwsh
+if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}

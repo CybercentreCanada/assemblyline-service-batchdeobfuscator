@@ -1,0 +1,2 @@
+#!/usr/bin/env pwsh
+if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }

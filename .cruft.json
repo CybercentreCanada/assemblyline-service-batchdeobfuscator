@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/CybercentreCanada/assemblyline-service-template.git",
-  "commit": "6a32666117e30dbfb990bfaf6e7c9eb25badd03a",
+  "commit": "99becf8ed2990a4063a5bb1f8ce878824a5a1a7b",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -8,15 +8,15 @@
       "__svc_name": "batchdeobfuscator",
       "__repository": "assemblyline-service-batchdeobfuscator",
       "__pkg_name": "batchdeobfuscator",
+      "class_name": "Batchdeobfuscator",
       "short_description": "This service parses and interprets batch files.",
-      "short_description_fr": "Ce service analyse et interpr\u00e8te les fichiers batch.",
+      "short_description_fr": "Ce service analyse et interprète les fichiers batch.",
       "stage": "CORE",
       "category": "Static Analysis",
       "org_name_full": "CybercentreCanada",
       "org_name_short": "cccs",
       "license": "mit",
-      "_template": "https://github.com/CybercentreCanada/assemblyline-service-template.git",
-      "class_name": "Batchdeobfuscator"
+      "_template": "https://github.com/CybercentreCanada/assemblyline-service-template.git"
     }
   },
   "directory": null

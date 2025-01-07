@@ -12,7 +12,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "-d",
-                "batchdeobfuscator.Batchdeobfuscator",
+                "batchdeobfuscator.batchdeobfuscator.Batchdeobfuscator",
                 "${file}"
             ],
             "justMyCode": false,
